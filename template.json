@@ -23,7 +23,8 @@
             "weapon": {
                 "POW": 0,
                 "attackModifier": 0,
-                "special": ""
+                "special": "",
+                "skill": ""
             },
             "meleeWeapon": {
                 "damage": 0,
