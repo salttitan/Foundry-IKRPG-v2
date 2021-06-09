@@ -1,0 +1,17 @@
+{
+    "Actor": {
+        "types": ["character", "steamjack", "npc"],
+        "templates": {
+
+        }
+    },
+    "Item": {
+        "types": [],
+        "templates": {
+            "base": {
+                "name": "",
+                "description": ""
+            }
+        }
+    }
+}
