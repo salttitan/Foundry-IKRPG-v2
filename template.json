@@ -1,6 +1,6 @@
 {
     "Actor": {
-        "types": ["character", "steamjack", "npc"],
+        "types": ["character"],
         "templates": {
 
         }
@@ -10,7 +10,8 @@
         "templates": {
             "base": {
                 "name": "",
-                "description": ""
+                "description": "",
+                "price": 0
             }
         }
     }
