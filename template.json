@@ -6,12 +6,37 @@
         }
     },
     "Item": {
-        "types": [],
+        "types": ["armor", "weapon", "meleeWeapon", "rangedWeapon"],
         "templates": {
             "base": {
                 "name": "",
                 "description": "",
                 "price": 0
+            },
+            "armor": {
+                "SPDModifier": 0,
+                "DEFModifier": 0,
+                "ARMModifier": 0,
+                "equipped": false,
+                "special": ""
+            },
+            "weapon": {
+                "POW": 0,
+                "attackModifier": 0,
+                "special": ""
+            },
+            "meleeWeapon": {
+                "damage": 0,
+                "MAT": 0
+            },
+            "rangedWeapon": {
+                "RNG": 0,
+                "extreme": 0,
+                "RAT": 0,
+                "ammoType": 0,
+                "AOE": 0,
+                "MaxAmmo": 0,
+                "CurrentAmmo": 0
             }
         }
     }
