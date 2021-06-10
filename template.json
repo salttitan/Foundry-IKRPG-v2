@@ -9,7 +9,6 @@
         "types": ["armor", "weapon", "meleeWeapon", "rangedWeapon"],
         "templates": {
             "base": {
-                "name": "",
                 "description": "",
                 "price": 0
             },
