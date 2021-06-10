@@ -1,0 +1,301 @@
+
+			
+				<arcaneorder>
+					<listlink type="windowreference">
+							<class>ability</class>
+							<recordname>reference.adventuringcompanies.index.arcaneorder@Iron Kingdoms Core Rules</recordname>
+					</listlink>
+					<name type="string">Arcane Order</name>
+					<type type="string">Adventuring Company</type>					
+					<benefit type="formattedtext">
+					<p>
+					The Iron Kingdoms are home to many guilds and orders that
+exist to promote the arcane arts and esoteric sciences. The
+characters belong to one such group. They might represent
+a small chapter house of a larger organization or be the sole
+members of a smaller order.
+					</p>
+					<p>
+					<b>Requirements:</b> Any character can belong to the company. The
+company must include at least one character with the Gifted
+archetype. Those with the Gifted archetype are full members
+of the organization with an equal vote on decisions pertaining
+to the good of the order (or chapter house). The players should
+decide among themselves who the nominal leader of the group
+is. Non-spellcasting characters are assumed to be guards and
+skilled experts in the employ of the order.
+					</p>
+					<p>
+					<b>Benefits:</b> The company begins the game with a small guild
+house that includes servants' quarters, stable, kitchen, great
+hall, meeting room, member bedchambers, guest rooms, an
+arcane library, and an alchemical workshop.
+					</p>
+					<p>
+					Each character created as a member of the company gains one
+additional occupational skill level in Lore (Arcane) and treats it
+as a career skill regardless of his careers.
+					</p>
+					<p>
+					Each Gifted character created as a member of the company also
+gains the Arcane Scholar ability (p. 157) at character creation (in
+addition to any other abilities granted by his career selections).
+					</p>
+					<p>
+					Each non-Gifted character created as a member of the company
+begins with the Shield Guard ability (p. 167).
+					</p>
+					</benefit>
+				</arcaneorder>
+				
+				
+				<intrepidinvestigators>
+					<listlink type="windowreference">
+							<class>ability</class>
+							<recordname>reference.adventuringcompanies.index.intrepidinvestigators@Iron Kingdoms Core Rules</recordname>
+					</listlink>
+					<name type="string">Intrepid Investigators</name>
+					<type type="string">Adventuring Company</type>					
+					<benefit type="formattedtext">
+					<p>
+					The pursuit of knowledge might be its own reward but like any
+pursuit, it is not earned without cost. The characters are a group
+of individuals seeking a greater understanding of the mysteries
+of western Immoren. They could be explorers, ghost hunters,
+tomb-robbing adventurers, or perhaps an expedition from
+Corvis University tasked with cataloguing the more unusual
+flora and fauna of the Thornwood Forest. In the Iron Kingdoms,
+many academics that spend time in the field learn their way
+around a pistol or sword, but few are unwilling to hire guards
+and assistants to accompany them on their sometimes-perilous
+research missions.
+					</p>
+					<p>
+					<b>Requirements:</b> Each member of the company must have at least
+one of the following careers: Alchemist, Arcane Mechanik,
+Arcanist, Aristocrat, Explorer, Investigator, Military Officer,
+Priest, or Spy.
+					</p>
+					<p>
+					<b>Benefits:</b> The company is able to seek funding for its
+activities through support from a major university, financial
+backers, or private donations. Each month the company gains
+100 gc for upkeep and equipment that can be spent any way
+the players see fit.
+					</p>
+					<p>
+					Each character created as a member of the company can benefit
+from the starting Intellectual archetype bonus (+1 on attack
+and damage rolls while in an Intellectual character's command
+range) from up to two Intellectual characters simultaneously
+instead of just one.
+					</p>
+					</benefit>
+				</intrepidinvestigators>
+				
+				
+				<lawdogs>
+					<listlink type="windowreference">
+							<class>ability</class>
+							<recordname>reference.adventuringcompanies.index.lawdogs@Iron Kingdoms Core Rules</recordname>
+					</listlink>
+					<name type="string">Law Dogs</name>
+					<type type="string">Adventuring Company</type>					
+					<benefit type="formattedtext">
+					<p>
+					The characters are professional bounty hunters who make
+their livings tracking the most dangerous criminals and
+army deserters. A good bounty hunter must be ready to go
+anywhere the trail leads him, and so the law dogs regularly
+traverse the Iron Kingdoms with little concern for national
+borders or boundaries. In the end, all that matters is getting
+their man.
+					</p>
+					<p>
+					<b>Requirements:</b> Each member of the company must have at least
+one of the following careers: Bounty Hunter, Highwayman,
+Investigator, Military Officer, Ranger, or Soldier.
+					</p>
+					<p>
+					<b>Benefits:</b>The characters in the company should be regularly
+presented with bounty opportunities. They are regarded as solid
+professionals by the various kingdoms and law enforcement
+agencies throughout western Immoren.
+					</p>
+					<p>
+					While pursuing a bounty, characters created as a member of the
+company gain +2 on non-combat skill rolls directly pursuant to
+capturing the target of their bounty and gain +2 on attack rolls
+against their bounty.
+					</p>
+					</benefit>
+				</lawdogs>
+				
+				
+				<mercenarycharter>
+					<listlink type="windowreference">
+							<class>ability</class>
+							<recordname>reference.adventuringcompanies.index.mercenarycharter@Iron Kingdoms Core Rules</recordname>
+					</listlink>
+					<name type="string">Mercenary Charter</name>
+					<type type="string">Adventuring Company</type>					
+					<benefit type="formattedtext">
+					<p>
+					The characters represent a recognized mercenary company and
+possess a charter recognized by most nations and authorities in
+the Iron Kingdoms. The characters might be in the employ of a
+larger organization like the Steelheads Mercenary Company, or
+they could be the only members of their charter. They have an
+easier time negotiating work as sell-swords than those without
+a charter and are members of a well respected if sometimes
+brutish profession.
+					</p>
+					<p>
+					<b>Requirements:</b>Any character can belong to the company.
+The players in the group should designate one member of
+the company to be the captain. The captain then designates a
+lieutenant and a treasurer. Other members are sergeants.
+					</p>
+					<p>
+					<b>Benefits:</b>The captain gains the Natural Leader ability whether
+or not he meets the prerequisites.
+					</p>
+					<p>
+					Additionally, each character created as a member of the
+company begins with one additional occupational skill level
+in one of the following skills: Animal Handling, Command,
+Driving, Gambling, Interrogation, Medicine, Negotiation, or
+Riding.
+					</p>
+					</benefit>
+				</mercenarycharter>
+				
+				
+				<outlaws>
+					<listlink type="windowreference">
+							<class>ability</class>
+							<recordname>reference.adventuringcompanies.index.outlaws@Iron Kingdoms Core Rules</recordname>
+					</listlink>
+					<name type="string">Outlaws</name>
+					<type type="string">Adventuring Company</type>					
+					<benefit type="formattedtext">
+					<p>
+					Crime does pay, but sometimes in blood. This lesson is
+learned by criminals across the Iron Kingdoms, from the
+streets of Five Fingers to the vicious bratyas of the Korsk
+underworld to the feral gangs of the Cryxian port of
+Blackwater. The characters are members of a close-knit gang
+of criminals, ruffians, and thugs motivated by the promise of
+coin or blood for blood's sake.
+					</p>
+					<p>
+					<b>Requirements:</b>Each member of the company must have
+at least one of the following careers: Alchemist, Cutthroat,
+Duelist, Highwayman, Pistoleer, Rifleman, Sorcerer, Spy, or
+Thief. The players in the group should designate one member
+of the company to be the boss. The boss then designates an
+underboss.
+					</p>
+					<p>
+					<b>Benefits:</b>The company begins the game with a hideout watched
+over by a network of gang affiliates who keep an eye out for
+dangerous rivals and the law. When a threat is spotted, the
+gang is quickly alerted. The hideout itself consists of a meeting
+area, an administrative office, sleeping chambers, hidden cells,
+and a number of secret exits or hidden passages.
+					</p>
+					<p>
+					Each character created as a member of the company gains the
+Gang and Language (Five Cant) abilities in addition to any
+abilities granted by his careers.
+					</p>
+					</benefit>
+				</outlaws>
+				
+				
+				<piratesofthebrokencoast>
+					<listlink type="windowreference">
+							<class>ability</class>
+							<recordname>reference.adventuringcompanies.index.piratesofthebrokencoast@Iron Kingdoms Core Rules</recordname>
+					</listlink>
+					<name type="string">Pirates of the Broken Coast</name>
+					<type type="string">Adventuring Company</type>					
+					<benefit type="formattedtext">
+					<p>
+					The characters are pirates or privateers, the ranking officers of a
+small frigate. The characters might choose to be criminals of the
+sea, pillaging and looting the coasts of the Iron Kingdom either
+for their own purposes or even in the employ of the Cryxian
+Pirate Fleet. Or they might be recognized privateers bearing
+a letter of marque issued by the naval authorities of Cygnar,
+Khador, or Ord.
+					</p>
+					<p>
+					<b>Requirements:</b>Each member of the company must have at
+least one of the following careers: Cutthroat, Explorer, Military
+Officer, Pirate, or Thief. The players in the group should
+designate one member of the company to be the captain. The
+captain then designates a first mate.
+					</p>
+					<p>
+					<b>Benefits:</b>The company begins the game with a small pirate
+ship crewed by unwashed sea dogs. Known throughout the
+secret coves and smugglers dens throughout the Broken Coast,
+the crew can choose between dozens of safe ports to lie low or
+finish repairs.
+					</p>
+					<p>
+					The captain gains the Natural Leader ability whether or not he
+meets the prerequisites.
+					</p>
+					<p>
+					Each character created as a member of the company gains the
+Hit the Deck! ability.
+					</p>
+					</benefit>
+				</piratesofthebrokencoast>
+				
+				<spyring>
+					<listlink type="windowreference">
+							<class>ability</class>
+							<recordname>reference.adventuringcompanies.index.spyring@Iron Kingdoms Core Rules</recordname>
+					</listlink>
+					<name type="string">Spy Ring</name>
+					<type type="string">Adventuring Company</type>					
+					<benefit type="formattedtext">
+					<p>
+					The characters in the company are intelligencers employed by a
+kingdom, major organization, or private concern. They could be
+members of the Cygnaran Reconnaissance Service, agents of a
+noble house, or simply freelancers in the employ of the highest
+bidder. In any case, they are practiced professionals in the art of
+espionage and surveillance.
+					</p>
+					<p>
+					<b>Requirements:</b>Each member of the company must have at least
+one of the following careers: Aristocrat, Investigator, Ranger,
+Spy, or Thief.
+					</p>
+					<p>
+					<b>Benefits:</b>Although the characters are disavowed if captured,
+they can count on material assistance from their employers.
+Depending on the mission undertaken, the characters in the
+company can receive specialized equipment, access to safe
+houses, forged documents, uniforms, and so forth. Additionally,
+they can expect to call upon the intelligence resources of their
+employers before a given mission.
+					</p>
+					<p>
+					Additionally, each character created as a member of the
+company begins with either the Language ability or one
+additional occupational skill level in one of the following
+skills: Bribery, Climbing, Cryptography, Deception, Detection,
+Disguise, Escape Artist, Etiquette, Forensic Science, Forgery,
+Gambling, Interrogation, Intimidation, Jumping, Lock
+Picking, Negotiation, Pickpocket, Research, Riding, Rope Use,
+Seduction, Sneak, or Streetwise.
+					</p>
+					</benefit>
+				</spyring>
+				
+			
