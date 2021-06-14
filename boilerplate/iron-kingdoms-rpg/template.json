@@ -1,0 +1,193 @@
+{
+    "Actor": {
+        "types": ["character"],
+        "templates": {
+            "baseActor":{
+                "stats":{
+                    "phy":0,
+                    "spd":0,
+                    "str":0,
+                    "agl":0,
+                    "poi":0,
+                    "prw":0,
+                    "int":0,
+                    "arc":0,
+                    "per":0
+                },
+                "def":0,
+                "arm":0,
+                "initiative":0
+            }
+        },
+        "character":{
+            "templates":["baseActor"],
+            "header":{
+                "sex":"",
+                "definingCharacteristics":"",
+                "weight":0,
+                "faith":"",
+                "height":0,
+                "xpEarned":0,
+                "level":""
+            },
+            "armModifiers":{
+                "shieldModifier":0,
+                "armorModifier":0,
+                "otherModifier":0
+            },
+            "defModifiers":{
+                "racialModifier":0,
+                "equipmentModifiers":0
+            },
+            "initiativeModifiers":{
+                "equipamentModifier":0,
+                "additionalModifier":0
+            },
+            "commandRangeModifier":{
+                "commandSkill":0,
+                "abilityModifier":0
+            },
+            "commandRange":0,
+            "featPoints":0,
+            "willPower":0,
+            "permanentInjuries":"",
+            "spokenLanguages":"",
+            "religiousBeliefs":"",
+            "gold":0,
+            "biography":""
+        },
+        "enemy":{
+            "templates":["baseActor"],
+            "size":0,
+            "ep":0,
+            "description":"",
+            "combat":"",
+            "vitality":0,
+            "hasVitalSpiral":false
+        }
+    },
+    "Item": {
+        "types": ["armor", "meleeWeapon", "rangedWeapon", "skill", "race", "archetype", "connection", "ability", "spell", "enemyAttackRanged", "enemyAtackMelee", "object"],
+        "templates": {
+            "buyableItem": {
+                "description": "",
+                "price": 0
+            },
+            "weapon": {
+                "POW": 0,
+                "attackModifier": 0,
+                "special": "",
+                "skill": ""
+            }
+        },
+        "armor": {
+            "templates":["buyableItem"],
+            "SPDModifier": 0,
+            "DEFModifier": 0,
+            "ARMModifier": 0,
+            "equipped": false,
+            "special": ""
+        },
+        "meleeWeapon": {
+            "templates":["buyableItem","weapon"],
+            "damage": 0,
+            "MAT": 0
+        },
+        "rangedWeapon": {
+            "templates":["buyableItem","weapon"],
+            "RNG": 0,
+            "extreme": 0,
+            "RAT": 0,
+            "ammoType": 0,
+            "AOE": 0,
+            "MaxAmmo": 0,
+            "CurrentAmmo": 0
+        },
+        "skill":{
+            "Type":"",
+            "Atribute":"",
+            "description":"",
+            "untrainedDescription":"",
+            "gmNotes":"",
+            "assistDescription":"",
+            "atributeValue":0,
+            "skillLevel":0,
+            "total":0,
+            "canBeUsedUntrained":false
+        },
+        "race":{
+            "archetypes":"",
+            "height":0,
+            "weight":0,
+            "aditionalCharacteristics":"",
+            "languages":"",
+            "heroLimits":{
+                "phy":0,
+                "spd":0,
+                "str":0,
+                "agl":0,
+                "poi":0,
+                "prw":0,
+                "int":0,
+                "arc":0,
+                "per":0
+            },
+            "veteranLimits":{
+                "phy":0,
+                "spd":0,
+                "str":0,
+                "agl":0,
+                "poi":0,
+                "prw":0,
+                "int":0,
+                "arc":0,
+                "per":0
+            },
+            "epicLimits":{
+                "phy":0,
+                "spd":0,
+                "str":0,
+                "agl":0,
+                "poi":0,
+                "prw":0,
+                "int":0,
+                "arc":0,
+                "per":0
+            }
+        },
+        "archetype":{
+            "description":"",
+            "allowsArc":false
+        },
+        "connection":{
+            "description":""
+        },
+        "ability":{
+            "description":"",
+            "requisite":""
+        },
+        "spell":{
+            "cst":0,
+            "rng":0,
+            "aoe":0,
+            "pow":0,
+            "up":false,
+            "off":false
+        },
+        "enemyAttackRanged":{
+            "rat":0,
+            "rng":0,
+            "aoe":0,
+            "pow":0
+        },
+        "enemyAtackMelee":{
+            "mat":0,
+            "pow":0,
+            "damage":0
+        },
+        "object":{
+            "templates":["buyableItem"],
+            "qtd":0
+        }
+    }
+}
