@@ -1,0 +1,29 @@
+{
+  "name": "iron-kingdoms-rpg",
+  "title": "Iron Kingdoms Full Metal Fantasy",
+  "description": "The Iron Kingdoms Full Metal Fantasy system for FoundryVTT!",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.7.5",
+  "compatibleCoreVersion": "0.7.9",
+  "templateVersion": 2,
+  "author": "Salt Titan, Fabio Vaz",
+  "esmodules": ["module/iron-kingdoms-rpg.js"],
+  "styles": ["css/iron-kingdoms-rpg.css"],
+  "scripts": [],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "gridDistance": 6,
+  "gridUnits": "ft",
+  "primaryTokenAttribute": "health",
+  "secondaryTokenAttribute": "power",
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "license": "LICENSE.txt"
+}
