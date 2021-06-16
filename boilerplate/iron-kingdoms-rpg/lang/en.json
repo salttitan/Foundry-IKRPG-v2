@@ -97,6 +97,34 @@
                         "aoe": "AOE"
                     }
                 }
+            },
+            "spells": 
+            {
+                "headerBlock":
+                {
+                    "cst": "COST",
+                    "rng": "RNG",
+                    "aoe": "AOE",
+                    "pow": "POW",
+                    "up": "UP",
+                    "off": "OFF"
+                }
+            },
+            "armor":
+            {
+                "headerBlock":
+                {
+                    "spdMod": "SPD MODIFIER",
+                    "defMod": "DEF MODIFIER",
+                    "armMod": "ARM MODIFIER"
+                }
+            },
+            "ability": 
+            {
+                "headerBlock":
+                {
+                    "requisite": "PREREQUISITES"
+                }
             }
         }
     }
