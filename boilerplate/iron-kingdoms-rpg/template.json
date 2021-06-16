@@ -106,7 +106,7 @@
             "RNG": 0,
             "extreme": 0,
             "RAT": 0,
-            "ammoType": 0,
+            "ammoType": "",
             "AOE": 0,
             "MaxAmmo": 0,
             "CurrentAmmo": 0

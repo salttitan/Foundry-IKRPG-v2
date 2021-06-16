@@ -54,19 +54,49 @@
         },
         "itemSheetLabels": 
         {
-            "headerBlock": 
+            "shared":
             {
-                "title": "MELEE WEAPON",
-                "name": "NAME",
-                "price": "COST",
-                "skill": "SKILL",
-                "attackModifier": "Attack Modifier",
-                "pow": "POW"
+                "headerBlock": 
+                {
+                    "name": "NAME",
+                    "price": "COST"
+                },
+                "body": 
+                {
+                    "description": "DESCRIPTION",
+                    "special": "SPECIAL RULES"
+                }
             },
-            "body": 
+            "weapons": 
             {
-                "description": "DESCRIPTION",
-                "special": "SPECIAL RULES"
+                "shared": 
+                {
+                    "headerBlock": 
+                    {
+                        "skill": "SKILL",
+                        "pow": "POW",
+                        "attackModifier": "ATTACK MODIFIER"
+                    }
+                },
+                "melee":
+                {
+                    "headerBlock":
+                    {
+                        "title": "MELEE WEAPON"
+                    }
+                },
+                "ranged":
+                {
+                    "headerBlock": 
+                    {
+                        "title": "RANGED WEAPON",
+                        "maxAmmo": "AMMO CAPACITY",
+                        "ammoType": "AMMO TYPE",
+                        "rng": "EFFECTIVE RNG",
+                        "extreme": "EXTREME RNG",
+                        "aoe": "AOE"
+                    }
+                }
             }
         }
     }
