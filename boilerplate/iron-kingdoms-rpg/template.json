@@ -129,6 +129,7 @@
             "weight":0,
             "aditionalCharacteristics":"",
             "languages":"",
+            "baseSize":"",
             "heroLimits":{
                 "phy":0,
                 "spd":0,

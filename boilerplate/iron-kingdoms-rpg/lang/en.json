@@ -107,7 +107,8 @@
                     "aoe": "AOE",
                     "pow": "POW",
                     "up": "UP",
-                    "off": "OFF"
+                    "off": "OFF",
+                    "title": "SPELL"
                 }
             },
             "armor":
@@ -116,14 +117,48 @@
                 {
                     "spdMod": "SPD MODIFIER",
                     "defMod": "DEF MODIFIER",
-                    "armMod": "ARM MODIFIER"
+                    "armMod": "ARM MODIFIER",
+                    "title": "ARMOR"
                 }
             },
             "ability": 
             {
                 "headerBlock":
                 {
-                    "requisite": "PREREQUISITES"
+                    "requisite": "PREREQUISITES",
+                    "title": "ABILITY"
+                }
+            },
+            "archetype": 
+            {
+                "headerBlock":
+                {
+                    "title": "ARCHETYPE",
+                    "allowsArc": "Gifted?"
+                }
+            },
+            "connection": 
+            {
+                "headerBlock":
+                {
+                    "title": "CONNECTION"
+                }
+            },
+            "skill":
+            {
+                "headerBlock":
+                {
+                    "title": "SKILL",
+                    "skillLevel": "LEVEL",
+                    "untrained": "USABLE UNTRAINED?",
+                    "type": "TYPE"
+                },
+                "body":
+                {
+                    "untrained": "UNTRAINED ROLLS",
+                    "assisted": "ASSISTED ROLLS",
+                    "gmNotes": "GM NOTES",
+                    "trained": "TRAINED ROLLS"
                 }
             }
         }

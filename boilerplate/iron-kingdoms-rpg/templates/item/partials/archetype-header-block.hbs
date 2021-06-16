@@ -1,7 +1,7 @@
    <section>
             <table class="actor-sheet-header-table">
                 <caption class="actor-sheet-header-table-label">
-                    {{localize "ikrpg.itemSheetLabels.ability.headerBlock.title"}}
+                    {{localize "ikrpg.itemSheetLabels.archetype.headerBlock.title"}}
                 </caption>
                 <tr>
                     <td colspan="2">
@@ -11,7 +11,6 @@
                                 name="item.name"
                                 type="text"
                                 value="{{item.name}}"
-                                data-type="Text"
                             />
                             <label class="actor-sheet-header-field-name-label">
                                 {{localize "ikrpg.itemSheetLabels.shared.headerBlock.name"}}
@@ -24,13 +23,13 @@
                         <div class="actor-sheet-header-field">
                             <input 
                                 class="actor-sheet-header-field-box"
-                                name="data.requisite.value"
-                                type="text"
-                                value="{{data.requisite.value}}"
-                                data-type="Text"
+                                name="data.allowsArc"
+                                type="checkbox"
+                                value="{{data.allowsArc}}"
+                                {{checked data.allowsArc}}
                             />
                             <label class="actor-sheet-header-field-name-label">
-                                {{localize "ikrpg.itemSheetLabels.ability.headerBlock.requisite"}}
+                                {{localize "ikrpg.itemSheetLabels.archetype.headerBlock.allowsArc"}}
                             </label>
                         </div>
                     </td>

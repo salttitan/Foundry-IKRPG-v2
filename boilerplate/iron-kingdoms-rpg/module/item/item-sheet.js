@@ -55,4 +55,6 @@ export class ikrpgItemSheet extends ItemSheet {
 
     // Roll handlers, click handlers, etc. would go here.
   }
+
+  
 }

@@ -1,0 +1,44 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="item-sheet-header-block">
+        <table class="actor-sheet-header-table">
+            <caption class="actor-sheet-header-table-label">
+                {{localize "ikrpg.itemSheetLabels.connection.headerBlock.title"}}
+            </caption>
+            <tr>
+                <td colspan="6">
+                    <div class="actor-sheet-header-field">
+                        <input 
+                            class="actor-sheet-header-field-box"
+                            name="item.name"
+                            type="text"
+                            value="{{item.name}}"
+                            data-type="Text"
+                        />
+                        <label class="actor-sheet-header-field-name-label">
+                            {{localize "ikrpg.itemSheetLabels.shared.headerBlock.name"}}
+                        </label>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </header>
+
+    <section class="sheet-body">
+
+        {{!-- Description --}}
+            <div class="item-sheet-description" style="height: 400px">
+                <table class="actor-sheet-header-table" style="height: 400px;">
+                    <caption class="actor-sheet-header-table-label">
+                        {{localize "ikrpg.itemSheetLabels.shared.body.description"}}
+                    </caption>
+                    <tr>
+                        <td style="height: 400px;">
+                            <div class="description-block">
+                                {{editor content=data.description target="data.description" button=true owner=owner editable=editable}}                
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+    </section>
+</form>

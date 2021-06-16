@@ -1,17 +1,16 @@
    <section>
             <table class="actor-sheet-header-table">
                 <caption class="actor-sheet-header-table-label">
-                    {{localize "ikrpg.itemSheetLabels.armor.headerBlock.title"}}
+                    {{localize "ikrpg.itemSheetLabels.archetype.headerBlock.title"}}
                 </caption>
                 <tr>
-                    <td colspan="4">
+                    <td colspan="2">
                         <div class="actor-sheet-header-field">
                             <input 
                                 class="actor-sheet-header-field-box"
                                 name="item.name"
                                 type="text"
                                 value="{{item.name}}"
-                                data-type="Text"
                             />
                             <label class="actor-sheet-header-field-name-label">
                                 {{localize "ikrpg.itemSheetLabels.shared.headerBlock.name"}}
@@ -23,14 +22,14 @@
                     <td>
                         <div class="actor-sheet-header-field">
                             <input 
-                                class="actor-sheet-header-field-box"
-                                name="data.price.value"
-                                type="number"
-                                value="{{data.price.value}}"
-                                data-type="Number"
+                                class="actor-sheet-header-field-box skill-type-box"
+                                name="data.Type"
+                                type="text"
+                                value="{{data.Type}}"
+                                data-dtype="Text"
                             />
                             <label class="actor-sheet-header-field-name-label">
-                                {{localize "ikrpg.itemSheetLabels.shared.headerBlock.price"}}
+                                {{localize "ikrpg.itemSheetLabels.skill.headerBlock.type"}}
                             </label>
                         </div>
                     </td>
@@ -38,13 +37,13 @@
                         <div class="actor-sheet-header-field">
                             <input 
                                 class="actor-sheet-header-field-box"
-                                name="data.SPDModifier.value"
+                                name="data.skillLevel"
                                 type="number"
-                                value="{{data.SPDModifier.value}}"
-                                data-type="Number"
+                                value="{{data.skillLevel}}"
+                                data-dtype="Number"
                             />
                             <label class="actor-sheet-header-field-name-label">
-                                {{localize "ikrpg.itemSheetLabels.armor.headerBlock.spdMod"}}
+                                {{localize "ikrpg.itemSheetLabels.skill.headerBlock.skillLevel"}}
                             </label>
                         </div>
                     </td>
@@ -52,27 +51,13 @@
                         <div class="actor-sheet-header-field">
                             <input 
                                 class="actor-sheet-header-field-box"
-                                name="data.DEFModifier.value"
-                                type="number"
-                                value="{{data.DEFModifier.value}}"
-                                data-type="Number"
+                                name="data.canBeUsedUntrained"
+                                type="checkbox"
+                                value="{{data.canBeUsedUntrained}}"
+                                {{checked data.canBeUsedUntrained}}
                             />
                             <label class="actor-sheet-header-field-name-label">
-                                {{localize "ikrpg.itemSheetLabels.armor.headerBlock.defMod"}}
-                            </label>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="actor-sheet-header-field">
-                            <input 
-                                class="actor-sheet-header-field-box"
-                                name="data.ARMModifier.value"
-                                type="number"
-                                value="{{data.ARMModifier.value}}"
-                                data-type="Number"
-                            />
-                            <label class="actor-sheet-header-field-name-label">
-                                {{localize "ikrpg.itemSheetLabels.armor.headerBlock.armMod"}}
+                                {{localize "ikrpg.itemSheetLabels.skill.headerBlock.untrained"}}
                             </label>
                         </div>
                     </td>
