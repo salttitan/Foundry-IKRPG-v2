@@ -34,8 +34,8 @@
                 {
                     "title":"SKILL",
                     "skill":"Skill",
-                    "atribute":"Atribute",
-                    "atributeValue":"Atribute Value",
+                    "atribute":"Attribute",
+                    "atributeValue":"Attribute Value",
                     "skillLevel":"Skill Level",
                     "total":"Total"
                 }
@@ -43,7 +43,7 @@
         "skillSheetLabels":
         {
             "type":"Type",
-            "atribute":"Atribute"
+            "atribute":"Attribute"
         }
     }
 }

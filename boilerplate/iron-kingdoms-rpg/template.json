@@ -77,16 +77,16 @@
     "Item": {
         "types": ["armor", "meleeWeapon", "rangedWeapon", "skill", "race", "archetype", "connection", "ability", "spell", "enemyAttackRanged", "enemyAtackMelee", "object"],
         "templates": {
-            "buyableItem": {
-                "description": "",
-                "price": 0
-            },
-            "weapon": {
-                "POW": 0,
-                "attackModifier": 0,
-                "special": "",
-                "skill": ""
-            }
+        "buyableItem": {
+            "description": "",
+            "price": 0
+        },
+        "weapon": {
+            "POW": 0,
+            "attackModifier": 0,
+            "special": "",
+            "skill": ""
+        }
         },
         "armor": {
             "templates":["buyableItem"],

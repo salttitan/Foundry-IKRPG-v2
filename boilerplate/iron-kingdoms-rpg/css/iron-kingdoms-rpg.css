@@ -176,6 +176,7 @@
 .iron-kingdoms-rpg .sheet-body .tab,
 .iron-kingdoms-rpg .sheet-body .tab .editor {
   height: 100%;
+  min-height:150px;
 }
 
 .iron-kingdoms-rpg .tox .tox-editor-container {
@@ -418,3 +419,17 @@
 
 /*End Damage Capacity*/
 /*End Character Sheet*/
+
+/*Item Sheet*/
+.description-block {
+  min-height: 150px;
+  height: 100%;
+}
+
+.iron-kingdoms-rpg .description-block .editor {
+  height: 100%;
+  min-height: 145px;
+  width:100%
+}
+
+/*Melee Weapon*/

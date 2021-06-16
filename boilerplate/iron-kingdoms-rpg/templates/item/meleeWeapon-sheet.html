@@ -1,0 +1,125 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="item-sheet-header-block">
+        <section>
+            <table class="actor-sheet-header-table">
+                <caption class="actor-sheet-header-table-label">
+                    {{localize "ikrpg.itemSheetLabels.headerBlock.title"}}
+                </caption>
+                <tr>
+                    <td colspan="4">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.name.value"
+                                type="text"
+                                value="{{data.name.value}}"
+                                data-type="Text"
+                            />
+                            <label class="actor-sheet-header-field-name-label">
+                                {{localize "ikrpg.itemSheetLabels.headerBlock.name"}}
+                            </label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.price.value"
+                                type="number"
+                                value="{{data.price.value}}"
+                                data-type="Number"
+                            />
+                            <label class="actor-sheet-header-field-name-label">
+                                {{localize "ikrpg.itemSheetLabels.headerBlock.price"}}
+                            </label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.skill.value"
+                                type="text"
+                                value="{{data.skill.value}}"
+                                data-type="Text"
+                            />
+                            <label class="actor-sheet-header-field-name-label">
+                                {{localize "ikrpg.itemSheetLabels.headerBlock.skill"}}
+                            </label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.attackModifier.value"
+                                type="number"
+                                value="{{data.attackModifier.value}}"
+                                data-type="Number"
+                            />
+                            <label class="actor-sheet-header-field-name-label">
+                                {{localize "ikrpg.itemSheetLabels.headerBlock.attackModifier"}}
+                            </label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.POW.value"
+                                type="number"
+                                value="{{data.POW.value}}"
+                                data-type="Number"
+                            />
+                            <label class="actor-sheet-header-field-name-label">
+                                {{localize "ikrpg.itemSheetLabels.headerBlock.pow"}}
+                            </label>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </header>
+
+    <nav class="sheet-tabs tabs" data-group="primary">
+        <a class="item" data-tab="description">Description</a>
+        <a class="item" data-tab="special">Special Rules</a>
+    </nav>
+
+    <section class="sheet-body">
+        <div class="tab" data-group="primary" data-tab="description">
+            <div class="item-sheet-description" style="height: 400px">
+                <table class="actor-sheet-header-table" style="height: 400px;">
+                    <caption class="actor-sheet-header-table-label">
+                        {{localize "ikrpg.itemSheetLabels.body.description"}}
+                    </caption>
+                    <tr>
+                        <td style="height: 400px;">
+                            <div class="description-block">
+                                {{editor content=data.description target="data.description" button=true owner=owner editable=editable}}                
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="tab" data-group="primary" data-tab="special">
+            <div class="item-sheet-description" style="height: 400px">
+                <table class="actor-sheet-header-table" style="height: 400px;">
+                    <caption class="actor-sheet-header-table-label">
+                        {{localize "ikrpg.itemSheetLabels.body.special"}}
+                    </caption>
+                    <tr>
+                        <td style="height: 400px;">
+                            <div class="description-block">
+                                {{editor content=data.special target="data.special" button=true owner=owner editable=editable}}                
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+</form>
