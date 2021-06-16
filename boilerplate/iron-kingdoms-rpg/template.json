@@ -1,6 +1,6 @@
 {
     "Actor": {
-        "types": ["character"],
+        "types": ["character", "enemy"],
         "templates": {
             "baseActor":{
                 "stats":{
@@ -17,10 +17,18 @@
                 "def":0,
                 "arm":0,
                 "initiative":0
+            },
+            "vitalSpiral":{
+                "line1":{"damage":0, "max":0, "current":0},
+                "line2":{"damage":0, "max":0, "current":0},
+                "line3":{"damage":0, "max":0, "current":0},
+                "line4":{"damage":0, "max":0, "current":0},
+                "line5":{"damage":0, "max":0, "current":0},
+                "line6":{"damage":0, "max":0, "current":0}
             }
         },
         "character":{
-            "templates":["baseActor"],
+            "templates":["baseActor", "vitalSpiral"],
             "header":{
                 "sex":"",
                 "definingCharacteristics":"",

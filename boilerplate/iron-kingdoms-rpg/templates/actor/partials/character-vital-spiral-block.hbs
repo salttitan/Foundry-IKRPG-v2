@@ -1,0 +1,130 @@
+<section>
+  <table class="actor-sheet-stat-table">
+    <caption class="actor-sheet-damage-capacity-table-label">
+      {{localize "ikrpg.actorSheetLabels.damageCapacityBlock.title"}}
+    </caption>
+    <tr class="actor-sheet-damage-capacity-phy-group">
+      <td>
+        <label>{{localize "ikrpg.actorSheetLabels.damageCapacityBlock.groupOne"}}</label>
+      </td>
+      <td>
+        <table>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>
+              <div class="actor-sheet-damage-capacity-checkbox-line">
+                {{#times data.line1.max.value}}
+                  <input
+                    class="line1 vital-check"
+                    type="checkbox"
+                    {{checked (ifCond data.line1.current.value "<=" @index)}}
+                  />
+                {{/times}}
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              2
+            </td>
+            <td>
+              <div class="actor-sheet-damage-capacity-checkbox-line">
+                {{#times data.line2.max.value}}
+                  <input
+                    class="line2 vital-check"
+                    type="checkbox"
+                    {{checked (ifCond data.line2.current.value "<=" @index)}}
+                  />
+                {{/times}}
+              </div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr class="actor-sheet-damage-capacity-agl-group">
+      <td>
+        <label>{{localize "ikrpg.actorSheetLabels.damageCapacityBlock.groupTwo"}}</label>
+      </td>
+      <td>
+        <table>
+          <tr>
+            <td>
+              3
+            </td>
+            <td>
+              <div class="actor-sheet-damage-capacity-checkbox-line">
+                {{#times data.line3.max.value}}
+                  <input
+                    class="line3 vital-check"
+                    type="checkbox"
+                    {{checked (ifCond data.line3.current.value "<=" @index)}}
+                  />
+                {{/times}}
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              4
+            </td>
+            <td>
+              <div class="actor-sheet-damage-capacity-checkbox-line">
+                {{#times data.line4.max.value}}
+                  <input
+                    class="line4 vital-check"
+                    type="checkbox"
+                    {{checked (ifCond data.line4.current.value "<=" @index)}}
+                  />
+                {{/times}}
+              </div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr class="actor-sheet-damage-capacity-int-group">
+      <td>
+        <label>{{localize "ikrpg.actorSheetLabels.damageCapacityBlock.groupThree"}}</label>
+      </td>
+      <td>
+        <table>
+          <tr>
+            <td>
+              5
+            </td>
+            <td>
+              <div class="actor-sheet-damage-capacity-checkbox-line">
+                {{#times data.line5.max.value}}
+                  <input
+                    class="line5 vital-check"
+                    type="checkbox"
+                    {{checked (ifCond data.line5.current.value "<=" @index)}}
+                  />
+                {{/times}}
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              6
+            </td>
+            <td>
+              <div class="actor-sheet-damage-capacity-checkbox-line">
+                {{#times data.line6.max.value}}
+                  <input
+                    class="line6 vital-check"
+                    type="checkbox"
+                    {{checked (ifCond data.line6.current.value "<=" @index)}}
+                  />
+                {{/times}}
+              </div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</section>
