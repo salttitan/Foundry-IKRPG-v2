@@ -1,86 +1,6 @@
 <form class="{{cssClass}}" autocomplete="off">
     <header class="item-sheet-header-block">
-        <section>
-            <table class="actor-sheet-header-table">
-                <caption class="actor-sheet-header-table-label">
-                    {{localize "ikrpg.itemSheetLabels.headerBlock.title"}}
-                </caption>
-                <tr>
-                    <td colspan="4">
-                        <div class="actor-sheet-header-field">
-                            <input 
-                                class="actor-sheet-header-field-box"
-                                name="data.name.value"
-                                type="text"
-                                value="{{data.name.value}}"
-                                data-type="Text"
-                            />
-                            <label class="actor-sheet-header-field-name-label">
-                                {{localize "ikrpg.itemSheetLabels.headerBlock.name"}}
-                            </label>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="actor-sheet-header-field">
-                            <input 
-                                class="actor-sheet-header-field-box"
-                                name="data.price.value"
-                                type="number"
-                                value="{{data.price.value}}"
-                                data-type="Number"
-                            />
-                            <label class="actor-sheet-header-field-name-label">
-                                {{localize "ikrpg.itemSheetLabels.headerBlock.price"}}
-                            </label>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="actor-sheet-header-field">
-                            <input 
-                                class="actor-sheet-header-field-box"
-                                name="data.skill.value"
-                                type="text"
-                                value="{{data.skill.value}}"
-                                data-type="Text"
-                            />
-                            <label class="actor-sheet-header-field-name-label">
-                                {{localize "ikrpg.itemSheetLabels.headerBlock.skill"}}
-                            </label>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="actor-sheet-header-field">
-                            <input 
-                                class="actor-sheet-header-field-box"
-                                name="data.attackModifier.value"
-                                type="number"
-                                value="{{data.attackModifier.value}}"
-                                data-type="Number"
-                            />
-                            <label class="actor-sheet-header-field-name-label">
-                                {{localize "ikrpg.itemSheetLabels.headerBlock.attackModifier"}}
-                            </label>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="actor-sheet-header-field">
-                            <input 
-                                class="actor-sheet-header-field-box"
-                                name="data.POW.value"
-                                type="number"
-                                value="{{data.POW.value}}"
-                                data-type="Number"
-                            />
-                            <label class="actor-sheet-header-field-name-label">
-                                {{localize "ikrpg.itemSheetLabels.headerBlock.pow"}}
-                            </label>
-                        </div>
-                    </td>
-                </tr>
-            </table>
-        </section>
+        {{> "systems/iron-kingdoms-rpg/templates/item/partials/melee-weapon-header-block.hbs"}}
     </header>
 
     <nav class="sheet-tabs tabs" data-group="primary">
@@ -89,6 +9,8 @@
     </nav>
 
     <section class="sheet-body">
+
+        {{!-- Description --}}
         <div class="tab" data-group="primary" data-tab="description">
             <div class="item-sheet-description" style="height: 400px">
                 <table class="actor-sheet-header-table" style="height: 400px;">
@@ -105,6 +27,8 @@
                 </table>
             </div>
         </div>
+
+        {{!-- Special Rules --}}
         <div class="tab" data-group="primary" data-tab="special">
             <div class="item-sheet-description" style="height: 400px">
                 <table class="actor-sheet-header-table" style="height: 400px;">
