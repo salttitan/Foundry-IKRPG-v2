@@ -1,0 +1,471 @@
+   <section>
+            <table class="actor-sheet-header-table">
+                <caption class="actor-sheet-header-table-label">
+                    {{localize "ikrpg.itemSheetLabels.race.body.title"}}
+                </caption>
+                <tr class="race-sheet-header-row">
+                    <th></th>
+                    <th>
+                        {{localize "ikrpg.itemSheetLabels.race.body.startingTitle"}}
+                    </th>
+                    <th>
+                        {{localize "ikrpg.itemSheetLabels.race.body.heroTitle"}}
+                    </th>
+                    <th>
+                        {{localize "ikrpg.itemSheetLabels.race.body.vetTitle"}}
+                    </th>
+                    <th>
+                        {{localize "ikrpg.itemSheetLabels.race.body.epicTitle"}}
+                    </th>
+                </tr>
+
+                <tr>
+                    <td class="race-sheet-header-cell">
+                        {{localize "ikrpg.itemSheetLabels.race.body.phy"}}
+                    </td>
+                    <td class="race-sheet-starter-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.starting.phy"
+                                type="number"
+                                value="{{data.starting.phy}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                    <td class="race-sheet-advancement-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.heroLimits.phy"
+                                type="number"
+                                value="{{data.heroLimits.phy}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                    <td class="race-sheet-advancement-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.veteranLimits.phy"
+                                type="number"
+                                value="{{data.veteranLimits.phy}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                      <td class="race-sheet-advancement-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.epicLimits.phy"
+                                type="number"
+                                value="{{data.epicLimits.phy}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="race-sheet-header-cell">
+                        {{localize "ikrpg.itemSheetLabels.race.body.spd"}}
+                    </td>
+                     <td class="race-sheet-starter-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.starting.spd"
+                                type="number"
+                                value="{{data.starting.spd}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                     <td class="race-sheet-advancement-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.heroLimits.spd"
+                                type="number"
+                                value="{{data.heroLimits.spd}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                     <td class="race-sheet-advancement-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.veteranLimits.spd"
+                                type="number"
+                                value="{{data.veteranLimits.spd}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                      <td class="race-sheet-advancement-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.epicLimits.spd"
+                                type="number"
+                                value="{{data.epicLimits.spd}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="race-sheet-header-cell">
+                        {{localize "ikrpg.itemSheetLabels.race.body.str"}}
+                    </td>
+                     <td class="race-sheet-starter-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.starting.str"
+                                type="number"
+                                value="{{data.starting.str}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                     <td class="race-sheet-advancement-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.heroLimits.str"
+                                type="number"
+                                value="{{data.heroLimits.str}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                     <td class="race-sheet-advancement-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.veteranLimits.str"
+                                type="number"
+                                value="{{data.veteranLimits.str}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                      <td class="race-sheet-advancement-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.epicLimits.str"
+                                type="number"
+                                value="{{data.epicLimits.str}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                </tr>
+               <tr>
+                    <td class="race-sheet-header-cell">
+                        {{localize "ikrpg.itemSheetLabels.race.body.agl"}}
+                    </td>
+                     <td class="race-sheet-starter-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.starting.agl"
+                                type="number"
+                                value="{{data.starting.agl}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                     <td class="race-sheet-advancement-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.heroLimits.agl"
+                                type="number"
+                                value="{{data.heroLimits.agl}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                     <td class="race-sheet-advancement-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.veteranLimits.agl"
+                                type="number"
+                                value="{{data.veteranLimits.agl}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                      <td class="race-sheet-advancement-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.epicLimits.agl"
+                                type="number"
+                                value="{{data.epicLimits.agl}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="race-sheet-header-cell">
+                        {{localize "ikrpg.itemSheetLabels.race.body.poi"}}
+                    </td>
+                    <td class="race-sheet-starter-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.starting.poi"
+                                type="number"
+                                value="{{data.starting.poi}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                     <td class="race-sheet-advancement-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.heroLimits.poi"
+                                type="number"
+                                value="{{data.heroLimits.poi}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                     <td class="race-sheet-advancement-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.veteranLimits.poi"
+                                type="number"
+                                value="{{data.veteranLimits.poi}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                      <td class="race-sheet-advancement-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.epicLimits.poi"
+                                type="number"
+                                value="{{data.epicLimits.poi}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="race-sheet-header-cell">
+                        {{localize "ikrpg.itemSheetLabels.race.body.prw"}}
+                    </td>
+                     <td class="race-sheet-starter-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.starting.prw"
+                                type="number"
+                                value="{{data.starting.prw}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                     <td class="race-sheet-advancement-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.heroLimits.prw"
+                                type="number"
+                                value="{{data.heroLimits.prw}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                     <td class="race-sheet-advancement-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.veteranLimits.prw"
+                                type="number"
+                                value="{{data.veteranLimits.prw}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                      <td class="race-sheet-advancement-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.epicLimits.prw"
+                                type="number"
+                                value="{{data.epicLimits.prw}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="race-sheet-header-cell">
+                        {{localize "ikrpg.itemSheetLabels.race.body.int"}}
+                    </td>
+                     <td class="race-sheet-starter-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.starting.int"
+                                type="number"
+                                value="{{data.starting.int}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                     <td class="race-sheet-advancement-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.heroLimits.int"
+                                type="number"
+                                value="{{data.heroLimits.int}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                     <td class="race-sheet-advancement-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.veteranLimits.int"
+                                type="number"
+                                value="{{data.veteranLimits.int}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                      <td class="race-sheet-advancement-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.epicLimits.int"
+                                type="number"
+                                value="{{data.epicLimits.int}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="race-sheet-header-cell">
+                        {{localize "ikrpg.itemSheetLabels.race.body.arc"}}
+                    </td>
+                     <td class="race-sheet-starter-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.starting.arc"
+                                type="number"
+                                value="{{data.starting.arc}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                     <td class="race-sheet-advancement-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.heroLimits.arc"
+                                type="number"
+                                value="{{data.heroLimits.arc}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                     <td class="race-sheet-advancement-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.veteranLimits.arc"
+                                type="number"
+                                value="{{data.veteranLimits.arc}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                      <td class="race-sheet-advancement-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.epicLimits.arc"
+                                type="number"
+                                value="{{data.epicLimits.arc}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="race-sheet-header-cell">
+                        {{localize "ikrpg.itemSheetLabels.race.body.per"}}
+                    </td>
+                     <td class="race-sheet-starter-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.starting.per"
+                                type="number"
+                                value="{{data.starting.per}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                     <td class="race-sheet-advancement-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.heroLimits.per"
+                                type="number"
+                                value="{{data.heroLimits.per}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                     <td class="race-sheet-advancement-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.veteranLimits.per"
+                                type="number"
+                                value="{{data.veteranLimits.per}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                      <td class="race-sheet-advancement-field">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.epicLimits.per"
+                                type="number"
+                                value="{{data.epicLimits.per}}"
+                                data-type="Number"
+                            />
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </section>

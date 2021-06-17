@@ -1,11 +1,18 @@
 <form class="{{cssClass}}" autocomplete="off">
     <header class="item-sheet-header-block">
-        {{> "systems/iron-kingdoms-rpg/templates/item/partials/ability-header-block.hbs"}}
+        {{> "systems/iron-kingdoms-rpg/templates/item/partials/race-header-block.hbs"}}
     </header>
 
+    <nav class="sheet-tabs tabs" data-group="primary">
+        <a class="item" data-tab="description">Description</a>
+        <a class="item" data-tab="stats">Stats</a>
+        <a class="item" data-tab="rules">Rules</a>
+    </nav>
+    
     <section class="sheet-body">
 
         {{!-- Description --}}
+        <div class="tab" data-group="primary" data-tab="description">
             <div class="item-sheet-description" style="height: 400px">
                 <table class="actor-sheet-header-table" style="height: 400px;">
                     <caption class="actor-sheet-header-table-label">
@@ -20,5 +27,28 @@
                     </tr>
                 </table>
             </div>
+        </div>
+
+        {{!-- Stats --}}
+        <div class="tab" data-group="primary" data-tab="stats">
+            {{> "systems/iron-kingdoms-rpg/templates/item/partials/race-stats-block.hbs"}}
+        </div>
+
+        <div class="tab" data-group="primary" data-tab="rules">
+            <div class="item-sheet-description" style="height: 400px">
+                <table class="actor-sheet-header-table" style="height: 400px;">
+                    <caption class="actor-sheet-header-table-label">
+                        {{localize "ikrpg.itemSheetLabels.race.body.aditionalCharacteristics"}}
+                    </caption>
+                    <tr>
+                        <td style="height: 400px;">
+                            <div class="description-block">
+                                {{editor content=data.aditionalCharacteristics target="data.aditionalCharacteristics" button=true owner=owner editable=editable}}                
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
     </section>
 </form>

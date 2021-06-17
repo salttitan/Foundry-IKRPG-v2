@@ -160,6 +160,37 @@
                     "gmNotes": "GM NOTES",
                     "trained": "TRAINED ROLLS"
                 }
+            },
+            "race":
+            {
+                "headerBlock":
+                {
+                    "title": "RACE",
+                    "archetypes": "ARCHETYPES",
+                    "languages": "LANGUAGES",
+                    "height": "HEIGHT",
+                    "weight": "WEIGHT",
+                    "base": "BASE SIZE"
+                },
+                "body":
+                {
+                    "title": "STATS",
+                    "startingTitle": "STARTING",
+                    "heroTitle": "HERO LIMIT",
+                    "vetTitle": "VET LIMIT",
+                    "epicTitle": "EPIC LIMIT",
+                    "phy":"PHY",
+                    "spd":"SPD",
+                    "str":"STR",
+                    "max":"MAX",
+                    "agl":"AGL",
+                    "prw":"PRW",
+                    "poi":"POI",
+                    "int":"INT",
+                    "arc":"ARC",
+                    "per":"PER",
+                    "aditionalCharacteristics": "ADDITIONAL CHARACTERISTICS"
+                }
             }
         }
     }

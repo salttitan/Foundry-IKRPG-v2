@@ -125,11 +125,22 @@
         },
         "race":{
             "archetypes":"",
-            "height":0,
-            "weight":0,
+            "height":"",
+            "weight":"",
             "aditionalCharacteristics":"",
             "languages":"",
             "baseSize":"",
+            "starting": {
+                "phy":0,
+                "spd":0,
+                "str":0,
+                "agl":0,
+                "poi":0,
+                "prw":0,
+                "int":0,
+                "arc":0,
+                "per":0
+            },
             "heroLimits":{
                 "phy":0,
                 "spd":0,

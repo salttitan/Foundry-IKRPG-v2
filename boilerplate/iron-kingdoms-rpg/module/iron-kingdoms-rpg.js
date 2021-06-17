@@ -18,6 +18,9 @@ async function preloadHandlebarsTemplate()
     "systems/iron-kingdoms-rpg/templates/item/partials/ability-header-block.hbs",
     "systems/iron-kingdoms-rpg/templates/item/partials/archetype-header-block.hbs",
     "systems/iron-kingdoms-rpg/templates/item/partials/skill-header-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/item/partials/race-header-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/item/partials/race-stats-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/item/partials/race-rules-block.hbs",
   ];
 
   return loadTemplates(templatePaths);
