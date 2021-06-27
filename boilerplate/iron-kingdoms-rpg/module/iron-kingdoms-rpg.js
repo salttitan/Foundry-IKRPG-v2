@@ -4,9 +4,33 @@ import { ikrpgActorSheet } from "./actor/actor-sheet.js";
 import { ikrpgItem } from "./item/item.js";
 import { ikrpgItemSheet } from "./item/item-sheet.js";
 
+async function preloadHandlebarsTemplate()
+{
+  const templatePaths = 
+  [
+    "systems/iron-kingdoms-rpg/templates/actor/partials/character-stat-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/actor/partials/character-header-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/actor/partials/character-vital-spiral-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/item/partials/melee-weapon-header-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/item/partials/ranged-weapon-header-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/item/partials/spell-header-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/item/partials/armor-header-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/item/partials/ability-header-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/item/partials/archetype-header-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/item/partials/skill-header-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/item/partials/race-header-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/item/partials/race-stats-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/item/partials/race-rules-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/item/partials/career-rules-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/item/partials/career-header-block.hbs",
+  ];
+
+  return loadTemplates(templatePaths);
+};
+
 Hooks.once('init', async function() {
 
-  game.iron-kingdoms-rpg = {
+  game.iron_kingdoms_rpg = {
     ikrpgActor,
     ikrpgItem
   };
@@ -30,6 +54,8 @@ Hooks.once('init', async function() {
   Items.unregisterSheet("core", ItemSheet);
   Items.registerSheet("iron-kingdoms-rpg", ikrpgItemSheet, { makeDefault: true });
 
+  preloadHandlebarsTemplate();
+
   // If you need to add Handlebars helpers, here are a few useful examples:
   Handlebars.registerHelper('concat', function() {
     var outStr = '';
@@ -39,6 +65,52 @@ Hooks.once('init', async function() {
       }
     }
     return outStr;
+  });
+
+  Handlebars.registerHelper('times', function (times, opts) {
+    var out = "";
+    var i;
+    var data = {};
+
+    if ( times ) {
+        for ( i = 0; i < times; i += 1 ) {
+            data.index = i;
+            out += opts.fn(this, {
+                data: data
+            });
+        }
+    } else {
+
+        out = opts.inverse(this);
+    }
+
+    return out;
+});
+
+  Handlebars.registerHelper ('ifCond', function(v1, operator, v2){
+    switch (operator)
+    {
+        case '==', '===', 'is':
+            return v1==v2;
+        case '!=', '!==':
+            return v1!=v2;
+        case '<':
+            return v1<v2;
+        case '<=':
+          return v1<=v2;
+        case '>':
+          return v1>v2;
+        case '>=':
+          return v1>=v2;
+        case '&&', 'and':
+          if (v1 && v2) return true;
+           else return false ;
+        case '||', 'or':
+          if (v1 || v2) return true;
+          else return false ;
+        default:
+            return false
+    }
   });
 
   Handlebars.registerHelper('toLowerCase', function(str) {

@@ -1,0 +1,81 @@
+   <section>
+            <table class="actor-sheet-header-table">
+                <caption class="actor-sheet-header-table-label">
+                    {{localize "ikrpg.itemSheetLabels.weapons.melee.headerBlock.title"}}
+                </caption>
+                <tr>
+                    <td colspan="4">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="name"
+                                type="text"
+                                value="{{item.name}}"
+                                data-type="Text"
+                            />
+                            <label class="actor-sheet-header-field-name-label">
+                                {{localize "ikrpg.itemSheetLabels.shared.headerBlock.name"}}
+                            </label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.price.value"
+                                type="number"
+                                value="{{data.price.value}}"
+                                data-type="Number"
+                            />
+                            <label class="actor-sheet-header-field-name-label">
+                                {{localize "ikrpg.itemSheetLabels.shared.headerBlock.price"}}
+                            </label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.skill.value"
+                                type="text"
+                                value="{{data.skill.value}}"
+                                data-type="Text"
+                            />
+                            <label class="actor-sheet-header-field-name-label">
+                                {{localize "ikrpg.itemSheetLabels.weapons.shared.headerBlock.skill"}}
+                            </label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.attackModifier.value"
+                                type="number"
+                                value="{{data.attackModifier.value}}"
+                                data-type="Number"
+                            />
+                            <label class="actor-sheet-header-field-name-label">
+                                {{localize "ikrpg.itemSheetLabels.weapons.shared.headerBlock.attackModifier"}}
+                            </label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.POW.value"
+                                type="number"
+                                value="{{data.POW.value}}"
+                                data-type="Number"
+                            />
+                            <label class="actor-sheet-header-field-name-label">
+                                {{localize "ikrpg.itemSheetLabels.weapons.shared.headerBlock.pow"}}
+                            </label>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </section>

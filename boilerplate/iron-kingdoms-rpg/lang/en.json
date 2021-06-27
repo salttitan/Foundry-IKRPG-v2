@@ -1,0 +1,230 @@
+{
+    "ikrpg":
+    {
+        "actorSheetLabels":
+        {
+            "statBlock":
+                {
+                    "phy":"PHY",
+                    "spd":"SPD",
+                    "str":"STR",
+                    "max":"MAX",
+                    "agl":"AGL",
+                    "prw":"PRW",
+                    "poi":"POI",
+                    "int":"INT",
+                    "arc":"ARC",
+                    "per":"PER",
+                    "title":"STATS"
+                },
+            "headerBlock":
+                {
+                    "name":"CHARACTER NAME",
+                    "sex":"SEX",
+                    "definingCharacterists":"DEFINING CHARACTERISC(S)",
+                    "weight":"WEIGHT",
+                    "archetype":"ARCHETYPE",
+                    "race":"RACE",
+                    "careers":"CAREERS",
+                    "faith":"FAITH",
+                    "height":"HEIGHT",
+                    "title":"IRON KINGDOMS CHARACTER SHEET"
+                },
+            "skillBlock":
+                {
+                    "title":"SKILL",
+                    "skill":"Skill",
+                    "atribute":"Attribute",
+                    "atributeValue":"Attribute Value",
+                    "skillLevel":"Skill Level",
+                    "total":"Total"
+                },
+            "damageCapacityBlock":
+            {
+                "title":"DAMAGE CAPACITY",
+                "groupOne":"PHYSIQUE",
+                "groupTwo":"AGILITY",
+                "groupThree":"INTELLECT"
+            }
+        },
+        "skillSheetLabels":
+        {
+            "type":"Type",
+            "atribute":"Attribute"
+        },
+        "itemSheetLabels": 
+        {
+            "shared":
+            {
+                "headerBlock": 
+                {
+                    "name": "NAME",
+                    "price": "COST"
+                },
+                "body": 
+                {
+                    "description": "DESCRIPTION",
+                    "special": "SPECIAL RULES"
+                }
+            },
+            "weapons": 
+            {
+                "shared": 
+                {
+                    "headerBlock": 
+                    {
+                        "skill": "SKILL",
+                        "pow": "POW",
+                        "attackModifier": "ATTACK MODIFIER"
+                    }
+                },
+                "melee":
+                {
+                    "headerBlock":
+                    {
+                        "title": "MELEE WEAPON"
+                    }
+                },
+                "ranged":
+                {
+                    "headerBlock": 
+                    {
+                        "title": "RANGED WEAPON",
+                        "maxAmmo": "AMMO CAPACITY",
+                        "ammoType": "AMMO TYPE",
+                        "rng": "EFFECTIVE RNG",
+                        "extreme": "EXTREME RNG",
+                        "aoe": "AOE"
+                    }
+                }
+            },
+            "spells": 
+            {
+                "headerBlock":
+                {
+                    "cst": "COST",
+                    "rng": "RNG",
+                    "aoe": "AOE",
+                    "pow": "POW",
+                    "up": "UP",
+                    "off": "OFF",
+                    "title": "SPELL"
+                }
+            },
+            "armor":
+            {
+                "headerBlock":
+                {
+                    "spdMod": "SPD MODIFIER",
+                    "defMod": "DEF MODIFIER",
+                    "armMod": "ARM MODIFIER",
+                    "title": "ARMOR"
+                }
+            },
+            "ability": 
+            {
+                "headerBlock":
+                {
+                    "requisite": "PREREQUISITES",
+                    "title": "ABILITY"
+                }
+            },
+            "archetype": 
+            {
+                "headerBlock":
+                {
+                    "title": "ARCHETYPE",
+                    "allowsArc": "Gifted?"
+                }
+            },
+            "connection": 
+            {
+                "headerBlock":
+                {
+                    "title": "CONNECTION"
+                }
+            },
+            "skill":
+            {
+                "headerBlock":
+                {
+                    "title": "SKILL",
+                    "skillLevel": "LEVEL",
+                    "untrained": "USABLE UNTRAINED?",
+                    "type": "TYPE"
+                },
+                "body":
+                {
+                    "untrained": "UNTRAINED ROLLS",
+                    "assisted": "ASSISTED ROLLS",
+                    "gmNotes": "GM NOTES",
+                    "trained": "TRAINED ROLLS"
+                }
+            },
+            "race":
+            {
+                "headerBlock":
+                {
+                    "title": "RACE",
+                    "archetypes": "ARCHETYPES",
+                    "languages": "LANGUAGES",
+                    "height": "HEIGHT",
+                    "weight": "WEIGHT",
+                    "base": "BASE SIZE"
+                },
+                "body":
+                {
+                    "title": "STATS",
+                    "startingTitle": "STARTING",
+                    "heroTitle": "HERO LIMIT",
+                    "vetTitle": "VET LIMIT",
+                    "epicTitle": "EPIC LIMIT",
+                    "phy":"PHY",
+                    "spd":"SPD",
+                    "str":"STR",
+                    "max":"MAX",
+                    "agl":"AGL",
+                    "prw":"PRW",
+                    "poi":"POI",
+                    "int":"INT",
+                    "arc":"ARC",
+                    "per":"PER",
+                    "aditionalCharacteristics": "ADDITIONAL CHARACTERISTICS"
+                }
+            },
+            "career": 
+            {
+                "headerBlock": 
+                {
+                    "title": "CAREER",
+                    "prereq": "PREREQUISITES",
+                    "spellcasting": "SPELLCASTING TYPE"
+                },
+                "body": 
+                {
+                    "starting": 
+                    {
+                        "title": "STARTING",
+                        "abilities": "ABILITIES",
+                        "military-skills": "MILITARY SKILLS",
+                        "occ-skills": "OCCUPATIONAL SKILLS",
+                        "spells": "SPELLS",
+                        "connections": "CONNECTIONS",
+                        "assets": "ASSETS",
+                        "special": "SPECIAL"
+                    },
+                    "advancement": 
+                    {
+                        "title": "ADVANCEMENT",
+                        "abilities": "ABILITIES",
+                        "military-skills": "MILITARY SKILLS",
+                        "occ-skills": "OCCUPATIONAL SKILLS",
+                        "spells": "SPELLS",
+                        "connections": "CONNECTIONS"
+                    }
+                }
+            }
+
+        }
+    }
+}

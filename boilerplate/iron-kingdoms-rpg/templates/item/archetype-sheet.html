@@ -1,0 +1,24 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="item-sheet-header-block">
+        {{> "systems/iron-kingdoms-rpg/templates/item/partials/archetype-header-block.hbs"}}
+    </header>
+
+    <section class="sheet-body">
+
+        {{!-- Description --}}
+            <div class="item-sheet-description" style="height: 400px">
+                <table class="actor-sheet-header-table" style="height: 400px;">
+                    <caption class="actor-sheet-header-table-label">
+                        {{localize "ikrpg.itemSheetLabels.shared.body.description"}}
+                    </caption>
+                    <tr>
+                        <td style="height: 400px;">
+                            <div class="description-block">
+                                {{editor content=data.description target="data.description" button=true owner=owner editable=editable}}                
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+    </section>
+</form>

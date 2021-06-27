@@ -176,6 +176,7 @@
 .iron-kingdoms-rpg .sheet-body .tab,
 .iron-kingdoms-rpg .sheet-body .tab .editor {
   height: 100%;
+  min-height:150px;
 }
 
 .iron-kingdoms-rpg .tox .tox-editor-container {
@@ -245,4 +246,221 @@
   -ms-flex: 0 0 86px;
   flex: 0 0 86px;
   text-align: right;
+}
+
+/*Character Sheet*/
+.actor-sheet-body
+{
+   display: flex;
+}
+
+/*Stats Block*/
+.actor-sheet-stat-value
+{
+   background-color: white;
+    border: 1px solid;
+    display: inline-block;
+    width: 4em;
+    margin-right: .5em;
+    margin-bottom: .5em;
+    padding: 1em;
+}
+.actor-sheet-stat-box
+{
+   display: inline-block;
+   width: 1.5em !important;
+   height: 1.5em !important;
+   position: relative;
+   top: -0.5em;
+}
+.actor-sheet-stat-name-label
+{   
+   display: inline-block;
+   font-weight: bold;
+   font-size: 1em;
+}
+.actor-sheet-stat-value-max
+{
+   background-color:white;
+   
+   border: 1px solid;
+   display: inline-block;
+   width: 4em;
+   margin-right: .5em;
+   margin-bottom: .5em;
+   padding: 1em 1em 1em 1em;
+}
+.actor-sheet-stat-box-max
+{
+   width: 1.5em !important;
+   height: 1.5em !important;
+   top: -3em;
+   border-radius: .5em;
+}
+.actor-sheet-stat-max-label
+{   
+   display: inline-block;
+   font-size: .9em;
+}
+.actor-sheet-stats-table-label
+{
+   background-color: black;
+   color: white;
+   width: 20%;
+
+   border-top: none;
+   display: table-caption;
+}
+.actor-sheet-stat-table
+{
+   border: 1px solid;
+   border-radius: 0em .5em .5em .5em;
+   border-collapse:separate;
+   display: table-caption;
+}
+/*End Stat Block*/
+
+/*Header Block*/
+.actor-sheet-header-table-label
+{
+   background-color: black;
+   color: white;
+
+   border-top: none;
+   display: table-caption;
+}
+.actor-sheet-header-table
+{
+   border: 1px solid;
+   border-radius: 0em 0em .5em .5em;
+   border-collapse:separate;
+}
+.actor-sheet-header-field-box
+{
+   outline: 0 !important;
+   border-width: 0 0 2px !important;
+}
+.actor-sheet-header-field-name-label
+{
+   font-weight: bold;
+}
+/*End Header Block*/
+
+/*Skill Block*/
+.actor-sheet-skill-table-label
+{
+   background-color: black;
+   color: white;
+   width: 20%;
+
+   border-top: none;
+   display: table-caption;
+}
+.actor-sheet-skill-table
+{
+   border: 1px solid;
+   border-radius: 0em .5em .5em .5em;
+   border-collapse:separate;
+   display: table-caption;
+}
+.actor-sheet-skill-block
+{
+   margin-left: .5em;
+}
+
+.actor-sheet-skill-value
+{
+   background-color: white;
+    border: 1px solid;
+    display: inline-block;
+    width: 2em !important;
+    margin-right: .5em;
+    margin-bottom: .5em;
+    padding: 1em;
+}
+/*End Skill Block*/
+
+/*Start Damage Capacity*/
+.actor-sheet-damage-capacity-table-label
+{
+   background-color: black;
+   color: white;
+   width: 60%;
+
+   border-top: none;
+   display: table-caption;
+}
+.actor-sheet-damage-capacity-block
+{
+   margin-left: .5em;
+}
+.actor-sheet-damage-capacity-checkbox-line
+{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.actor-sheet-damage-capacity-phy-group
+{
+  background-color: rgba(40, 85, 209, 0.534);
+}
+
+.actor-sheet-damage-capacity-agl-group
+{
+  background-color: rgba(216, 24, 24, 0.534) !important;
+}
+
+.actor-sheet-damage-capacity-int-group
+{
+  background-color: rgba(21, 143, 10, 0.534);
+}
+
+
+/*End Damage Capacity*/
+/*End Character Sheet*/
+
+/*Item Sheet*/
+.description-block {
+  min-height: 150px;
+  height: 100%;
+}
+
+.iron-kingdoms-rpg .description-block .editor {
+  height: 100%;
+  min-height: 145px;
+  width:100%
+}
+
+/* Race */
+.race-sheet-header-row{
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.race-sheet-header-cell{
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.race-sheet-starter-field {
+  background-color: #c7cfad;
+}
+
+.race-sheet-advancement-field {
+  background-color: #d3c2af;
+}
+
+/* Career */
+.career-sheet-header-cell{
+  background-color: black;
+  color: white;
+  font-size: small;
+  word-wrap: normal;
+}
+
+.career-sheet-starter-field {
+  background-color: #c7cfad;
 }

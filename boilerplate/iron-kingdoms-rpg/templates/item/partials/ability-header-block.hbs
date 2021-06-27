@@ -1,0 +1,39 @@
+   <section>
+            <table class="actor-sheet-header-table">
+                <caption class="actor-sheet-header-table-label">
+                    {{localize "ikrpg.itemSheetLabels.ability.headerBlock.title"}}
+                </caption>
+                <tr>
+                    <td colspan="2">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="name"
+                                type="text"
+                                value="{{item.name}}"
+                                data-type="Text"
+                            />
+                            <label class="actor-sheet-header-field-name-label">
+                                {{localize "ikrpg.itemSheetLabels.shared.headerBlock.name"}}
+                            </label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.requisite.value"
+                                type="text"
+                                value="{{data.requisite.value}}"
+                                data-type="Text"
+                            />
+                            <label class="actor-sheet-header-field-name-label">
+                                {{localize "ikrpg.itemSheetLabels.ability.headerBlock.requisite"}}
+                            </label>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </section>

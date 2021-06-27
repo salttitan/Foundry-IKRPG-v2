@@ -1,0 +1,53 @@
+   <section>
+            <table class="actor-sheet-header-table">
+                <caption class="actor-sheet-header-table-label">
+                    {{localize "ikrpg.itemSheetLabels.career.headerBlock.title"}}
+                </caption>
+                <tr>
+                    <td colspan="2">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="name"
+                                type="text"
+                                value="{{item.name}}"
+                                data-type="Text"
+                            />
+                            <label class="actor-sheet-header-field-name-label">
+                                {{localize "ikrpg.itemSheetLabels.shared.headerBlock.name"}}
+                            </label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.prerequisites"
+                                type="text"
+                                value="{{data.prerequisites}}"
+                                data-type="Text"
+                            />
+                            <label class="actor-sheet-header-field-name-label">
+                                {{localize "ikrpg.itemSheetLabels.career.headerBlock.prereq"}}
+                            </label>
+                        </div>
+                    </td>
+                     <td>
+                        <div class="actor-sheet-header-field">
+                            <input
+                                class="actor-sheet-header-field-box"
+                                name="data.spellcasting",
+                                type="text"
+                                value="{{data.spellcasting}}"
+                                data-type="Text"
+                            />
+                             <label class="actor-sheet-header-field-name-label">
+                                {{localize "ikrpg.itemSheetLabels.career.headerBlock.spellcasting"}}
+                            </label>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </section>

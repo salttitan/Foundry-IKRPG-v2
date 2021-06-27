@@ -1,6 +1,6 @@
 {
     "Actor": {
-        "types": ["character"],
+        "types": ["character", "enemy"],
         "templates": {
             "baseActor":{
                 "stats":{
@@ -17,10 +17,18 @@
                 "def":0,
                 "arm":0,
                 "initiative":0
+            },
+            "vitalSpiral":{
+                "line1":{"damage":0, "max":0, "current":0},
+                "line2":{"damage":0, "max":0, "current":0},
+                "line3":{"damage":0, "max":0, "current":0},
+                "line4":{"damage":0, "max":0, "current":0},
+                "line5":{"damage":0, "max":0, "current":0},
+                "line6":{"damage":0, "max":0, "current":0}
             }
         },
         "character":{
-            "templates":["baseActor"],
+            "templates":["baseActor", "vitalSpiral"],
             "header":{
                 "sex":"",
                 "definingCharacteristics":"",
@@ -67,17 +75,17 @@
         }
     },
     "Item": {
-        "types": ["armor", "meleeWeapon", "rangedWeapon", "skill", "race", "archetype", "connection", "ability", "spell", "enemyAttackRanged", "enemyAtackMelee", "object"],
+        "types": ["armor", "meleeWeapon", "rangedWeapon", "skill", "race", "archetype", "connection", "ability", "spell", "enemyAttackRanged", "enemyAtackMelee", "object", "career"],
         "templates": {
-            "buyableItem": {
-                "description": "",
-                "price": 0
-            },
-            "weapon": {
-                "POW": 0,
-                "attackModifier": 0,
-                "special": "",
-                "skill": ""
+        "buyableItem": {
+            "description": "",
+            "price": 0
+        },
+        "weapon": {
+            "POW": 0,
+            "attackModifier": 0,
+            "special": "",
+            "skill": ""
             }
         },
         "armor": {
@@ -98,7 +106,7 @@
             "RNG": 0,
             "extreme": 0,
             "RAT": 0,
-            "ammoType": 0,
+            "ammoType": "",
             "AOE": 0,
             "MaxAmmo": 0,
             "CurrentAmmo": 0
@@ -117,10 +125,22 @@
         },
         "race":{
             "archetypes":"",
-            "height":0,
-            "weight":0,
+            "height":"",
+            "weight":"",
             "aditionalCharacteristics":"",
             "languages":"",
+            "baseSize":"",
+            "starting": {
+                "phy":0,
+                "spd":0,
+                "str":0,
+                "agl":0,
+                "poi":0,
+                "prw":0,
+                "int":0,
+                "arc":0,
+                "per":0
+            },
             "heroLimits":{
                 "phy":0,
                 "spd":0,
@@ -188,6 +208,27 @@
         "object":{
             "templates":["buyableItem"],
             "qtd":0
+        },
+        "career": {
+            "description": "",
+            "prerequisites": "",
+            "spellcasting": "",
+            "starting": {
+                "abilities": "",
+                "military_skills": "",
+                "occupational_skills": "",
+                "spells": "",
+                "connections": "",
+                "special": "",
+                "assets": ""
+            },
+            "advancement": {
+                "abilities": "",
+                "military_skills": "",
+                "occupational_skills": "",
+                "spells": "",
+                "connections": ""
+            }
         }
     }
 }

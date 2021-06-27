@@ -3,105 +3,112 @@
  * @extends {ActorSheet}
  */
 export class ikrpgActorSheet extends ActorSheet {
-
-  /** @override */
-  static get defaultOptions() {
-    return mergeObject(super.defaultOptions, {
-      classes: ["iron-kingdoms-rpg", "sheet", "actor"],
-      template: "systems/iron-kingdoms-rpg/templates/actor/actor-sheet.html",
-      width: 600,
-      height: 600,
-      tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "description" }]
-    });
+  
+  get template() {
+    const path = "systems/iron-kingdoms-rpg/templates/actor";
+    return `${path}/${this.actor.data.type}-sheet.html`;
   }
 
-  /* -------------------------------------------- */
-
-  /** @override */
-  getData() {
+  getData() 
+  {
     const data = super.getData();
-    data.dtypes = ["String", "Number", "Boolean"];
-    for (let attr of Object.values(data.data.attributes)) {
-      attr.isCheckbox = attr.dtype === "Boolean";
+    console.log(data);
+    data.skill_list=[];
+
+    let previousSpec = '';
+    for (const skill of data.items) {
+      data.skill_list.push(skill);
     }
     return data;
   }
 
-  /** @override */
-  activateListeners(html) {
+  activateListeners(html)
+  {
+    html.find(".inline-edit").change(this._onSkillEdit.bind(this));
+    html.find(".item-delete").click(this._onItemDelete.bind(this));
+    html.find(".main-stat").change(this._onMainStatEdit.bind(this));
+    html.find(".vital-check").change(this._onDamageEdit.bind(this));
+
     super.activateListeners(html);
+  }
+  _onItemDelete(event)
+  {
+    event.preventDefault();
+    let element = event.currentTarget;
+    let itemId = element.closest(".item").dataset.itemId;
 
-    // Everything below here is only needed if the sheet is editable
-    if (!this.options.editable) return;
+    console.log("deletando");
+    console.log(itemId);
 
-    // Add Inventory Item
-    html.find('.item-create').click(this._onItemCreate.bind(this));
-
-    // Update Inventory Item
-    html.find('.item-edit').click(ev => {
-      const li = $(ev.currentTarget).parents(".item");
-      const item = this.actor.getOwnedItem(li.data("itemId"));
-      item.sheet.render(true);
-    });
-
-    // Delete Inventory Item
-    html.find('.item-delete').click(ev => {
-      const li = $(ev.currentTarget).parents(".item");
-      this.actor.deleteOwnedItem(li.data("itemId"));
-      li.slideUp(200, () => this.render(false));
-    });
-
-    // Rollable abilities.
-    html.find('.rollable').click(this._onRoll.bind(this));
+    return this.actor.deleteOwnedItem(itemId);
   }
 
-  /* -------------------------------------------- */
-
-  /**
-   * Handle creating a new Owned Item for the actor using initial data defined in the HTML dataset
-   * @param {Event} event   The originating click event
-   * @private
-   */
-  _onItemCreate(event) {
+  _onSkillEdit(event)
+  {
     event.preventDefault();
-    const header = event.currentTarget;
-    // Get the type of item to create.
-    const type = header.dataset.type;
-    // Grab any data associated with this control.
-    const data = duplicate(header.dataset);
-    // Initialize a default name.
-    const name = `New ${type.capitalize()}`;
-    // Prepare the item object.
-    const itemData = {
-      name: name,
-      type: type,
-      data: data
-    };
-    // Remove the type from the dataset since it's in the itemData.type prop.
-    delete itemData.data["type"];
-
-    // Finally, create the item!
-    return this.actor.createOwnedItem(itemData);
+    let element = event.currentTarget;
+    let itemId = element.closest(".item").dataset.itemId;
+    let item =this.actor.getOwnedItem(itemId);
+    let field = element.dataset.field;
+    return item.update({[field]: element.value});
   }
 
-  /**
-   * Handle clickable rolls.
-   * @param {Event} event   The originating click event
-   * @private
-   */
-  _onRoll(event) {
-    event.preventDefault();
-    const element = event.currentTarget;
-    const dataset = element.dataset;
-
-    if (dataset.roll) {
-      let roll = new Roll(dataset.roll, this.actor.data.data);
-      let label = dataset.label ? `Rolling ${dataset.label}` : '';
-      roll.roll().toMessage({
-        speaker: ChatMessage.getSpeaker({ actor: this.actor }),
-        flavor: label
-      });
+  _onMainStatEdit(event)
+  {
+    let element = event.currentTarget;
+    let statName = element.name;
+    let statValue = element.value;
+    switch(statName)
+    {
+      case("data.stats.phy.value"):
+        let l1value = Math.round(statValue/2);
+        let l2value = statValue-l1value;
+        this.actor.update({data: {line1:{ max:{ value: l1value}}}});
+        this.actor.update({data: {line2:{ max:{ value: l2value}}}});
+        this.actor.update({data: {line1:{ current:{ value: (l1value-this.actor.data.data.line1.damage.value) }}}});
+        this.actor.update({data: {line2:{ current:{ value: (l2value-this.actor.data.data.line2.damage.value) }}}});
+        break;
+      case("data.stats.agl.value"):
+        let l3value = Math.round(statValue/2);
+        let l4value = statValue-l3value;
+        this.actor.update({data: {line3:{ max:{ value: l3value}}}});
+        this.actor.update({data: {line4:{ max:{ value: l4value}}}});
+        this.actor.update({data: {line3:{ current:{ value: (l3value-this.actor.data.data.line3.damage.value) }}}});
+        this.actor.update({data: {line4:{ current:{ value: (l4value-this.actor.data.data.line4.damage.value) }}}});
+        break;
+      case("data.stats.int.value"):
+        let l5value = Math.round(statValue/2);
+        let l6value = statValue-l5value;
+        this.actor.update({data: {line5:{ max:{ value: l5value}}}});
+        this.actor.update({data: {line6:{ max:{ value: l6value}}}});
+        this.actor.update({data: {line5:{ current:{ value: (l5value-this.actor.data.data.line5.damage.value) }}}});
+        this.actor.update({data: {line6:{ current:{ value: (l6value-this.actor.data.data.line6.damage.value) }}}});
+        break;
     }
   }
 
+  _onDamageEdit(event)
+  {
+    event.preventDefault();
+    var l1damage = document.querySelectorAll(".line1:checked").length;
+    var l2damage = document.querySelectorAll(".line2:checked").length;
+    var l3damage = document.querySelectorAll(".line3:checked").length;
+    var l4damage = document.querySelectorAll(".line4:checked").length;
+    var l5damage = document.querySelectorAll(".line5:checked").length;
+    var l6damage = document.querySelectorAll(".line6:checked").length;
+
+    this.actor.update({data: {line1:{ current:{ value: (this.actor.data.data.line1.max.value-l1damage) }}}});
+    this.actor.update({data: {line2:{ current:{ value: (this.actor.data.data.line2.max.value-l2damage) }}}});
+    this.actor.update({data: {line3:{ current:{ value: (this.actor.data.data.line3.max.value-l3damage) }}}});
+    this.actor.update({data: {line4:{ current:{ value: (this.actor.data.data.line4.max.value-l4damage) }}}});
+    this.actor.update({data: {line5:{ current:{ value: (this.actor.data.data.line5.max.value-l5damage) }}}});
+    this.actor.update({data: {line6:{ current:{ value: (this.actor.data.data.line6.max.value-l6damage) }}}});
+
+    this.actor.update({data: {line1:{ damage:{ value: l1damage }}}});
+    this.actor.update({data: {line2:{ damage:{ value: l2damage }}}});
+    this.actor.update({data: {line3:{ damage:{ value: l3damage }}}});
+    this.actor.update({data: {line4:{ damage:{ value: l4damage }}}});
+    this.actor.update({data: {line5:{ damage:{ value: l5damage }}}});
+    this.actor.update({data: {line6:{ damage:{ value: l6damage }}}});
+  }
 }
