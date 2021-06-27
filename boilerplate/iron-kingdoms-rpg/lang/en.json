@@ -191,7 +191,40 @@
                     "per":"PER",
                     "aditionalCharacteristics": "ADDITIONAL CHARACTERISTICS"
                 }
+            },
+            "career": 
+            {
+                "headerBlock": 
+                {
+                    "title": "CAREER",
+                    "prereq": "PREREQUISITES",
+                    "spellcasting": "SPELLCASTING TYPE"
+                },
+                "body": 
+                {
+                    "starting": 
+                    {
+                        "title": "STARTING",
+                        "abilities": "ABILITIES",
+                        "military-skills": "MILITARY SKILLS",
+                        "occ-skills": "OCCUPATIONAL SKILLS",
+                        "spells": "SPELLS",
+                        "connections": "CONNECTIONS",
+                        "assets": "ASSETS",
+                        "special": "SPECIAL"
+                    },
+                    "advancement": 
+                    {
+                        "title": "ADVANCEMENT",
+                        "abilities": "ABILITIES",
+                        "military-skills": "MILITARY SKILLS",
+                        "occ-skills": "OCCUPATIONAL SKILLS",
+                        "spells": "SPELLS",
+                        "connections": "CONNECTIONS"
+                    }
+                }
             }
+
         }
     }
 }

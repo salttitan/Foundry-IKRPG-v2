@@ -75,7 +75,7 @@
         }
     },
     "Item": {
-        "types": ["armor", "meleeWeapon", "rangedWeapon", "skill", "race", "archetype", "connection", "ability", "spell", "enemyAttackRanged", "enemyAtackMelee", "object"],
+        "types": ["armor", "meleeWeapon", "rangedWeapon", "skill", "race", "archetype", "connection", "ability", "spell", "enemyAttackRanged", "enemyAtackMelee", "object", "career"],
         "templates": {
         "buyableItem": {
             "description": "",
@@ -86,7 +86,7 @@
             "attackModifier": 0,
             "special": "",
             "skill": ""
-        }
+            }
         },
         "armor": {
             "templates":["buyableItem"],
@@ -208,6 +208,27 @@
         "object":{
             "templates":["buyableItem"],
             "qtd":0
+        },
+        "career": {
+            "description": "",
+            "prerequisites": "",
+            "spellcasting": "",
+            "starting": {
+                "abilities": "",
+                "military_skills": "",
+                "occupational_skills": "",
+                "spells": "",
+                "connections": "",
+                "special": "",
+                "assets": ""
+            },
+            "advancement": {
+                "abilities": "",
+                "military_skills": "",
+                "occupational_skills": "",
+                "spells": "",
+                "connections": ""
+            }
         }
     }
 }

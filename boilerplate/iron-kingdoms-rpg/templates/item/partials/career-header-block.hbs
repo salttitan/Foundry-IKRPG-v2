@@ -1,7 +1,7 @@
    <section>
             <table class="actor-sheet-header-table">
                 <caption class="actor-sheet-header-table-label">
-                    {{localize "ikrpg.itemSheetLabels.archetype.headerBlock.title"}}
+                    {{localize "ikrpg.itemSheetLabels.career.headerBlock.title"}}
                 </caption>
                 <tr>
                     <td colspan="2">
@@ -11,6 +11,7 @@
                                 name="name"
                                 type="text"
                                 value="{{item.name}}"
+                                data-type="Text"
                             />
                             <label class="actor-sheet-header-field-name-label">
                                 {{localize "ikrpg.itemSheetLabels.shared.headerBlock.name"}}
@@ -22,42 +23,28 @@
                     <td>
                         <div class="actor-sheet-header-field">
                             <input 
-                                class="actor-sheet-header-field-box skill-type-box"
-                                name="data.Type"
+                                class="actor-sheet-header-field-box"
+                                name="data.prerequisites"
                                 type="text"
-                                value="{{data.Type}}"
-                                data-dtype="Text"
+                                value="{{data.prerequisites}}"
+                                data-type="Text"
                             />
                             <label class="actor-sheet-header-field-name-label">
-                                {{localize "ikrpg.itemSheetLabels.skill.headerBlock.type"}}
+                                {{localize "ikrpg.itemSheetLabels.career.headerBlock.prereq"}}
                             </label>
                         </div>
                     </td>
-                    <td>
+                     <td>
                         <div class="actor-sheet-header-field">
-                            <input 
+                            <input
                                 class="actor-sheet-header-field-box"
-                                name="data.skillLevel"
-                                type="number"
-                                value="{{data.skillLevel}}"
-                                data-dtype="Number"
+                                name="data.spellcasting",
+                                type="text"
+                                value="{{data.spellcasting}}"
+                                data-type="Text"
                             />
-                            <label class="actor-sheet-header-field-name-label">
-                                {{localize "ikrpg.itemSheetLabels.skill.headerBlock.skillLevel"}}
-                            </label>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="actor-sheet-header-field">
-                            <input 
-                                class="actor-sheet-header-field-box"
-                                name="data.canBeUsedUntrained"
-                                type="checkbox"
-                                value="{{data.canBeUsedUntrained}}"
-                                {{checked data.canBeUsedUntrained}}
-                            />
-                            <label class="actor-sheet-header-field-name-label">
-                                {{localize "ikrpg.itemSheetLabels.skill.headerBlock.untrained"}}
+                             <label class="actor-sheet-header-field-name-label">
+                                {{localize "ikrpg.itemSheetLabels.career.headerBlock.spellcasting"}}
                             </label>
                         </div>
                     </td>

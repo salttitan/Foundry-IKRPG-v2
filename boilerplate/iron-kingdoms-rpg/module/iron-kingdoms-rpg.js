@@ -21,6 +21,8 @@ async function preloadHandlebarsTemplate()
     "systems/iron-kingdoms-rpg/templates/item/partials/race-header-block.hbs",
     "systems/iron-kingdoms-rpg/templates/item/partials/race-stats-block.hbs",
     "systems/iron-kingdoms-rpg/templates/item/partials/race-rules-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/item/partials/career-rules-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/item/partials/career-header-block.hbs",
   ];
 
   return loadTemplates(templatePaths);

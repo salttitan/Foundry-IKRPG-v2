@@ -447,9 +447,20 @@
 
 .race-sheet-starter-field {
   background-color: #c7cfad;
-  
 }
 
 .race-sheet-advancement-field {
   background-color: #d3c2af;
+}
+
+/* Career */
+.career-sheet-header-cell{
+  background-color: black;
+  color: white;
+  font-size: small;
+  word-wrap: normal;
+}
+
+.career-sheet-starter-field {
+  background-color: #c7cfad;
 }
