@@ -1,0 +1,51 @@
+<section>
+    <table class="actor-sheet-stat-table">
+        <caption class="actor-sheet-stats-table-label">
+            {{localize "ikrpg.actorSheetLabels.xpBlock.title"}}
+        </caption>
+        <tr>
+            <td>
+                <div class="actor-sheet-stat-value">
+                <input
+                  name="data.featPoints.value"
+                  class="actor-sheet-stat-box stat  commandRange-stat"
+                  type="text"
+                  value="{{data.featPoints.value}}"
+                  data-type="Number"
+                />
+                <label class="actor-sheet-stat-name-label">
+                  {{localize "ikrpg.actorSheetLabels.xpBlock.feats"}}
+                </label>
+              </div>
+            </td>
+            <td>
+                <div class="actor-sheet-stat-value">
+                <input
+                  name="data.header.xpEarned.value"
+                  class="actor-sheet-stat-box"
+                  type="text"
+                  value="{{data.header.xpEarned.value}}"
+                  data-type="Number"
+                />
+                <label class="actor-sheet-stat-name-label">
+                  {{localize "ikrpg.actorSheetLabels.xpBlock.xp"}}
+                </label>
+              </div>
+            </td>
+            <td>
+                <div class="actor-sheet-header-field">
+                    <input
+                        class="actor-sheet-header-field-box"
+                        name="data.header.level.value"
+                        type="text"
+                        value="{{data.header.level.value}}"
+                        data-type="Text"
+                    />
+                    <label class="actor-sheet-header-field-name-label">
+                        {{localize "ikrpg.actorSheetLabels.xpBlock.level"}}
+                    </label>
+                </div>
+            </td>
+        </tr>
+    </table>
+</section>

@@ -1,0 +1,83 @@
+<section>
+    <table class="actor-sheet-stat-table">
+        <caption class="actor-sheet-stats-table-label">
+            {{localize "ikrpg.actorSheetLabels.initiativeBlock.title"}}
+        </caption>
+        <tr>
+            <td>
+                <div class="actor-sheet-stat-value">
+                <input
+                  class="actor-sheet-stat-box"
+                  type="text"
+                  value="{{data.initiative.value}}"
+                  data-type="Number"
+                  disabled=true
+                />
+                <label class="actor-sheet-stat-name-label">
+                  {{localize "ikrpg.actorSheetLabels.initiativeBlock.total"}}
+                </label>
+              </div>
+            </td>
+            <td>=</td>
+            <td>
+                <div class="actor-sheet-stat-value">
+                <input
+                  class="actor-sheet-stat-box"
+                  type="text"
+                  value="{{data.stats.spd.value}}"
+                  data-type="Number"
+                  disabled=true
+                />
+                <label class="actor-sheet-stat-name-label">
+                  {{localize "ikrpg.actorSheetLabels.statBlock.spd"}}
+                </label>
+              </div>
+            </td>
+            <td>
+                <div class="actor-sheet-stat-value">
+                <input
+                  class="actor-sheet-stat-box"
+                  type="text"
+                  value="{{data.stats.prw.value}}"
+                  data-type="Number"
+                  disabled=true
+                />
+                <label class="actor-sheet-stat-name-label">
+                  {{localize "ikrpg.actorSheetLabels.statBlock.prw"}}
+                </label>
+              </div>
+            </td>
+            <td>
+                <div class="actor-sheet-stat-value">
+                <input
+                  class="actor-sheet-stat-box"
+                  type="text"
+                  value="{{data.stats.per.value}}"
+                  data-type="Number"
+                  disabled=true
+                />
+                <label class="actor-sheet-stat-name-label">
+                  {{localize "ikrpg.actorSheetLabels.statBlock.per"}}
+                </label>
+              </div>
+            </td>
+            <td>
+                {{localize "ikrpg.actorSheetLabels.initiativeBlock.equipment"}}
+            </td>
+            <td>
+              <div class="actor-sheet-stat-value">
+                <input
+                  name="data.initiativeModifiers.additionalModifier.value"
+                  class="actor-sheet-stat-box stat initiative-stat"
+                  type="text"
+                  value="{{data.initiativeModifiers.additionalModifier.value}}"
+                  data-type="Number"
+                />
+                <label class="actor-sheet-stat-name-label">
+                  {{localize "ikrpg.actorSheetLabels.initiativeBlock.additional"}}
+                </label>
+              </div>
+            </td>
+        </tr>
+    </table>
+</section>

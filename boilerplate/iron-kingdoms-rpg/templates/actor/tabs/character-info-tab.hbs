@@ -1,0 +1,86 @@
+<div class="actor-sheet-body">
+    <div class="info-block portrait-block">
+        {{> "systems/iron-kingdoms-rpg/templates/actor/partials/character-portrait-block.hbs"}}
+    </div>
+    <div class="info-block defining-characterists-block">
+        <table class="actor-sheet-header-table defining-characterists-table">
+            <caption class="actor-sheet-header-table-label">
+                {{localize "ikrpg.actorSheetLabels.infoTab.definingCharacteristics"}}
+            </caption>
+            <tr>
+                <td >
+                    <article>
+                    <div class="description-block">
+                        {{editor content=data.header.definingCharacteristics target="data.header.definingCharacteristics" button=true owner=owner editable=editable}}                
+                    </div>
+                    </article>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="actor-sheet-body">
+    <div class="info-block info-tab-block">
+        <table class="actor-sheet-header-table">
+            <caption class="actor-sheet-header-table-label">
+                {{localize "ikrpg.actorSheetLabels.infoTab.biography"}}
+            </caption>
+            <tr>
+                <td >
+                    <article>
+                    <div class="description-block">
+                        {{editor content=data.biography target="data.biography" button=true owner=owner editable=editable}}                
+                    </div>
+                    </article>
+                </td>
+            </tr>
+        </table>
+
+        <table class="actor-sheet-header-table">
+            <caption class="actor-sheet-header-table-label">
+                {{localize "ikrpg.actorSheetLabels.infoTab.religiousBeliefs"}}
+            </caption>
+            <tr>
+                <td >
+                    <article>
+                    <div class="description-block">
+                        {{editor content=data.religiousBeliefs target="data.religiousBeliefs" button=true owner=owner editable=editable}}                
+                    </div>
+                    </article>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="info-block info-tab-block">
+        <table class="actor-sheet-header-table">
+            <caption class="actor-sheet-header-table-label">
+                {{localize "ikrpg.actorSheetLabels.infoTab.permanentInjuries"}}
+            </caption>
+            <tr>
+                <td >
+                    <article>
+                    <div class="description-block">
+                        {{editor content=data.permanentInjuries target="data.permanentInjuries" button=true owner=owner editable=editable}}                
+                    </div>
+                    </article>
+                </td>
+            </tr>
+        </table>
+
+        <table class="actor-sheet-header-table">
+            <caption class="actor-sheet-header-table-label">
+                {{localize "ikrpg.actorSheetLabels.infoTab.spokenLanguages"}}
+            </caption>
+            <tr>
+                <td >
+                    <article>
+                    <div class="description-block">
+                        {{editor content=data.spokenLanguages target="data.spokenLanguages" button=true owner=owner editable=editable}}                
+                    </div>
+                    </article>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
