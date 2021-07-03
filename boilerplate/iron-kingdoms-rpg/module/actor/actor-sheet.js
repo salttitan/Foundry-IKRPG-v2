@@ -40,6 +40,7 @@ export class ikrpgActorSheet extends ActorSheet {
     html.find(".willpower-stat").change(this.calculateWillpower.bind(this));
     html.find(".def-stat").change(this.calculateDef.bind(this));
     html.find(".vital-check").change(this._onDamageEdit.bind(this));
+    html.find(".xp-stat").change(this.calculateLevel.bind(this));
 
     super.activateListeners(html);
   }
@@ -262,5 +263,26 @@ export class ikrpgActorSheet extends ActorSheet {
     this.actor.update({data: {line4:{ damage:{ value: l4damage }}}});
     this.actor.update({data: {line5:{ damage:{ value: l5damage }}}});
     this.actor.update({data: {line6:{ damage:{ value: l6damage }}}});
+  }
+
+  calculateLevel(event){
+    let statName = event.currentTarget.name;
+    let statValue = event.currentTarget.value;
+
+    if(statValue>=50)
+    {
+      if(statValue>=100)
+      {
+        this.actor.update({data:{header: { level: {value:"EPIC"}}}});
+      }
+      else
+      {
+        this.actor.update({data:{header: { level: {value:"VETERAN"}}}});
+      }
+    }
+    else
+    {
+      this.actor.update({data:{header: { level: {value:"HERO"}}}});
+    }
   }
 }

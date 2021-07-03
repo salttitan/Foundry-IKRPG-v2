@@ -22,7 +22,7 @@
                 <div class="actor-sheet-stat-value">
                 <input
                   name="data.header.xpEarned.value"
-                  class="actor-sheet-stat-box"
+                  class="actor-sheet-xp-stat-box xp-stat"
                   type="text"
                   value="{{data.header.xpEarned.value}}"
                   data-type="Number"
@@ -33,17 +33,21 @@
               </div>
             </td>
             <td>
-                <div class="actor-sheet-header-field">
-                    <input
-                        class="actor-sheet-header-field-box"
-                        name="data.header.level.value"
-                        type="text"
-                        value="{{data.header.level.value}}"
-                        data-type="Text"
-                    />
-                    <label class="actor-sheet-header-field-name-label">
-                        {{localize "ikrpg.actorSheetLabels.xpBlock.level"}}
-                    </label>
+                <div class="actor-sheet-stat-value">
+                  <label class="level-label">
+                    {{#if (ifCond data.header.xpEarned.value "<" 50)}}
+                      {{localize "ikrpg.actorSheetLabels.xpBlock.levels.hero"}}
+                    {{else}}
+                      {{#if (ifCond data.header.xpEarned.value "<" 100)}}
+                        {{localize "ikrpg.actorSheetLabels.xpBlock.levels.veteran"}}
+                      {{else}}
+                        {{localize "ikrpg.actorSheetLabels.xpBlock.levels.epic"}}
+                      {{/if}}
+                    {{/if}}
+                  </label>
+                  <label class="actor-sheet-header-field-name-label">
+                      {{localize "ikrpg.actorSheetLabels.xpBlock.level"}}
+                  </label>
                 </div>
             </td>
         </tr>

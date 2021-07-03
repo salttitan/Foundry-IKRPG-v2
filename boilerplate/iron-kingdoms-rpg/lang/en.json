@@ -99,8 +99,17 @@
                 "title":"OTHER INFO",
                 "xp":"XP",
                 "feats":"Feats",
-                "level":"LEVEL"
+                "level":"LEVEL",
+                "levels": {
+                    "hero":"HERO",
+                    "veteran":"VETERAN",
+                    "epic":"EPIC"
+                }
             }
+        },
+        "configFile":
+        {
+            
         }
     }
 }
