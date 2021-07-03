@@ -176,6 +176,7 @@
 .iron-kingdoms-rpg .sheet-body .tab,
 .iron-kingdoms-rpg .sheet-body .tab .editor {
   height: 100%;
+  min-height:150px;
 }
 
 .iron-kingdoms-rpg .tox .tox-editor-container {
@@ -406,6 +407,53 @@
 
 /*End Damage Capacity*/
 
+/*End Damage Capacity*/
+/*End Character Sheet*/
+
+/*Item Sheet*/
+.description-block {
+  min-height: 150px;
+  height: 100%;
+}
+
+.iron-kingdoms-rpg .description-block .editor {
+  height: 100%;
+  min-height: 145px;
+  width:100%
+}
+
+/* Race */
+.race-sheet-header-row{
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.race-sheet-header-cell{
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.race-sheet-starter-field {
+  background-color: #c7cfad;
+}
+
+.race-sheet-advancement-field {
+  background-color: #d3c2af;
+}
+
+/* Career */
+.career-sheet-header-cell{
+  background-color: black;
+  color: white;
+  font-size: small;
+  word-wrap: normal;
+}
+
+.career-sheet-starter-field {
+  background-color: #c7cfad;
+}
 /*xp block*/
 
 .actor-sheet-xp-stat-box

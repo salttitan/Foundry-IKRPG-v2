@@ -75,17 +75,17 @@
         }
     },
     "Item": {
-        "types": ["armor", "meleeWeapon", "rangedWeapon", "skill", "race", "archetype", "connection", "ability", "spell", "enemyAttackRanged", "enemyAtackMelee", "object"],
+        "types": ["armor", "meleeWeapon", "rangedWeapon", "skill", "race", "archetype", "connection", "ability", "spell", "enemyAttackRanged", "enemyAtackMelee", "object", "career"],
         "templates": {
-            "buyableItem": {
-                "description": "",
-                "price": 0
-            },
-            "weapon": {
-                "POW": 0,
-                "attackModifier": 0,
-                "special": "",
-                "skill": ""
+        "buyableItem": {
+            "description": "",
+            "price": 0
+        },
+        "weapon": {
+            "POW": 0,
+            "attackModifier": 0,
+            "special": "",
+            "skill": ""
             }
         },
         "armor": {
@@ -106,7 +106,7 @@
             "RNG": 0,
             "extreme": 0,
             "RAT": 0,
-            "ammoType": 0,
+            "ammoType": "",
             "AOE": 0,
             "MaxAmmo": 0,
             "CurrentAmmo": 0
@@ -125,10 +125,22 @@
         },
         "race":{
             "archetypes":"",
-            "height":0,
-            "weight":0,
+            "height":"",
+            "weight":"",
             "aditionalCharacteristics":"",
             "languages":"",
+            "baseSize":"",
+            "starting": {
+                "phy":0,
+                "spd":0,
+                "str":0,
+                "agl":0,
+                "poi":0,
+                "prw":0,
+                "int":0,
+                "arc":0,
+                "per":0
+            },
             "heroLimits":{
                 "phy":0,
                 "spd":0,
@@ -196,6 +208,27 @@
         "object":{
             "templates":["buyableItem"],
             "qtd":0
+        },
+        "career": {
+            "description": "",
+            "prerequisites": "",
+            "spellcasting": "",
+            "starting": {
+                "abilities": "",
+                "military_skills": "",
+                "occupational_skills": "",
+                "spells": "",
+                "connections": "",
+                "special": "",
+                "assets": ""
+            },
+            "advancement": {
+                "abilities": "",
+                "military_skills": "",
+                "occupational_skills": "",
+                "spells": "",
+                "connections": ""
+            }
         }
     }
 }

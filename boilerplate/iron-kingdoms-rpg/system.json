@@ -2,7 +2,7 @@
   "name": "iron-kingdoms-rpg",
   "title": "Iron Kingdoms Full Metal Fantasy",
   "description": "The Iron Kingdoms Full Metal Fantasy system for FoundryVTT!",
-  "version": "1.0.02",
+  "version": "1.0.3",
   "minimumCoreVersion": "0.7.5",
   "compatibleCoreVersion": "0.7.9",
   "templateVersion": 2,

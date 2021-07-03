@@ -1,0 +1,49 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="item-sheet-header-block">
+        {{> "systems/iron-kingdoms-rpg/templates/item/partials/ranged-weapon-header-block.hbs"}}
+    </header>
+
+    <nav class="sheet-tabs tabs" data-group="primary">
+        <a class="item" data-tab="description">Description</a>
+        <a class="item" data-tab="special">Special Rules</a>
+    </nav>
+
+    <section class="sheet-body">
+
+        {{!-- Description --}}
+        <div class="tab" data-group="primary" data-tab="description">
+            <div class="item-sheet-description" style="height: 400px">
+                <table class="actor-sheet-header-table" style="height: 400px;">
+                    <caption class="actor-sheet-header-table-label">
+                        {{localize "ikrpg.itemSheetLabels.shared.body.description"}}
+                    </caption>
+                    <tr>
+                        <td style="height: 400px;">
+                            <div class="description-block">
+                                {{editor content=data.description target="data.description" button=true owner=owner editable=editable}}                
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        {{!-- Special Rules --}}
+        <div class="tab" data-group="primary" data-tab="special">
+            <div class="item-sheet-description" style="height: 400px">
+                <table class="actor-sheet-header-table" style="height: 400px;">
+                    <caption class="actor-sheet-header-table-label">
+                        {{localize "ikrpg.itemSheetLabels.shared.body.special"}}
+                    </caption>
+                    <tr>
+                        <td style="height: 400px;">
+                            <div class="description-block">
+                                {{editor content=data.special target="data.special" button=true owner=owner editable=editable}}                
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+</form>

@@ -9,7 +9,7 @@ export class ikrpgItemSheet extends ItemSheet {
     return mergeObject(super.defaultOptions, {
       classes: ["iron-kingdoms-rpg", "sheet", "item"],
       width: 520,
-      height: 480,
+      height: 500,
       tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "description" }]
     });
   }
@@ -18,11 +18,11 @@ export class ikrpgItemSheet extends ItemSheet {
   get template() {
     const path = "systems/iron-kingdoms-rpg/templates/item";
     // Return a single sheet for all item types.
-    return `${path}/item-sheet.html`;
+    // return `${path}/item-sheet.html`;
     // Alternatively, you could use the following return statement to do a
     // unique item sheet by type, like `weapon-sheet.html`.
 
-    // return `${path}/${this.item.data.type}-sheet.html`;
+    return `${path}/${this.item.data.type}-sheet.html`;
   }
 
   /* -------------------------------------------- */
@@ -55,4 +55,6 @@ export class ikrpgItemSheet extends ItemSheet {
 
     // Roll handlers, click handlers, etc. would go here.
   }
+
+  
 }

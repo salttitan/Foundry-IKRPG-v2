@@ -1,0 +1,109 @@
+   <section>
+            <table class="actor-sheet-header-table">
+                <caption class="actor-sheet-header-table-label">
+                    {{localize "ikrpg.itemSheetLabels.spells.headerBlock.title"}}
+                </caption>
+                <tr>
+                    <td colspan="6">
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="name"
+                                type="text"
+                                value="{{item.name}}"
+                                data-type="Text"
+                            />
+                            <label class="actor-sheet-header-field-name-label">
+                                {{localize "ikrpg.itemSheetLabels.shared.headerBlock.name"}}
+                            </label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.cst.value"
+                                type="number"
+                                value="{{data.cst.value}}"
+                                data-type="Number"
+                            />
+                            <label class="actor-sheet-header-field-name-label">
+                                {{localize "ikrpg.itemSheetLabels.spells.headerBlock.cst"}}
+                            </label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.rng.value"
+                                type="number"
+                                value="{{data.rng.value}}"
+                                data-type="Number"
+                            />
+                            <label class="actor-sheet-header-field-name-label">
+                                {{localize "ikrpg.itemSheetLabels.spells.headerBlock.rng"}}
+                            </label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.aoe.value"
+                                type="number"
+                                value="{{data.aoe.value}}"
+                                data-type="Number"
+                            />
+                            <label class="actor-sheet-header-field-name-label">
+                                {{localize "ikrpg.itemSheetLabels.spells.headerBlock.aoe"}}
+                            </label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.pow.value"
+                                type="number"
+                                value="{{data.pow.value}}"
+                                data-type="Number"
+                            />
+                            <label class="actor-sheet-header-field-name-label">
+                                {{localize "ikrpg.itemSheetLabels.spells.headerBlock.pow"}}
+                            </label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.up"
+                                type="checkbox"
+                                value="{{data.up}}"
+                                {{checked data.up}}
+                            />
+                            <label class="actor-sheet-header-field-name-label">
+                                {{localize "ikrpg.itemSheetLabels.spells.headerBlock.up"}}
+                            </label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.off"
+                                type="checkbox"
+                                value="{{data.off}}"
+                                {{checked data.off}}
+                            />
+                            <label class="actor-sheet-header-field-name-label">
+                                {{localize "ikrpg.itemSheetLabels.spells.headerBlock.off"}}
+                            </label>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </section>
