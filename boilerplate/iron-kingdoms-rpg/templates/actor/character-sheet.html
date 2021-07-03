@@ -2,12 +2,19 @@
     <header class="actor-sheet-header-block">
         {{> "systems/iron-kingdoms-rpg/templates/actor/partials/character-header-block.hbs"}}
     </header>
-    <div class="actor-sheet-body">
-        <div class="actor-sheet-stat-block">
-            {{> "systems/iron-kingdoms-rpg/templates/actor/partials/character-stat-block.hbs"}}
-        </div>
-        <div class="actor-sheet-damage-capacity-block">
-            {{> "systems/iron-kingdoms-rpg/templates/actor/partials/character-vital-spiral-block.hbs"}}
-        </div>
-    </div>
+
+    <nav class="sheet-tabs tabs" data-group="primary">
+        <a class="item" data-tab="stats">{{localize "ikrpg.actorSheetLabels.navBar.stats"}}</a>
+        <a class="item" data-tab="info">{{localize "ikrpg.actorSheetLabels.navBar.info"}}</a>
+      </nav>
+
+    
+        <section class="sheet-body">
+            <div class="tab" data-tab="stats" data-group="primary">
+                {{> "systems/iron-kingdoms-rpg/templates/actor/tabs/character-stats-tab.hbs"}}
+            </div>
+            <div class="tab" data-tab="info" data-group="primary">
+                {{> "systems/iron-kingdoms-rpg/templates/actor/tabs/character-info-tab.hbs"}}
+            </div>
+        </section>
 </form>

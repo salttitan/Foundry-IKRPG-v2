@@ -4,32 +4,32 @@
         "actorSheetLabels":
         {
             "statBlock":
-                {
-                    "phy":"PHY",
-                    "spd":"SPD",
-                    "str":"STR",
-                    "max":"MAX",
-                    "agl":"AGL",
-                    "prw":"PRW",
-                    "poi":"POI",
-                    "int":"INT",
-                    "arc":"ARC",
-                    "per":"PER",
-                    "title":"STATS"
-                },
+            {
+                "phy":"PHY",
+                "spd":"SPD",
+                "str":"STR",
+                "max":"MAX",
+                "agl":"AGL",
+                "prw":"PRW",
+                "poi":"POI",
+                "int":"INT",
+                "arc":"ARC",
+                "per":"PER",
+                "willpower":"Willpower",
+                "title":"STATS"
+            },
             "headerBlock":
-                {
-                    "name":"CHARACTER NAME",
-                    "sex":"SEX",
-                    "definingCharacterists":"DEFINING CHARACTERISC(S)",
-                    "weight":"WEIGHT",
-                    "archetype":"ARCHETYPE",
-                    "race":"RACE",
-                    "careers":"CAREERS",
-                    "faith":"FAITH",
-                    "height":"HEIGHT",
-                    "title":"IRON KINGDOMS CHARACTER SHEET"
-                },
+            {
+                "name":"CHARACTER NAME",
+                "sex":"SEX",
+                "weight":"WEIGHT",
+                "archetype":"ARCHETYPE",
+                "race":"RACE",
+                "careers":"CAREERS",
+                "faith":"FAITH",
+                "height":"HEIGHT",
+                "title":"IRON KINGDOMS CHARACTER SHEET"
+            },
             "skillBlock":
                 {
                     "title":"SKILL",
@@ -45,9 +45,69 @@
                 "groupOne":"PHYSIQUE",
                 "groupTwo":"AGILITY",
                 "groupThree":"INTELLECT"
+            },
+            "defBlock":
+            {
+                "title":"DEF",
+                "total":"Total",
+                "armorMod":"Armor",
+                "equipMod":"Equipament"
+            },
+            "armBlock":
+            {
+                "title":"ARM",
+                "total":"Total",
+                "armor":"Armor",
+                "shield":"Shield",
+                "other":"Other"
+            },
+            "portraitBlock":
+            {
+                "title":"CHARACTER PORTRAIT"
+            },
+            "initiativeBlock":
+            {
+                "title":"INITIATIVE",
+                "total":"Total",
+                "equipment":"Equipment",
+                "additional":"Other"
+            },
+            "commandRangeBlock":
+            {
+                "title":"COMMAND RANGE",
+                "total":"Total",
+                "skill":"Skill",
+                "ability":"Ability"
+            },
+            "infoTab":
+            {
+                "biography":"Biography",
+                "religiousBeliefs":"Religious Beliefs",
+                "permanentInjuries":"Permanent Injuries",
+                "spokenLanguages":"Spoken Languages",
+                "definingCharacteristics":"DEFINING CHARACTERISTC(S)"
+            },
+            "navBar":
+            {
+                "stats":"Stats",
+                "info":"Info",
+                "gear":"Gear",
+                "spell":"Spell"
+            },
+            "xpBlock":
+            {
+                "title":"OTHER INFO",
+                "xp":"XP",
+                "feats":"Feats",
+                "level":"LEVEL",
+                "levels": {
+                    "hero":"HERO",
+                    "veteran":"VETERAN",
+                    "epic":"EPIC"
+                }
             }
         },
-        "skillSheetLabels":
+        "configFile":
         {
             "type":"Type",
             "atribute":"Attribute"

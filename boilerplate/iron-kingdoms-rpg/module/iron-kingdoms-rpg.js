@@ -8,6 +8,8 @@ async function preloadHandlebarsTemplate()
 {
   const templatePaths = 
   [
+    "systems/iron-kingdoms-rpg/templates/actor/tabs/character-stats-tab.hbs",
+    "systems/iron-kingdoms-rpg/templates/actor/tabs/character-info-tab.hbs",
     "systems/iron-kingdoms-rpg/templates/actor/partials/character-stat-block.hbs",
     "systems/iron-kingdoms-rpg/templates/actor/partials/character-header-block.hbs",
     "systems/iron-kingdoms-rpg/templates/actor/partials/character-vital-spiral-block.hbs",
@@ -23,6 +25,13 @@ async function preloadHandlebarsTemplate()
     "systems/iron-kingdoms-rpg/templates/item/partials/race-rules-block.hbs",
     "systems/iron-kingdoms-rpg/templates/item/partials/career-rules-block.hbs",
     "systems/iron-kingdoms-rpg/templates/item/partials/career-header-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/actor/partials/character-def-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/actor/partials/character-arm-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/actor/partials/character-initiative-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/actor/partials/character-commandRange-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/actor/partials/character-portrait-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/actor/partials/character-xp-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/actor/partials/character-vital-spiral-block.hbs"
   ];
 
   return loadTemplates(templatePaths);

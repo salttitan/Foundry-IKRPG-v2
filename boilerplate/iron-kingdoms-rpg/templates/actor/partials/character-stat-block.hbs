@@ -3,12 +3,14 @@
     <caption class="actor-sheet-stats-table-label">
       {{localize "ikrpg.actorSheetLabels.statBlock.title"}}
     </caption>
-    <tr class="actor-sheet-stat-block">
+    
+    <!--Physical stat group-->
+    <tr>
       <!--Physical stat block-->
       <td>
         <div class="actor-sheet-stat-value">
           <input
-            class="actor-sheet-stat-box main-stat"
+            class="actor-sheet-stat-box stat damage-stat arm-stat willpower-stat"
             name="data.stats.phy.value"
             type="text"
             value="{{data.stats.phy.value}}"
@@ -22,11 +24,12 @@
       <td>
         <div class="actor-sheet-stat-value-max">
           <input
-            class="actor-sheet-stat-box-max"
+             class="actor-sheet-stat-box"
             name="data.phy.max.value"
             type="text"
             value="0"
             data-type="Number"
+            disabled=true
           />
           <label class="actor-sheet-stat-max-label">
             {{localize "ikrpg.actorSheetLabels.statBlock.max"}}
@@ -35,11 +38,12 @@
       </td>
       <td>
         <table class="actor-sheet-stat-substat-table">
+          <!--spd stat block-->
           <tr>
             <td>
               <div class="actor-sheet-stat-value">
                 <input
-                  class="actor-sheet-stat-box"
+                  class="actor-sheet-stat-box stat def-stat initiative-stat"
                   name="data.stats.spd.value"
                   type="text"
                   value="{{data.stats.spd.value}}"
@@ -53,11 +57,12 @@
             <td>
               <div class="actor-sheet-stat-value-max">
                 <input
-                  class="actor-sheet-stat-box-max"
+                   class="actor-sheet-stat-box"
                   name="data.spd.max.value"
                   type="text"
                   value="0"
                   data-type="Number"
+                  disabled=true
                 />
                 <label class="actor-sheet-stat-max-label">
                   {{localize "ikrpg.actorSheetLabels.statBlock.max"}}
@@ -65,11 +70,12 @@
               </div>
             </td>
           </tr>
+          <!--str stat block-->
           <tr>
             <td>
               <div class="actor-sheet-stat-value">
                 <input
-                  class="actor-sheet-stat-box"
+                  class="actor-sheet-stat-box stat"
                   name="data.stats.str.value"
                   type="text"
                   value="{{data.stats.str.value}}"
@@ -83,11 +89,12 @@
             <td>
               <div class="actor-sheet-stat-value-max">
                 <input
-                  class="actor-sheet-stat-box-max"
+                   class="actor-sheet-stat-box"
                   name="data.str.max.value"
                   type="text"
                   value="0"
                   data-type="Number"
+                  disabled=true
                 />
                 <label class="actor-sheet-stat-max-label">
                   {{localize "ikrpg.actorSheetLabels.statBlock.max"}}
@@ -99,12 +106,13 @@
       </td>
     </tr>
 
+    <!--Agility stat group-->
     <tr>
       <!--Agility stat block-->
       <td>
         <div class="actor-sheet-stat-value">
           <input
-            class="actor-sheet-stat-box main-stat"
+            class="actor-sheet-stat-box stat damage-stat def-stat"
             name="data.stats.agl.value"
             type="text"
             value="{{data.stats.agl.value}}"
@@ -118,11 +126,12 @@
       <td>
         <div class="actor-sheet-stat-value-max">
           <input
-            class="actor-sheet-stat-box-max"
+             class="actor-sheet-stat-box"
             name="data.agl.max.value"
             type="text"
             value="0"
             data-type="Number"
+            disabled=true
           />
           <label class="actor-sheet-stat-max-label">
             {{localize "ikrpg.actorSheetLabels.statBlock.max"}}
@@ -131,11 +140,12 @@
       </td>
       <td>
         <table>
+          <!--Prw stat block-->
           <tr>
             <td>
               <div class="actor-sheet-stat-value">
                 <input
-                  class="actor-sheet-stat-box"
+                  class="actor-sheet-stat-box stat initiative-stat"
                   name="data.stats.prw.value"
                   type="text"
                   value="{{data.stats.prw.value}}"
@@ -149,11 +159,12 @@
             <td>
               <div class="actor-sheet-stat-value-max">
                 <input
-                  class="actor-sheet-stat-box-max"
+                   class="actor-sheet-stat-box"
                   name="data.prw.max.value"
                   type="text"
                   value="0"
                   data-type="Number"
+                  disabled=true
                 />
                 <label class="actor-sheet-stat-max-label">
                   {{localize "ikrpg.actorSheetLabels.statBlock.max"}}
@@ -161,11 +172,12 @@
               </div>
             </td>
           </tr>
+          <!--Poi stat block-->
           <tr>
             <td>
               <div class="actor-sheet-stat-value">
                 <input
-                  class="actor-sheet-stat-box"
+                  class="actor-sheet-stat-box stat"
                   name="data.stats.poi.value"
                   type="text"
                   value="{{data.stats.poi.value}}"
@@ -179,11 +191,12 @@
             <td>
               <div class="actor-sheet-stat-value-max">
                 <input
-                  class="actor-sheet-stat-box-max"
+                   class="actor-sheet-stat-box"
                   name="data.poi.max.value"
                   type="text"
                   value="0"
                   data-type="Number"
+                  disabled=true
                 />
                 <label class="actor-sheet-stat-max-label">
                   {{localize "ikrpg.actorSheetLabels.statBlock.max"}}
@@ -195,12 +208,13 @@
       </td>
     </tr>
 
+    <!--Intelligence stat group-->
     <tr>
       <!--Intelligence stat block-->
       <td>
         <div class="actor-sheet-stat-value">
           <input
-            class="actor-sheet-stat-box main-stat"
+            class="actor-sheet-stat-box stat damage-stat commandRange-stat willpower-stat"
             name="data.stats.int.value"
             type="text"
             value="{{data.stats.int.value}}"
@@ -214,11 +228,12 @@
       <td>
         <div class="actor-sheet-stat-value-max">
           <input
-            class="actor-sheet-stat-box-max"
+             class="actor-sheet-stat-box"
             name="data.int.max.value"
             type="text"
             value="0"
             data-type="Number"
+            disabled=true
           />
           <label class="actor-sheet-stat-max-label">
             {{localize "ikrpg.actorSheetLabels.statBlock.max"}}
@@ -227,11 +242,12 @@
       </td>
       <td>
         <table>
+          <!--Arc stat block-->
           <tr>
             <td>
               <div class="actor-sheet-stat-value">
                 <input
-                  class="actor-sheet-stat-box"
+                  class="actor-sheet-stat-box stat"
                   name="data.stats.arc.value"
                   type="text"
                   value="{{data.stats.arc.value}}"
@@ -245,11 +261,12 @@
             <td>
               <div class="actor-sheet-stat-value-max">
                 <input
-                  class="actor-sheet-stat-box-max"
+                   class="actor-sheet-stat-box"
                   name="data.arc.max.value"
                   type="text"
                   value="0"
                   data-type="Number"
+                  disabled=true
                 />
                 <label class="actor-sheet-stat-max-label">
                   {{localize "ikrpg.actorSheetLabels.statBlock.max"}}
@@ -257,11 +274,12 @@
               </div>
             </td>
           </tr>
+          <!--Per stat block-->
           <tr>
             <td>
               <div class="actor-sheet-stat-value">
                 <input
-                  class="actor-sheet-stat-box"
+                  class="actor-sheet-stat-box stat def-stat initiative-stat"
                   name="data.stats.per.value"
                   type="text"
                   value="{{data.stats.per.value}}"
@@ -275,11 +293,12 @@
             <td>
               <div class="actor-sheet-stat-value-max">
                 <input
-                  class="actor-sheet-stat-box-max"
+                   class="actor-sheet-stat-box"
                   name="data.per.max.value"
                   type="text"
                   value="0"
                   data-type="Number"
+                  disabled=true
                 />
                 <label class="actor-sheet-stat-max-label">
                   {{localize "ikrpg.actorSheetLabels.statBlock.max"}}
@@ -288,6 +307,25 @@
             </td>
           </tr>
         </table>
+      </td>
+    </tr>
+    
+    <!--WillPower-->
+    <tr style="align-items: center;">
+      <td colspan="3" style="text-align: center;">
+          <div class="actor-sheet-stat-value">
+          <input
+            class="actor-sheet-stat-box"
+            type="text"
+            value="{{data.stats.per.value}}"
+            data-type="Number"
+            disabled=true
+          />
+          <br />
+          <label class="actor-sheet-stat-name-label">
+            {{localize "ikrpg.actorSheetLabels.statBlock.willpower"}}
+          </label>
+        </div>
       </td>
     </tr>
   </table>
