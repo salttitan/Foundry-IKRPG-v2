@@ -19,13 +19,18 @@ export class ikrpgActorSheet extends ActorSheet {
   getData() 
   {
     const data = super.getData();
-    console.log(data);
     data.skill_list=[];
+    var careers = data.items.filter(function(item) {return item.type == "career" });
 
-    let previousSpec = '';
-    for (const skill of data.items) {
-      data.skill_list.push(skill);
-    }
+    var careersNames = "";
+    careers.forEach(career => {
+      if(careersNames!="") careersNames = careersNames+" | ";
+      careersNames = careersNames+career.name;
+    });
+    data.careers = careersNames;
+
+    console.log(data);
+
     return data;
   }
 
