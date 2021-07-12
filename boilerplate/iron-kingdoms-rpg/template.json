@@ -78,8 +78,10 @@
         "types": ["armor", "meleeWeapon", "rangedWeapon", "skill", "race", "archetype", "connection", "ability", "spell", "enemyAttackRanged", "enemyAtackMelee", "object", "career"],
         "templates": {
         "buyableItem": {
+            "templates": ["mechanika"],
             "description": "",
-            "price": 0
+            "price": 0,
+            "isMechanika": false
         },
         "weapon": {
             "POW": 0,
@@ -95,6 +97,15 @@
             "ARMModifier": 0,
             "equipped": false,
             "special": ""
+        },
+        "mechanika": {
+            "powerSource": {
+                "name": "",
+                "output": 0,
+                "description": "",
+                "special": ""
+            },
+            "runes": ""
         },
         "meleeWeapon": {
             "templates":["buyableItem","weapon"],

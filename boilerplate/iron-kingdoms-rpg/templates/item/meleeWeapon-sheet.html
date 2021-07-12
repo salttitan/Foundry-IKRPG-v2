@@ -6,6 +6,9 @@
     <nav class="sheet-tabs tabs" data-group="primary">
         <a class="item" data-tab="description">Description</a>
         <a class="item" data-tab="special">Special Rules</a>
+        {{#if data.isMechanika}}
+        <a class="item" data-tab="mechanika">Mechanika</a>
+        {{/if}}
     </nav>
 
     <section class="sheet-body">
@@ -44,6 +47,55 @@
                     </tr>
                 </table>
             </div>
+        </div>
+
+        {{!-- Mechanika --}}
+        <div class="tab" data-group="primary" data-tab="mechanika">
+            <table class="actor-sheet-header-table">
+                <caption class="actor-sheet-header-table-label">
+                    {{localize "ikrpg.itemSheetLabels.shared.headerBlock.mechanika"}}
+                </caption>
+                <tr>
+                    <td>
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="powerSource.name"
+                                type="text"
+                                value="{{item.powerSource.name}}"
+                                data-type="Text"
+                            />
+                            <label class="actor-sheet-header-field-name-label">
+                                {{localize "ikrpg.itemSheetLabels.shared.headerBlock.powerSource.name"}}
+                            </label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="powerSource.output"
+                                type="number"
+                                value="{{item.powerSource.output}}"
+                                data-type="Number"
+                            />
+                            <label class="actor-sheet-header-field-name-label">
+                                {{localize "ikrpg.itemSheetLabels.shared.headerBlock.powerSource.output"}}
+                            </label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="height: 400px;" colspan="2">
+                        <div class="description-block">
+                            {{editor content=data.mechanika.description target="data.mechanika.description" button=true owner=owner editable=editable}}                
+                        </div>
+                        <label class="actor-sheet-header-field-name-label">
+                            {{localize "ikrpg.itemSheetLabels.shared.body.description"}}
+                        </label>
+                    </td>
+                </tr>
+            </table>
         </div>
     </section>
 </form>

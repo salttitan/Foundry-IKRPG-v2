@@ -119,7 +119,12 @@
                 "headerBlock": 
                 {
                     "name": "NAME",
-                    "price": "COST"
+                    "price": "COST",
+                    "mechanika": "MECHANIKA",
+                    "powerSource": {
+                        "name": "POWER SOURCE",
+                        "output": "OUTPUT"
+                    }
                 },
                 "body": 
                 {

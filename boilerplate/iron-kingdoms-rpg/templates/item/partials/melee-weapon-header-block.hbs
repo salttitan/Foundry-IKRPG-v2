@@ -4,7 +4,7 @@
                     {{localize "ikrpg.itemSheetLabels.weapons.melee.headerBlock.title"}}
                 </caption>
                 <tr>
-                    <td colspan="4">
+                    <td colspan="3">
                         <div class="actor-sheet-header-field">
                             <input 
                                 class="actor-sheet-header-field-box"
@@ -16,6 +16,18 @@
                             <label class="actor-sheet-header-field-name-label">
                                 {{localize "ikrpg.itemSheetLabels.shared.headerBlock.name"}}
                             </label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="resource">
+                            <label class="resource-label">
+                                {{localize "ikrpg.itemSheetLabels.shared.headerBlock.mechanika"}}
+                                </label>
+                            <input 
+                                type="checkbox" 
+                                name="data.isMechanika" 
+                                value="{{data.isMechanika}}" 
+                                {{checked data.isMechanika}}/>
                         </div>
                     </td>
                 </tr>
