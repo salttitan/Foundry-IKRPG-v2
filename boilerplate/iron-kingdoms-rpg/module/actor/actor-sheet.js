@@ -26,6 +26,7 @@ export class ikrpgActorSheet extends ActorSheet {
     for (const skill of data.items) {
       data.skill_list.push(skill);
     }
+    this._prepareItemsAlpha(data);
     return data;
   }
 
@@ -41,6 +42,13 @@ export class ikrpgActorSheet extends ActorSheet {
     html.find(".def-stat").change(this.calculateDef.bind(this));
     html.find(".vital-check").change(this._onDamageEdit.bind(this));
     html.find(".xp-stat").change(this.calculateLevel.bind(this));
+    // Update Inventory Item
+    html.find('.item-edit').click(ev => {
+      console.log(ev);
+      const li = $(ev.currentTarget).parents(".item");
+      const item = this.actor.getOwnedItem(li.data("itemId"));
+      item.sheet.render(true);
+    });
 
     super.activateListeners(html);
   }
@@ -284,5 +292,15 @@ export class ikrpgActorSheet extends ActorSheet {
     {
       this.actor.update({data:{header: { level: {value:"HERO"}}}});
     }
+  }
+
+  _prepareItemsAlpha(sheetData) {
+    const actorData = sheetData.actor;
+    const items = [];
+    for (let i of sheetData.items) {
+      items.push(i);
+    };
+
+    actorData.items = items;
   }
 }

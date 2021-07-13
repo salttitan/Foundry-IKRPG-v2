@@ -10,6 +10,7 @@ async function preloadHandlebarsTemplate()
   [
     "systems/iron-kingdoms-rpg/templates/actor/tabs/character-stats-tab.hbs",
     "systems/iron-kingdoms-rpg/templates/actor/tabs/character-info-tab.hbs",
+    "systems/iron-kingdoms-rpg/templates/actor/tabs/character-items-tab.hbs",
     "systems/iron-kingdoms-rpg/templates/actor/partials/character-stat-block.hbs",
     "systems/iron-kingdoms-rpg/templates/actor/partials/character-header-block.hbs",
     "systems/iron-kingdoms-rpg/templates/actor/partials/character-vital-spiral-block.hbs",
