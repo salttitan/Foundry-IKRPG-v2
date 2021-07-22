@@ -1,7 +1,7 @@
    <section>
             <table class="actor-sheet-header-table">
                 <caption class="actor-sheet-header-table-label">
-                    {{localize "ikrpg.itemSheetLabels.archetype.headerBlock.title"}}
+                    {{localize "ikrpg.itemSheetLabels.skill.headerBlock.title"}}
                 </caption>
                 <tr>
                     <td colspan="2">
@@ -14,6 +14,19 @@
                             />
                             <label class="actor-sheet-header-field-name-label">
                                 {{localize "ikrpg.itemSheetLabels.shared.headerBlock.name"}}
+                            </label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.Atribute"
+                                type="text"
+                                value="{{data.Atribute}}"
+                            />
+                            <label class="actor-sheet-header-field-name-label">
+                                {{localize "ikrpg.itemSheetLabels.skill.headerBlock.attribute"}}
                             </label>
                         </div>
                     </td>

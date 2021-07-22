@@ -50,13 +50,16 @@ Hooks.once('init', async function() {
    * @type {String}
    */
   CONFIG.Combat.initiative = {
-    formula: "1d20",
+    formula: "2d6",
     decimals: 2
   };
 
   // Define custom Entity classes
   CONFIG.Actor.entityClass = ikrpgActor;
   CONFIG.Item.entityClass = ikrpgItem;
+
+  // Define template defaults
+  CONFIG.MeasuredTemplate.defaults.angle = 13.5;
 
   // Register sheet application classes
   Actors.unregisterSheet("core", ActorSheet);

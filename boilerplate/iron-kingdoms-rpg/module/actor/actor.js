@@ -27,6 +27,21 @@ export class ikrpgActor extends Actor {
 
     // Make modifications to data here. For example:
 
+    // Setup magic
+    const selectedTradition = data.magic.tradition.label;
+    const tradition = data.magic.tradition;
+    const traditions = data.magic.traditions;
+
+    if(tradition.resource) {
+      tradition.resource.label = traditions[selectedTradition].resource.label;
+      if (tradition.label === "focuser") {
+        tradition.resource.max = data.stats.arc.value;
+      } else if (tradition.label === "will_weaver") {
+        tradition.resource.max = (data.stats.arc.value * 2);
+      } else if (tradition.label === "none") {
+        tradition.resource.max = 0;
+      }
+    }
   }
 
 }

@@ -51,5 +51,47 @@
                 </div>
             </td>
         </tr>
+        <tr>
+          <td>
+            <div class="actor-sheet-stat-value">
+              <select
+                name="data.magic.tradition.label"
+                data-type="String"
+              >
+              {{#select data.magic.tradition.label}}
+                {{#each data.magic.traditions as |tradition key|}}
+                  <option value="{{key}}">{{tradition.label}}</option>
+                {{/each}}
+              {{/select}}
+              <label class="actor-sheet-stat-name-label">
+                {{localize "ikrpg.actorSheetLabels.xpBlock.tradition"}}
+              </label>
+            </div>
+          </td>
+          <td>
+            <div class="actor-sheet-stat-value">
+              <input
+                name="data.magic.tradition.resource.value"
+                 class="actor-sheet-xp-stat-box xp-stat"
+                  type="text"
+                  value="{{data.magic.tradition.resource.value}}"
+                  data-type="Number"
+                  />
+              <label class="actor-sheet-stat-name-label">
+                {{localize "ikrpg.actorSheetLabels.xpBlock.magic.current"}}
+              </label>
+            </div>
+          </td>
+          <td>
+            <div class="actor-sheet-stat-value">
+              <label>
+                {{data.magic.tradition.resource.max}}
+              </label>
+              <label class="actor-sheet-stat-name-label">
+                  {{localize "ikrpg.actorSheetLabels.xpBlock.magic.max"}}
+              </label>
+            </div>
+          </td>
+        </tr>
     </table>
 </section>

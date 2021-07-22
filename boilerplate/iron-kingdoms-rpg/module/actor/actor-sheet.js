@@ -128,12 +128,12 @@ export class ikrpgActorSheet extends ActorSheet {
         per=statValue?statValue:0;
         break;
       case("data.stats.spd.value"):
-        per=statValue?statValue:0;
+        spd=statValue?statValue:0;
         break;
     }
 
     let total = parseInt(spd)+parseInt(per)+parseInt(agl)+parseInt(racialMod)+parseInt(equipmentMod);
-
+    console.log(equipmentMod);
     this.actor.update({data:{def:{value:total}}});
   }
 
@@ -178,13 +178,13 @@ export class ikrpgActorSheet extends ActorSheet {
     switch(statName)
     {
       case("data.stats.spd.value"):
-        phy=statValue?statValue:0;
+        spd=statValue?statValue:0;
         break;
       case("data.stats.prw.value"):
-        phy=statValue?statValue:0;
+        prw=statValue?statValue:0;
         break;
       case("data.stats.per.value"):
-        phy=statValue?statValue:0;
+        per=statValue?statValue:0;
         break;
       case("data.initiativeModifiers.additionalModifier.value"):
         additionalMod=statValue?statValue:0;
@@ -239,11 +239,12 @@ export class ikrpgActorSheet extends ActorSheet {
         phy=statValue?statValue:0;
         break;
       case("data.stats.int.value"):
-        otherMod=statValue?statValue:0;
+        int=statValue?statValue:0;
         break;
     }
 
     let total = parseInt(phy)+parseInt(int);
+
 
     this.actor.update({data:{willPower:{value:total}}});
   }
@@ -296,11 +297,95 @@ export class ikrpgActorSheet extends ActorSheet {
 
   _prepareItemsAlpha(sheetData) {
     const actorData = sheetData.actor;
-    const items = [];
+
+    //Initialize Containers
+    let rangedWeapons = [];
+    let meleeWeapons = [];
+    let spells = [];
+    let abilities = [];
+    let skills = [];
+    let careers = [];
+    let archetypes = [];
+    let gear = [];
+    let races = [];
+    let armors = [];
+    let items = [];
+
     for (let i of sheetData.items) {
-      items.push(i);
+      switch (i.type) {
+        case 'rangedWeapon':
+          rangedWeapons.push(i);
+          break;
+        case 'meleeWeapon':
+          meleeWeapons.push(i);
+          break;
+        case 'spell':
+          spells.push(i);
+          break;
+        case 'ability':
+          abilities.push(i);
+          break;
+        case 'skill':
+          skills.push(i);
+          break;
+        case 'career':
+          careers.push(i);
+          break;
+        case 'archetype':
+          archetypes.push(i);
+          break;
+        case 'object':
+          gear.push(i);
+          break;
+        case 'race':
+          races.push(i);
+          break;
+        case 'armor':
+          armors.push(i);
+          break;
+        default:
+          items.push(i);
+          break;
+      }
     };
 
+    //sort arrays
+    let sort = (a,b) => {
+      if(a.name < b.name) {
+        return -1;
+      }
+      if(a.name > b.name) {
+        return 1;
+      }
+      return 0;
+    };
+
+    items = items.sort(sort);
+    gear = gear.sort(sort);
+    rangedWeapons = rangedWeapons.sort(sort);
+    meleeWeapons = meleeWeapons.sort(sort);
+    spells = spells.sort(sort);
+    abilities = abilities.sort(sort);
+    skills = skills.sort(sort);
+    careers = careers.sort(sort);
+    archetypes = archetypes.sort(sort);
+    races = races.sort(sort);
+    armors = armors.sort(sort);
+
     actorData.items = items;
+    actorData.gear = gear;
+    actorData.rangedWeapons = rangedWeapons;
+    actorData.meleeWeapons = meleeWeapons;
+    actorData.spells = spells;
+    actorData.abilities = abilities;
+    actorData.skills = skills;
+    actorData.careers = careers;
+    actorData.archetypes = archetypes;
+    actorData.races = races;
+    actorData.armors = armors;
+  }
+
+  _calcuelateMagicAlpha(sheetData) {
+    
   }
 }

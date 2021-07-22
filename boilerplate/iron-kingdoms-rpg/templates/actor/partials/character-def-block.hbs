@@ -62,7 +62,20 @@
               </div>
             </td>
             <td>{{localize "ikrpg.actorSheetLabels.defBlock.armorMod"}}</td>
-            <td>{{localize "ikrpg.actorSheetLabels.defBlock.equipMod"}}</td>
+            <td>
+              <div class="actor-sheet-stat-value">
+                <input
+                  class="actor-sheet-stat-box"
+                  name="data.defModifiers.equipmentModifiers.value"
+                  type="text"
+                  value="{{data.defModifiers.equipmentModifiers.value}}"
+                  data-type="Number"
+                />
+                <label class="actor-sheet-stat-name-label">
+                  {{localize "ikrpg.actorSheetLabels.defBlock.equipMod"}}
+                </label>
+              </div>
+            </td>
         </tr>
     </table>
 </section>

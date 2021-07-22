@@ -62,7 +62,44 @@
             "spokenLanguages":"",
             "religiousBeliefs":"",
             "gold":0,
-            "biography":""
+            "biography":"",
+            "magic": {
+                "tradition": {
+                    "label": "",
+                    "resource": {
+                        "label": "",
+                        "value": 0,
+                        "max": 0
+                    }
+                },
+                "traditions": {
+                    "none": {
+                        "label": "",
+                        "resource": {
+                            "label": "",
+                            "value": 0,
+                            "max": 0
+                        }
+                    },
+                    "focuser": {
+                        "label": "Focuser",
+                        "resource": {
+                            "label": "Focus",
+                            "value": 0,
+                            "max": 0
+                        }
+                    },
+                    "will_weaver": {
+                        "label": "Will Weaver",
+                        "resource": {
+                            "label": "Fatigue",
+                            "value": 0,
+                            "max": 0
+                        }
+                    }
+
+                }
+            }
         },
         "enemy":{
             "templates":["baseActor"],
