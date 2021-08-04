@@ -1,0 +1,1262 @@
+	<weapons>
+	
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear08eqipment.index._jackwrench@Iron Kingdoms Core Rules</recordname>
+						<name type="string">'Jack Wrench</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">10 gc</cost>
+						<skill type="string">Hand Weapon</skill>
+						<showrange type="number">1</showrange>
+						<attack type="number">-2</attack>
+						<power type="number">3</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						Description: This is a massive steel wrench in common use
+among those who maintain and repair steamjacks in the field.
+The wrench is at least three feet long and bears an impressive
+weight.
+						In addition to being a ubiquitous tool in the hands of skilled
+field mechanik's across western Immoren, the 'jack wrench
+can also be used as a melee weapon in its own right. Anyone
+attacking with a 'jack wrench uses the Hand Weapon skill for
+the attack. Due to the wrench's slightly clumsy weight, the
+attack roll suffers a -2 penalty. When used as a weapon, the
+'jack wrench has POW 3.
+						</description>
+						<special type="string">Knockout chance on crit</special>			
+						<special_formatted type="formattedtext">
+						On a critical hit with a 'jack wrench, a living target hit has a
+chance to be knocked out (p. 219). If the target suffers damage
+from the attack, he must make a Willpower roll against a target
+number equal to the attacking character's STR + 9. If the target
+succeeds, he remains conscious. If he fails, he is knocked out.
+						</special_formatted>			
+		</record>
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.assassinsblade@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Assassin's Blade</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">10 gc</cost>
+						<skill type="string">Hand Weapon</skill>
+						<attack type="number">-1</attack>
+						<power type="number">4</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						The assassin's blade is a thick-bladed short sword
+						designed for thrusting. Due to its high damage output and
+						relative ease of concealment, such weapons are favored by
+						assassins and murderers. Though capable of dealing mortal
+						injuries, the assassin's blade is a clumsy weapon and best
+						plunged into an unsuspecting victim's back.
+						</description>
+						<special type="string">+2 to back strike DMG</special>			
+						<special_formatted type="formattedtext">
+						Add +2 to back strike damage rolls with this
+						weapon.
+						</special_formatted>			
+		</record>
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.axe@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Axe</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">8 gc</cost>
+						<skill type="string">Hand Weapon</skill>
+						<attack type="number">0</attack>
+						<power type="number">3</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						Hand axes are simple weapons capable of
+						inflicting severe wounds. They are commonly used by hunters,
+						trackers, and rangers. The Khadoran Army equips most of their
+						soldiers with axes due to the ease of training and the weapon's
+						utility as a tool.
+						</description>
+						<special type="string"></special>			
+						<special_formatted type="formattedtext">
+						None.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.axegreat@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Axe, Great</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">25 gc</cost>
+						<skill type="string">Great Weapon</skill>
+						<attack type="number">0</attack>
+						<power type="number">6</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						These massive two-handed axes are intimidating
+						and deadly. With hafts as long as a man is tall and bearing
+						enormous blades, these weapons are favored by trollkin, ogrun,
+						and humans possessed of exceptional strength.
+						</description>
+						<special type="string">+d6 DMG on crit; min STR 5; 2h</special>			
+						<special_formatted type="formattedtext">
+						On a critical hit, this weapon inflicts an
+						additional die of damage.
+						A character must have at least STR 5 to use this weapon and can
+						only use this weapon two-handed.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.axehorsemansfoot@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Axe, Horseman's (on foot)</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">20 gc</cost>
+						<skill type="string">Hand Weapon</skill>
+						<attack type="number">-1</attack>
+						<power type="number">3</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						 A horseman's axe is an axe blade on an extended
+						haft intended for cleaving downward while in battle from
+						horseback.
+						</description>
+						<special type="string">Reach</special>			
+						<special_formatted type="formattedtext">
+						This weapon has Reach.
+						While wielded by a mounted combatant, add +2 to charge attack
+						damage rolls with this weapon.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.axehorsemansmounted@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Axe, Horseman's (mounted)</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">20 gc</cost>
+						<skill type="string">Hand Weapon</skill>
+						<attack type="number">0</attack>
+						<power type="number">5</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						 A horseman's axe is an axe blade on an extended
+						haft intended for cleaving downward while in battle from
+						horseback.
+						</description>
+						<special type="string">Reach; +2 DMG on charge while mounted</special>			
+						<special_formatted type="formattedtext">
+						This weapon has Reach.
+						While wielded by a mounted combatant, add +2 to charge attack
+						damage rolls with this weapon.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.bayonetsmall@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Bayonet (as dagger)</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">5 gc</cost>
+						<skill type="string">Hand Weapon</skill>
+						<attack type="number">-1</attack>
+						<power type="number">2</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						Bayonets are small, dagger-like blades that can
+be affixed to the barrel of a firearm. Bayonets are most often
+affixed to military rifles used by soldiers in the close quarters
+of trench warfare. Some specialized bayonets have been crafted
+for use with multi-barreled firearms as well as crossbows.
+						</description>
+						<special type="string"></special>			
+						<special_formatted type="formattedtext">
+						A bayonet used as a dagger or affixed to a
+weapon smaller than a rifle uses the Hand Weapon skill.
+						A bayonet affixed to a rifle has Reach, must be used two-handed,
+and uses the Great Weapon skill.
+						A character gains +2 to his charge attack rolls with a bayonet
+affixed to a rifle.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.bayonetrifle@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Bayonet (on rifle)</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">5 gc</cost>
+						<skill type="string">Great Weapon</skill>
+						<attack type="number">-1</attack>
+						<power type="number">3</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						Bayonets are small, dagger-like blades that can
+be affixed to the barrel of a firearm. Bayonets are most often
+affixed to military rifles used by soldiers in the close quarters
+of trench warfare. Some specialized bayonets have been crafted
+for use with multi-barreled firearms as well as crossbows.
+						</description>
+						<special type="string">+2 ATT on charge</special>			
+						<special_formatted type="formattedtext">
+						A bayonet used as a dagger or affixed to a
+weapon smaller than a rifle uses the Hand Weapon skill.
+						A bayonet affixed to a rifle has Reach, must be used two-handed,
+and uses the Great Weapon skill.
+						A character gains +2 to his charge attack rolls with a bayonet
+affixed to a rifle.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.blastingpikeexplosive@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Blasting Pike (explosive)</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">50 gc</cost>
+						<skill type="string">Great Weapon</skill>
+						<attack type="number">-2</attack>
+						<power type="number">7</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						The Iron Fang blasting pike is among the most
+devastating polearms ever developed. It is tipped with a
+powerful explosive charge with a directional blast that
+obliterates common foes or rips gaping holes in warjacks. The
+explosion also has the potential to knock foes to the ground
+should they survive.
+						</description>
+						<special type="string">Reach; Knockdown on crit; Min STR 6 for 1h</special>			
+						<special_formatted type="formattedtext">
+						Blasting Pikes are Reach weapons.
+						On a critical hit, the target is knocked down.
+						Explosive blasting pike heads must be replaced after every attack.
+						The blasting pike can also be set with a spearhead that reduces
+the weapon's POW to 4 when used one-handed or to 5 when
+used two-handed. The spearhead does not need to be replaced
+after every use. When used with a spearhead, however, the
+weapon loses the critical knockdown effect.
+						It takes a quick action to replace the blasting pike's head.
+Explosive Blasting Pike heads and non-explosive spearhead
+replacements each cost 1 gc.
+						A character must have at least STR 6 to use this weapon in
+one hand.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.blastingpikespear1h@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Blasting Pike (spearhead, 1h)</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">50 gc</cost>
+						<skill type="string">Great Weapon</skill>
+						<attack type="number">-2</attack>
+						<power type="number">4</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						The Iron Fang blasting pike is among the most
+devastating polearms ever developed. It is tipped with a
+powerful explosive charge with a directional blast that
+obliterates common foes or rips gaping holes in warjacks. The
+explosion also has the potential to knock foes to the ground
+should they survive.
+						</description>
+						<special type="string">Reach; Min STR 6</special>			
+						<special_formatted type="formattedtext">
+						Blasting Pikes are Reach weapons.
+						On a critical hit, the target is knocked down.
+						Explosive blasting pike heads must be replaced after every attack.
+						The blasting pike can also be set with a spearhead that reduces
+the weapon's POW to 4 when used one-handed or to 5 when
+used two-handed. The spearhead does not need to be replaced
+after every use. When used with a spearhead, however, the
+weapon loses the critical knockdown effect.
+						It takes a quick action to replace the blasting pike's head.
+Explosive Blasting Pike heads and non-explosive spearhead
+replacements each cost 1 gc.
+						A character must have at least STR 6 to use this weapon in
+one hand.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.blastingpikespear2h@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Blasting Pike (spearhead, 2h)</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">50 gc</cost>
+						<skill type="string">Great Weapon</skill>
+						<attack type="number">-2</attack>
+						<power type="number">5</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						The Iron Fang blasting pike is among the most
+devastating polearms ever developed. It is tipped with a
+powerful explosive charge with a directional blast that
+obliterates common foes or rips gaping holes in warjacks. The
+explosion also has the potential to knock foes to the ground
+should they survive.
+						</description>
+						<special type="string">Reach</special>			
+						<special_formatted type="formattedtext">
+						Blasting Pikes are Reach weapons.
+						On a critical hit, the target is knocked down.
+						Explosive blasting pike heads must be replaced after every attack.
+						The blasting pike can also be set with a spearhead that reduces
+the weapon's POW to 4 when used one-handed or to 5 when
+used two-handed. The spearhead does not need to be replaced
+after every use. When used with a spearhead, however, the
+weapon loses the critical knockdown effect.
+						It takes a quick action to replace the blasting pike's head.
+Explosive Blasting Pike heads and non-explosive spearhead
+replacements each cost 1 gc.
+						A character must have at least STR 6 to use this weapon in
+one hand.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.caspianbattleblade1h@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Caspian Battleblade (1h)</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">20 gc</cost>
+						<skill type="string">Great Weapon</skill>
+						<attack type="number">-1</attack>
+						<power type="number">4</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						A descendant of the cleaving swords used by
+the Caspians ages ago, the battleblade is a wide, hefty doubleedged
+blade suitable for cleaving and heavy cuts. The tip of the
+battleblade is never sharpened; the weapon is used solely as
+a cleaving weapon. Some battleblades are rounded off at the
+end while others come to a short, purely ornamental point, and 
+a rare few flare out at the tip in a heart or spade-like shape.
+Most favored by the nobility and knightly orders of Cygnar,
+the overall design of the blade is utilized by swordsmen across
+western Immoren.
+						</description>
+						<special type="string">Min STR 5</special>			
+						<special_formatted type="formattedtext">
+						A character must have at least STR 5 to use this
+weapon in one hand.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.caspianbattleblade1h@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Caspian Battleblade (2h)</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">20 gc</cost>
+						<skill type="string">Great Weapon</skill>
+						<attack type="number">0</attack>
+						<power type="number">6</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						A descendant of the cleaving swords used by
+the Caspians ages ago, the battleblade is a wide, hefty doubleedged
+blade suitable for cleaving and heavy cuts. The tip of the
+battleblade is never sharpened; the weapon is used solely as
+a cleaving weapon. Some battleblades are rounded off at the
+end while others come to a short, purely ornamental point, and 
+a rare few flare out at the tip in a heart or spade-like shape.
+Most favored by the nobility and knightly orders of Cygnar,
+the overall design of the blade is utilized by swordsmen across
+western Immoren.
+						</description>
+						<special type="string"></special>			
+						<special_formatted type="formattedtext">
+						A character must have at least STR 5 to use this
+weapon in one hand.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.club@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Club</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">3 gc</cost>
+						<skill type="string">Hand Weapon</skill>
+						<attack type="number">0</attack>
+						<power type="number">2</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						A club is a wooden implement for delivering blunt
+trauma. These weapons take many forms, from the polished
+and tooled truncheons carried by the city watches across the
+Iron Kingdoms, to brutish weapons carried by the uncivilized
+races of the wilds.
+						</description>
+						<special type="string">Knockout chance on crit</special>			
+						<special_formatted type="formattedtext">
+						On a critical hit, a living target hit has a
+chance to be knocked out (p. 219) by the attack. If the target
+suffers damage from the attack, he must make a Willpower
+roll against a target number equal to the attacking character's
+STR + 9. If the target succeeds, he stays conscious. If he fails,
+he is knocked out.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.clubbanded@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Club, Banded</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">6 gc</cost>
+						<skill type="string">Great Weapon</skill>
+						<attack type="number">-1</attack>
+						<power type="number">4</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						The banded club is a weapon crafted specifically
+for war. It is a stout wooden club that has been banded in steel
+or iron for added weight and reinforcement.
+						</description>
+						<special type="string">Knockout chance on crit; Min STR 5</special>			
+						<special_formatted type="formattedtext">
+						A character must have at least STR 5 to use this
+weapon.
+						On a critical hit, a living target hit has a chance to be knocked
+out (p. 219) by the attack. If the target suffers damage from the
+attack, he must make a Willpower roll against a target number
+equal to the attacking character's STR + 11. If the target succeeds,
+he stays conscious. If he fails, he is knocked out.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.cutlass@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Cutlass</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">15 gc</cost>
+						<skill type="string">Hand Weapon</skill>
+						<attack type="number">-1</attack>
+						<power type="number">4</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						A cutlass is a short and broad slashing sword,
+with a slightly curved blade sharpened on the cutting edge.
+The hilt of the cutlass features a solid cupped or basket-shaped
+guard. The weapon is used extensively by both pirates and the
+navies of the Iron Kingdoms.
+						</description>
+						<special type="string"></special>			
+						<special_formatted type="formattedtext">	
+						None.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.dagger@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Dagger</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">5 gc</cost>
+						<skill type="string">Hand Weapon</skill>
+						<attack type="number">+1</attack>
+						<power type="number">1</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						Daggers are short, double-edged fighting knives.
+They are made in countless shapes and sizes and are popular
+hold-out weapons with adventurers and soldiers alike.
+						</description>
+						<special type="string"></special>			
+						<special_formatted type="formattedtext">	
+						None.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.flail@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Flail</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">15 gc</cost>
+						<skill type="string">Hand Weapon</skill>
+						<attack type="number">-1</attack>
+						<power type="number">4</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						Originally created as an agricultural tool, the flail
+is made up of one or more spiked balls or iron bars separated
+from a long handle by lengths of chain. These clumsy but brutal
+weapons are capable of circumventing an opponent's shield
+to deliver staggering blows. Some flails are small enough to
+be wielded in one hand, making them particularly useful to
+combatants on horseback.
+						</description>
+						<special type="string">Ignore shield ARM</special>			
+						<special_formatted type="formattedtext">	
+						Attacks from flails ignore ARM bonuses from
+bucklers and shields.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.flailtwohanded@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Flail, Two-Handed</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">25 gc</cost>
+						<skill type="string">Great Weapon</skill>
+						<attack type="number">-2</attack>
+						<power type="number">6</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						Akin to their smaller counterparts, the largest
+flails are massive weapons with handles over a yard long.
+Because they require both hands to carry, they are generally
+wielded only by warriors on foot. The damage a two-handed
+flail can inflict is even more severe than that of a standard flail,
+and they are just as capable of circumventing an opponent's
+shield.
+						</description>
+						<special type="string">Reach; Ignore shield ARM; 2h; Knockdown &amp; Push 1" for 1FP on crit</special>			
+						<special_formatted type="formattedtext">	
+						Two-handed flails are Reach weapons. Two-handed
+flails must be used two-handed.
+						Attacks from flails ignore ARM bonuses from bucklers and
+shields.
+						On a critical hit with this weapon, a character can spend 1 feat
+point to push the target 1" away from the attacking character
+and knock the target down. After the enemy is pushed, the
+attacking character can advance up to 1".
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.halberd1h@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Halberd (1h)</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">25 gc</cost>
+						<skill type="string">Great Weapon</skill>
+						<attack type="number">-1</attack>
+						<power type="number">4</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						Halberds and other polearms are common
+weapons of massed infantry. They are versatile weapons that
+allow the wielder to stay a considerable distance from his
+opponents while delivering deadly offensives or withstanding
+the crush of a cavalry charge.
+						</description>
+						<special type="string">Reach</special>			
+						<special_formatted type="formattedtext">	
+						Halberds are Reach weapons.
+						This weapon can be used with one or two hands.
+						A character fighting two-handed with a halberd gains +2 to his
+charge attack damage rolls with this weapon.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.halberd2h@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Halberd (2h)</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">25 gc</cost>
+						<skill type="string">Great Weapon</skill>
+						<attack type="number">-1</attack>
+						<power type="number">4</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						Halberds and other polearms are common
+weapons of massed infantry. They are versatile weapons that
+allow the wielder to stay a considerable distance from his
+opponents while delivering deadly offensives or withstanding
+the crush of a cavalry charge.
+						</description>
+						<special type="string">Reach; +2 ATT &amp; DMG on charge</special>			
+						<special_formatted type="formattedtext">	
+						Halberds are Reach weapons.
+						This weapon can be used with one or two hands.
+						A character fighting two-handed with a halberd gains +2 to his
+charge attack damage rolls with this weapon.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.knuckledusters@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Knuckledusters</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">5 gc</cost>
+						<skill type="string">Unarmed Combat</skill>
+						<attack type="number">0</attack>
+						<power type="number">1</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						Knuckledusters are metal braces made to fit over
+the hand to increase damage made by punches and strikes with
+the hand.
+						</description>
+						<special type="string">Knockout strike TN +2</special>			
+						<special_formatted type="formattedtext">	
+						If a character wearing knuckledusters damages
+his target with a knockout strike (p. 210), add +2 to the target
+number to avoid knockout.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.kopis@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Kopis</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">15 gc</cost>
+						<skill type="string">Hand Weapon</skill>
+						<attack type="number">-1</attack>
+						<power type="number">3</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						The kopis is the traditional heavy cleaving sword
+of the Idrian tribes.
+						</description>
+						<special type="string">+2 ATT on charge; +d6 DMG for 1FP on crit</special>			
+						<special_formatted type="formattedtext">	
+						A character gains +2 to his charge attack rolls
+with this weapon.
+						On a critical hit with this weapon, a character can spend 1 feat
+point to gain an additional die on the damage roll.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.lance@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Lance</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">15 gc</cost>
+						<skill type="string">Lance</skill>
+						<attack type="number">0</attack>
+						<power type="number">8</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						The lance is a long, heavy spear designed for use
+on horseback. The lance is longer and heavier than similar
+weapons used by infantrymen. It is utterly unsuited for
+throwing or for rapid thrusting.
+						</description>
+						<special type="string">Reach; Min STR 5; Mounted charge only</special>			
+						<special_formatted type="formattedtext">	
+						Lances are Reach weapons.
+						A character must have at least STR 5 to use this weapon.
+						Lances can only be used to make charge attacks and then only
+while mounted.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.mace@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Mace</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">15 gc</cost>
+						<skill type="string">Hand weapon</skill>
+						<attack type="number">-1</attack>
+						<power type="number">4</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						A mace is essentially a club topped with a metal
+head capable of delivering brutal strikes. Some maces are spiked
+to inflict further injury. They are common weapons among the
+battle chaplains and knights of the Morrowan Church.
+						</description>
+						<special type="string">Knockout chance on crit</special>			
+						<special_formatted type="formattedtext">	
+						On a critical hit, a living target hit has a
+chance to be knocked out (p. 219) by the attack. If the target
+suffers damage from the attack, he must make a Willpower
+roll against a target number equal to the attacking character's
+STR + 9. If the target succeeds, he stays conscious. If he fails,
+he is knocked out.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.maul@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Maul</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">20 gc</cost>
+						<skill type="string">Great weapon</skill>
+						<attack type="number">0</attack>
+						<power type="number">6</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						The maul is a military sledgehammer of wood and
+banded steel. The massive pulverizing head is affixed to a long,
+two-handed shaft.
+						</description>
+						<special type="string">Min STR 5; 2h; Slam d3" for 1FP on crit</special>			
+						<special_formatted type="formattedtext">	
+						A character must have at least STR 5 to use this
+weapon and can only use this weapon two-handed.
+						On a critical hit with this weapon, a character can spend 1 feat
+point to slam the target d3" away. The POW of the slam damage
+roll is equal to the Strength of the attacking character plus the
+POW of this weapon. The POW of collateral damage is equal to
+the Strength of the attacking character.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.nyssclaymore@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Nyss Claymore</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">30 gc</cost>
+						<skill type="string">Great weapon</skill>
+						<attack type="number">0</attack>
+						<power type="number">6</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						The favored weapon of the Nyss, this claymore
+is an elegant and unusual weapon of remarkable quality. The
+blades of these swords are typically etched with Aeric runes.
+The hilts are wrapped in fine leathers and feature a small
+circular guard. So widely respected are these weapons that
+common lore has it that they never dull or suffer the ravages
+of time.
+						Though once these weapons were exceedingly rare, many
+have entered the hands of outsiders following the widespread
+destruction of the Nyss. The hefty price for these weapons
+reflects the scarcity of those with the skills to create them and
+the high demand for these exquisite works.
+						</description>
+						<special type="string">2h; Boost ATT for 1FP</special>			
+						<special_formatted type="formattedtext">	
+						Nyss claymores must be used two-handed.
+						A character can spend 1 feat point to boost an attack roll with
+this weapon.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.ogrunwarcleaver@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Ogrun Warcleaver</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">30 gc</cost>
+						<skill type="string">Great weapon</skill>
+						<attack type="number">-1</attack>
+						<power type="number">6</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						Created to take full advantage of an ogrun's
+massive strength and size, the warcleaver is a sturdy polearm
+so large and heavy that even ogrun must wield it with both
+hands. A three-foot-long, one-foot-wide cleaver-like blade is
+affixed to a stout twelve-foot pole, and the back of the cleaver
+blade is studded with spikes, allowing the warcleaver to
+perform devastating chopping or piercing blows.
+of time.
+						</description>
+						<special type="string">Reach; Min STR 6; 2h; +2 ATT on charge with Huge Stature</special>			
+						<special_formatted type="formattedtext">	
+						The warcleaver is a Reach weapon.
+						A character must have at least STR 6 to use this weapon. This
+weapon must be used two-handed.
+						A character with the Huge Stature characteristic gains +2 to his
+charge attack rolls with this weapon.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.pickaxe@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Pickaxe</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">15 gc</cost>
+						<skill type="string">Hand weapon</skill>
+						<attack type="number">-1</attack>
+						<power type="number">4</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						A pickaxe is a sapping tool as well as a weapon of
+war favored by the armies of Rhul. The head is a spike ending
+in a sharp point, which curves slightly and has a counterweight
+to improve ease of use. The stronger the spike, the more
+effectively the tool can pierce the surface. The counterweight
+is nearly always a second spike, often with a flat end for
+prying. The efficient momentum of a pickaxe, combined with
+the small contact area, makes it very effective for punching
+through armor. Rocking an embedded spike aids in removing
+it, whether from hard-packed earth or the armor and bone of a
+felled enemy.
+of time.
+						</description>
+						<special type="string">+d6 DMG vs knocked down for 1FP on crit</special>			
+						<special_formatted type="formattedtext">	
+						On a hit with this weapon against a knocked
+down target, a character can spend 1 feat point to gain an
+additional die on the damage roll.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.rapier@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Rapier</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">15 gc</cost>
+						<skill type="string">Hand weapon</skill>
+						<attack type="number">0</attack>
+						<power type="number">2</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						A rapier is a slender, sharply pointed dueling
+sword, ideally used for thrusting attacks. It features a complex
+hilt constructed to provide protection for the hand wielding
+it. This weapon is seldom seen on the battlefields of western
+Immoren and is considered a weapon of the aristocracy and
+upper classes.
+						</description>
+						<special type="string">Boost DMG &amp; ATT for 1FP</special>			
+						<special_formatted type="formattedtext">	
+						A character can spend 1 feat point to boost both
+his attack and damage roll with this weapon.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.shield@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Shield</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">20 gc</cost>
+						<skill type="string">Shield</skill>
+						<attack type="number">0</attack>
+						<power type="number">0</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						Shields are large metal plates designed
+to protect their wielder from harm. Though primarily
+intended to augment the armor worn by their wielder,
+shields are also weapons in their own right and can
+inflict crushing blows with the proper strength behind
+them.
+						</description>
+						<special type="string">+1ARM / Level of Shield Skill</special>			
+						<special_formatted type="formattedtext">	
+						A character armed with a shield gains
++1 ARM for each level of the Shield skill he has against
+attacks originating in his front arc. This bonus is not
+cumulative with additional shields.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.shieldcombat@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Shield, Combat</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">35 gc</cost>
+						<skill type="string">Shield</skill>
+						<attack type="number">-1</attack>
+						<power type="number">3</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						Combat shields are designed with
+additional reinforcement and spikes, making them
+useful for offense as well as defense.
+						</description>
+						<special type="string">+1ARM / Level of Shield Skill</special>			
+						<special_formatted type="formattedtext">	
+						A character armed with a shield gains
++1 ARM for each level of the Shield skill he has against
+attacks originating in his front arc. This bonus is not
+cumulative with additional shields.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.spear1h@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Spear (1h)</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">15 gc</cost>
+						<skill type="string">Great Weapon</skill>
+						<attack type="number">-1</attack>
+						<power type="number">4</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						The simplest of pole weapons, spears are
+among the most ancient weapons still utilized by the
+warriors of the Iron Kingdoms.
+						</description>
+						<special type="string"></special>			
+						<special_formatted type="formattedtext">	
+						When wielded two-handed, spears are
+Reach weapons.
+						A character wielding a spear two-handed gains +2 to
+his charge attack rolls.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.spear2h@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Spear (2h)</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">15 gc</cost>
+						<skill type="string">Great Weapon</skill>
+						<attack type="number">-1</attack>
+						<power type="number">5</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						The simplest of pole weapons, spears are
+among the most ancient weapons still utilized by the
+warriors of the Iron Kingdoms.
+						</description>
+						<special type="string">Reach; +2 ATT on charge</special>			
+						<special_formatted type="formattedtext">	
+						When wielded two-handed, spears are
+Reach weapons.
+						A character wielding a spear two-handed gains +2 to
+his charge attack rolls.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.springblade@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Springblade</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">12 gc</cost>
+						<skill type="string">Hand Weapon</skill>
+						<attack type="number">0</attack>
+						<power type="number">1</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						Springblades are daggers with retractable
+blades that slide back into their handles when not
+in use. With the touch to the button of the internal
+release mechanism, a powerful spring forces the blade
+outward into fighting position. This weapon is favored
+by assassins and street fighters.
+						</description>
+						<special type="string">Draw for free action</special>			
+						<special_formatted type="formattedtext">	
+						A character can draw a springblade
+without using a quick action.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.staff@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Staff</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">5 gc</cost>
+						<skill type="string">Great Weapon</skill>
+						<attack type="number">0</attack>
+						<power type="number">3</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						This is a six-foot length of polished
+hardwood. It is favored by travelers, wanderers, and
+anyone seeking an unassuming weapon.
+						</description>
+						<special type="string">Reach; 2h; Trip attack for 1FP</special>			
+						<special_formatted type="formattedtext">	
+						Staffs are Reach weapons.
+						Staffs must be used two-handed.
+						A character can spend 1 feat point to make a trip attack
+instead of a normal attack with his staff. If the attack hits,
+the target is knocked down instead of suffering damage.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.staffbattle@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Staff, Battle</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">12 gc</cost>
+						<skill type="string">Great Weapon</skill>
+						<attack type="number">0</attack>
+						<power type="number">4</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						Battle staffs are weapons of steel or banded
+hard wood set with a heavy head and one tip used for
+delivering crushing blows. The clergy of Menoth favor
+battle staffs as their primary armament and symbols of
+office.
+						</description>
+						<special type="string">Reach; 2h; Trip attack for 1FP; Knockout chance on crit</special>			
+						<special_formatted type="formattedtext">	
+						Battle staffs are Reach weapons.
+						Battle staffs must be used two-handed.
+						A character can spend 1 feat point to
+make a trip attack instead of a normal
+attack with his staff. If the attack hits,
+the target is knocked down instead of
+suffering damage.
+						On a critical hit, a living target hit has a chance
+to be knocked out (p. 219) by the attack. If the target
+suffers damage from the attack, he must make a
+Willpower roll against a target number equal to the
+attacking character's STR + 9. If the target succeeds, he
+stays conscious. If he fails, he is knocked out.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.sword@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Sword</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">12 gc</cost>
+						<skill type="string">Hand Weapon</skill>
+						<attack type="number">0</attack>
+						<power type="number">3</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						Though each nation favors its own style
+and means of manufacture, swords have been among
+the most common weapons in use across Immoren since
+antiquity.
+						</description>
+						<special type="string"></special>			
+						<special_formatted type="formattedtext">	
+						None.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.swordcaneascane@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Sword Cane (as cane)</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">15 gc</cost>
+						<skill type="string">Hand Weapon</skill>
+						<attack type="number">0</attack>
+						<power type="number">0</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						Effectively a short sword concealed within
+the haft of a heavy walking stick, the sword cane is a
+favored weapon of aristocrats, assassins, and duelists.
+						</description>
+						<special type="string">See desc.</special>			
+						<special_formatted type="formattedtext">	
+						An observant character can discern a
+sword cane from a normal cane without handling it
+with a successful PER + Detection roll against a target
+number of 14.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.swordcanedrawn@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Sword Cane (drawn)</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">15 gc</cost>
+						<skill type="string">Hand Weapon</skill>
+						<attack type="number">0</attack>
+						<power type="number">2</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						Effectively a short sword concealed within
+the haft of a heavy walking stick, the sword cane is a
+favored weapon of aristocrats, assassins, and duelists.
+						</description>
+						<special type="string">See desc.</special>			
+						<special_formatted type="formattedtext">	
+						An observant character can discern a
+sword cane from a normal cane without handling it
+with a successful PER + Detection roll against a target
+number of 14.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.swordgreat@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Sword, Great</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">20 gc</cost>
+						<skill type="string">Great Weapon</skill>
+						<attack type="number">0</attack>
+						<power type="number">6</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						Great swords are heavy, double-edged
+blades wielded with both hands. Two-handed swords
+have been favored by swordsmen for centuries,
+particularly those who regularly fight heavily armored
+foes or steamjacks.
+						</description>
+						<special type="string">Reach; 2h</special>			
+						<special_formatted type="formattedtext">	
+						Great swords must be used two-handed.
+						Great swords have Reach.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.trenchknifeblade@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Trench Knife (blade)</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">10 gc</cost>
+						<skill type="string">Hand Weapon</skill>
+						<attack type="number">0</attack>
+						<power type="number">2</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						Trench knives are long,
+heavy bladed daggers favored by fighting
+men across western Immoren. The weapon
+features a studded or spiked "skull crusher"
+hand guard that be used to deliver bone snapping
+blows with the fist.
+						</description>
+						<special type="string"></special>			
+						<special_formatted type="formattedtext">	
+						Trench knives' skull crusher hilts can be
+used to make Unarmed Combat attack rolls. If a character
+using the skull crusher as a melee weapon makes a
+knockout strike (p. 210) that damages his target, add +2 to
+the target number to avoid knockout.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.trenchknifehilt@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Trench Knife (hilt)</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">10 gc</cost>
+						<skill type="string">Unarmed Combat</skill>
+						<attack type="number">-1</attack>
+						<power type="number">2</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						Trench knives are long,
+heavy bladed daggers favored by fighting
+men across western Immoren. The weapon
+features a studded or spiked "skull crusher"
+hand guard that be used to deliver bone snapping
+blows with the fist.
+						</description>
+						<special type="string">Knockout strike TN +2</special>			
+						<special_formatted type="formattedtext">	
+						Trench knives' skull crusher hilts can be
+used to make Unarmed Combat attack rolls. If a character
+using the skull crusher as a melee weapon makes a
+knockout strike (p. 210) that damages his target, add +2 to
+the target number to avoid knockout.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.trenchswordblade@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Trench Sword (blade)</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">15 gc</cost>
+						<skill type="string">Hand Weapon</skill>
+						<attack type="number">-1</attack>
+						<power type="number">4</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						Modeled after the trench knife, the trench
+sword is a stout and heavy sword blade affixed to a
+studded or spiked "skull crusher" hilt.
+						</description>
+						<special type="string"></special>			
+						<special_formatted type="formattedtext">	
+						Trench swords' skull crusher hilts can be
+used to make Unarmed Combat attack rolls. On a critical
+hit with a skull crusher, the target is knocked down. If
+a character using the skull crusher as a melee weapon
+makes a knockout strike (p. 210) that damages his target,
+add +2 to the target number to avoid knockout.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.trenchswordhilt@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Trench Sword (hilt)</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">15 gc</cost>
+						<skill type="string">Unarmed Combat</skill>
+						<attack type="number">-1</attack>
+						<power type="number">2</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						Modeled after the trench knife, the trench
+sword is a stout and heavy sword blade affixed to a
+studded or spiked "skull crusher" hilt.
+						</description>
+						<special type="string">Knockdown on crit; Knockout strike TN +2</special>			
+						<special_formatted type="formattedtext">	
+						Trench swords' skull crusher hilts can be
+used to make Unarmed Combat attack rolls. On a critical
+hit with a skull crusher, the target is knocked down. If
+a character using the skull crusher as a melee weapon
+makes a knockout strike (p. 210) that damages his target,
+add +2 to the target number to avoid knockout.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear04meleeweapons.index.warhammer@Iron Kingdoms Core Rules</recordname>
+						<name type="string">War Hammer</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">20 gc</cost>
+						<skill type="string">Great Weapon</skill>
+						<attack type="number">-1</attack>
+						<power type="number">5</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<description type="formattedtext">
+						Military hammers are oversized versions of
+the common tool, typically forged from iron or steel and
+used by individuals possessed of great strength.
+						</description>
+						<special type="string">Min STR 6 for 1h; Knockout chance on crit</special>			
+						<special_formatted type="formattedtext">	
+						A character must have at least STR 6 to use
+this weapon in one hand.
+						On a critical hit, a living target hit has a chance to be
+knocked out (p. 219) by the attack. If the target suffers
+damage from the attack, he must make a Willpower roll
+against a target number equal to the attacking character's
+STR + 12. If the target succeeds, he stays conscious. If he
+fails, he is knocked out.
+						</special_formatted>			
+		</record>																		
+	
+	</weapons>

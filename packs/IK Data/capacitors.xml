@@ -1,0 +1,273 @@
+<capacitors>					
+	<record>
+						<name type="string">Mechanika Housing</name>
+						<type type="string">Housing</type>
+						<cost type="string">Special</cost>							
+						<description type="formattedtext">									
+						Cost: 10 x the cost of a non-mechanikal version of the item
+being housed
+						The mechanika housing is the shell of the
+mechanikal object. It houses the runeplate, capacitor, and other
+components.
+						</description>
+						<fabricationreq type="string">
+						Applicable Craft skill and
+Mechanikal Engineering. For example, if the character is trying
+to create a mechanikal pistol housing, the pertinent Craft skill
+is Craft (gunsmithing).
+						</fabricationreq>
+						<fabricationcost type="string">
+						3 x the cost of a non-mechanikal
+version of the item.
+						</fabricationcost>
+						<fabrication type="formattedtext">
+						Fabrication of a mechanikal object's housing
+requires access to a mechanik's workshop.
+						Once a character has the raw materials to construct the housing,
+he must spend time preparing and assembling the components.
+The amount of time required is equal to the amount of time
+a mundane version of the item would take to craft plus an
+additional week to create the mechanikal interface conduits,
+capacitor seating, and reflect triggers.
+						Once the character has spent the required amount of time
+fabricating his device housing, the player makes a roll using
+his character's INT + either his Mechanikal Engineering
+skill or his pertinent Craft skill, whichever is lower, against
+a target number of 15. If the roll succeeds, the character has
+successfully crafted the device housing. If the roll fails, the
+character can spend another week working on the housing
+and then roll again.
+						</fabrication>
+	</record>
+						
+						
+	<record>
+						<name type="string">Alchemical Capacitor</name>
+						<type type="string">Capacitor</type>
+						<cost type="string">10 gc</cost>
+						<poweroutput type="number">3</poweroutput>
+						<lifespan type="string">1 week</lifespan>
+						<description type="formattedtext">									
+						This is a small alchemical battery that can be used
+to power most handheld devices. The capacitor functions by
+creating an alchemical reaction that generates power.
+						</description>
+						<special_formatted type="formattedtext">
+						Though alchemical capacitors are the least
+expensive mechanikal power sources available, they lose
+efficacy rapidly over time whether used or not.
+						Alchemical capacitors cannot be recharged.
+						</special_formatted>
+						<fabricationreq type="string">
+						Alchemy and Mechanikal
+Engineering
+						</fabricationreq>
+						<fabricationcost type="string">
+						3 gc
+						</fabricationcost>
+						<fabrication type="formattedtext">
+						Construction requires both an alchemist's
+lab and a mechanik's workshop.
+						Once a character has the raw materials to construct the
+alchemical capacitor, he must spend four hours preparing and
+assembling the components. At the end of this time, his player
+makes an INT + Alchemy or Mechanikal Engineering roll,
+whichever is lower, against a target number of 13. If the roll
+succeeds, the character creates a functional capacitor. If the roll
+fails, the character can make another attempt once he has spent
+an additional hour reworking the capacitor.
+						</fabrication>
+	</record>
+						
+						
+						
+						
+	<record>
+						<name type="string">Arcane Turbine</name>
+						<type type="string">Capacitor</type>
+						<cost type="string">500 gc</cost>
+						<poweroutput type="number">8</poweroutput>
+						<lifespan type="string">6 hours at a time, with a steady supply of coal andwater
+						</lifespan>
+						<description type="formattedtext">									
+						The arcane turbine is a highly efficient and
+advanced generator that transforms energy from a steam engine
+into arcane energy. The heart of the turbine is a complex series
+of wire-coiled wheels spinning inside a thinly layered metal
+lattice of arcane-sensitive alloys. This creates energy that is
+carried through arcane conduits to power various mechanikal
+functions, most notably the power field of warcaster armor and
+peripheral steamjack systems such as sensory equipment and
+reflex triggers.
+						While there is variance in arcane turbines used for warcaster
+armor, most include a highly efficient integrated steam
+engine that provides a steady charge for up to twelve hours
+of operation on a full load of coal and water. These turbines
+can be set to minimal power, deactivating the power field but
+maintaining range of movement, to double the operation time
+and reduce smoke output. Warcaster arcane turbines integrate
+cooling systems to protect the wearer from the steam engine's
+heat. The arcane turbines on a steamjack are powered by steam
+vents from its main steam engine and do not require separate
+coal or water.
+						</description>
+						<special_formatted type="formattedtext">
+						An arcane turbine is typically housed in a suit
+of mechanikal armor, but it is not limited to powering that suit
+of armor. Weapons and shields can be connected to the turbine
+using arcane conduits at a cost of 10 gc per item. Changing
+out an attached weapon requires ten minutes of labor and a
+successful INT + Mechanikal Engineering roll against a target
+number of 11.
+						An arcane turbine requires 1 gc of coal per day for twelve hours
+of continuous operation.
+						</special_formatted>
+						<fabricationreq type="string">
+						Mechanikal Engineering, Inscribe
+Formulae
+						</fabricationreq>
+						<fabricationcost type="string">
+						160 gc
+						</fabricationcost>
+						<fabrication type="formattedtext">
+						Construction requires a mechanik's
+workshop.
+						Once a character has the raw materials to construct the arcane
+turbine, he must spend a week crafting and assembling the
+components. At the end of this time, his player makes an INT
++ Mechanikal Engineering roll against a target number of 17.
+If the roll succeeds, the character creates a functional arcane
+turbine. If the roll fails, the character can make another attempt
+once he has spent an additional day reworking the turbine.
+						</fabrication>
+	</record>
+						
+
+	<record>
+						<name type="string">Arcanodynamic Accumulator</name>
+						<type type="string">Capacitor</type>
+						<cost type="string">50 gc</cost>
+						<poweroutput type="number">4</poweroutput>
+						<lifespan type="string">1 month</lifespan>
+						<description type="formattedtext">									
+						Arcanodynamic accumulators are capacitors
+constructed with glass cylinders or spheres that contain steel
+and gold scrolls etched with complex runes to generate an
+arcane charge. They are very slow to produce but pack a great
+deal of energy into a single capacitor. Accumulators can be
+used to power most handheld devices. The capacitor functions
+by creating an alchemical reaction that generates power.
+						</description>
+						<special_formatted type="formattedtext">
+						The complex mechanika of an arcanodynamic
+accumulator allows it to keep its charge much longer than the
+alchemical capacitor.
+						Arcanodynamic accumulators cannot be recharged.
+						</special_formatted>
+						<fabricationreq type="string">
+						Craft (glasswork), Mechanikal
+Engineering, Inscribe Formulae
+						</fabricationreq>
+						<fabricationcost type="string">
+						15 gc
+						</fabricationcost>
+						<fabrication type="formattedtext">
+						Construction requires both a mechanik's
+workshop and a glassworker's workshop.
+						Once a character has the raw materials to construct the
+accumulator, he must spend one day preparing and assembling
+the components. At the end of this time, his player makes
+an INT + Craft (glasswork) or Mechanikal Engineering roll,
+whichever is lower, against a target number of 13. If the roll
+succeeds, the character creates a functional capacitor. If the roll
+fails, the character can make another attempt once he has spent
+an additional hour reworking the capacitor.
+						</fabrication>
+	</record>
+						
+						
+	<record>
+						<name type="string">Clockwork Capacitor</name>
+						<type type="string">Capacitor</type>
+						<cost type="string">80 gc</cost>
+						<poweroutput type="number">3</poweroutput>
+						<lifespan type="string">1 day, with the ability to be recharged as described below
+						</lifespan>
+						<description type="formattedtext">									
+						The clockwork capacitor is an ingenious
+mechanikal device that can be recharged through winding. The
+Cult of Cyriss produces a vast array of these devices that can
+be much more sophisticated than those commonly available
+throughout the markets of the Iron Kingdoms. A clockwork
+capacitor can be built in any size but has the same general
+attributes regardless of size.
+						</description>
+						<special_formatted type="formattedtext">
+						Completely recharging this capacitor requires
+fifteen minutes of winding.
+						</special_formatted>
+						<fabricationreq type="string">
+						Mechanikal Engineering, Inscribe
+Formulae
+						</fabricationreq>
+						<fabricationcost type="string">
+						20 gc
+						</fabricationcost>
+						<fabrication type="formattedtext">
+						Construction requires a mechanik's
+workshop.
+						Once a character has the raw materials to construct the arcane
+turbine, he must spend three days crafting and assembling the
+components. At the end of this time, his player makes an INT
++ Mechanikal Engineering roll against a target number of 15. If
+the roll succeeds, the character creates a functional clockwork
+capacitor. If the roll fails, the character can make another
+attempt once he has spent an additional four hours reworking
+the capacitor.
+						</fabrication>
+	</record>
+						
+						
+	<record>
+						<name type="string">Storm Chamber</name>
+						<type type="string">Capacitor</type>
+						<cost type="string">250 gc</cost>
+						<poweroutput type="number">5</poweroutput>
+						<lifespan type="string">1 year</lifespan>
+						<description type="formattedtext">									
+						The storm chamber is a revolutionary accumulator
+developed and used widely by the Cygnaran military. The
+accumulator is powered by lightning generated and harnessed
+within the chamber itself.
+						</description>
+						<special_formatted type="formattedtext">
+						Any character handling an activated storm
+chamber suffers a POW 12 electrical damage roll. Such power
+sources are either designed to be used by individuals with
+galvanic shields or integrated into the housing of mechanika
+where no one can contact the accumulator.
+						Storm chambers cannot be recharged.
+						</special_formatted>
+						<fabricationreq type="string">
+						Mechanikal Engineering, Inscribe
+Formulae
+						</fabricationreq>
+						<fabricationcost type="string">
+						80 gc
+						</fabricationcost>
+						<fabrication type="formattedtext">
+						Construction requires a mechanik's
+workshop.
+						Once a character has the raw materials to construct the storm
+chamber, he must spend a week crafting and assembling the
+components. At the end of this time, his player makes an INT +
+Mechanikal Engineering roll against a target number of 16. If the
+roll succeeds, the character creates a functional storm chamber.
+If the roll fails, the character can make another attempt once he
+has spent an additional day reworking the generator.
+						</fabrication>
+	</record>
+						
+						
+
+</capacitors>

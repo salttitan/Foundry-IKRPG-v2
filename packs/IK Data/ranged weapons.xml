@@ -1,0 +1,2290 @@
+	<rangedweapons>	
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear08eqipment.index.rivetgun@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Rivet Gun</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">30 gc</cost>
+						<maxammo type="number">10</maxammo><ammotype type="string">(rivets)</ammotype>
+						<range type="number">4</range><rangetext type="string">24 feet</rangetext>						
+						<skill type="string">Pistol</skill>
+						<attack type="number">-2</attack>
+						<power type="number">10</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						This stubby tool can be the field mechanik's
+best friend for securing repairs and locking armor back down
+in place. It is well suited for use in combat conditions, being
+light and easy to load yet durable and reliable. The rivet gun
+doubles as a holdout weapon at close range. Although it doesn't
+have much stopping power against heavily armored targets, in
+the right hands it can prove an effective deterrent for enemy
+troopers or at least buy a mechanik enough time to retreat from
+making repairs.
+						The gun uses rivets, each with a paper-wrapped explosive
+charge in the rivet head. This mixture of blast powder is packed
+the same way as a cartridge. The charge is much smaller,
+designed to give just enough punch to pierce metal at extremely
+close ranges. The barrel design requires placement directly on
+armor plate or metal while the mechanik pulls the trigger, and
+the blast charge allows the rivet to penetrate moderately thick
+metal and pin it in place. The gravity-fed firing mechanism
+does not jam easily, although water can creep into the rivet bin
+and waterlog the rivets so they won't fire.
+						The gun holds ten rivets. It takes a quick action to reload each
+rivet in combat.
+						As a weapon, the rivet gun is inaccurate and has an effective
+range of only twenty-four feet (4?) with no extreme range. A
+character making an attack with a rivet gun uses the Pistol skill
+and suffers a -2 penalty on his attack roll. A character hit by a
+rivet gun suffers a POW 10 damage roll.
+						As a weapon, the rivet gun is inaccurate and has an effective
+range of only twenty-four feet (4") with no extreme range. A
+character making an attack with a rivet gun uses the Pistol skill
+and suffers a -2 penalty on his attack roll. A character hit by a
+rivet gun suffers a POW 10 damage roll.
+						</description>
+						<special type="string"></special>			
+						<special_formatted type="formattedtext">
+						Rivets and powder for a rivet gun cost 1 gc for ten rounds.
+						</special_formatted>			
+		</record>
+
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.axethrowing@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Axe, Throwing</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">12 gc</cost>
+						<maxammo type="number"></maxammo><ammotype type="string"></ammotype>
+						<range type="number">6</range><rangetext type="string">36 feet</rangetext>
+						<extremerange type="number">0</extremerange><extremerangetext type="string"></extremerangetext>		
+						<skill type="string">Thrown Weapon</skill>
+						<attack type="number">0</attack>
+						<power type="number">3</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>												
+						<description type="formattedtext">
+						This is a hand axe that has been balanced for
+						throwing.
+						</description>
+						<special type="string">+STR to POW; Melee also</special>			
+						<special_formatted type="formattedtext">
+						Add the thrower's STR to the POW of the
+						damage roll. It can be used as a melee weapon as well as a
+						ranged weapon.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.blunderbussonehanded@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Blunderbuss (1h)</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">30 gc</cost>
+						<maxammo type="number">1</maxammo><ammotype type="string">(heavy round)</ammotype>
+						<range type="number">8</range><rangetext type="string">48 feet</rangetext>
+						<extremerange type="number">40</extremerange><extremerangetext type="string">240 feet</extremerangetext>							
+						<skill type="string">Rifle</skill>
+						<attack type="number">-2</attack>
+						<power type="number">12</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						The blunderbuss is a short, stubby breach-loading
+						rifle with a large bore. An unrefined weapon that has changed
+						little since the Rebellion, the blunderbuss typically fires a
+						powerful, short-range round. The blunderbuss is the standardissue
+						weapon of the Khadoran Winter Guard.
+						</description>
+						<special type="string"></special>			
+						<special_formatted type="formattedtext">
+						It costs 3 gc for blasting powder, bullets, and
+						casings for five heavy rounds.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.blunderbusstwohanded@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Blunderbuss (2h)</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">30 gc</cost>
+						<maxammo type="number">1</maxammo><ammotype type="string">(heavy round)</ammotype>
+						<range type="number">8</range><rangetext type="string">48 feet</rangetext>
+						<extremerange type="number">40</extremerange><extremerangetext type="string">240 feet</extremerangetext>							
+						<skill type="string">Rifle</skill>
+						<attack type="number">-1</attack>
+						<power type="number">12</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						The blunderbuss is a short, stubby breach-loading
+						rifle with a large bore. An unrefined weapon that has changed
+						little since the Rebellion, the blunderbuss typically fires a
+						powerful, short-range round. The blunderbuss is the standardissue
+						weapon of the Khadoran Winter Guard.
+						</description>
+						<special type="string"></special>			
+						<special_formatted type="formattedtext">
+						It costs 3 gc for blasting powder, bullets, and
+						casings for five heavy rounds.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.bola@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Bola</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">5 gc</cost>
+						<maxammo type="number"></maxammo><ammotype type="string"></ammotype>
+						<range type="number">8</range><rangetext type="string">48 feet</rangetext>
+						<extremerange type="number"></extremerange><extremerangetext type="string"></extremerangetext>							
+						<skill type="string">Thrown Weapon</skill>
+						<attack type="number">-2</attack>
+						<power type="number">0</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						A bola is a simple throwing weapon made of
+lengths of rope and chain affixed together and ending in heavy
+weights. The weapon causes little damage, as its true purpose is
+to entangle and trip its target.
+						</description>
+						<special type="string">Chance for knockdown &amp; entangle</special>			
+						<special_formatted type="formattedtext">
+						A character hit with a bola must succeed in a
+STR + PRW roll against a target number of 15 or be knocked
+down. If the character succeeds, he manages to get free of the
+bola before becoming entangled by it.
+						Once knocked down, the character must either spend a quick
+action and succeed in an AGL + Rope Use skill roll against a target
+number of 10 to untie himself or spend a quick action and succeed
+in a STR roll against a target number of 10 to break free. If the
+attempt fails, the character can spend additional quick actions
+repeat the attempt but can take no other action until freed.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.bow@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Bow</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">20 gc</cost>
+						<maxammo type="number">1</maxammo><ammotype type="string"></ammotype>
+						<range type="number">10</range><rangetext type="string">60 feet</rangetext>
+						<extremerange type="number">50</extremerange><extremerangetext type="string">300 feet</extremerangetext>							
+						<skill type="string">Archery</skill>
+						<attack type="number">0</attack>
+						<power type="number">10</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						Though bows are used less frequently in the
+modern age of firearms, a bow is still a deadly weapon in the
+hands of an expert. A bow's height is roughly equal to that of
+its wielder.
+						</description>
+						<special type="string">2h</special>			
+						<special_formatted type="formattedtext">
+						It costs 1 gc for ten arrows.
+						This weapon requires two hands.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.bowgreat@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Bow, Great</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">45 gc</cost>
+						<maxammo type="number">1</maxammo><ammotype type="string"></ammotype>
+						<range type="number">10</range><rangetext type="string">60 feet</rangetext>
+						<extremerange type="number">50</extremerange><extremerangetext type="string">300 feet</extremerangetext>							
+						<skill type="string">Archery</skill>
+						<attack type="number">0</attack>
+						<power type="number">12</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						This is a large, stout bow with an extremely heavy
+draw.
+						</description>
+						<special type="string">2h; Min STR 6</special>			
+						<special_formatted type="formattedtext">
+						It costs 1 gc for five arrows.
+						This weapon requires two hands.
+						A character must have at least STR 6 to use this weapon.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.bownyss@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Bow, Nyss</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">35 gc</cost>
+						<maxammo type="number">1</maxammo><ammotype type="string"></ammotype>
+						<range type="number">12</range><rangetext type="string">72 feet</rangetext>
+						<extremerange type="number">60</extremerange><extremerangetext type="string">360 feet</extremerangetext>							
+						<skill type="string">Archery</skill>
+						<attack type="number">0</attack>
+						<power type="number">10</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						The Nyss are known for the power of their fine
+composite bows. These weapons are strong enough to withstand
+the freezing climates of the far north where a lesser bow would
+shatter from use. Their ingenious design also redoubles the
+archer's strength, greatly increasing the range of the weapon.
+						</description>
+						<special type="string">2h; Min STR 5</special>			
+						<special_formatted type="formattedtext">
+						It costs 1 gc for ten arrows.
+						This weapon requires two hands.
+						A character must have at least STR 5 to use this weapon.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.cannonshield@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Cannon-Shield</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">45 gc</cost>
+						<maxammo type="number">1</maxammo><ammotype type="string">(heavy round)</ammotype>
+						<range type="number">8</range><rangetext type="string">48 feet</rangetext>
+						<extremerange type="number">40</extremerange><extremerangetext type="string">240 feet</extremerangetext>							
+						<skill type="string">Rifle</skill>
+						<attack type="number">-2</attack>
+						<power type="number">12</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						This is a heavy, short-range rifle mounted in the
+center of a shield. The weapon can be used as shield and as a
+ranged weapon.
+						</description>
+						<special type="string">Is also a shield; Can shoot on charge</special>			
+						<special_formatted type="formattedtext">
+						This weapon is also a shield (p. 258).
+						It costs 3 gc for blasting powder, bullets, and casings for five
+heavy rounds.
+						As part of a charge, after moving but before making the charge
+attack, a character can spend 1 feat point to make one ranged
+attack with this weapon targeting the enemy charged unless
+the character was in melee with the enemy at the start of his
+turn. When resolving the ranged attack, the attacking character
+does not suffer the target in melee penalty. If the target is not in
+melee range after moving, the character can make the ranged
+attack before his turn ends.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.carbine@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Carbine</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">60 gc</cost>
+						<maxammo type="number">5</maxammo><ammotype type="string">(metal-cased light round)</ammotype>
+						<range type="number">10</range><rangetext type="string">60 feet</rangetext>
+						<extremerange type="number">50</extremerange><extremerangetext type="string">300 feet</extremerangetext>							
+						<skill type="string">Rifle</skill>
+						<attack type="number">0</attack>
+						<power type="number">10</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						The carbine is primarily a military weapon,
+bridging the gap between the pistol and rifle. The weapon
+utilizes a five-chambered ammo wheel that can be replaced in
+the heat of combat instead of reloading each chamber separately.
+A relatively advanced weapon, it is rare to see a carbine for sale
+on the open market.
+						</description>
+						<special type="string">Is also a shield; Can shoot on charge</special>			
+						<special_formatted type="formattedtext">
+						Replacing this weapon's ammo wheel requires a
+quick action. Reloading each chamber of the ammo wheel takes
+one quick action.
+						It costs 3 gc for blasting powder, bullets, and metal casings for
+five light rounds.
+						An extra ammo wheels cost 15 gc.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.crossbow1h@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Crossbow (1h)</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">20 gc</cost>
+						<maxammo type="number">1</maxammo><ammotype type="string"></ammotype>
+						<range type="number">10</range><rangetext type="string">60 feet</rangetext>
+						<extremerange type="number">50</extremerange><extremerangetext type="string">300 feet</extremerangetext>							
+						<skill type="string">Crossbow</skill>
+						<attack type="number">-2</attack>
+						<power type="number">12</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						Numerous nations and races developed the
+crossbow independently, and they are widespread, if not
+common, weapons across western Immoren. Crossbows are
+popular weapons among assassins and hunters alike.
+						</description>
+						<special type="string"></special>			
+						<special_formatted type="formattedtext">
+						It costs 1 gc for ten bolts. A crossbow takes a full
+action to reload.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.crossbow1h@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Crossbow (2h)</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">20 gc</cost>
+						<maxammo type="number">1</maxammo><ammotype type="string"></ammotype>
+						<range type="number">10</range><rangetext type="string">60 feet</rangetext>
+						<extremerange type="number">50</extremerange><extremerangetext type="string">300 feet</extremerangetext>							
+						<skill type="string">Crossbow</skill>
+						<attack type="number">0</attack>
+						<power type="number">12</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						Numerous nations and races developed the
+crossbow independently, and they are widespread, if not
+common, weapons across western Immoren. Crossbows are
+popular weapons among assassins and hunters alike.
+						</description>
+						<special type="string"></special>			
+						<special_formatted type="formattedtext">
+						It costs 1 gc for ten bolts. A crossbow takes a full
+action to reload.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.crossbowrepeating@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Crossbow, repeating</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">30 gc</cost>
+						<maxammo type="number">6</maxammo><ammotype type="string"></ammotype>
+						<range type="number">10</range><rangetext type="string">60 feet</rangetext>
+						<extremerange type="number">50</extremerange><extremerangetext type="string">300 feet</extremerangetext>							
+						<skill type="string">Crossbow</skill>
+						<attack type="number">-1</attack>
+						<power type="number">10</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						The repeating, or mechanical, crossbow is a
+magazine fed crossbow that reloads itself each time the bow
+string is locked back in place. The weapon's magazine must be
+removed for it to be reloaded and can be replaced in the heat of
+combat instead of reloading each bolt by hand.
+						</description>
+						<special type="string">2h</special>			
+						<special_formatted type="formattedtext">
+						Replacing this weapon's magazine requires a
+quick action. Loading each bolt into the magazine takes one
+quick action.
+						This weapon requires two hands.
+						It costs 1 gc for ten bolts. Additional magazines cost 10 gc each.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.grenadeconcussion@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Grenade, Concussion</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">20 gc</cost>
+						<maxammo type="number"></maxammo><ammotype type="string"></ammotype>
+						<range type="number">8</range><rangetext type="string">48 feet</rangetext>
+						<extremerange type="number"></extremerange><extremerangetext type="string"></extremerangetext>							
+						<skill type="string">Thrown Weapon</skill>
+						<attack type="number">0</attack>
+						<power type="number"></power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number">3</aoe>							
+						<description type="formattedtext">
+						A concussion grenade utilizes a volume of "true
+air," an alchemical gas known for its expansive qualities.
+True air is captured, liquefied through a treatment process,
+then cooled and stored within the grenade. When the bomb is
+detonated, the true air is heated and released.
+						</description>
+						<special type="string"></special>			
+						<special_formatted type="formattedtext">
+						Once it is in hand, using a grenade requires both
+a quick action and an attack. The quick action is spent pulling
+the pin, and the attack is to actually throw the grenade.
+						The concussion grenade causes no damage. Characters caught
+in the AOE are knocked down. Cloud effects overlapping the
+AOE expire.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.grenadeexplosive@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Grenade, Explosive</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">10 gc</cost>
+						<maxammo type="number"></maxammo><ammotype type="string"></ammotype>
+						<range type="number">8</range><rangetext type="string">48 feet</rangetext>
+						<extremerange type="number"></extremerange><extremerangetext type="string"></extremerangetext>							
+						<skill type="string">Thrown Weapon</skill>
+						<attack type="number">0</attack>
+						<power type="number">12</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number">3</aoe>							
+						<description type="formattedtext">
+						Explosive grenades come in many shapes and
+sizes. They are most often round metal objects a little smaller
+than a man's fist. They can also be cylindrical, integrate a stick
+or grip at the base for throwing, contain studs to aid in the
+holding of the device, or incorporate any of a countless number
+of other variations.
+						Grenades typically have a handle locked in place by a removable
+safety pin. Once the pin is pulled, the grenade is primed but
+still does not explode until the handle is released, such as by
+being thrown. As long as the grenade is held in the hand, the
+handle remains in place. Upon the handle's release, either a
+fuse ignites or a clockwork mechanism is thrown into motion,
+depending on the nature of the grenade. After a few seconds
+the grenade explodes.
+						</description>
+						<special type="string"></special>			
+						<special_formatted type="formattedtext">
+						Once it is in hand, using a grenade requires both
+a quick action and an attack. The quick action is spent pulling
+the pin, and the attack is to actually throw the grenade.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.grenadesmoke@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Grenade, Smoke</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">5 gc</cost>
+						<maxammo type="number"></maxammo><ammotype type="string"></ammotype>
+						<range type="number">8</range><rangetext type="string">48 feet</rangetext>
+						<extremerange type="number"></extremerange><extremerangetext type="string"></extremerangetext>							
+						<skill type="string">Thrown Weapon</skill>
+						<attack type="number">0</attack>
+						<power type="number"></power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number">3</aoe>							
+						<description type="formattedtext">
+						Smoke grenades contain an alchemical compound
+that when set off produces a thick, billowing cloud of smoke.
+Smoke grenades come in an assortment of colors used by the
+militaries of the Iron Kingdoms to signal various conditions
+on the battlefield. These grenades are produced cheaply and in
+large numbers by the militaries of the Iron Kingdoms.
+						</description>
+						<special type="string"></special>			
+						<special_formatted type="formattedtext">
+						Once it is in hand, using a grenade requires both
+a quick action and an attack. The quick action is spent pulling
+the pin, and the attack is to actually throw the grenade.
+						Smoke grenades cause no damage. The weapon's AOE is a cloud
+effect that remains in play for one round.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.grenadestranglegas@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Grenade, Strangle Gas</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">20 gc</cost>
+						<maxammo type="number"></maxammo><ammotype type="string"></ammotype>
+						<range type="number">8</range><rangetext type="string">48 feet</rangetext>
+						<extremerange type="number"></extremerange><extremerangetext type="string"></extremerangetext>							
+						<skill type="string">Thrown Weapon</skill>
+						<attack type="number">0</attack>
+						<power type="number"></power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number">3</aoe>							
+						<description type="formattedtext">
+						These grenades unleash gouts of choking, fuming
+gas. They are produced cheaply and in large numbers by the
+militaries of the Iron Kingdoms.
+						</description>
+						<special type="string"></special>			
+						<special_formatted type="formattedtext">
+						Once it is in hand, using a grenade requires both
+a quick action and an attack. The quick action is spent pulling
+the pin, and the attack is to actually throw the grenade.
+						Strangle gas grenades cause no damage. The weapon's AOE is
+a cloud effect, gas effect that remains in play for one round.
+While in the AOE, living characters suffer -2 DEF and -2 on
+attack rolls.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.gunaxegun@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Gun Axe (gun)</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">80 gc</cost>
+						<maxammo type="number">1</maxammo><ammotype type="string">(heavy round)</ammotype>
+						<range type="number">8</range><rangetext type="string">48 feet</rangetext>
+						<extremerange type="number">40</extremerange><extremerangetext type="string">240 feet</extremerangetext>							
+						<skill type="string">Rifle</skill>
+						<attack type="number">-1</attack>
+						<power type="number">12</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						This weapon integrates a heavy, short-range rifle
+into the handle of an axe.
+						</description>
+						<special type="string">Can shoot on charge</special>			
+						<special_formatted type="formattedtext">
+						When used as a melee weapon, this weapon has
+an attack modifier of -1, is POW 3, and uses the One-Handed
+Weapon skill.
+						It costs 3 gc for blasting powder, bullets, and casings for five
+heavy rounds.
+						As part of a charge, after moving but before making the charge
+attack a character can spend 1 feat point to make a ranged
+attack with this weapon targeting the enemy charged unless
+he was in melee with the enemy at the start of his turn. When
+resolving the ranged attack, the attacking character does not
+suffer the target in melee penalty. If the target is not in melee
+range after moving, the character can make the ranged attack
+before his turn ends.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.gunaxeaxe@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Gun Axe (axe)</name>
+						<type type="string">Melee Weapon</type>
+						<cost type="string">80 gc</cost>					
+						<skill type="string">Hand Weapon</skill>
+						<showrange type="number">1</showrange>
+						<attack type="number">-1</attack>
+						<power type="number">3</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						This weapon integrates a heavy, short-range rifle
+into the handle of an axe.
+						</description>
+						<special type="string">Can shoot on charge</special>			
+						<special_formatted type="formattedtext">
+						When used as a melee weapon, this weapon has
+an attack modifier of -1, is POW 3, and uses the One-Handed
+Weapon skill.
+						It costs 3 gc for blasting powder, bullets, and casings for five
+heavy rounds.
+						As part of a charge, after moving but before making the charge
+attack a character can spend 1 feat point to make a ranged
+attack with this weapon targeting the enemy charged unless
+he was in melee with the enemy at the start of his turn. When
+resolving the ranged attack, the attacking character does not
+suffer the target in melee penalty. If the target is not in melee
+range after moving, the character can make the ranged attack
+before his turn ends.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.handcannon@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Hand Cannon</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">100 gc</cost>		
+						<maxammo type="number">1</maxammo><ammotype type="string">(heavy round)</ammotype>
+						<range type="number">12</range><rangetext type="string">72 feet</rangetext>
+						<extremerange type="number">60</extremerange><extremerangetext type="string">360 feet</extremerangetext>	
+						<skill type="string">Pistol</skill>
+						<attack type="number">0</attack>
+						<power type="number">12</power>
+						<powerapplystr type="number"></powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						Extremely heavy and well-made pistols, hand
+cannons are expensive firearms most commonly found in
+the possession of ranking military officers. These enormous
+handguns pack a significant punch and are accurate to a range
+far beyond that of most other pistols.
+						</description>
+						<special type="string"></special>			
+						<special_formatted type="formattedtext">
+						It costs 3 gc for blasting powder, bullets, and
+casings for five heavy rounds.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.handcannondual@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Hand Cannon, Dual</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">250 gc</cost>		
+						<maxammo type="number">2</maxammo><ammotype type="string">(heavy round)</ammotype>
+						<range type="number">12</range><rangetext type="string">72 feet</rangetext>
+						<extremerange type="number">60</extremerange><extremerangetext type="string">360 feet</extremerangetext>	
+						<skill type="string">Pistol</skill>
+						<attack type="number">0</attack>
+						<power type="number">12</power>
+						<powerapplystr type="number"></powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						This is a hand cannon with two barrels. Each
+barrel can be fired independently, or they can be discharged
+together for a single massive blast.
+						</description>
+						<special type="string">Can shoot both barrels as a single attack</special>			
+						<special_formatted type="formattedtext">
+						Discharging both barrels together is treated as a
+single attack, and the weapon suffers -2 on the attack roll. If the
+attack hits, add +3 to the damage roll.
+						Reloading each barrel takes one quick action.
+						It costs 3 gc for blasting powder, bullets, and casings for five
+heavy rounds.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.harpoongun@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Harpoon Gun</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">35 gc</cost>		
+						<maxammo type="number">1</maxammo><ammotype type="string">(harpoon or grapple)</ammotype>
+						<range type="number">10</range><rangetext type="string">60 feet</rangetext>
+						<extremerange type="number">20</extremerange><extremerangetext type="string">120 feet</extremerangetext>	
+						<skill type="string">Rifle</skill>
+						<attack type="number">-2</attack>
+						<power type="number">12</power>
+						<powerapplystr type="number"></powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						The harpoon gun is a specially designed firearm
+made to propel a harpoon over long distances. Harpoon guns
+typically have short, stout barrels and are fitted with iron rings
+that can be used to tie off the harpoon line and to anchor the
+harpoon gun into secured mounting, such as on a ship. The
+true range of the harpoon gun is limited by the rope or cable
+attached to the harpoon.
+						The harpoon gun can also be used to fire a grappling hook and
+line.
+						</description>
+						<special type="string"></special>			
+						<special_formatted type="formattedtext">
+						If this weapon damages a target with an equal
+or smaller base, immediately after the attack is resolved the
+damaged character can be pushed any distance directly toward
+the character armed with the harpoon.
+						A grappling hook has a -4 attack modifier instead of -2 and has
+POW 8.
+						It costs 1 gc for blasting powder and casings for five charges.
+Additional harpoons or grapples cost 1 gc each.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.javelin@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Javelin</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">5 gc</cost>		
+						<maxammo type="number"></maxammo><ammotype type="string"></ammotype>
+						<range type="number">8</range><rangetext type="string">48 feet</rangetext>
+						<extremerange type="number"></extremerange><extremerangetext type="string"></extremerangetext>	
+						<skill type="string">Thrown Weapon</skill>
+						<attack type="number">0</attack>
+						<power type="number">3</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						A javelin is a light spear designed for throwing.
+						</description>
+						<special type="string">+STR to POW</special>			
+						<special_formatted type="formattedtext">							
+						Add the thrower's STR to the POW of the
+damage roll.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.knifethrowing@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Knife, Throwing</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">8 gc</cost>		
+						<maxammo type="number"></maxammo><ammotype type="string"></ammotype>
+						<range type="number">6</range><rangetext type="string">36 feet</rangetext>
+						<extremerange type="number"></extremerange><extremerangetext type="string"></extremerangetext>	
+						<skill type="string">Thrown Weapon</skill>
+						<attack type="number">0</attack>
+						<power type="number">2</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						This is a heavy knife balanced for throwing.
+						</description>
+						<special type="string">+STR to POW; Melee also</special>			
+						<special_formatted type="formattedtext">
+						Add the thrower's STR to the POW of the
+damage roll. A throwing knife can be used as a melee weapon
+as well as a ranged weapon.
+						</special_formatted>			
+		</record>						
+						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.ogrunbattlecannon1h@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Ogrun Battle Cannon (1h)</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">85 gc</cost>		
+						<maxammo type="number">1</maxammo><ammotype type="string">(shell)</ammotype>
+						<range type="number">12</range><rangetext type="string">72 feet</rangetext>
+						<extremerange type="number">60</extremerange><extremerangetext type="string">360 feet</extremerangetext>	
+						<skill type="string">Rifle</skill>
+						<attack type="number">-2</attack>
+						<power type="number">12</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number">3</aoe>							
+						<description type="formattedtext">
+						A small cannon designed to be fired by an
+ogrun from the hip, the battle cannon is a weapon of Rhulic
+manufacture.
+						</description>
+						<special type="string">Ogrun only; Min STR 6</special>			
+						<special_formatted type="formattedtext">
+						This weapon can be wielded only by characters
+with the proportions of an ogrun and with STR 6 or greater.
+						It cost 3 gc for one ogrun battle cannon shell.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.ogrunbattlecannon2h@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Ogrun Battle Cannon (2h)</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">85 gc</cost>		
+						<maxammo type="number">1</maxammo><ammotype type="string">(shell)</ammotype>
+						<range type="number">12</range><rangetext type="string">72 feet</rangetext>
+						<extremerange type="number">60</extremerange><extremerangetext type="string">360 feet</extremerangetext>	
+						<skill type="string">Rifle</skill>
+						<attack type="number">-1</attack>
+						<power type="number">12</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number">3</aoe>							
+						<description type="formattedtext">
+						A small cannon designed to be fired by an
+ogrun from the hip, the battle cannon is a weapon of Rhulic
+manufacture.
+						</description>
+						<special type="string">Ogrun only; Min STR 6</special>			
+						<special_formatted type="formattedtext">
+						This weapon can be wielded only by characters
+with the proportions of an ogrun and with STR 6 or greater.
+						It cost 3 gc for one ogrun battle cannon shell.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.pistol@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Pistol</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">20 gc</cost>		
+						<maxammo type="number">1</maxammo><ammotype type="string">(light round)</ammotype>
+						<range type="number">8</range><rangetext type="string">48 feet</rangetext>
+						<extremerange type="number">40</extremerange><extremerangetext type="string">240 feet</extremerangetext>	
+						<skill type="string">Pistol</skill>
+						<attack type="number">0</attack>
+						<power type="number">10</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						Handguns are commonly found among military
+officers, adventurers, and even private citizens seeking
+weapons of self-defense.
+						</description>
+						<special type="string"></special>			
+						<special_formatted type="formattedtext">							
+						It costs 2 gc for blasting powder, bullets, and
+casings for five light rounds.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.pistolholdout@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Pistol, Holdout</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">15 gc</cost>		
+						<maxammo type="number">1</maxammo><ammotype type="string">(light round)</ammotype>
+						<range type="number">4</range><rangetext type="string">24 feet</rangetext>
+						<extremerange type="number"></extremerange><extremerangetext type="string"></extremerangetext>	
+						<skill type="string">Pistol</skill>
+						<attack type="number">1</attack>
+						<power type="number">8</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						Concealable and easy to control, the holdout pistol
+fires a small-caliber ball that, though accurate, is effective only
+at extremely close range. Despite its shortcomings, the holdout
+pistol is favored as a weapon of last resort by those with little
+skill in firearms.
+						</description>
+						<special type="string"></special>			
+						<special_formatted type="formattedtext">							
+						It costs 2 gc for blasting powder, bullets, and
+casings for five light rounds.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.pistolmagelock@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Pistol, Magelock</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">150 gc</cost>		
+						<maxammo type="number">1</maxammo><ammotype type="string">(metal-cased rune shot)</ammotype>
+						<range type="number">10</range><rangetext type="string">60 feet</rangetext>
+						<extremerange type="number">50</extremerange><extremerangetext type="string">300 feet</extremerangetext>	
+						<skill type="string">Pistol</skill>
+						<attack type="number">0</attack>
+						<power type="number">10</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						The signature weapon of the gun mage, each
+magelock pistol is the hand-crafted product of a master
+gunsmith. Only rare and difficult to manufacture steel alloys
+can withstand the arcane stresses caused by rune shots, so
+magelock pistols are treasured by their owners. A magelock
+fires metal-cased rune shot rounds in which both the bullet and
+its casing have been inscribed with runes.
+						</description>
+						<special type="string">Magical*</special>			
+						<special_formatted type="formattedtext">							
+						Magelocks are capable of firing light metal-cased
+ammunition in times of need, but Gun Mages seldom deign to
+do so. It is impossible to empower non-rune shot ammunition
+with spells, no matter what sort of firearm fires it.
+						It costs 5 gc for blasting powder, rune-scribed bullets, and the
+metal casing for each round of rune shot ammunition. Due to
+the high cost of ammunition, most gun mages pour their own
+rune shots (see "Craft Rune Shot," p. 160).
+						When a Gun Mage fires a rune shot from a magelock pistol, the
+magelock is considered to be a magical weapon.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.pistolrepeating@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Pistol, Repeating</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">35 gc</cost>		
+						<maxammo type="number">5</maxammo><ammotype type="string">(light round)</ammotype>
+						<range type="number">8</range><rangetext type="string">48 feet</rangetext>
+						<extremerange type="number">40</extremerange><extremerangetext type="string">240 feet</extremerangetext>	
+						<skill type="string">Pistol</skill>
+						<attack type="number">0</attack>
+						<power type="number">10</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						The repeating pistol utilizes a five-chambered
+ammo wheel that can be replaced in the heat of combat instead
+of reloading each cylinder separately.
+						</description>
+						<special type="string">Ammo Wheel</special>			
+						<special_formatted type="formattedtext">							
+						Replacing this weapon's ammo wheel requires a
+quick action. Reloading each cylinder of the ammo wheel takes
+one quick action.
+						It costs 2 gc for blasting powder, bullets, and casings for five
+light rounds. Additional ammo wheels cost 15 gc each.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.quadiron@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Quad-Iron</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">200 gc</cost>		
+						<maxammo type="number">4</maxammo><ammotype type="string">(light round)</ammotype>
+						<range type="number">10</range><rangetext type="string">60 feet</rangetext>
+						<extremerange type="number">50</extremerange><extremerangetext type="string">300 feet</extremerangetext>	
+						<skill type="string">Pistol</skill>
+						<attack type="number">-1</attack>
+						<power type="number">10</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						A truly massive pistol, the quad-iron is a heavy,
+four-barreled pistol capable of firing all of its barrels in rapid
+succession. Expensive and rare, quad-irons are highly valued
+by pistoleers despite their weight and punishing recoil.
+						</description>
+						<special type="string">+1 shot after hit</special>			
+						<special_formatted type="formattedtext">							
+						 After a hit with this weapon, once the attack
+has been resolved the attacker can immediately make one
+additional attack with this weapon targeting the last character
+hit or another character within 2" of that character. This attack
+is in addition to the attacker's other actions.
+						Reloading each barrel takes one quick action.
+						It costs 2 gc for blasting powder, bullets, and casings for five
+light rounds.
+						</special_formatted>			
+		</record>						
+						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.radcliffecarbine1h@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Radcliffe Carbine (1h)</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">250 gc</cost>		
+						<maxammo type="number">5</maxammo><ammotype type="string">(metal-cased heavy round)</ammotype>
+						<range type="number">13</range><rangetext type="string">78 feet</rangetext>
+						<extremerange type="number">65</extremerange><extremerangetext type="string">390 feet</extremerangetext>	
+						<skill type="string">Rifle</skill>
+						<attack type="number">-2</attack>
+						<power type="number">11</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+The Radcliffe Gunwerks heavy carbine is among
+the finest firearms ever made. Packing the punch of a military
+rifle and nearly the range of a long gun, this weapon is treasured
+by the military officers who can afford them. The weapon
+utilizes a five-chambered ammo wheel that can be replaced in
+the heat of combat instead of reloading each cylinder separately.
+						</description>
+						<special type="string"></special>			
+						<special_formatted type="formattedtext">							
+						Replacing this weapon's ammo wheel requires a
+quick action. Reloading each cylinder of the ammo wheel takes
+one quick action.
+						It costs 4 gc for blasting powder, bullets, and metal casings for
+five heavy rounds.
+						Additional ammo wheels cost 15 gc each.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.radcliffecarbine2h@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Radcliffe Carbine (2h)</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">250 gc</cost>		
+						<maxammo type="number">5</maxammo><ammotype type="string">(metal-cased heavy round)</ammotype>
+						<range type="number">13</range><rangetext type="string">78 feet</rangetext>
+						<extremerange type="number">65</extremerange><extremerangetext type="string">390 feet</extremerangetext>	
+						<skill type="string">Rifle</skill>
+						<attack type="number">0</attack>
+						<power type="number">11</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+The Radcliffe Gunwerks heavy carbine is among
+the finest firearms ever made. Packing the punch of a military
+rifle and nearly the range of a long gun, this weapon is treasured
+by the military officers who can afford them. The weapon
+utilizes a five-chambered ammo wheel that can be replaced in
+the heat of combat instead of reloading each cylinder separately.
+						</description>
+						<special type="string"></special>			
+						<special_formatted type="formattedtext">							
+						Replacing this weapon's ammo wheel requires a
+quick action. Reloading each cylinder of the ammo wheel takes
+one quick action.
+						It costs 4 gc for blasting powder, bullets, and metal casings for
+five heavy rounds.
+						Additional ammo wheels cost 15 gc each.
+						</special_formatted>			
+		</record>						
+						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.riflelong@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Rifle, Long</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">50 gc</cost>		
+						<maxammo type="number">1</maxammo><ammotype type="string">(light round)</ammotype>
+						<range type="number">14</range><rangetext type="string">84 feet</rangetext>
+						<extremerange type="number">70</extremerange><extremerangetext type="string">420 feet</extremerangetext>	
+						<skill type="string">Rifle</skill>
+						<attack type="number">0</attack>
+						<power type="number">10</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+Popular among hunters, riflemen, and snipers,
+long rifles are cumbersome weapons but are extremely
+effective at long range.
+						</description>
+						<special type="string">2h</special>			
+						<special_formatted type="formattedtext">							
+						It costs 2 gc for blasting powder, bullets, and
+casings for five light rounds.
+						This weapon requires two hands.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.rifleheavy@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Rifle, Heavy</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">120 gc</cost>		
+						<maxammo type="number">1</maxammo><ammotype type="string">(heavy round)</ammotype>
+						<range type="number">14</range><rangetext type="string">84 feet</rangetext>
+						<extremerange type="number">70</extremerange><extremerangetext type="string">420 feet</extremerangetext>	
+						<skill type="string">Rifle</skill>
+						<attack type="number">0</attack>
+						<power type="number">12</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						Heavy rifles are devastating weapons found only
+in the hands of successful monster hunters and the most senior
+of the kingdoms' riflemen. The Vanar Liberator is just one
+example of this extremely heavy and accurate category of rifle.
+						</description>
+						<special type="string">2h</special>			
+						<special_formatted type="formattedtext">							
+						It costs 3 gc for blasting powder, bullets, and
+casings for five heavy rounds.
+						This weapon requires two hands.
+						</special_formatted>			
+		</record>						
+						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.riflemagelock1h@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Rifle, Magelock (1h)</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">200 gc</cost>		
+						<maxammo type="number">1</maxammo><ammotype type="string">(rune shot)</ammotype>
+						<range type="number">14</range><rangetext type="string">84 feet</rangetext>
+						<extremerange type="number">70</extremerange><extremerangetext type="string">420 feet</extremerangetext>	
+						<skill type="string">Rifle</skill>
+						<attack type="number">-2</attack>
+						<power type="number">10</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						Exceedingly rare, the magelock rifle is a long
+rifle especially constructed to fire rune shots. A magelock fires
+metal-cased rounds in which both the bullet and cartridge have
+been inscribed with runes.
+						</description>
+						<special type="string">Magical*</special>			
+						<special_formatted type="formattedtext">							
+						Magelocks are capable of firing light metal-cased
+ammunition in times of need, but Gun Mages seldom deign to
+do so. It is impossible to empower non-rune shot ammunition
+with spells, no matter what sort of firearm fires it.
+						It costs 5 gc for blasting powder, rune-scribed bullets, and the
+metal casing for each round of rune shot ammunition. Due to
+the high cost of ammunition, most gun mages pour their own
+rune shots (see "Craft Rune Shot," p. 160).
+						When a Gun Mage fires a
+rune shot from a magelock rifle, the magelock is considered to
+be a magical weapon.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.riflemagelock2h@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Rifle, Magelock (2h)</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">200 gc</cost>		
+						<maxammo type="number">1</maxammo><ammotype type="string">(rune shot)</ammotype>
+						<range type="number">14</range><rangetext type="string">84 feet</rangetext>
+						<extremerange type="number">70</extremerange><extremerangetext type="string">420 feet</extremerangetext>	
+						<skill type="string">Rifle</skill>
+						<attack type="number">0</attack>
+						<power type="number">10</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						Exceedingly rare, the magelock rifle is a long
+rifle especially constructed to fire rune shots. A magelock fires
+metal-cased rounds in which both the bullet and cartridge have
+been inscribed with runes.
+						</description>
+						<special type="string">Magical*</special>			
+						<special_formatted type="formattedtext">							
+						Magelocks are capable of firing light metal-cased
+ammunition in times of need, but Gun Mages seldom deign to
+do so. It is impossible to empower non-rune shot ammunition
+with spells, no matter what sort of firearm fires it.
+						It costs 5 gc for blasting powder, rune-scribed bullets, and the
+metal casing for each round of rune shot ammunition. Due to
+the high cost of ammunition, most gun mages pour their own
+rune shots (see "Craft Rune Shot," p. 160).
+						When a Gun Mage fires a
+rune shot from a magelock rifle, the magelock is considered to
+be a magical weapon.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.riflemilitary@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Rifle, Military</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">45 gc</cost>		
+						<maxammo type="number">1</maxammo><ammotype type="string">(heavy round)</ammotype>
+						<range type="number">10</range><rangetext type="string">60 feet</rangetext>
+						<extremerange type="number">50</extremerange><extremerangetext type="string">300 feet</extremerangetext>	
+						<skill type="string">Rifle</skill>
+						<attack type="number">0</attack>
+						<power type="number">11</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						 The military rifle is a stout, heavy rifle. Though
+it lacks the range of the long rifle, the military rifle packs more
+punch.
+						</description>
+						<special type="string">2h</special>			
+						<special_formatted type="formattedtext">							
+						It costs 3 gc for blasting powder, bullets, and
+casings for five heavy rounds.
+						This weapon requires two hands.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.riflerepeating@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Rifle, Repeating</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">80 gc</cost>		
+						<maxammo type="number">5</maxammo><ammotype type="string">(light round)</ammotype>
+						<range type="number">14</range><rangetext type="string">84 feet</rangetext>
+						<extremerange type="number">70</extremerange><extremerangetext type="string">420 feet</extremerangetext>	
+						<skill type="string">Rifle</skill>
+						<attack type="number">0</attack>
+						<power type="number">10</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						The repeating rifle is primarily a military weapon.
+The weapon utilizes a five-chambered ammo wheel that can
+be replaced in the heat of combat instead of reloading each
+cylinder separately.
+						</description>
+						<special type="string">2h</special>			
+						<special_formatted type="formattedtext">							
+						 Replacing this weapon's ammo wheel requires a
+quick action. Reloading each cylinder of the ammo wheel takes
+one quick action.
+						It costs 2 gc for blasting powder, bullets, and casings for five
+light rounds. Additional ammo wheels cost 15 gc each.
+						This weapon requires two hands.
+						</special_formatted>			
+		</record>						
+						
+						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.rynnishwalkingstick1h@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Rynnish Walking Stick (1h)</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">40 gc</cost>		
+						<maxammo type="number">1</maxammo><ammotype type="string">(light round)</ammotype>
+						<range type="number">8</range><rangetext type="string">48 feet</rangetext>
+						<extremerange type="number">40</extremerange><extremerangetext type="string">240 feet</extremerangetext>	
+						<skill type="string">Rifle</skill>
+						<attack type="number">-2</attack>
+						<power type="number">10</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						The Rynnish walking stick is a small firearm
+concealed within the haft of a cane. The weapon can be fired
+like a short-ranged rifle.
+						</description>
+						<special type="string"></special>			
+						<special_formatted type="formattedtext">							
+						 An observant character can discern a Rynnish
+walking stick from a normal walking stick without handling it
+with a successful PER + Detection roll against a target number
+of 14.
+						It costs 2 gc for blasting powder, bullets, and casings for five
+light rounds.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.rynnishwalkingstick2h@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Rynnish Walking Stick (2h)</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">40 gc</cost>		
+						<maxammo type="number">1</maxammo><ammotype type="string">(light round)</ammotype>
+						<range type="number">8</range><rangetext type="string">48 feet</rangetext>
+						<extremerange type="number">40</extremerange><extremerangetext type="string">240 feet</extremerangetext>	
+						<skill type="string">Rifle</skill>
+						<attack type="number">0</attack>
+						<power type="number">10</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						The Rynnish walking stick is a small firearm
+concealed within the haft of a cane. The weapon can be fired
+like a short-ranged rifle.
+						</description>
+						<special type="string"></special>			
+						<special_formatted type="formattedtext">							
+						 An observant character can discern a Rynnish
+walking stick from a normal walking stick without handling it
+with a successful PER + Detection roll against a target number
+of 14.
+						It costs 2 gc for blasting powder, bullets, and casings for five
+light rounds.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.scattergun1h@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Scattergun (1h)</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">40 gc</cost>		
+						<maxammo type="number">1</maxammo><ammotype type="string">(shot round)</ammotype>
+						<range type="number">8</range><rangetext type="string">48 feet (SP 8)</rangetext>
+						<extremerange type="number">40</extremerange><extremerangetext type="string">240 feet</extremerangetext>	
+						<skill type="string">Rifle</skill>
+						<attack type="number">-2</attack>
+						<power type="number">12</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						Scatterguns are heavy, oversized rifles designed
+to fire a spray of grapeshot. Scatterguns are devastating in close
+quarters.
+						</description>
+						<special type="string">Spray 8</special>			
+						<special_formatted type="formattedtext">							
+						It costs 1 gc for blasting powder, shot, and casing
+for one shot round.	
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.scattergun2h@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Scattergun (2h)</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">40 gc</cost>		
+						<maxammo type="number">1</maxammo><ammotype type="string">(shot round)</ammotype>
+						<range type="number">8</range><rangetext type="string">48 feet (SP 8)</rangetext>
+						<extremerange type="number">40</extremerange><extremerangetext type="string">240 feet</extremerangetext>	
+						<skill type="string">Rifle</skill>
+						<attack type="number">0</attack>
+						<power type="number">12</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						Scatterguns are heavy, oversized rifles designed
+to fire a spray of grapeshot. Scatterguns are devastating in close
+quarters.
+						</description>
+						<special type="string">Spray 8</special>			
+						<special_formatted type="formattedtext">							
+						It costs 1 gc for blasting powder, shot, and casing
+for one shot round.	
+						</special_formatted>			
+		</record>						
+						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.sling@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Sling</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">5 gc</cost>		
+						<maxammo type="number">1</maxammo><ammotype type="string">stones or sling bullets</ammotype>
+						<range type="number">10</range><rangetext type="string">60 feet</rangetext>
+						<extremerange type="number"></extremerange><extremerangetext type="string"></extremerangetext>	
+						<skill type="string">Thrown Weapon</skill>
+						<attack type="number">-2</attack>
+						<power type="number">8</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						The sling is a simple and ancient weapon that still
+sees some use on the streets of the Iron Kingdoms. It has become
+an invaluable tool in the arsenal of combat alchemists who use
+the weapon to deliver their explosive alchemical concoctions.
+						</description>
+						<special type="string"></special>			
+						<special_formatted type="formattedtext">							
+						 These weapons typically are used to pitch
+stones, grenades, or sling bullets.
+						If the attacker is throwing sling bullets instead of stones or
+other ammunition, there is no attack modifier.
+						Sling bullets cost 1 gc for twenty rounds. Stones can be amassed
+from the ground free of cost.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.sluggun1h@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Slug Gun (1h)</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">40 gc</cost>		
+						<maxammo type="number">1</maxammo><ammotype type="string">(slug round)</ammotype>
+						<range type="number">4</range><rangetext type="string">24 feet</rangetext>
+						<extremerange type="number"></extremerange><extremerangetext type="string"></extremerangetext>	
+						<skill type="string">Pistol</skill>
+						<attack type="number">-2</attack>
+						<power type="number">14</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						Slug guns are highly specialized weapons
+designed specifically to crack the armor of steamjacks and other
+heavily armored targets. The guns fire enormous slugs at an
+incredible velocity but are highly inaccurate.
+						</description>
+						<special type="string"></special>			
+						<special_formatted type="formattedtext">							
+						It costs 1 gc for blasting powder, slug, and casing
+for each slug round.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.sluggun2h@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Slug Gun (2h)</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">40 gc</cost>		
+						<maxammo type="number">1</maxammo><ammotype type="string">(slug round)</ammotype>
+						<range type="number">4</range><rangetext type="string">24 feet</rangetext>
+						<extremerange type="number"></extremerange><extremerangetext type="string"></extremerangetext>	
+						<skill type="string">Pistol</skill>
+						<attack type="number">-1</attack>
+						<power type="number">14</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						Slug guns are highly specialized weapons
+designed specifically to crack the armor of steamjacks and other
+heavily armored targets. The guns fire enormous slugs at an
+incredible velocity but are highly inaccurate.
+						</description>
+						<special type="string"></special>			
+						<special_formatted type="formattedtext">							
+						It costs 1 gc for blasting powder, slug, and casing
+for each slug round.
+						</special_formatted>			
+		</record>
+
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.swordcannonrepeatingsword@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Sword-Cannon, Rep. (sword)</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">100 gc</cost>									
+						<skill type="string">Hand Weapon</skill>
+						<showrange type="number">1</showrange>
+						<attack type="number">-1</attack>
+						<power type="number">3</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						This weapon is a sword that integrates a rifle
+barrel with a five-chambered ammo wheel. The ammo wheel
+can be replaced in the heat of combat instead of reloading each
+cylinder separately.
+						</description>
+						<special type="string">Can shoot on charge</special>			
+						<special_formatted type="formattedtext">							
+						When used as a melee weapon, this weapon has
+an attack modifier of -1, is POW 3, and uses the Hand Weapon skill.
+						Replacing this weapon's ammo wheel requires a quick action.
+Reloading each cylinder of the ammo wheel takes one quick
+action.
+						It costs 3 gc for blasting powder, bullets, and metal casings for
+five light rounds. Additional ammo wheels cost 15 gc each.
+						As part of a charge, after moving but before making the charge
+attack, a character can spend 1 feat point to make one ranged
+attack with this weapon targeting the enemy charged unless
+the character was in melee with the enemy at the start of his
+turn. When resolving the ranged attack, the attacking character
+does not suffer the target in melee penalty. If the target is not in
+melee range after the attacking character moves, the character
+can make the ranged attack before his turn ends.
+						</special_formatted>			
+		</record>						
+						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.swordcannonrepeatingrifle@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Sword-Cannon, Rep. (rifle)</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">100 gc</cost>		
+						<maxammo type="number">5</maxammo><ammotype type="string">(metal-cased light round)</ammotype>
+						<range type="number">10</range><rangetext type="string">60 feet</rangetext>
+						<extremerange type="number">50</extremerange><extremerangetext type="string">300 feet</extremerangetext>	
+						<skill type="string">Rifle</skill>
+						<attack type="number">-1</attack>
+						<power type="number">10</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						This weapon is a sword that integrates a rifle
+barrel with a five-chambered ammo wheel. The ammo wheel
+can be replaced in the heat of combat instead of reloading each
+cylinder separately.
+						</description>
+						<special type="string">Can shoot on charge</special>			
+						<special_formatted type="formattedtext">							
+						When used as a melee weapon, this weapon has
+an attack modifier of -1, is POW 3, and uses the Hand Weapon skill.
+						Replacing this weapon's ammo wheel requires a quick action.
+Reloading each cylinder of the ammo wheel takes one quick
+action.
+						It costs 3 gc for blasting powder, bullets, and metal casings for
+five light rounds. Additional ammo wheels cost 15 gc each.
+						As part of a charge, after moving but before making the charge
+attack, a character can spend 1 feat point to make one ranged
+attack with this weapon targeting the enemy charged unless
+the character was in melee with the enemy at the start of his
+turn. When resolving the ranged attack, the attacking character
+does not suffer the target in melee penalty. If the target is not in
+melee range after the attacking character moves, the character
+can make the ranged attack before his turn ends.
+						</special_formatted>			
+		</record>						
+						
+						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.swordcannonheavysword@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Sword-Cannon, Heavy (sword)</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">150 gc</cost>									
+						<skill type="string">Hand Weapon</skill>
+						<showrange type="number">1</showrange>
+						<attack type="number">-1</attack>
+						<power type="number">3</power>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						This weapon integrates a heavy, single-shot rifle
+with the blade of a sword.
+						</description>
+						<special type="string">Can shoot on charge</special>			
+						<special_formatted type="formattedtext">							
+						When used as a melee weapon, this weapon has
+an attack modifier of -1, is POW 3, and uses the Hand Weapon skill.
+						It costs 3 gc for blasting powder, bullets, and casings for five
+heavy rounds.
+						As part of a charge, after moving but before making the charge
+attack, a character can spend 1 feat point to make one ranged
+attack with this weapon targeting the enemy charged unless
+the character was in melee with the enemy at the start of his
+turn. When resolving the ranged attack, the attacking character
+does not suffer the target in melee penalty. If the target is not in
+melee range after the attacking character moves, the character
+can make the ranged attack before his turn ends.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear05rangedweapons.index.swordcannonheavyrifle@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Sword-Cannon, Heavy (rifle)</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">150 gc</cost>		
+						<maxammo type="number">1</maxammo><ammotype type="string">(heavy round)</ammotype>
+						<range type="number">10</range><rangetext type="string">60 feet</rangetext>
+						<extremerange type="number">50</extremerange><extremerangetext type="string">300 feet</extremerangetext>	
+						<skill type="string">Rifle</skill>
+						<attack type="number">-1</attack>
+						<power type="number">12</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number"></aoe>							
+						<description type="formattedtext">
+						This weapon integrates a heavy, single-shot rifle
+with the blade of a sword.
+						</description>
+						<special type="string">Can shoot on charge</special>			
+						<special_formatted type="formattedtext">							
+						When used as a melee weapon, this weapon has
+an attack modifier of -1, is POW 3, and uses the Hand Weapon skill.
+						It costs 3 gc for blasting powder, bullets, and casings for five
+heavy rounds.
+						As part of a charge, after moving but before making the charge
+attack, a character can spend 1 feat point to make one ranged
+attack with this weapon targeting the enemy charged unless
+the character was in melee with the enemy at the start of his
+turn. When resolving the ranged attack, the attacking character
+does not suffer the target in melee penalty. If the target is not in
+melee range after the attacking character moves, the character
+can make the ranged attack before his turn ends.
+						</special_formatted>			
+		</record>
+			
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear17alchemicalweapons.index.alchemicalgrenadeempty@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Grenade, Empty</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">5 gc</cost>
+						<maxammo type="number"></maxammo><ammotype type="string"></ammotype>
+						<range type="number">8</range><rangetext type="string">48 feet</rangetext>						
+						<skill type="string">Thrown Weapon</skill>
+						<attack type="number">0</attack>
+						<power type="number"></power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number">3</aoe>							
+						<description type="formattedtext">
+						Alchemical grenades are specially treated
+clockwork vessels for containing and detonating alchemical
+compounds. Each grenade holds one application of an alchemical
+substance. Pulling the grenade's pin starts the clock's very short
+timer, which detonates the grenade soon after. The grenade's
+effects depend on the alchemical compound used.
+						</description>
+						<special type="string"></special>			
+						<special_formatted type="formattedtext">
+						Once it is in hand, using a grenade requires both
+a quick action and an attack. The quick action is for pulling the
+pin, and the attack is for throwing the grenade.
+						Empty clockwork grenade vessels that can be armed with an
+alchemist's chosen alchemical compound are available on the
+open market for 5 gc, far less than
+the cost of materials for an artisan
+clocksmith to build the same. This
+is because the militaries of the
+Iron Kingdoms have developed
+industrial production methods for
+manufacturing grenades that have
+greatly driven down their cost,
+even for the unaffiliated combat
+alchemist. Once an alchemist has an
+empty clockwork grenade vessel, he
+can carefully fill and arm it in ten
+minutes without a skill roll.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear17alchemicalweapons.index.alchemicalgrenadeacidbomb@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Grenade, Acid Bomb</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">40 gc</cost>
+						<maxammo type="number"></maxammo><ammotype type="string"></ammotype>
+						<range type="number">8</range><rangetext type="string">48 feet</rangetext>						
+						<skill type="string">Thrown Weapon</skill>
+						<attack type="number">0</attack>
+						<power type="number">12</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string">corrosion</damagetype>							
+						<aoe type="number">3</aoe>							
+						<description type="formattedtext">
+						Alchemical grenades are specially treated
+clockwork vessels for containing and detonating alchemical
+compounds. Each grenade holds one application of an alchemical
+substance. Pulling the grenade's pin starts the clock's very short
+timer, which detonates the grenade soon after. The grenade's
+effects depend on the alchemical compound used.
+						</description>
+						<special type="string">Corrosion on hit</special>			
+						<special_formatted type="formattedtext">
+						Once it is in hand, using a grenade requires both
+a quick action and an attack. The quick action is for pulling the
+pin, and the attack is for throwing the grenade.
+						The acid bomb is
+a grenade filled with alchemical
+acid (p. 293). Characters hit by an
+acid bomb AOE suffer a POW 12
+corrosion damage roll and the
+Corrosion continuous effect.
+Acid bombs cost 40 gc each.
+						</special_formatted>			
+		</record>						
+						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear17alchemicalweapons.index.alchemicalgrenadeashesofurcaen@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Grenade, Ashes of Urcaen</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">75 gc</cost>
+						<maxammo type="number"></maxammo><ammotype type="string"></ammotype>
+						<range type="number">8</range><rangetext type="string">48 feet</rangetext>						
+						<skill type="string">Thrown Weapon</skill>
+						<attack type="number">0</attack>
+						<power type="number">0</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string">corrosion</damagetype>							
+						<aoe type="number">3</aoe>							
+						<description type="formattedtext">
+						Alchemical grenades are specially treated
+clockwork vessels for containing and detonating alchemical
+compounds. Each grenade holds one application of an alchemical
+substance. Pulling the grenade's pin starts the clock's very short
+timer, which detonates the grenade soon after. The grenade's
+effects depend on the alchemical compound used.
+						</description>
+						<special type="string">Lose Incorporeal on hit</special>			
+						<special_formatted type="formattedtext">
+						Once it is in hand, using a grenade requires both
+a quick action and an attack. The quick action is for pulling the
+pin, and the attack is for throwing the grenade.
+						The grenade causes no
+damage, but incorporeal creatures hit by the AOE lose the
+Incorporeal ability for d3+1 rounds. Additionally, the AOE
+is a cloud effect that remains in play for one round. An
+incorporeal creature entering the AOE immediately loses
+the Incorporeal ability for one round. Though alchemical
+grenades filled with Ashes of Urcaen are not for sale on the
+open market, they can be special ordered for 75 gc each.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear17alchemicalweapons.index.alchemicalgrenadecinderbomb@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Grenade, Cinder Bomb</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">30 gc</cost>
+						<maxammo type="number"></maxammo><ammotype type="string"></ammotype>
+						<range type="number">8</range><rangetext type="string">48 feet</rangetext>						
+						<skill type="string">Thrown Weapon</skill>
+						<attack type="number">0</attack>
+						<power type="number">12</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string">corrosion</damagetype>							
+						<aoe type="number">3</aoe>							
+						<description type="formattedtext">
+						Alchemical grenades are specially treated
+clockwork vessels for containing and detonating alchemical
+compounds. Each grenade holds one application of an alchemical
+substance. Pulling the grenade's pin starts the clock's very short
+timer, which detonates the grenade soon after. The grenade's
+effects depend on the alchemical compound used.
+						</description>
+						<special type="string">Burning Cloud</special>			
+						<special_formatted type="formattedtext">
+						Once it is in hand, using a grenade requires both
+a quick action and an attack. The quick action is for pulling the
+pin, and the attack is for throwing the grenade.
+						The cinder bomb is a grenade filled with
+vitriolic fire (p. 295). Characters hit by a cinder bomb AOE
+suffer a POW 12 fire damage roll. The weapon's AOE is a
+cloud effect that remains in play for one round. A character
+who ends his turn in the AOE suffers the Fire continuous
+effect. Cinder bombs cost 30 gc each.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear17alchemicalweapons.index.alchemicalgrenadeknockoutbomb@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Grenade, Knockout Bomb</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">45 gc</cost>
+						<maxammo type="number"></maxammo><ammotype type="string"></ammotype>
+						<range type="number">8</range><rangetext type="string">48 feet</rangetext>						
+						<skill type="string">Thrown Weapon</skill>
+						<attack type="number">0</attack>
+						<power type="number">0</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string">corrosion</damagetype>							
+						<aoe type="number">3</aoe>							
+						<description type="formattedtext">
+						Alchemical grenades are specially treated
+clockwork vessels for containing and detonating alchemical
+compounds. Each grenade holds one application of an alchemical
+substance. Pulling the grenade's pin starts the clock's very short
+timer, which detonates the grenade soon after. The grenade's
+effects depend on the alchemical compound used.
+						</description>
+						<special type="string">Knockout chance on hit</special>			
+						<special_formatted type="formattedtext">
+						Once it is in hand, using a grenade requires both
+a quick action and an attack. The quick action is for pulling the
+pin, and the attack is for throwing the grenade.
+						The knockout bomb is a grenade filled
+with somnolence elixir (p. 295). All characters hit by a
+knockout bomb AOE must make a Willpower roll against
+a target number of 16. If the character succeeds, he shakes
+off the effects. If he fails, he is knocked down and falls
+unconscious. The character awakens when he suffers
+damage or is roused as a quick action by a character B2B
+with him. The knockout bomb is a gas effect. Knockout
+bombs cost 45 gc each.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear17alchemicalweapons.index.alchemicalgrenaderustbomb@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Grenade, Rust Bomb</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">30 gc</cost>
+						<maxammo type="number"></maxammo><ammotype type="string"></ammotype>
+						<range type="number">8</range><rangetext type="string">48 feet</rangetext>						
+						<skill type="string">Thrown Weapon</skill>
+						<attack type="number">0</attack>
+						<power type="number">0</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string">corrosion</damagetype>							
+						<aoe type="number">3</aoe>							
+						<description type="formattedtext">
+						Alchemical grenades are specially treated
+clockwork vessels for containing and detonating alchemical
+compounds. Each grenade holds one application of an alchemical
+substance. Pulling the grenade's pin starts the clock's very short
+timer, which detonates the grenade soon after. The grenade's
+effects depend on the alchemical compound used.
+						</description>
+						<special type="string">-2 ARM for 1 Round (corrosion)</special>			
+						<special_formatted type="formattedtext">
+						Once it is in hand, using a grenade requires both
+a quick action and an attack. The quick action is for pulling the
+pin, and the attack is for throwing the grenade.
+						The rust bomb is a grenade filled with both
+parts of rust agent (p. 295). Its detonation mixes the parts and
+unleashes a vaporized gout of fast-acting rust agent. The
+rust bomb causes no damage. Steamjacks and characters
+wearing metal armor hit by the AOE suffer -2 ARM for one
+round unless they are immune to corrosion. Rust bombs
+cost 30 gc each.
+						</special_formatted>			
+		</record>						
+						
+						
+						
+						
+						
+						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear17alchemicalweapons.index.riflegrenadeempty@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Rifle Grenade, Empty</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">10 gc</cost>
+						<maxammo type="number"></maxammo><ammotype type="string"></ammotype>
+						<range type="number">10</range><rangetext type="string">60 feet</rangetext>						
+						<skill type="string">Rifle</skill>
+						<attack type="number">-1</attack>
+						<power type="number"></power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number">3</aoe>							
+						<description type="formattedtext">
+						Rifle grenades can be fired from a military rifle. Rifle grenades do not have to be
+primed, though loading one onto the end of rifle takes a quick action. When fired
+from a military rifle, a rifle grenade has a range of 60 feet (10?), no extreme range,
+and the same AOE and effects as the standard grenade type. A character firing a
+rifle grenade suffers -1 on his attack roll. Otherwise its effect depends on the type
+of grenade fired. An empty rifle grenade vessel costs 10 gc. Readily armed rifle
+grenades can be purchased for 10 gc more than alchemical grenade equivalent, so
+a Cinder Bomb rifle grenade would cost 40 gc.
+						</description>
+						<special type="string"></special>			
+						<special_formatted type="formattedtext">						
+						Empty clockwork grenade vessels that can be armed with an
+alchemist's chosen alchemical compound are available on the
+open market for 10 gc, far less than
+the cost of materials for an artisan
+clocksmith to build the same. This
+is because the militaries of the
+Iron Kingdoms have developed
+industrial production methods for
+manufacturing grenades that have
+greatly driven down their cost,
+even for the unaffiliated combat
+alchemist. Once an alchemist has an
+empty clockwork grenade vessel, he
+can carefully fill and arm it in ten
+minutes without a skill roll.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear17alchemicalweapons.index.riflegrenadeacidbomb@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Rifle Grenade, Acid Bomb</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">50 gc</cost>
+						<maxammo type="number"></maxammo><ammotype type="string"></ammotype>
+						<range type="number">10</range><rangetext type="string">60 feet</rangetext>						
+						<skill type="string">Rifle</skill>
+						<attack type="number">-1</attack>
+						<power type="number">12</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string">corrosion</damagetype>							
+						<aoe type="number">3</aoe>							
+						<description type="formattedtext">
+						Rifle grenades can be fired from a military rifle. Rifle grenades do not have to be
+primed, though loading one onto the end of rifle takes a quick action. When fired
+from a military rifle, a rifle grenade has a range of 60 feet (10?), no extreme range,
+and the same AOE and effects as the standard grenade type. A character firing a
+rifle grenade suffers -1 on his attack roll. Otherwise its effect depends on the type
+of grenade fired. An empty rifle grenade vessel costs 10 gc. Readily armed rifle
+grenades can be purchased for 10 gc more than alchemical grenade equivalent, so
+a Cinder Bomb rifle grenade would cost 40 gc.
+						</description>
+						<special type="string">Corrosion on hit</special>			
+						<special_formatted type="formattedtext">						
+						The acid bomb is
+a grenade filled with alchemical
+acid (p. 293). Characters hit by an
+acid bomb AOE suffer a POW 12
+corrosion damage roll and the
+Corrosion continuous effect.
+Acid bombs cost 40 gc each.
+						</special_formatted>			
+		</record>						
+						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear17alchemicalweapons.index.riflegrenadeashesofurcaen@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Rifle Grenade, Ashes of Urcaen</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">85 gc</cost>
+						<maxammo type="number"></maxammo><ammotype type="string"></ammotype>
+						<range type="number">10</range><rangetext type="string">60 feet</rangetext>						
+						<skill type="string">Rifle</skill>
+						<attack type="number">-1</attack>
+						<power type="number">0</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string">corrosion</damagetype>							
+						<aoe type="number">3</aoe>							
+						<description type="formattedtext">
+						Rifle grenades can be fired from a military rifle. Rifle grenades do not have to be
+primed, though loading one onto the end of rifle takes a quick action. When fired
+from a military rifle, a rifle grenade has a range of 60 feet (10?), no extreme range,
+and the same AOE and effects as the standard grenade type. A character firing a
+rifle grenade suffers -1 on his attack roll. Otherwise its effect depends on the type
+of grenade fired. An empty rifle grenade vessel costs 10 gc. Readily armed rifle
+grenades can be purchased for 10 gc more than alchemical grenade equivalent, so
+a Cinder Bomb rifle grenade would cost 40 gc.
+						</description>
+						<special type="string">Lose Incorporeal on hit</special>			
+						<special_formatted type="formattedtext">						
+						The grenade causes no
+damage, but incorporeal creatures hit by the AOE lose the
+Incorporeal ability for d3+1 rounds. Additionally, the AOE
+is a cloud effect that remains in play for one round. An
+incorporeal creature entering the AOE immediately loses
+the Incorporeal ability for one round. Though alchemical
+grenades filled with Ashes of Urcaen are not for sale on the
+open market, they can be special ordered for 75 gc each.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear17alchemicalweapons.index.riflegrenadecinderbomb@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Rifle Grenade, Cinder Bomb</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">40 gc</cost>
+						<maxammo type="number"></maxammo><ammotype type="string"></ammotype>
+						<range type="number">10</range><rangetext type="string">60 feet</rangetext>						
+						<skill type="string">Rifle</skill>
+						<attack type="number">-1</attack>
+						<power type="number">12</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string">corrosion</damagetype>							
+						<aoe type="number">3</aoe>							
+						<description type="formattedtext">
+						Rifle grenades can be fired from a military rifle. Rifle grenades do not have to be
+primed, though loading one onto the end of rifle takes a quick action. When fired
+from a military rifle, a rifle grenade has a range of 60 feet (10?), no extreme range,
+and the same AOE and effects as the standard grenade type. A character firing a
+rifle grenade suffers -1 on his attack roll. Otherwise its effect depends on the type
+of grenade fired. An empty rifle grenade vessel costs 10 gc. Readily armed rifle
+grenades can be purchased for 10 gc more than alchemical grenade equivalent, so
+a Cinder Bomb rifle grenade would cost 40 gc.
+						</description>
+						<special type="string">Burning Cloud</special>			
+						<special_formatted type="formattedtext">						
+						The cinder bomb is a grenade filled with
+vitriolic fire (p. 295). Characters hit by a cinder bomb AOE
+suffer a POW 12 fire damage roll. The weapon's AOE is a
+cloud effect that remains in play for one round. A character
+who ends his turn in the AOE suffers the Fire continuous
+effect. Cinder bombs cost 30 gc each.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear17alchemicalweapons.index.riflegrenadeknockoutbomb@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Rifle Grenade, Knockout Bomb</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">55 gc</cost>
+						<maxammo type="number"></maxammo><ammotype type="string"></ammotype>
+						<range type="number">10</range><rangetext type="string">60 feet</rangetext>						
+						<skill type="string">Rifle</skill>
+						<attack type="number">-1</attack>
+						<power type="number">0</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string">corrosion</damagetype>							
+						<aoe type="number">3</aoe>							
+						<description type="formattedtext">
+						Rifle grenades can be fired from a military rifle. Rifle grenades do not have to be
+primed, though loading one onto the end of rifle takes a quick action. When fired
+from a military rifle, a rifle grenade has a range of 60 feet (10?), no extreme range,
+and the same AOE and effects as the standard grenade type. A character firing a
+rifle grenade suffers -1 on his attack roll. Otherwise its effect depends on the type
+of grenade fired. An empty rifle grenade vessel costs 10 gc. Readily armed rifle
+grenades can be purchased for 10 gc more than alchemical grenade equivalent, so
+a Cinder Bomb rifle grenade would cost 40 gc.
+						</description>
+						<special type="string">Knockout chance on hit</special>			
+						<special_formatted type="formattedtext">						
+						The knockout bomb is a grenade filled
+with somnolence elixir (p. 295). All characters hit by a
+knockout bomb AOE must make a Willpower roll against
+a target number of 16. If the character succeeds, he shakes
+off the effects. If he fails, he is knocked down and falls
+unconscious. The character awakens when he suffers
+damage or is roused as a quick action by a character B2B
+with him. The knockout bomb is a gas effect. Knockout
+bombs cost 45 gc each.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear17alchemicalweapons.index.riflegrenaderustbomb@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Rifle Grenade, Rust Bomb</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">40 gc</cost>
+						<maxammo type="number"></maxammo><ammotype type="string"></ammotype>
+						<range type="number">10</range><rangetext type="string">60 feet</rangetext>						
+						<skill type="string">Rifle</skill>
+						<attack type="number">-1</attack>
+						<power type="number">0</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string">corrosion</damagetype>							
+						<aoe type="number">3</aoe>							
+						<description type="formattedtext">
+						Rifle grenades can be fired from a military rifle. Rifle grenades do not have to be
+primed, though loading one onto the end of rifle takes a quick action. When fired
+from a military rifle, a rifle grenade has a range of 60 feet (10?), no extreme range,
+and the same AOE and effects as the standard grenade type. A character firing a
+rifle grenade suffers -1 on his attack roll. Otherwise its effect depends on the type
+of grenade fired. An empty rifle grenade vessel costs 10 gc. Readily armed rifle
+grenades can be purchased for 10 gc more than alchemical grenade equivalent, so
+a Cinder Bomb rifle grenade would cost 40 gc.
+						</description>
+						<special type="string">-2 ARM for 1 Round (corrosion)</special>			
+						<special_formatted type="formattedtext">						
+						The rust bomb is a grenade filled with both
+parts of rust agent (p. 295). Its detonation mixes the parts and
+unleashes a vaporized gout of fast-acting rust agent. The
+rust bomb causes no damage. Steamjacks and characters
+wearing metal armor hit by the AOE suffer -2 ARM for one
+round unless they are immune to corrosion. Rust bombs
+cost 30 gc each.
+						</special_formatted>			
+		</record>						
+						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear17alchemicalweapons.index.blastarrowempty@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Blast Arrow, Empty</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">10 gc</cost>
+						<maxammo type="number"></maxammo><ammotype type="string"></ammotype>
+						<range type="number"></range><rangetext type="string">Bow's RNG</rangetext>						
+						<skill type="string">Archery</skill>
+						<attack type="number">-1</attack>
+						<power type="number"></power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string"></damagetype>							
+						<aoe type="number">3</aoe>							
+						<description type="formattedtext">
+						Blast arrows are made up of a heavy arrow with an alchemical warhead. The weapon
+can either be primed as it is nocked, meaning it must be immediately fired, or it can
+be primed while nocked with a second quick action. The blast arrow uses the bow's
+RNG, has a 3? AOE, and has a -1 modifier to its attack roll. Otherwise its effect
+depends on the type of grenade fired. An empty blast arrow vessel costs 10 gc.
+Readily armed blast arrows can be purchased for 10 gc more than their alchemical
+grenade equivalent, so a rust bomb blast arrow would cost 40 gc.
+						</description>
+						<special type="string"></special>			
+						<special_formatted type="formattedtext">						
+						Empty clockwork grenade vessels that can be armed with an
+alchemist's chosen alchemical compound are available on the
+open market for 10 gc, far less than
+the cost of materials for an artisan
+clocksmith to build the same. This
+is because the militaries of the
+Iron Kingdoms have developed
+industrial production methods for
+manufacturing grenades that have
+greatly driven down their cost,
+even for the unaffiliated combat
+alchemist. Once an alchemist has an
+empty clockwork grenade vessel, he
+can carefully fill and arm it in ten
+minutes without a skill roll.
+						</special_formatted>			
+		</record>						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear17alchemicalweapons.index.blastarrowacidbomb@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Blast Arrow, Acid Bomb</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">50 gc</cost>
+						<maxammo type="number"></maxammo><ammotype type="string"></ammotype>
+						<range type="number"></range><rangetext type="string">Bow's RNG</rangetext>						
+						<skill type="string">Archery</skill>
+						<attack type="number">-1</attack>
+						<power type="number">12</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string">corrosion</damagetype>							
+						<aoe type="number">3</aoe>							
+						<description type="formattedtext">
+						Blast arrows are made up of a heavy arrow with an alchemical warhead. The weapon
+can either be primed as it is nocked, meaning it must be immediately fired, or it can
+be primed while nocked with a second quick action. The blast arrow uses the bow's
+RNG, has a 3? AOE, and has a -1 modifier to its attack roll. Otherwise its effect
+depends on the type of grenade fired. An empty blast arrow vessel costs 10 gc.
+Readily armed blast arrows can be purchased for 10 gc more than their alchemical
+grenade equivalent, so a rust bomb blast arrow would cost 40 gc.
+						</description>
+						<special type="string">Corrosion on hit</special>			
+						<special_formatted type="formattedtext">						
+						The acid bomb is
+a grenade filled with alchemical
+acid (p. 293). Characters hit by an
+acid bomb AOE suffer a POW 12
+corrosion damage roll and the
+Corrosion continuous effect.
+Acid bombs cost 40 gc each.
+						</special_formatted>			
+		</record>						
+						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear17alchemicalweapons.index.blastarrowashesofurcaen@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Blast Arrow, Ashes of Urcaen</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">85 gc</cost>
+						<maxammo type="number"></maxammo><ammotype type="string"></ammotype>
+						<range type="number"></range><rangetext type="string">Bow's RNG</rangetext>						
+						<skill type="string">Archery</skill>
+						<attack type="number">-1</attack>
+						<power type="number">0</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string">corrosion</damagetype>							
+						<aoe type="number">3</aoe>							
+						<description type="formattedtext">
+						Blast arrows are made up of a heavy arrow with an alchemical warhead. The weapon
+can either be primed as it is nocked, meaning it must be immediately fired, or it can
+be primed while nocked with a second quick action. The blast arrow uses the bow's
+RNG, has a 3? AOE, and has a -1 modifier to its attack roll. Otherwise its effect
+depends on the type of grenade fired. An empty blast arrow vessel costs 10 gc.
+Readily armed blast arrows can be purchased for 10 gc more than their alchemical
+grenade equivalent, so a rust bomb blast arrow would cost 40 gc.
+						</description>
+						<special type="string">Lose Incorporeal on hit</special>			
+						<special_formatted type="formattedtext">						
+						The grenade causes no
+damage, but incorporeal creatures hit by the AOE lose the
+Incorporeal ability for d3+1 rounds. Additionally, the AOE
+is a cloud effect that remains in play for one round. An
+incorporeal creature entering the AOE immediately loses
+the Incorporeal ability for one round. Though alchemical
+grenades filled with Ashes of Urcaen are not for sale on the
+open market, they can be special ordered for 75 gc each.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear17alchemicalweapons.index.blastarrowcinderbomb@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Blast Arrow, Cinder Bomb</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">40 gc</cost>
+						<maxammo type="number"></maxammo><ammotype type="string"></ammotype>
+						<range type="number"></range><rangetext type="string">Bow's RNG</rangetext>						
+						<skill type="string">Archery</skill>
+						<attack type="number">-1</attack>
+						<power type="number">12</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string">corrosion</damagetype>							
+						<aoe type="number">3</aoe>							
+						<description type="formattedtext">
+						Blast arrows are made up of a heavy arrow with an alchemical warhead. The weapon
+can either be primed as it is nocked, meaning it must be immediately fired, or it can
+be primed while nocked with a second quick action. The blast arrow uses the bow's
+RNG, has a 3? AOE, and has a -1 modifier to its attack roll. Otherwise its effect
+depends on the type of grenade fired. An empty blast arrow vessel costs 10 gc.
+Readily armed blast arrows can be purchased for 10 gc more than their alchemical
+grenade equivalent, so a rust bomb blast arrow would cost 40 gc.
+						</description>
+						<special type="string">Burning Cloud</special>			
+						<special_formatted type="formattedtext">						
+						The cinder bomb is a grenade filled with
+vitriolic fire (p. 295). Characters hit by a cinder bomb AOE
+suffer a POW 12 fire damage roll. The weapon's AOE is a
+cloud effect that remains in play for one round. A character
+who ends his turn in the AOE suffers the Fire continuous
+effect. Cinder bombs cost 30 gc each.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear17alchemicalweapons.index.blastarrowknockoutbomb@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Blast Arrow, Knockout Bomb</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">55 gc</cost>
+						<maxammo type="number"></maxammo><ammotype type="string"></ammotype>
+						<range type="number"></range><rangetext type="string">Bow's RNG</rangetext>						
+						<skill type="string">Archery</skill>
+						<attack type="number">-1</attack>
+						<power type="number">0</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string">corrosion</damagetype>							
+						<aoe type="number">3</aoe>							
+						<description type="formattedtext">
+						Blast arrows are made up of a heavy arrow with an alchemical warhead. The weapon
+can either be primed as it is nocked, meaning it must be immediately fired, or it can
+be primed while nocked with a second quick action. The blast arrow uses the bow's
+RNG, has a 3? AOE, and has a -1 modifier to its attack roll. Otherwise its effect
+depends on the type of grenade fired. An empty blast arrow vessel costs 10 gc.
+Readily armed blast arrows can be purchased for 10 gc more than their alchemical
+grenade equivalent, so a rust bomb blast arrow would cost 40 gc.
+						</description>
+						<special type="string">Knockout chance on hit</special>			
+						<special_formatted type="formattedtext">						
+						The knockout bomb is a grenade filled
+with somnolence elixir (p. 295). All characters hit by a
+knockout bomb AOE must make a Willpower roll against
+a target number of 16. If the character succeeds, he shakes
+off the effects. If he fails, he is knocked down and falls
+unconscious. The character awakens when he suffers
+damage or is roused as a quick action by a character B2B
+with him. The knockout bomb is a gas effect. Knockout
+bombs cost 45 gc each.
+						</special_formatted>			
+		</record>						
+						
+		<record>
+								<class>item</class>
+								<recordname>reference.gear.groups.gear17alchemicalweapons.index.blastarrowrustbomb@Iron Kingdoms Core Rules</recordname>
+						<name type="string">Blast Arrow, Rust Bomb</name>
+						<type type="string">Ranged Weapon</type>
+						<cost type="string">40 gc</cost>
+						<maxammo type="number"></maxammo><ammotype type="string"></ammotype>
+						<range type="number"></range><rangetext type="string">Bow's RNG</rangetext>						
+						<skill type="string">Archery</skill>
+						<attack type="number">-1</attack>
+						<power type="number">0</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string">corrosion</damagetype>							
+						<aoe type="number">3</aoe>							
+						<description type="formattedtext">
+						Blast arrows are made up of a heavy arrow with an alchemical warhead. The weapon
+can either be primed as it is nocked, meaning it must be immediately fired, or it can
+be primed while nocked with a second quick action. The blast arrow uses the bow's
+RNG, has a 3? AOE, and has a -1 modifier to its attack roll. Otherwise its effect
+depends on the type of grenade fired. An empty blast arrow vessel costs 10 gc.
+Readily armed blast arrows can be purchased for 10 gc more than their alchemical
+grenade equivalent, so a rust bomb blast arrow would cost 40 gc.
+						</description>
+						<special type="string">-2 ARM for 1 Round (corrosion)</special>			
+						<special_formatted type="formattedtext">						
+						The rust bomb is a grenade filled with both
+parts of rust agent (p. 295). Its detonation mixes the parts and
+unleashes a vaporized gout of fast-acting rust agent. The
+rust bomb causes no damage. Steamjacks and characters
+wearing metal armor hit by the AOE suffer -2 ARM for one
+round unless they are immune to corrosion. Rust bombs
+cost 30 gc each.
+						</special_formatted>			
+		</record>
+	</rangedweapons>

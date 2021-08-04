@@ -1,0 +1,1538 @@
+<items>
+					<record>
+						<name type="string">Ammo Wheel</name>
+						<type type="string">Accessory</type>
+						<cost type="string">15 gc</cost>							
+						<description type="formattedtext">
+						</description>										
+					</record>
+							
+					<record>
+						<name type="string">Arrows or Bolts, Standard</name>
+						<type type="string">Ammunition</type>
+						<cost type="string">1 gc / 10</cost>							
+						<description type="formattedtext">
+						</description>										
+					</record>
+							
+					<record>
+						<name type="string">Arrows or Bolts, Explosive</name>
+						<type type="string">Ammunition</type>
+						<cost type="string">20 gc / 1</cost>							
+						<description type="formattedtext">
+						A character making an attack roll with an
+explosive arrow or bolt suffers -2 on his attack roll. The attack's
+POW becomes 10, and the attack gains a 3? AOE.
+						</description>								
+					</record>
+							
+							
+					<record>
+						<name type="string">Arrows or Bolts, Grappling</name>
+						<type type="string">Ammunition</type>
+						<cost type="string">1 gc / 1</cost>							
+						<description type="formattedtext">
+						The grappling arrow has a hooked grappling
+head and is attached to strong, lightweight cord. A character
+making an attack roll with grapple arrow or bolt suffers -2 on
+his attack roll. Attacks made with these arrows and bolts suffer
+-2 POW.
+						</description>										
+					</record>
+							
+					<record>
+						<name type="string">Arrows, Great Bow</name>
+						<type type="string">Ammunition</type>
+						<cost type="string">1 gc / 5</cost>							
+						<description type="formattedtext">
+						</description>										
+					</record>
+							
+					<record>
+						<name type="string">Bandolier, Ammo</name>
+						<type type="string">Accessory</type>
+						<cost type="string">5 gc</cost>							
+						<description type="formattedtext">
+This simple leather cross-belt features ten to
+twelve leather loops suitable for holding firearm charges,
+enabling easy access to them. These bandoliers are usually
+issued to military units as well as pistol-armed forces like the
+Corvis Watch.							
+						A character with an ammo bandolier can draw and reload a
+round into a firearm as part of the same quick action.
+						</description>										
+					</record>
+							
+							
+					<record>
+						<name type="string">Bandolier, Grenadier's</name>
+						<type type="string">Accessory</type>
+						<cost type="string">5 gc</cost>							
+						<description type="formattedtext">
+This heavy leather cross-body belt can hold up to
+six grenades. These bandoliers are favored by combat alchemists
+on the battlefields of western Immoren.		
+						A character with a grenadier's bandolier can draw grenades
+without spending a quick action.
+						</description>										
+					</record>
+							
+							
+					<record>
+						<name type="string">Bipod</name>
+						<type type="string">Accessory</type>
+						<cost type="string">10 gc</cost>							
+						<description type="formattedtext">
+A bipod is a lightweight brace for a rifle.	
+						When a
+character with a bipod forfeits his movement to aim during his
+turn, the character gains +2 to his first ranged attack with a rifle
+that turn.
+						It requires a quick action to setup or take down a bipod.
+						</description>										
+					</record>
+							
+
+					<record>
+						<name type="string">Crossbow, Rep.: Magazine</name>
+						<type type="string">Accessory</type>
+						<cost type="string">10 gc</cost>							
+						<description type="formattedtext">
+						</description>									
+					</record>
+							
+							
+					<record>
+						<name type="string">Ammunition Light, paper case</name>
+						<type type="string">Ammunition</type>
+						<cost type="string">2 gc / 5</cost>							
+						<description type="formattedtext">
+						</description>								
+					</record>
+							
+							
+					<record>
+						<name type="string">Ammunition Light, metal case</name>
+						<type type="string">Ammunition</type>
+						<cost type="string">3 gc / 5</cost>							
+						<description type="formattedtext">
+						</description>									
+					</record>
+							
+					<record>
+						<name type="string">Ammunition Heavy, paper case</name>
+						<type type="string">Ammunition</type>
+						<cost type="string">3 gc / 5</cost>							
+						<description type="formattedtext">
+						</description>									
+					</record>
+							
+					<record>
+						<name type="string">Ammunition Heavy, metal case</name>
+						<type type="string">Ammunition</type>
+						<cost type="string">4 gc / 5</cost>							
+						<description type="formattedtext">
+						</description>									
+					</record>
+							
+							
+					<record>
+						<name type="string">Ammunition Shot</name>
+						<type type="string">Ammunition</type>
+						<cost type="string">1 gc</cost>							
+						<description type="formattedtext">
+						</description>									
+					</record>
+							
+							
+					<record>
+						<name type="string">Ammunition Slug</name>
+						<type type="string">Ammunition</type>
+						<cost type="string">1 gc</cost>							
+						<description type="formattedtext">
+						</description>									
+					</record>
+							
+							
+					<record>
+						<name type="string">Ammunition Rune Shot</name>
+						<type type="string">Ammunition</type>
+						<cost type="string">5 gc</cost>							
+						<description type="formattedtext">
+						</description>									
+					</record>
+							
+					<record>
+						<name type="string">Ogrun Battle Cannon Shell</name>
+						<type type="string">Ammunition</type>
+						<cost type="string">3 gc</cost>							
+						<description type="formattedtext">
+						</description>									
+					</record>
+							
+					<record>
+						<name type="string">Sling Bullets</name>
+						<type type="string">Ammunition</type>
+						<cost type="string">1 gc / 20</cost>							
+						<description type="formattedtext">
+						</description>									
+					</record>
+							
+							
+					<record>
+						<name type="string">Gun Brace</name>
+						<type type="string">Accessory</type>
+						<cost type="string">15 gc</cost>							
+						<description type="formattedtext">
+						 A gun brace is effectively a heavy leather bandolier
+for pistols. A gun brace has enough sleeves to hold three or
+four pistols. Some gunfighters and pirates are even known to
+wear two full braces of loaded pistols. Rather than reloading,
+a character with a gun brace simply pulls another pistol each
+time he wants to make an attack.
+						A character wearing a gun brace can draw two pistols as a single
+quick action. He can also replace his pistols without spending
+a quick action.
+						A cheap alternative to the gun brace favored by some pirates
+is to simply tie a length of rope between two pistols and hang
+them around the neck. Any character wishing to begin the
+game with a rope gun brace of this kind can do so for free.
+						</description>																	
+					</record>
+							
+							
+					<record>
+						<name type="string">Gunsmith's Kit</name>
+						<type type="string">Accessory</type>
+						<cost type="string">15 gc</cost>							
+						<description type="formattedtext">
+						 In addition to the specialized tools of the gunsmith's
+trade, this kit includes a number of tools useful for cleaning,
+disassembling, and reassembling firearms. It also includes a scale
+for measuring blast powder, lead and molds for pouring shot, and
+a secure area for storing completed cartridges and charges.
+						A character with the Craft (gunsmithing) skill can press his own
+metal cartridges at a fraction of the cost of buying ammunition
+and can convert heavier cartridges to lighter cartridges with no
+loss of material and lighter cartridges to heavier cartridges with
+a minimal loss of material.
+						A character with the required materials and either the Pistol or the
+Rifle military skill can press his own metal cartridge ammunition.
+A character can press up to ten rounds of ammunition in an hour.
+A character who chooses to press his own ammunition rather
+than purchasing ready-made ammunition can make twice as
+many rounds as if he purchased them ready made. The character
+must pay an additional 1 gc for metal casings unless he recycles
+used brass casings and makes ammunition of that size. Thus, a
+character who purchases the materials to make light ammunition
+rounds at the cost of 3 gc gains enough materials to make ten
+rounds instead of five at the ready-made price.
+						</description>														
+					</record>
+							
+
+					<record>
+						<name type="string">Harpoon Gun Charges</name>
+						<type type="string">Ammunition</type>
+						<cost type="string">1 gc / 5</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+							
+					<record>
+						<name type="string">Harpoon Gun Harpoon</name>
+						<type type="string">Ammunition</type>
+						<cost type="string">1 gc</cost>							
+						<description type="formattedtext">
+						</description>									
+					</record>
+							
+					<record>
+						<name type="string">Harpoon Gun Grapple</name>
+						<type type="string">Ammunition</type>
+						<cost type="string">1 gc</cost>							
+						<description type="formattedtext">
+						</description>																
+					</record>
+							
+							
+					<record>
+						<name type="string">Holster</name>
+						<type type="string">Accessory</type>
+						<cost type="string">5 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+							
+					<record>
+						<name type="string">Holster, Wrist-Spring</name>
+						<type type="string">Accessory</type>
+						<cost type="string">15 gc</cost>							
+						<description type="formattedtext">
+						Wrist-spring holsters are leather bracers fitted
+with a spring-arm mechanism that holds a dagger or pistol in
+place and can project it immediately into the wearer's hand
+when triggered. This allows the wearer to draw the weapon
+without spending a quick action. The nature of this device
+enables it to be easily concealed beneath a loose, billowy sleeve.
+Wrist-spring holsters work with daggers, holdout pistols, and
+throwing knives.
+						</description>														
+					</record>
+							
+							
+							
+					<record>
+						<name type="string">Quiver</name>
+						<type type="string">Accessory</type>
+						<cost type="string">5 gc</cost>							
+						<description type="formattedtext">
+						A quiver is a leather or wooden container for arrows
+or crossbow bolts. Archers carry their quivers on the back or the
+hip. Crossbowmen typically mount theirs on the belt.
+A character with a quiver can draw and nock an arrow or load
+a crossbow as part of the same quick action.
+						</description>														
+					</record>
+							
+							
+					<record>
+						<name type="string">Scope, Rifle or Pistol</name>
+						<type type="string">Accessory</type>
+						<cost type="string">20 gc</cost>							
+						<description type="formattedtext">
+						Adding a scope to a rifle or pistol adds eighteen
+feet (3?) to the weapon's effective range and ninety feet (15?)
+to its extreme range when a character armed with the weapon
+aims during his turn. A character aiming with a weapon with
+a scope only gains the aiming bonus with that weapon during
+his turn.
+						</description>														
+					</record>
+
+				
+					<record>
+						<name type="string">Belt, Leather</name>
+						<type type="string">Clothing</type>
+						<cost type="string">2 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+					<record>
+						<name type="string">Belt, Pouch</name>
+						<type type="string">Clothing</type>
+						<cost type="string">5 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Boots, Dress</name>
+						<type type="string">Clothing</type>
+						<cost type="string">25 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Boots, Mechanik's</name>
+						<type type="string">Clothing</type>
+						<cost type="string">20 gc</cost>							
+						<description type="formattedtext">
+						These sturdy leather boots buckle or lace to
+provide a tight fit and have hobnail soles for long-lasting grip
+and wear. Most important, they are fitted with steel toecaps to
+protect the front of the feet from damage. These tough boots
+have proven exceptionally popular, not just with mechaniks,
+but with those from a great variety of professions.
+						</description>														
+					</record>
+						
+					<record>
+						<name type="string">Boots, Work</name>
+						<type type="string">Clothing</type>
+						<cost type="string">10 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Cloak</name>
+						<type type="string">Clothing</type>
+						<cost type="string">5 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+					<record>
+						<name type="string">Cloak, Waterproof</name>
+						<type type="string">Clothing</type>
+						<cost type="string">10 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+					<record>
+						<name type="string">Cloak, Winter</name>
+						<type type="string">Clothing</type>
+						<cost type="string">20 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Coat, Great</name>
+						<type type="string">Clothing</type>
+						<cost type="string">25 gc</cost>							
+						<description type="formattedtext">
+						A new and fashionable garment, the greatcoat
+provides good protection against the cold and the rain, making
+it particularly popular with port dwellers and travelers of all
+varieties. These long, heavy button-up coats are usually made
+of leather or heavy wool and feature several inner and outer
+pockets. Particularly fine greatcoats usually have a silk lining.
+A character wearing a greatcoat gains +1 ARM against cold
+damage.
+						</description>														
+					</record>
+
+					<record>
+						<name type="string">Coat, Military Dress</name>
+						<type type="string">Clothing</type>
+						<cost type="string">40 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Dress</name>
+						<type type="string">Clothing</type>
+						<cost type="string">8 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+					<record>
+						<name type="string">Eye Patch, Leather and Brass</name>
+						<type type="string">Clothing</type>
+						<cost type="string">2 gc</cost>							
+						<description type="formattedtext">
+						</description>													
+					</record>
+						
+						
+					<record>
+						<name type="string">Glasses, Reading</name>
+						<type type="string">Clothing</type>
+						<cost type="string">10 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+					<record>
+						<name type="string">Glasses, Tinted</name>
+						<type type="string">Clothing</type>
+						<cost type="string">10 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Gown</name>
+						<type type="string">Clothing</type>
+						<cost type="string">30 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Gloves, Dress</name>
+						<type type="string">Clothing</type>
+						<cost type="string">10 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+					<record>
+						<name type="string">Gloves, Leather Work</name>
+						<type type="string">Clothing</type>
+						<cost type="string">10 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Hat, Dress</name>
+						<type type="string">Clothing</type>
+						<cost type="string">10 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Hat, Leather Traveling</name>
+						<type type="string">Clothing</type>
+						<cost type="string">10 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+					<record>
+						<name type="string">Hat, Simple</name>
+						<type type="string">Clothing</type>
+						<cost type="string">2 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+					<record>
+						<name type="string">Hat, Winter Fur</name>
+						<type type="string">Clothing</type>
+						<cost type="string">20 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+					<record>
+						<name type="string">Officer's Uniform</name>
+						<type type="string">Clothing</type>
+						<cost type="string">80 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+					<record>
+						<name type="string">Pants, Dress</name>
+						<type type="string">Clothing</type>
+						<cost type="string">15 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Pants, Work</name>
+						<type type="string">Clothing</type>
+						<cost type="string">10 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Robe</name>
+						<type type="string">Clothing</type>
+						<cost type="string">8 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+					<record>
+						<name type="string">Shirt, Dress</name>
+						<type type="string">Clothing</type>
+						<cost type="string">10 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+					<record>
+						<name type="string">Shirt, Work</name>
+						<type type="string">Clothing</type>
+						<cost type="string">5 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+					<record>
+						<name type="string">Suspenders</name>
+						<type type="string">Clothing</type>
+						<cost type="string">4 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Traveling Clothes, Cloth</name>
+						<type type="string">Clothing</type>
+						<cost type="string">12 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Traveling Clothes, Leather</name>
+						<type type="string">Clothing</type>
+						<cost type="string">20 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Work Clothes</name>
+						<type type="string">Clothing</type>
+						<cost type="string">15 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+
+					<record>
+						<name type="string">Alchemical Lab</name>
+						<type type="string">Equipment</type>
+						<cost type="string">15 gc</cost>							
+						<description type="formattedtext">
+							This is a complete alchemical lab containing all
+the tools of the alchemist's trade. The instruments, common
+compounds, glassware, crucibles, and ovens necessary for the
+pursuit of alchemical experimentation are seemingly endless,
+and only in his laboratory does an alchemist have ready
+access these crucial items. Likely, the alchemist's entire life is
+tied up in this facility and it is here that he is most at home.
+Some alchemists organize their labs with rigorous exactitude,
+whereas others prefer sprawling messes where only they know
+where to find a specific beaker or phial of rare chemicals.
+A character who works undisturbed in an alchemical lab gains
++2 on Alchemy rolls.
+						</description>														
+					</record>
+							
+							
+							
+						
+						
+					<record>
+						<name type="string">Alchemist's Kit, Traveling</name>
+						<type type="string">Equipment</type>
+						<cost type="string">50 gc</cost>							
+						<description type="formattedtext">
+						his kit is a carefully packed case that includes
+several small and durable glass beakers and tubes, a ceramic
+pestle, miniature burners and fuel, mixing rods of various
+materials, and cork stoppers. It is intended for mixing potions
+while in the field.
+						A character requires an alchemy kit or lab to create alchemical
+solutions.
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Anvil</name>
+						<type type="string">Equipment</type>
+						<cost type="string">40 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Backpack</name>
+						<type type="string">Equipment</type>
+						<cost type="string">15 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Bedroll</name>
+						<type type="string">Equipment</type>
+						<cost type="string">5 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Book</name>
+						<type type="string">Equipment</type>
+						<cost type="string">5+ gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+					<record>
+						<name type="string">Canteen</name>
+						<type type="string">Equipment</type>
+						<cost type="string">3 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Chalk or Charcoal sticks</name>
+						<type type="string">Equipment</type>
+						<cost type="string">1 gc / 5</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Coal, 20-pound Bag</name>
+						<type type="string">Equipment</type>
+						<cost type="string">3 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+					<record>
+						<name type="string">Coal, 50-pound Bag</name>
+						<type type="string">Equipment</type>
+						<cost type="string">5 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+					<record>
+						<name type="string">Coal, delivery of 1,000 pounds</name>
+						<type type="string">Equipment</type>
+						<cost type="string">60 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+					<record>
+						<name type="string">Coal, delivery of 2,000 pounds</name>
+						<type type="string">Equipment</type>
+						<cost type="string">100 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Compass</name>
+						<type type="string">Equipment</type>
+						<cost type="string">2 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Deck of Cards</name>
+						<type type="string">Equipment</type>
+						<cost type="string">2 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Entrenching Spade</name>
+						<type type="string">Equipment</type>
+						<cost type="string">10 gc</cost>							
+						<description type="formattedtext">
+						This heavy-duty spade is standard issue to all
+Cygnaran Trenchers. It is used to dig trenches and improvised
+dugouts in the field.
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Flint striker</name>
+						<type type="string">Equipment</type>
+						<cost type="string">3 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Fountain pen and inkwell</name>
+						<type type="string">Equipment</type>
+						<cost type="string">3 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Gas Mask</name>
+						<type type="string">Equipment</type>
+						<cost type="string">20 gc</cost>							
+						<description type="formattedtext">
+						Once unique to the workshops of the Golden
+Crucible, gas masks have become a rare but not-unobtainable
+piece of gear. The device is a face mask that affixes tightly
+to the head with adjustable buckles and straps to create an
+impermeable seal around the mouth and nose of the wearer. The
+"breather" of the mask is a large oblong leather sack affixed to
+the mask with a metal screw cap. Alchemically treated fibers in
+the filter allow clean air in but prevent particles and alchemical
+substances from permeating the filter's membranes. This allows
+a man to breathe air in even the most caustic and dangerous of
+environs without fear of damaging his lungs or windpipe.
+						It takes a quick action to put on or take off a gas mask.
+						A character wearing a gas mask gains +1 ARM against corrosion
+damage and is immune to gas effects. A character wearing a
+gas mask suffers -1 on sight- or hearing- based PER rolls. A gas
+mask can be worn with a specially designed helmet.
+						Replacement filters for a gas mask cost 5 gc each and provide
+enough protection for one full hour of exposure to caustic gasses
+and other undesirable particles the wearer might breathe.
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Gas Mask Replacement Filter</name>
+						<type type="string">Equipment</type>
+						<cost type="string">5 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Goggles</name>
+						<type type="string">Equipment</type>
+						<cost type="string">5 gc</cost>							
+						<description type="formattedtext">
+						 Originally created for use by mechaniks,
+alchemists, and others working in hazardous professions,
+goggles have entered widespread use. Made of thick glass with
+adjustable leather straps, they provide protection from flying
+fragments of metal and other such dangers.
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Lantern</name>
+						<type type="string">Equipment</type>
+						<cost type="string">10 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Magnifying Glass</name>
+						<type type="string">Equipment</type>
+						<cost type="string">5 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Manacles</name>
+						<type type="string">Equipment</type>
+						<cost type="string">5 gc</cost>							
+						<description type="formattedtext">
+ Manacles are iron and steel restraints made to
+close over the wrists to restrain the movement of a prisoner. A
+character restrained by manacles can attempt to break out with
+a successful STR roll or slip the manacles with a successful AGL
++ Escape Artist against a target number of 15. Failure to break
+out with a STR roll inflicts 1 damage point on the restrained
+character. Slipping out takes ten minutes per attempt.						
+						Manacles can also be picked by a character with the Pick
+Locking skill. A character attempting to pick the lock makes an
+AGL + Lock Picking against a target number of 15. Each attempt
+takes five minutes. A character attempting to pick the manacles
+restraining him suffers -2 to this roll.
+						Standard manacles are too small for ogrun. Ogrun restraining
+manacles cost 15 gc and cannot be used to restrain anything
+smaller than a trollkin. Breaking out of these reinforced
+manacles requires a successful STR roll against a target
+number of 20.
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Manacles, Ogrun</name>
+						<type type="string">Equipment</type>
+						<cost type="string">5 gc</cost>							
+						<description type="formattedtext">
+ Manacles are iron and steel restraints made to
+close over the wrists to restrain the movement of a prisoner. A
+character restrained by manacles can attempt to break out with
+a successful STR roll or slip the manacles with a successful AGL
++ Escape Artist against a target number of 15. Failure to break
+out with a STR roll inflicts 1 damage point on the restrained
+character. Slipping out takes ten minutes per attempt.						
+						Manacles can also be picked by a character with the Pick
+Locking skill. A character attempting to pick the lock makes an
+AGL + Lock Picking against a target number of 15. Each attempt
+takes five minutes. A character attempting to pick the manacles
+restraining him suffers -2 to this roll.
+						Standard manacles are too small for ogrun. Ogrun restraining
+manacles cost 15 gc and cannot be used to restrain anything
+smaller than a trollkin. Breaking out of these reinforced
+manacles requires a successful STR roll against a target
+number of 20.
+						</description>														
+					</record>
+						
+					<record>
+						<name type="string">Map, Nautical</name>
+						<type type="string">Equipment</type>
+						<cost type="string">10 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Map, Case</name>
+						<type type="string">Equipment</type>
+						<cost type="string">5 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Mechanik's Tool Kit</name>
+						<type type="string">Equipment</type>
+						<cost type="string">100 gc</cost>							
+						<description type="formattedtext">
+						This is a heavy wooden box or leather pouch belt
+stuffed with the tools of the mechanik's trade. As a matter of
+course a mechanik usually has three standard types of tools-
+the wrench, the hammer, and the boltdriver. These are easily
+recognizable by any casual observer, and they are practical
+tools in the hands of even an untrained mechanik's assistant.
+						The kit includes an array of other tools: in addition to several
+varieties of ratchets, there are usually pliers, tongs, and
+spanners for holding parts in place as well as calipers and
+dividers for measuring and spacing mountings. A mechanik
+who works on steamjacks has bores, chisels, reamers, and
+scrapers; injectors for priming pneumatic chambers; expanders
+for piston cylinders; and a number of hammers with heads of
+various shapes and sizes for shaping metal, pounding parts
+into place without damaging them, and smashing others out of
+place to allow for new parts.
+						</description>														
+					</record>
+						
+						
+						
+					<record>
+						<name type="string">Mechanik's Workshop</name>
+						<type type="string">Equipment</type>
+						<cost type="string">500+ gc</cost>							
+						<description type="formattedtext">
+						The assortment of implements required by a
+mechanik in his simple day-to-day craft ranges from the
+rudimentary to the exotic. In addition to the myriad tools
+described in the mechanik's tool kit above, a full shop also
+includes torches, drills, pneumatic saws, steam shears, and
+piston rams designed to shape metal plates.
+						A character working out of a mechanik's workshop gains +2
+to his Mechanikal Engineering rolls to repair or manufacture
+steamjacks and equipment.
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Paper: ten sheets</name>
+						<type type="string">Equipment</type>
+						<cost type="string">1 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Piton and hammer: 10 pitons</name>
+						<type type="string">Equipment</type>
+						<cost type="string">5 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+					<record>
+						<name type="string">Pocket Watch</name>
+						<type type="string">Equipment</type>
+						<cost type="string">25 gc</cost>							
+						<description type="formattedtext">
+						With long-perfected mundane clockwork available
+to the populace, pocket watches have become relatively common
+luxury items throughout the Iron Kingdoms. They are especially
+fashionable among military officers and middle-class clerks,
+though fine silver and gold watches are preferred among the
+wealthier classes. Pocket watches are typically attached to fine
+chains to keep them well secured. Most watch faces have an hour
+hand only and are protected by a cover that snaps open and shut
+on a tiny hinge. Minute hands are rare, since they require
+more complex mechanics than hour hands. Pocket
+watches run on spring technology, which employs a
+coiled spring and notched wheels for the automated
+hand movement. Most require winding twice a day
+by means of a small key, though more advanced
+watches need to be wound only once a day.
+						</description>														
+					</record>
+					
+						
+						
+						
+						
+					<record>
+						<name type="string">Portable Steam Engine</name>
+						<type type="string">Equipment</type>
+						<cost type="string">500 gc</cost>							
+						<description type="formattedtext">
+						Compressed steam is the main motivating force
+of almost every technology in western Immoren. Coal-fed fires
+boil water to create steam, which is fed into a pressurized vent
+and funneled through a pipe into a piston chamber that uses
+variable pressure to drive the piston from both sides. With
+several pistons, each working in concert in larger engines,
+the result is an incredibly powerful engine that can power
+everything from foundry tools to locomotives.
+						Portable steam engines are used to power heavy mechanik's
+tools in the field and can be strapped to a man's back. Pneumatic
+conduits funnel steam and compressed air to the tools, allowing
+them to operate. Although the steam engines are quite heavy,
+especially with a full load of coal and water, their power and
+the benefits they provide to the use of powered tools often
+outweigh any encumbering factors.
+						Most steam tools attach to larger steam engines while in
+foundry use so that refueling is less of an issue. In the field of
+battle or in the dank confines of a lost ruin, the portable steam
+engine is king. A portable steam engine can provide sufficient
+power to a steam tool for one hour of operation at full steam
+before it requires refueling. An idling engine can burn for six
+hours continuously.
+						Running the steam engine requires 1 gc of coal for every four
+hours of continuous operation.
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Rope and Grapple: 20 feet</name>
+						<type type="string">Equipment</type>
+						<cost type="string">5 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+
+					<record>
+						<name type="string">Rivet Gun Rivets and Powder</name>
+						<type type="string">Equipment</type>
+						<cost type="string">1 gc / 10</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Rope, Hemp: 20 feet</name>
+						<type type="string">Equipment</type>
+						<cost type="string">2 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+						
+					<record>
+						<name type="string">Rune Etching Kit</name>
+						<type type="string">Equipment</type>
+						<cost type="string">150 gc</cost>							
+						<description type="formattedtext">
+						The arcane mechanik's rune etching kit includes
+the tools for creating arcane mechanika-conductance awls,
+etcher tubs, rune scrivers, conduit grips, glyph irons, and
+a variety of pristine measuring devices such as precision
+calipers, arcanometric slide rulers, warding sticks, incredibly
+accurate aligning devices, and jeweler's tools for handling
+fine mechanikal components. Socket mounting wrenches,
+arcano-conduction contact primers, and other obscure tools are
+included as well.
+						</description>														
+					</record>
+						
+						
+						
+					<record>
+						<name type="string">Rune Shot Casting Kit</name>
+						<type type="string">Equipment</type>
+						<cost type="string">50 gc</cost>							
+						<description type="formattedtext">
+						This portable kit contains all the tools needed to
+craft the specialized ammunition known as rune shot (see p.
+160). The kit can be used to produce mundane shot as well as
+rune shot.
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Sack, Waterproof, 16 gallon</name>
+						<type type="string">Equipment</type>
+						<cost type="string">2 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Sewing Kit</name>
+						<type type="string">Equipment</type>
+						<cost type="string">2 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Spyglass</name>
+						<type type="string">Equipment</type>
+						<cost type="string">15 gc</cost>							
+						<description type="formattedtext">
+						The spyglass is an eighteen-inch long hollow
+wooden or metal tube containing two glass lenses. Objects
+viewed through a spyglass are magnified to twice their normal
+size. Collapsing spyglasses that telescope down to ten inches
+long are also available.
+						A character using a spyglass gains +2 to PER rolls related to
+spotting at distances.
+						</description>														
+					</record>
+
+					<record>
+						<name type="string">Surgical Kit</name>
+						<type type="string">Equipment</type>
+						<cost type="string">30 gc</cost>							
+						<description type="formattedtext">
+						The most essential instruments, salves, bandages,
+and sutures are stored within this portable surgical kit. In
+the hands of a skilled medical practitioner, the kit contains
+everything necessary for field surgery and even the treatment
+of life-threatening wounds.
+						A character with a surgical kit gains +1 to his Medicine skill
+rolls.
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Symbol of Faith</name>
+						<type type="string">Equipment</type>
+						<cost type="string">10 gc</cost>							
+						<description type="formattedtext">
+						This is a finely made symbol of faith. It could be
+a Menofix, a holy symbol of Morrow, an ascendant talisman, a
+small mask of Cyriss, a Dhunian charm, or just about any other
+faith symbol. These symbols are generally plated with gold or
+silver, though trollkin Dhunian charms are often made from
+finely shaped stone.
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Tarp, Waterproof, 6'x6'</name>
+						<type type="string">Equipment</type>
+						<cost type="string">4 gc</cost>							
+						<description type="formattedtext">
+						</description>														
+					</record>
+						
+					<record>
+						<name type="string">Thief's Tools</name>
+						<type type="string">Equipment</type>
+						<cost type="string">10 gc</cost>							
+						<description type="formattedtext">
+						This concealable pouch of tools contains all of the
+tricks of the trade for the would-be thief. Inside are picks for
+locks, a miniature listening cone for hearing tumblers in safes,
+a vial of metal-eating acid for particularly tough locks, a metal
+wire saw, a small razor or two for the cutting of purses, and
+other tools that make the thief's job easier.
+						A character with a set of thief's tools gains +1 to Lock Picking
+and Pickpocket rolls.
+						</description>														
+					</record>
+						
+					<record>
+						<name type="string">Water Skin</name>
+						<type type="string">Equipment</type>
+						<cost type="string">2 gc</cost>							
+						<description type="formattedtext">						
+						</description>														
+					</record>
+	
+						
+					<record>
+						<name type="string">Horse, Draft</name>
+						<type type="string">Mount</type>
+						<cost type="string">60 gc</cost>							
+						<description type="formattedtext">
+					
+						A draft horse is a stocky, powerfully built
+workhorse. Though a draft horses can be ridden, they are most
+often put to work pulling a plow.
+						A draft horse has ARM 12 and 12 vitality points. Unmounted, a
+draft horse has DEF 11. A character riding a draft horse suffers
+an additional -2 DEF.
+						A perturbed draft horse without a rider can kick with MAT 5.
+Anyone hit suffers a damage roll with a POW equal to the draft
+horse's STR. Draft horses do not attack while mounted.
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Horse, Riding</name>
+						<type type="string">Mount</type>
+						<cost type="string">80 gc</cost>							
+						<description type="formattedtext">
+					
+						This is a fast horse bred for speed and riding. A
+riding horse is not trained for war and is not stout enough to
+pull a plow.
+						A riding horse has ARM 12 and 12 vitality points. Unmounted,
+a riding horse has DEF 14.
+						A perturbed riding horse without a rider can kick with MAT 5.
+Anyone hit suffers a damage roll with a POW equal to the
+riding horse's STR. Riding horses do not attack while mounted.
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Horse, War</name>
+						<type type="string">Mount</type>
+						<cost type="string">120 gc</cost>							
+						<description type="formattedtext">
+				
+						A warhorse is a strong and powerful animal bred
+and trained for battle. A steed designated as a warhorse can
+make cavalry charges when ridden by a skilled rider.
+						A warhorse has ARM 12 and 12 vitality points. Unmounted, a
+warhorse has DEF 12.
+						A perturbed warhorse without a rider can kick with MAT 5.
+The animal can also make impact attacks. Anyone hit by a
+warhorse attack suffers a damage roll with a POW equal to the
+warhorse's STR.
+						</description>														
+					</record>
+
+					<record>
+						<name type="string">Horse Feed (daily)</name>
+						<type type="string">Feed</type>
+						<cost type="string">1 gc</cost>							
+						<description type="formattedtext">									
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Barding, Light</name>
+						<type type="string">Barding</type>
+						<cost type="string">90 gc</cost>							
+						<description type="formattedtext">									
+						 Light barding consists of a few armored plates
+covering the horse's head, neck, and chest.
+Light barding adds +4 to a horse's ARM.
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Barding, Medium</name>
+						<type type="string">Barding</type>
+						<cost type="string">150 gc</cost>							
+						<description type="formattedtext">									
+						 Medium barding consists of either light armored
+plates or a coat of chain mail and padding.
+Medium barding adds +6 to a horse's ARM.
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Barding, Heavy</name>
+						<type type="string">Barding</type>
+						<cost type="string">300 gc</cost>							
+						<description type="formattedtext">									
+						 This is the heaviest class of equestrian armor.
+It consists of heavy plates over chain mail and padding that
+protect the horse's neck, chest, sides, flanks, legs, and head.
+Heavy barding cannot be worn by riding horses.
+Heavy barding adds +8 to a horse's ARM.
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Gas Mask, Equestrian</name>
+						<type type="string">Equipment</type>
+						<cost type="string">45 gc</cost>							
+						<description type="formattedtext">									
+						 This is a large gas mask designed to fit over the
+head of a horse.
+						It takes a full action to put on or take a gas mask off a horse.
+A horse wearing a gas mask gains +1 ARM against corrosion
+damage and is immune to gas effects. A horse wearing a gas
+mask suffers -1 on sight- or hearing-based PER rolls.
+						It costs 5 gc tor replacement filters for an equestrian gas mask.
+These filters provide enough protection for one full hour of
+exposure to caustic gasses and other undesirable particles the
+wearer might breathe.
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Tack</name>
+						<type type="string">Equipment</type>
+						<cost type="string">50 gc</cost>							
+						<description type="formattedtext">									
+						 Tack includes all the equipment and accessories
+necessary to keep a rider on a horse. Tack includes the saddle,
+stirrups, reins, bit, and bridle. In addition to keeping the rider
+on the horse, tack also greatly enhances the rider's control over
+his mount.
+						A character riding a mount without tack suffers -3 to his Riding
+skill rolls.
+						</description>														
+					</record>
+
+					
+						
+						
+					<record>
+						<name type="string">Dry Rations (daily)</name>
+						<type type="string">Food</type>
+						<cost type="string">1 gc</cost>							
+						<description type="formattedtext">									
+						Dry rations are the barest essential foodstuff
+for the traveling adventurer. Their form changes dramatically
+depending on where they are purchased, but they always offer
+enough sustenance for one day. In more civilized areas, dry
+rations appear in the form of hardtack and aged cheeses, while
+in the wilds they tend to be dried and salted meats. Typically,
+these supplies rot if they get wet or are exposed to the elements
+for too long.
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Military Rations (daily)</name>
+						<type type="string">Food</type>
+						<cost type="string">1 gc</cost>							
+						<description type="formattedtext">									
+						The prolific nature of warfare in the Iron Kingdoms
+brought a boon in the form of food preservation technology.
+A fairly recent development has been the creation of sealed
+tin canisters that hold prepared meats, fruits, and vegetables
+and keep them fresh for months, making the contents more
+palatable than typical dry rations. The canister keeps the food
+from the elements and can resist the rough treatment typically
+seen on a battlefield. As a new convention, military rations can
+be found in most civilized areas and military posts, though
+they are somewhat rare in the countryside.
+						</description>														
+					</record>						
+						
+					<record>
+						<name type="string">Meal, Basic</name>
+						<type type="string">Food</type>
+						<cost type="string">1 gc</cost>							
+						<description type="formattedtext">									
+						Dished out at every tavern, inn, and homestead,
+this type of meal is the staple on which most of the citizens
+of western Immoren survive. The contents of the meal vary as
+dramatically as the peoples of the Iron Kingdoms. It might not
+be the tastiest food on Caen, but it's hot and filling.
+						</description>														
+					</record>						
+						
+					<record>
+						<name type="string">Meal, Quality</name>
+						<type type="string">Food</type>
+						<cost type="string">5 gc</cost>							
+						<description type="formattedtext">									
+						Served at superior inns, restaurants, and taverns,
+this type of meal is made up of multiple courses including fresh
+fruits and vegetables, rich soups and broths, well prepared
+meats and fish, and a regional dessert. This is the best most
+establishments have to offer.
+						</description>														
+					</record>						
+						
+					<record>
+						<name type="string">Meal, Luxurious Feast</name>
+						<type type="string">Food</type>
+						<cost type="string">25 gc</cost>							
+						<description type="formattedtext">									
+						This type of meal is offered in only the most
+expensive restaurants, inns, and royal estates and is the stuff
+of culinary dreams. Adorning this table would be delicacies
+such as spices and smoked meats procured from the distant
+continent of Zu, the finest Khadoran caviar, and exotic fruits
+from the mysterious nation of Ios, all prepared by the best
+chefs western Immoren has to offer. Contraband foods can be
+purchased in this price range.
+						</description>														
+					</record>						
+					<record>
+						<name type="string">Beer, Bottle</name>
+						<type type="string">Drink</type>
+						<cost type="string">1 gc</cost>							
+						<description type="formattedtext">									
+						Beer is typically an unfiltered, grainy, barely
+alcoholic beverage. Brewed all over western Immoren, this
+staple of commoner life is essential in places where the water
+might not be safe to drink. The smart traveler knows to drink
+this off-putting liquid rather than trust the local stream. Ciders,
+meads, and ales fall into the same range of pricing.
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Beer, Pint</name>
+						<type type="string">Drink</type>
+						<cost type="string">1 gc</cost>							
+						<description type="formattedtext">									
+						Beer is typically an unfiltered, grainy, barely
+alcoholic beverage. Brewed all over western Immoren, this
+staple of commoner life is essential in places where the water
+might not be safe to drink. The smart traveler knows to drink
+this off-putting liquid rather than trust the local stream. Ciders,
+meads, and ales fall into the same range of pricing.
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Wine, Glass</name>
+						<type type="string">Drink</type>
+						<cost type="string">1+ gc</cost>							
+						<description type="formattedtext">									
+						Typically created from the fermentation of a
+wide variety of fruits, wine has existed in the Iron Kingdoms
+for as long as civilization itself. The value of wine is based on
+availability, region of origination, vintage, and quality. Truly
+rare vintages can sell for vast sums of money.
+						</description>														
+					</record>
+						
+					<record>
+						<name type="string">Wine, Bottle</name>
+						<type type="string">Drink</type>
+						<cost type="string">5+ gc</cost>							
+						<description type="formattedtext">									
+						Typically created from the fermentation of a
+wide variety of fruits, wine has existed in the Iron Kingdoms
+for as long as civilization itself. The value of wine is based on
+availability, region of origination, vintage, and quality. Truly
+rare vintages can sell for vast sums of money.
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Distilled Spirits, Shot</name>
+						<type type="string">Drink</type>
+						<cost type="string">1+ gc</cost>							
+						<description type="formattedtext">									
+						Brandy, rum, whiskey, gin, and all other distilled
+beverages fall within this category. A variety of factors go into
+determining the values of these beverages, the most expensive
+coming from long-established distilleries with a history of
+creating quality product.
+						</description>														
+					</record>
+						
+					<record>
+						<name type="string">Distilled Spirits, Bottle</name>
+						<type type="string">Drink</type>
+						<cost type="string">5+ gc</cost>							
+						<description type="formattedtext">									
+						Brandy, rum, whiskey, gin, and all other distilled
+beverages fall within this category. A variety of factors go into
+determining the values of these beverages, the most expensive
+coming from long-established distilleries with a history of
+creating quality product.
+						</description>														
+					</record>
+						
+						
+					<record>
+						<name type="string">Lodging, Basic (nightly)</name>
+						<type type="string">Lodging</type>
+						<cost type="string">1 gc</cost>							
+						<description type="formattedtext">									
+						This class of accommodation offers little more
+than four walls and a roof over one's head. Stables, wind-riddled
+sheds, crowded shared boarding house rooms, and sleeping on
+the dirty floor of a tavern all qualify as boarding at this level.
+Your character is off the street, but just barely.
+						</description>														
+					</record>						
+						
+					<record>
+						<name type="string">Lodging, Standard (nightly)</name>
+						<type type="string">Lodging</type>
+						<cost type="string">5 gc</cost>							
+						<description type="formattedtext">									
+						The standard lodging is a typical private room
+for let found throughout the Iron Kingdoms. It is reasonably
+clean and a stay usually includes breakfast. Rooms of this
+sort are often available for rent by the month. Prices increase
+dramatically during the high season, religious festivals, and at
+harvest time.
+						</description>														
+					</record>						
+						
+					<record>
+						<name type="string">Lodging, Standard (monthly)</name>
+						<type type="string">Lodging</type>
+						<cost type="string">50 gc</cost>							
+						<description type="formattedtext">									
+						The standard lodging is a typical private room
+for let found throughout the Iron Kingdoms. It is reasonably
+clean and a stay usually includes breakfast. Rooms of this
+sort are often available for rent by the month. Prices increase
+dramatically during the high season, religious festivals, and at
+harvest time.
+						</description>														
+					</record>						
+						
+					<record>
+						<name type="string">Lodging, Exquisite (nightly)</name>
+						<type type="string">Lodging</type>
+						<cost type="string">25+ gc</cost>							
+						<description type="formattedtext">									
+						These rooms are found in the most civilized cities
+of western Immoren. Rooms are kept in immaculate condition
+by a staff that waits hand and foot upon the character. Beds
+and furnishings are of the highest quality, and tasteful art can
+be found wherever the eye might fall. These rooms commonly
+have private bathing areas with attendants to massage exotic
+oils into a traveler's worn muscles. An establishment with this
+quality of lodging goes out of its way to cater to characters who
+choose to purchase this option.
+						</description>														
+					</record>						
+						
+				
+</items>

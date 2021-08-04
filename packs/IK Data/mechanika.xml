@@ -1,0 +1,442 @@
+<mechanika>							
+						
+					<record>
+						<name type="string">Arcantrik Scope</name>
+						<type type="string">Dedicated Mechanika Device</type>
+						<cost type="string">590 gc</cost>
+						<runepoints type="number">2</runepoints>						
+						<description type="formattedtext">									
+						This is a mechanikal scope that enables its user to
+pierce the most obscuring magic. The scope includes a housing,
+a clockwork capacitor, and a dedicated runeplate.
+						</description>
+						<special_formatted type="formattedtext">
+						The scope functions as a normal rifle scope (see
+p. 273). While the scope has power, when a character armed
+with a weapon with an arcantrik scope forfeits his movement
+to aim with the weapon, the character ignores stealth that turn.
+						</special_formatted>						
+						<fabrication type="formattedtext">
+						The material cost of the scope's housing is 60 gc. It
+takes one week to construct the device. The pertinent Craft skill
+for construction is Craft (gunsmithing).
+						The scope's runeplates require two weeks to inscribe and
+requires a successful INT + Mechanikal Engineering roll
+against a target number of 14.
+						</fabrication>
+					</record>
+						
+						
+						
+					<record>
+						<name type="string">Farsight Goggles</name>
+						<type type="string">Dedicated Mechanika Device</type>
+						<cost type="string">790 gc</cost>
+						<runepoints type="number">3</runepoints>						
+						<description type="formattedtext">									
+						Farsight goggles are a complex piece of optical
+mechanika. Originally developed for forward observers to
+monitor troop movements, the high cost of the goggles has
+dramatically restricted their use. Notably, they have found
+a place among the agents of the Cygnaran Reconnaissance
+Service who use the goggles on desperate missions when
+they must navigate hostile terrain in the dead of night. The
+goggles appear as a pair of heavy, three-lensed goggles with
+glowing green lenses, attached to a heavy belt with a low-slung
+alchemical capacitor supplying power to the device.
+						</description>
+						<special_formatted type="formattedtext">
+						While the goggles' mechanika has power,
+the wearer can see in night conditions as if it were day. The
+goggles can be set for normal vision or can function as a
+normal spyglass (p. 277).
+						Farsight goggles cannot be worn with a helmet.
+						</special_formatted>						
+						<fabrication type="formattedtext">
+						The material cost of the goggles' housing is 75 gc. It
+takes two week to construct the device. The pertinent Craft skill
+for construction is Craft (glassworking).
+						The goggles' runeplates require three weeks to inscribe and
+requires a successful INT + Mechanikal Engineering roll
+against a target number of 15.
+						</fabrication>
+					</record>
+						
+						
+					<record>
+						<name type="string">Mechanikal Prosthetic, Arm</name>
+						<type type="string">Dedicated Mechanika Device</type>
+						<cost type="string">1040 gc</cost>
+						<runepoints type="number">3</runepoints>						
+						<description type="formattedtext">									
+						This is a mechanikal arm that can be grafted to
+the body to restore most of the function of a lost limb. Though
+cumbersome and ugly, these ingenious devices are a godsend to
+those in need. The device integrates an alchemical capacitor and
+a dedicated runeplate sensitive to the body's natural motion.
+When powered it acts like a natural limb, albeit with a slightly
+slowed reaction time.
+						</description>
+						<special_formatted type="formattedtext">
+						A character with a mechanikal prosthetic
+arm suffers -1 to AGL and POI rolls (including attacks) when
+resolving actions taken with a prosthetic arm. This penalty
+extends to attacks made with two-handed weapons.
+						The arm has STR 7. When resolving the damage of an attack
+made with the arm, the damage roll is made at STR 7. When
+resolving the damage of a two-handed attack, use the character's
+natural STR or the arm's STR 7, whichever is higher.
+						If the arm runs out of power, it becomes completely unresponsive
+and cannot be used to take any action. Additionally, the
+character suffers -1 DEF while is arm is not functional.
+						Successfully grafting this prosthetic to a character's body
+requires two hours of labor and an INT + Medicine skill roll
+against a target number of 15. If the character succeeds, the
+operation works. If the roll fails, the patient suffers d6 damage
+points. The operation can be attempted again after another ten
+minutes of labor.
+						</special_formatted>						
+						<fabrication type="formattedtext">
+						The material cost of the arm's housing is 150 gc. It
+takes three week to construct the device. The pertinent Craft
+skill for construction is Craft (metalworking).
+						The arm's runeplates require three weeks to inscribe and
+requires a successful INT + Mechanikal Engineering roll
+against a target number of 15.
+						</fabrication>
+					</record>
+						
+					<record>
+						<name type="string">Mechanikal Prosthetic, Eye</name>
+						<type type="string">Dedicated Mechanika Device</type>
+						<cost type="string">790 gc</cost>
+						<runepoints type="number">3</runepoints>						
+						<description type="formattedtext">									
+						This is a device of extraordinary complexity, a
+brass and glass orb capable of flawlessly mimicking the function
+of a natural eye.
+						The device comprises an anchor set into the eye socket and
+the eye itself. The eye is powered by a miniature clockwork
+capacitor that can be removed from the socket anchor to be
+wound.
+						</description>
+						<special_formatted type="formattedtext">
+						While the eye has power, the character wearing
+it does not suffer the effects of a lost eye (p. 217).
+						Successfully grafting this prosthetic to a character's body
+requires two hours of labor and an INT + Medicine skill roll
+against a target number of 15. If the character succeeds, the
+operation works. If the roll fails, the operation can be attempted
+again after another thirty minutes of labor.
+						</special_formatted>						
+						<fabrication type="formattedtext">
+						The material cost of the eye's housing is 75 gc. It
+takes three weeks to construct the device. The pertinent Craft
+skill for construction is Craft (metalworking).
+						The eye's runeplate requires three weeks to scribe and requires
+a successful INT + Mechanikal Engineering roll against a target
+number of 14.
+						</fabrication>
+					</record>
+						
+						
+					<record>
+						<name type="string">Mechanikal Prosthetic, Hand</name>
+						<type type="string">Dedicated Mechanika Device</type>
+						<cost type="string">590 gc</cost>
+						<runepoints type="number">2</runepoints>						
+						<description type="formattedtext">									
+						This is a mechanikal hand that can be grafted to
+the arm to restore most of the function of a lost hand. The device
+integrates a clockwork capacitor and a dedicated runeplate
+sensitive to the body's natural motion. When powered it acts
+like a natural hand, albeit with a slightly slowed reaction time
+and reduced dexterity.
+						</description>
+						<special_formatted type="formattedtext">
+						A character with a mechanikal prosthetic
+hand suffers -1 to AGL and POI rolls (including attacks) when
+resolving actions taken with the hand. This penalty does not
+extend to attacks made with two-handed weapons unless both
+the character's hands are prosthetics.
+						If the hand runs out of power, it becomes completely
+unresponsive and cannot be used to take any action.
+						Successfully grafting this prosthetic to a character's body
+requires two hours of labor and an INT + Medicine skill roll
+against a target number of 15. If the character succeeds, the
+operation works. If the roll fails, the patient suffers d6 damage
+points. The operation can be attempted again after another ten
+minutes of labor.
+						</special_formatted>						
+						<fabrication type="formattedtext">
+						The material cost of the hand's housing is 60 gc. It
+takes three weeks to construct the device. The pertinent Craft
+skill for construction is Craft (metalworking).
+						The arm's runeplates require two weeks to scribe, and a
+successful INT + Mechanikal Engineering roll against a target
+number of 14.
+						</fabrication>
+					</record>
+						
+						
+					<record>
+						<name type="string">Mechanikal Prosthetic, Leg</name>
+						<type type="string">Dedicated Mechanika Device</type>
+						<cost type="string">890 gc</cost>
+						<runepoints type="number">2</runepoints>						
+						<description type="formattedtext">									
+						This is a mechanikal leg designed to be grafted to
+the body to replace the function of a missing leg. When powered
+it acts like a natural leg, albeit with a slightly slowed reaction
+time and little reduced agility.
+						</description>
+						<special_formatted type="formattedtext">
+						A character with a functional mechanikal leg
+suffers only -1 SPD instead of the normal -2 for a missing leg.
+						If the leg runs out of power, it becomes completely unresponsive.
+The character suffers -2 SPD while the leg is not functional.
+						</special_formatted>						
+						<fabrication type="formattedtext">
+						The material cost of the leg's housing is 150 gc. It
+takes three weeks to construct the device. The pertinent Craft
+skill for construction is Craft (metalworking).
+						The arm's runeplates require two weeks to scribe, and a
+successful INT + Mechanikal Engineering roll against a target
+number of 14.
+						</fabrication>
+					</record>
+						
+						
+					<record>
+						<name type="string">Storm Glaive (1h)</name>
+						<type type="string">Dedicated Mechanika Melee Weapon</type>
+						<cost type="string">1560 gc</cost>
+						<skill type="string">Great Weapon</skill>
+						<attack type="number">-2</attack>
+						<power type="number">5</power>
+						<showrange type="number">1</showrange>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<runepoints type="number">4</runepoints>						
+						<description type="formattedtext">									
+						The Storm Glaive is the fearsome mechanikal
+weapon of the Stormblade. It is powered by a dedicated storm
+chamber.
+						</description>
+						<special type="string">Shocks user</special>
+						<special_formatted type="formattedtext">
+						A character armed with a Storm Glaive can use
+it to make electrical blast ranged attacks. Storm Glaive blasts
+are RNG 4, AOE -, POW 12 ranged attacks that cause electrical
+damage. When making a Storm Glaive ranged attack, the
+character makes the attack roll using his POI.
+						Each time a character makes an attack with this weapon he
+suffers a POW 12 electrical damage roll. For this reason it
+is advised that a character wielding a Storm Glaive wears
+electricity resistant Storm Knight armor (p. 253).
+						</special_formatted>						
+						<fabrication type="formattedtext">
+						The material cost of the Storm Glaive housing
+is 210 gc. It takes three weeks to construct the device. The
+pertinent Craft skill for construction is Craft (metalworking).
+						The Storm Glaive's runeplates require four weeks to inscribe
+and require a successful INT + Mechanikal Engineering roll
+against a target number of 16.
+						</fabrication>
+					</record>
+						
+						
+					<record>
+						<name type="string">Storm Glaive (2h)</name>
+						<type type="string">Dedicated Mechanika Melee Weapon</type>
+						<cost type="string">1560 gc</cost>
+						<skill type="string">Great Weapon</skill>
+						<attack type="number">-1</attack>
+						<power type="number">7</power>
+						<showrange type="number">1</showrange>
+						<powerapplystr type="number">1</powerapplystr>
+						<damagetype type="string"></damagetype>
+						<runepoints type="number">4</runepoints>						
+						<description type="formattedtext">									
+						The Storm Glaive is the fearsome mechanikal
+weapon of the Stormblade. It is powered by a dedicated storm
+chamber.
+						</description>
+						<special type="string">Shocks user</special>
+						<special_formatted type="formattedtext">
+						A character armed with a Storm Glaive can use
+it to make electrical blast ranged attacks. Storm Glaive blasts
+are RNG 4, AOE -, POW 12 ranged attacks that cause electrical
+damage. When making a Storm Glaive ranged attack, the
+character makes the attack roll using his POI.
+						Each time a character makes an attack with this weapon he
+suffers a POW 12 electrical damage roll. For this reason it
+is advised that a character wielding a Storm Glaive wears
+electricity resistant Storm Knight armor (p. 253).
+						</special_formatted>						
+						<fabrication type="formattedtext">
+						The material cost of the Storm Glaive housing
+is 210 gc. It takes three weeks to construct the device. The
+pertinent Craft skill for construction is Craft (metalworking).
+						The Storm Glaive's runeplates require four weeks to inscribe
+and require a successful INT + Mechanikal Engineering roll
+against a target number of 16.
+						</fabrication>
+					</record>
+						
+						
+					<record>
+						<name type="string">Storm Glaive (blast)</name>
+						<type type="string">Dedicated Mechanika Ranged Weapon</type>
+						<cost type="string">1560 gc</cost>
+						<maxammo type="number"></maxammo><ammotype type="string"></ammotype>
+						<range type="number">4</range><rangetext type="string">24 feet</rangetext>												
+						<attack type="number">0</attack>
+						<power type="number">12</power>
+						<powerapplystr type="number">0</powerapplystr>
+						<damagetype type="string">electrical</damagetype>
+						<runepoints type="number">4</runepoints>						
+						<description type="formattedtext">									
+						The Storm Glaive is the fearsome mechanikal
+weapon of the Stormblade. It is powered by a dedicated storm
+chamber.
+						</description>
+						<special type="string">Electrical DMG; Shocks user</special>
+						<special_formatted type="formattedtext">
+						A character armed with a Storm Glaive can use
+it to make electrical blast ranged attacks. Storm Glaive blasts
+are RNG 4, AOE -, POW 12 ranged attacks that cause electrical
+damage. When making a Storm Glaive ranged attack, the
+character makes the attack roll using his POI.
+						Each time a character makes an attack with this weapon he
+suffers a POW 12 electrical damage roll. For this reason it
+is advised that a character wielding a Storm Glaive wears
+electricity resistant Storm Knight armor (p. 253).
+						</special_formatted>						
+						<fabrication type="formattedtext">
+						The material cost of the Storm Glaive housing
+is 210 gc. It takes three weeks to construct the device. The
+pertinent Craft skill for construction is Craft (metalworking).
+						The Storm Glaive's runeplates require four weeks to inscribe
+and require a successful INT + Mechanikal Engineering roll
+against a target number of 16.
+						</fabrication>
+					</record>
+						
+						
+						
+						
+						
+					<record>
+						<name type="string">Warcaster Armor, Light</name>
+						<type type="string">Dedicated Mechanika Armor</type>
+						<cost type="string">1560 gc</cost>
+						<speedmod type="number">0</speedmod>
+						<defensemod type="number">0</defensemod>
+						<armormod type="number">+5</armormod>
+						<runepoints type="number">5</runepoints>						
+						<description type="formattedtext">									
+						This warcaster armor is made of very light plate
+including a breastplate to support the turbine and boiler. This
+armor primarily relies on the power field for protection as much
+of the body is left unarmored.
+						</description>
+						<special type="string">Power field; Overboost; Needs Power and Bond</special>
+						<special_formatted type="formattedtext">
+						Light warcaster armor incorporates an arcane
+turbine that provides 8 rune points of power. It has a power
+draw of 5 rune points for the bond plate and the power field's
+mechanikal devices. Additional devices can be connected to the
+turbine as described in the arcane turbine rules.
+						If this armor does not have power, its wearer suffers -2 DEF.
+						</special_formatted>						
+						<fabrication type="formattedtext">
+						The material cost of light warcaster housing is
+225 gc. It takes one month to construct the armor. The pertinent
+Craft skill for construction is Craft (metalworking).
+						Light warcaster armor runeplates require five weeks to scribe,
+and a successful INT + Mechanikal Engineering roll against
+a target number of 17. Note that warcaster armor runeplates
+integrate bond runes into their makeup.
+						</fabrication>
+					</record>
+						
+						
+						
+					<record>
+						<name type="string">Warcaster Armor, Medium</name>
+						<type type="string">Dedicated Mechanika Armor</type>
+						<cost type="string">2360 gc</cost>
+						<speedmod type="number">0</speedmod>
+						<defensemod type="number">-1</defensemod>
+						<armormod type="number">+7</armormod>
+						<runepoints type="number">5</runepoints>						
+						<description type="formattedtext">									
+						This warcaster armor is based on infantry armor
+used throughout the Iron Kingdoms. Though it invariably
+includes a fitted breastplate that houses the arcane turbine,
+other elements vary from nearly full suits of plate armor to
+armored shoulder and leg elements along with an armored
+greatcoat.
+						</description>
+						<special type="string">Power field; Overboost; Needs Power and Bond</special>
+						<special_formatted type="formattedtext">
+						Medium warcaster armor incorporates an arcane
+turbine that provides 8 rune points of power. It has a power
+draw of 5 rune points for the bond plate and the power field's
+mechanikal devices. Additional devices can be connected to the
+turbine as described in the arcane turbine rules.
+						If this armor does not have power, its wearer suffers -4 DEF
+and -1 SPD.
+						</special_formatted>						
+						<fabrication type="formattedtext">
+						The material cost of light warcaster housing is
+330 gc. It takes one month to construct the armor. The pertinent
+Craft skill for construction is Craft (metalworking).
+						Medium warcaster armor runeplates require five weeks to
+scribe, and a successful INT + Mechanikal Engineering roll
+against a target number of 17. Note that warcaster armor
+runeplates integrate bond runes into their makeup.
+						</fabrication>
+					</record>
+						
+						
+					<record>
+						<name type="string">Warcaster Armor, Heavy</name>
+						<type type="string">Dedicated Mechanika Armor</type>
+						<cost type="string">2760 gc</cost>
+						<speedmod type="number">0</speedmod>
+						<defensemod type="number">-2</defensemod>
+						<armormod type="number">+8</armormod>
+						<runepoints type="number">5</runepoints>						
+						<description type="formattedtext">									
+						The warcaster armor is based on extremely heavy
+full plate mail armor and fitted with a huge boiler and arcane
+turbine. Though the armor is effectively weightless, its sheer
+bulk somewhat restricts its wearer's movement.
+						</description>
+						<special type="string">Power field; Overboost; Needs Power and Bond</special>
+						<special_formatted type="formattedtext">
+						Heavy warcaster armor incorporates an arcane
+turbine that provides 8 rune points of power. It has a power
+draw of 5 rune points for the bond plate and the power field's
+mechanikal devices. Additional devices can be connected to the
+turbine as described in the arcane turbine rules.
+						If this armor does not have power, its wearer suffers -6 DEF
+and -2 SPD.
+						</special_formatted>						
+						<fabrication type="formattedtext">
+						The material cost of heavy warcaster housing is
+450 gc. It takes one month to construct the armor. The pertinent
+Craft skill for construction is Craft (metalworking).
+						Heavy warcaster armor runeplates require five weeks to
+scribe and require a successful INT + Mechanikal Engineering
+roll against a target number of 17. Note that warcaster armor
+runeplates integrate bond runes into their makeup.
+						</fabrication>
+					</record>
+						
+						
+						
+						
+</mechanika>

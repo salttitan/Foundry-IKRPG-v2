@@ -1,0 +1,3135 @@
+
+	<spells>	
+				
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.arcanebolt@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Arcane Bolt</name>
+				<cost type="number">2</cost>
+				<range type="string">12</range>
+				<aoe type="string"></aoe>
+				<power type="number">11</power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				Magical bolts of energy streak toward the target.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.arcanestrike@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Arcane Strike</name>
+				<cost type="number">1</cost>
+				<range type="string">8</range>
+				<aoe type="string"></aoe>
+				<power type="number">8</power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				An arcane force blasts toward the target.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.arcantrikbolt@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Arcantrik Bolt</name>
+				<cost type="number">2</cost>
+				<range type="string">10</range>
+				<aoe type="string"></aoe>
+				<power type="number">12</power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				A steamjack damaged by this attack becomes stationary for one round.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.ashencloud@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Ashen Cloud</name>
+				<cost type="number">2</cost>
+				<range type="string">CTRL</range>
+				<aoe type="string">3</aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Place a 3" AOE cloud effect anywhere completely in the
+				spellcaster's control area. Characters without Immunity: Fire
+				suffer -2 on attack rolls while within the AOE.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.ashestoashes@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Ashes to Ashes</name>
+				<cost type="number">4</cost>
+				<range type="string">8</range>
+				<aoe type="string">*</aoe>
+				<power type="number">10</power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				If target character is hit, he and d6 of the nearest enemies within
+				5" of the target suffer a POW 10 fire damage roll.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.auraofprotection@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Aura of Protection</name>
+				<cost type="number">2</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				While in the spellcaster's control area, friendly characters gain
+				+2 ARM.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.awareness@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Awareness</name>
+				<cost type="number">3</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				While in the spellcaster's control area, the front arcs of characters
+				in his battlegroup are extended to 360°. When determining LOS,
+				those characters ignore cloud effects, forests, and intervening
+				characters. Awareness lasts for one round.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.banishingward@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Banishing Ward</name>
+				<cost type="number">2</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Enemy upkeep spells on the targeted friendly character expire. The
+				affected character cannot be targeted by enemy spells or animi.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.barrierofflames@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Barrier of Flames</name>
+				<cost type="number">3</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Friendly characters in the spellcaster's control area gain
+				+1 DEF. When a friendly character is hit by a melee attack while
+				in the spellcaster's control area, the attacker suffers the Fire
+				continuous effect. Barrier of Flames lasts for one round.
+				</description>					
+			</record>
+				
+				
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.batteringram@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Battering Ram</name>
+				<cost type="number">2</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number">12</power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				When a character is hit by Battering Ram, he can be pushed 3"
+			directly away from the spell's point of origin.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.battendownthehatches@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Batten Down the Hatches</name>
+				<cost type="number">3</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				While in the spellcaster's control area, characters in his
+			battlegroup cannot be knocked down and gain +3 ARM but
+			suffer -2 DEF. Batten Down the Hatches lasts for one round.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.blackout@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Black Out</name>
+				<cost type="number">4</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Mechanika devices in the possession of enemy characters in the
+			spellcaster's control area immediately deactivate. If an enemy
+			enters the spellcaster's control area, mechanika devices in his
+			possession immediately deactivate. While in the spellcaster's
+			control area, enemy characters cannot activate mechanika
+			devices. Black Out has no effect on steamjacks or mechanika
+			armor. Black Out lasts for one round.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.bladeofradiance@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Blade of Radiance</name>
+				<cost type="number">2</cost>
+				<range type="string">10</range>
+				<aoe type="string"></aoe>
+				<power type="number">10</power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				Infernal and Undead characters hit by this spell suffer an
+			additional die of damage.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.blazingeffigy@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Blazing Effigy</name>
+				<cost type="number">4</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">*</aoe>
+				<power type="number">14</power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Enemies within 2" of the targeted friendly character suffer a
+			POW 14 fire damage roll.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.blessingofhealth@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Blessing of Health</name>
+				<cost type="number">1</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Target character gains +3 on PHY rolls to resist poison, disease,
+			and infection. Additionally, if the affected character is currently
+			suffering from the effects of a poison, he immediately makes
+			a PHY roll against the toxin rating of the poison. If the roll
+			succeeds, the effects of the poison immediately expire.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.blessingofmorrow@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Blessing of Morrow</name>
+				<cost type="number">3</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				While in the spellcaster's control area, friendly living characters
+			do not suffer the effects of lost aspects.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.blessingsofwar@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Blessings of War</name>
+				<cost type="number">2</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Target character's weapons gains Blessed. (When making an
+			attack with a weapon with Blessed, ignore spell effects that add
+			to the attacked character's ARM or DEF.)
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.blizzard@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Blizzard</name>
+				<cost type="number">1</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Center a 3" AOE cloud effect on target character. The AOE remains
+			centered on the character. If the target character is destroyed,
+			remove the AOE from play. Blizzard lasts for one round.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.brittlefrost@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Brittle Frost</name>
+				<cost type="number">3</cost>
+				<range type="string">8</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				The next time target enemy suffers damage, halve its base ARM
+			when calculating damage from the damage roll. After applying
+			this damage, Brittle Frost expires.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.boundlesscharge@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Boundless Charge</name>
+				<cost type="number">2</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				During his turn, target character can charge without spending
+			focus or being forced and gains +2" movement and Pathfinder
+			when it charges. Boundless Charge lasts for one round.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.broadside@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Broadside</name>
+				<cost type="number">3</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				The spellcaster and steamjacks under the spellcaster's control
+			currently in his control area can immediately make one normal
+			ranged attack. Broadside can be cast only once per turn.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.celerity@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Celerity</name>
+				<cost type="number">2</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Target character gains one additional quick action during each
+			of his turns.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.chainlightning@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Chain Lightning</name>
+				<cost type="number">3</cost>
+				<range type="string">10</range>
+				<aoe type="string"></aoe>
+				<power type="number">10</power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				A character hit by Chain Lightning suffers a POW 10 electrical
+			damage roll, and lightning arcs from that character to d6
+			consecutive additional characters. The lightning arcs to the
+			nearest character it has not already arced to within 4" of the last
+			model it arced to, ignoring the spellcaster. Each character the
+			lightning arcs to suffers a POW 10 electrical damage roll.
+				</description>					
+			</record>
+									
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.chiller@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Chiller</name>
+				<cost type="number">2</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				While within 2" of the targeted friendly character, enemy
+			characters suffer -2 DEF unless they have Immunity: Cold.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.cleansingfire@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Cleansing Fire</name>
+				<cost type="number">3</cost>
+				<range type="string">8</range>
+				<aoe type="string">3</aoe>
+				<power type="number">14</power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				Cleansing Fire causes fire damage. On a critical hit, characters
+			hit suffer the Fire continuous effect.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.convection@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Convection</name>
+				<cost type="number">2</cost>
+				<range type="string">10</range>
+				<aoe type="string"></aoe>
+				<power type="number">12</power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				When Convection destroys a living character, you can allocate
+			1 focus point to a steamjack in the spellcaster's battlegroup that
+			is in his control area.
+				</description>					
+			</record>
+			
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.crevasse@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Crevasse</name>
+				<cost type="number">3</cost>
+				<range type="string">8</range>
+				<aoe type="string"></aoe>
+				<power type="number">12</power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				If Crevasse incapacitates its original target, you can make a SP 6
+			attack using the incapacitated character as the attack's point of
+			origin. Characters hit suffer a POW 12 magic damage roll.
+				</description>					
+			</record>
+			
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.crusaderscall@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Crusader's Call</name>
+				<cost type="number">3</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Friendly characters beginning a charge while in the
+			spellcaster's control area gain +2" movement. Crusader's Call
+			lasts for one round.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.daylight@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Daylight</name>
+				<cost type="number">3</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				While in the spellcaster's control area, Infernal and Undead
+			characters suffer -3 DEF and ARM. Additionally, the area
+			around the spellcaster glows with enough light for anyone in
+			his control area to see in darkness (p. 225). Daylight lasts for
+			one round.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.deceleration@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Deceleration</name>
+				<cost type="number">3</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				While in the spellcaster's control area, friendly characters gain
+			+2 DEF and ARM against ranged attacks. Deceleration lasts for
+			one round.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.deepfreeze@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Deep Freeze</name>
+				<cost type="number">3</cost>
+				<range type="string">SELF</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Characters within 2" of the spellcaster suffer a POW 12 cold
+			damage roll. Characters damaged by this spell cannot run,
+			charge, or make power attacks for one round.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.earthquake@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Earthquake</name>
+				<cost type="number">3</cost>
+				<range type="string">10</range>
+				<aoe type="string">5</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				Characters in the AOE are knocked down.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.earthquake@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Earthquake</name>
+				<cost type="number">3</cost>
+				<range type="string">10</range>
+				<aoe type="string">5</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				Characters in the AOE are knocked down.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.earthscradle@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Earth's Cradle</name>
+				<cost type="number">1</cost>
+				<range type="string">SELF</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				The spellcaster gains cover, does not suffer blast damage, and
+			does not block LOS. Earth's Cradle expires if this character
+			moves, is placed, or is engaged.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.earthsplitter@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Earthsplitter</name>
+				<cost type="number">4</cost>
+				<range type="string">10</range>
+				<aoe type="string">3</aoe>
+				<power type="number">14</power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				Characters hit suffer a POW 14 fire damage roll. The AOE is
+			a cloud effect that remains in play for one round. Characters
+			entering or ending their turn in the AOE suffer an unboostable
+			POW 14 fire damage roll.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.electricalblast@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Electrical Blast</name>
+				<cost type="number">3</cost>
+				<range type="string">8</range>
+				<aoe type="string">3</aoe>
+				<power type="number">13</power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				Electrical Blast causes electrical damage. Steamjacks damaged
+			by Electrical Blast suffer Disruption. (A steamjack suffering
+			Disruption loses its focus points and cannot be allocated focus
+			or channel spells for one round).
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.electrify@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Electrify</name>
+				<cost type="number">2</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				If target character is hit by a melee attack, after the attack is
+			resolved the attacker is pushed d3" directly away from the
+			affected character and suffers an unboostable POW 14 electrical
+			damage roll, then Electrify expires.			
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.eliminator@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Eliminator</name>
+				<cost type="number">3</cost>
+				<range type="string">8</range>
+				<aoe type="string">3</aoe>
+				<power type="number">13</power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				Immediately after this attack is resolved, the spellcaster can
+			advance up to 2" for each enemy incapacitated by the attack.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.entangle@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Entangle</name>
+				<cost type="number">1</cost>
+				<range type="string">8</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				Target character suffers -1 SPD and cannot run or charge for
+			one round.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.eyesoftruth@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Eyes of Truth</name>
+				<cost type="number">2</cost>
+				<range type="string">SELF</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				This character's PER rolls are boosted. Additionally, the
+			target number for Deception rolls against this character is
+			increased by 3.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.extinguisher@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Extinguisher</name>
+				<cost type="number">2</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Fire continuous effects in the spellcaster's control area
+			immediately expire.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.failsafe@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Fail Safe</name>
+				<cost type="number">3</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Target steamjack gains +2 ARM and does not suffer the effects
+			of crippled systems.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.fairwinds@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Fair Winds</name>
+				<cost type="number">1</cost>
+				<range type="string">SELF</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				The spellcaster gains +1 SPD this turn.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.firegroup@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Fire Group</name>
+				<cost type="number">2</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				While in the spellcaster's control area, his weapons and the
+			ranged weapons of steamjacks under his control gain +2 RNG.
+			Fire Group lasts for one round.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.firestarter@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Fire Starter</name>
+				<cost type="number">1</cost>
+				<range type="string">8</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				The spellcaster starts a small fire within the range of the spell
+			and in line of sight. This spell can be used to target an enemy,
+			in which case it requires an attack roll. If the enemy is hit, he
+			suffers the Fire continuous effect.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.firestarter@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Fire Starter</name>
+				<cost type="number">1</cost>
+				<range type="string">8</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				The spellcaster starts a small fire within the range of the spell
+			and in line of sight. This spell can be used to target an enemy,
+			in which case it requires an attack roll. If the enemy is hit, he
+			suffers the Fire continuous effect.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.flamesofwrath@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Flames of Wrath</name>
+				<cost type="number">1</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				When target character incapacitates an enemy with a melee
+			attack, enemy characters within 1" of the incapacitated
+			character suffer the Fire continuous effect. Flames of Wrath
+			lasts for one round.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.flare@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Flare</name>
+				<cost type="number">3</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Enemies in the spellcaster's control area suffering the
+			Fire continuous effect immediately suffer an additional
+			unboostable POW 12 fire damage roll. This spell can be cast
+			only once per turn.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.fogofwar@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Fog of War</name>
+				<cost type="number">3</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Characters gain concealment while in the spellcaster's
+			control area.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.forcefield@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Force Field</name>
+				<cost type="number">3</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				The spellcaster does not suffer blast or collateral damage and
+			cannot be knocked down. When an enemy AOE ranged attack
+			deviates from a point in the spellcaster's control area, after the
+			deviation distance is rolled the spellcaster's player chooses the
+			deviation direction.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.forcehammer@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Force Hammer</name>
+				<cost type="number">4</cost>
+				<range type="string">10</range>
+				<aoe type="string"></aoe>
+				<power type="number">12</power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				If Force Hammer hits a non-incorporeal target, instead of
+			suffering a normal damage roll, that target is slammed d6"
+			directly away from the spell's point of origin regardless of its
+			base size and suffers a POW 12 damage roll. Collateral damage
+			from this slam is POW 12.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.forceoffaith@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Force of Faith</name>
+				<cost type="number">4</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Enemies currently in the spellcaster's control area are
+			immediately pushed d6" directly away from the spellcaster in
+			the order he chooses.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.fortify@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Fortify</name>
+				<cost type="number">2</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Target steamjack under the spellcaster's control gains +2 ARM.
+			The affected steamjack and any friendly character B2B with it
+			cannot be knocked down, pushed, or slammed.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.foxhole@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Foxhole</name>
+				<cost type="number">2</cost>
+				<range type="string">CTRL</range>
+				<aoe type="string">5</aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Place a 5" AOE anywhere completely in the spellcaster's control
+			area. Characters completely in the AOE have cover and do
+			not suffer blast damage. When drawing LOS to a character
+			not completely within the AOE, ignore intervening characters
+			completely within the AOE.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.freezinggrip@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Freezing Grip</name>
+				<cost type="number">4</cost>
+				<range type="string">8</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				Target character hit becomes stationary for one round unless
+			the target has Immunity: Cold.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.freezingmist@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Freezing Mist</name>
+				<cost type="number">4</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">*</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				While in the spellcaster's control area, enemy characters
+			without Immunity: Cold suffer -2 SPD and DEF. Freezing Mist
+			lasts for one round.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.frozenground@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Frozen Ground</name>
+				<cost type="number">3</cost>
+				<range type="string">SELF</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Enemies that move more than 2" and end their movement in the
+			spellcaster's control area are knocked down at the end of their
+			movement. Frozen Ground lasts for one round.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.frostbite@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Frostbite</name>
+				<cost type="number">2</cost>
+				<range type="string">SP 8</range>
+				<aoe type="string"></aoe>
+				<power type="number">12</power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				Frostbite causes cold damage.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.fueltheflames@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Fuel the Flames</name>
+				<cost type="number">3</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Fire continuous effects on enemies in the spellcaster's control
+			area never expire.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.fullthrottle@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Full Throttle</name>
+				<cost type="number">3</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Steamjacks under the spellcaster's control beginning their
+			turns in his control area can run, charge, or make slam or
+			trample power attacks without spending focus or being driven
+			that activation. The spellcaster and steamjacks under the
+			spellcaster's control in his control area gain boosted melee
+			attack rolls. Full Throttle lasts for one turn.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.grind@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Grind</name>
+				<cost type="number">3</cost>
+				<range type="string">10</range>
+				<aoe type="string"></aoe>
+				<power type="number">14</power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				When a steamjack is hit by Grind, it suffers 1 damage point to its
+			first available Movement system box.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.guidedblade@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Guided Blade</name>
+				<cost type="number">1</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Target friendly character gains +1 on his melee attack rolls and
+			his melee weapons gain Magical Weapon. Guided Blade lasts
+			for one round.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.guidedfire@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Guided Fire</name>
+				<cost type="number">3</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				The spellcaster and steamjacks under the spellcaster's control
+			in his control area gain boosted ranged attack rolls. Guided Fire
+			lasts until for one round.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.handoffate@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Hand of Fate</name>
+				<cost type="number">2</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Target character gains an additional die on attack and damage
+			rolls. Discard the low die in each roll.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.handoffate@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Heal</name>
+				<cost type="number">4</cost>
+				<range type="string">*</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Target friendly incapacitated character B2B with the spellcaster
+			is no longer incapacitated and regains 1 vitality point in each
+			aspect. The character no longer suffers from the results of his
+			most recent roll on the Injury Table (p. 217). The target character
+			becomes knocked down. Each time a character is targeted by
+			this spell make a d6 roll on the Price of Healing Table below,
+			adding +1 to the roll for each time the character has been
+			targeted by this spell after the first time.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.heightenedreflexes@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Heightened Reflexes</name>
+				<cost type="number">2</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Target character cannot be knocked down or made stationary.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.hexblast@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Hex Blast</name>
+				<cost type="number">3</cost>
+				<range type="string">10</range>
+				<aoe type="string">3</aoe>
+				<power type="number">13</power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				Upkeep spells and animi on the character directly hit by Hex
+			Blast immediately expire.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.hexblast@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Hoarfrost</name>
+				<cost type="number">3</cost>
+				<range type="string">8</range>
+				<aoe type="string">3</aoe>
+				<power type="number">14</power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				Hoarfrost causes cold damage. On a critical hit, the characters
+			hit become stationary for one round unless they have			
+			Immunity: Cold.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.howlingflames@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Howling Flames</name>
+				<cost type="number">2</cost>
+				<range type="string">SP 8</range>
+				<aoe type="string"></aoe>
+				<power type="number">10</power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				Howling Flames causes fire damage. On a critical hit, the
+			character hit suffers the Fire continuous effect.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.hymnofbattle@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Hymn of Battle</name>
+				<cost type="number">2</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Target steamjack gains +2 on attack and damage rolls. Hymn of
+			Battle lasts for one round.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.hymnofbattle@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Hymn of Passage</name>
+				<cost type="number">2</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Target steamjack cannot be targeted by non-magical ranged
+			attacks. Hymn of Passage lasts for one round.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.hymnofshielding@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Hymn of Shielding</name>
+				<cost type="number">4</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				While in this character's control area, friendly characters
+			cannot be targeted by enemy spells. Hymn of Shielding lasts
+			for one round.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.hymnofshielding@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Ice Bolt</name>
+				<cost type="number">2</cost>
+				<range type="string">20</range>
+				<aoe type="string"></aoe>
+				<power type="number">12</power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				Ice Bolt causes cold damage. On a critical hit, the character hit
+			become stationary for one round unless he has Immunity: Cold.
+				</description>					
+			</record>
+			
+			<record >
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.iceshield@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Ice Shield</name>
+				<cost type="number">1</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Target character gains +2 ARM. Ice Shield immediately expires
+			if the affected character moves or is damaged.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.icygrip@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Icy Grip</name>
+				<cost type="number">2</cost>
+				<range type="string">8</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				Target character without Immunity: Cold suffers -2 DEF and
+			cannot run or make power attacks.
+				</description>					
+			</record>
+			
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.ignite@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Ignite</name>
+				<cost type="number">2</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Target character gains +2 on melee attack damage rolls. The
+			affected character gains Critical Fire on his normal melee attacks.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.immolation@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Immolation</name>
+				<cost type="number">2</cost>
+				<range type="string">8</range>
+				<aoe type="string"></aoe>
+				<power type="number">12</power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				Immolation causes fire damage. On a critical hit, the character
+			hit suffers the Fire continuous effect.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.inferno@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Inferno</name>
+				<cost type="number">3</cost>
+				<range type="string">10</range>
+				<aoe type="string">3</aoe>
+				<power type="number">12</power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				All characters hit suffer a POW 12 fire damage roll. The AOE
+			remains in play for one round. Characters entering or ending
+			their turns in the AOE suffer an unboostable POW 12 fire
+			damage roll.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.influence@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Influence</name>
+				<cost type="number">1</cost>
+				<range type="string">10</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				The spellcaster makes a contested Willpower roll against target
+			living enemy hit by this spell. If the spellcaster loses, nothing
+			happens. If the spellcaster wins, his player takes control of the
+			character hit. The character immediately makes one normal
+			melee attack, then Influence expires.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.inhospitableground@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Inhospitable Ground</name>
+				<cost type="number">3</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				While in the spellcaster's control area, other characters treat open
+			terrain as rough terrain. Inhospitable Ground lasts for one round.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.ironaggression@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Iron Aggression</name>
+				<cost type="number">3</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Target steamjack can run, charge, or make slam or trample
+			power attacks without spending focus or being driven and
+			gains boosted melee attack rolls.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.jackhammer@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Jackhammer</name>
+				<cost type="number">1</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				The targeted friendly steamjack can immediately make one
+			melee attack.
+				</description>					
+			</record>
+			
+			<record >
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.jumpstart@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Jump Start</name>
+				<cost type="number">1</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				The spellcaster and steamjacks under the spellcaster's control
+			in his control area can immediately turn to face any direction.
+			Affected steamjacks that are stationary or knocked down are no
+			longer stationary and stand up.
+				</description>					
+			</record>
+			
+			<record >
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.lamentation@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Lamentation</name>
+				<cost type="number">3</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				While in this character's control area, enemies pay double the
+			fatigue, focus, or fury point cost to cast or upkeep spells.
+				</description>					
+			</record>
+			
+			<record >
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.lamentation@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Light in the Darkness</name>
+				<cost type="number">1</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				The area around the spellcaster glows with enough light for
+			anyone in his control area to see in darkness (p. 225).
+				</description>					
+			</record>
+			
+			<record >
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.lightningtendrils@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Lightning Tendrils</name>
+				<cost type="number">3</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				The targeted friendly character gains Immunity: Electricity,
+			and the character's melee weapons gain Reach and Electro Leap.
+			(When a character is hit by a weapon with Electro Leap, you
+			can have lightning arc to the nearest character within 4" of the
+			character hit, ignoring the attacker. The character the lightning
+			arcs to suffers an unboostable POW 10 electrical damage roll.)
+				</description>					
+			</record>
+			
+			<record >
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.locomotion@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Locomotion</name>
+				<cost type="number">1</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				The spellcaster spends up to 3 focus points to cast Locomotion.
+			Target steamjack immediately advances up to 1" for each focus
+			point spent. A steamjack can be targeted by Locomotion only
+			once per round.
+				</description>					
+			</record>
+			
+			<record >
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.mirage@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Mirage</name>
+				<cost type="number">3</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				During the spellcaster's Control Phase after upkeep has been
+			paid, the targeted friendly character's controller can place him
+			anywhere completely within 2" of his current location.
+				</description>					
+			</record>
+			
+			<record >
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.obliteration@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Obliteration</name>
+				<cost type="number">4</cost>
+				<range type="string">10</range>
+				<aoe type="string">4</aoe>
+				<power type="number">15</power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				The force of this attack blasts apart the earth itself.
+				</description>					
+			</record>
+			
+			<record >
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.occultation@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Occultation</name>
+				<cost type="number">2</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Target character gains stealth and +3 on his Sneak rolls.
+				</description>					
+			</record>
+			
+			<record >
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.overmind@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Overmind</name>
+				<cost type="number">4</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				The spellcaster immediately makes a contested Willpower roll
+			against all living enemies in his control area. Roll once for the
+			spellcaster. If the spellcaster beats an enemy's Willpower roll,
+			he can cause that character to advance up to 3" and perform one
+			non-spell, non-feat quick action. If the enemy beats or ties the
+			spellcaster's roll, he is not affected. This spell can be cast only
+			once per round.
+				</description>					
+			</record>
+			
+			
+			<record >
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.polarityshield@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Polarity Shield</name>
+				<cost type="number">2</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Target character cannot be targeted by a charge made by a
+			character in his front arc.
+				</description>					
+			</record>
+			
+			<record >
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.positivecharge@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Positive Charge</name>
+				<cost type="number">2</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Target steamjack gains +2 on melee attack and melee damage
+			rolls. While within 3" of the affected steamjack, friendly
+			characters gain +2 on melee attack and melee damage rolls.
+			Positive Charge lasts for one round.
+				</description>					
+			</record>
+			
+			<record >
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.powerbooster@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Power Booster</name>
+				<cost type="number">1</cost>
+				<range type="string">5</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				If the target steamjack the spellcaster controls has no focus
+			points, it gains 1 focus point. If the steamjack is Disrupted, it is
+			no longer Disrupted.
+				</description>					
+			</record>
+			
+			<record >
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.prayerofguidance@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Prayer of Guidance</name>
+				<cost type="number">3</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Target character gains two additional dice on his next skill roll.
+			Discard the lowest two dice in the roll. Prayer of Guidance can
+			be cast only once per day.
+				</description>					
+			</record>
+			
+			<record >
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.protectionfromcold@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Protection from Cold</name>
+				<cost type="number">1</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Target character gains Immunity: Cold.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.protectionfromcorrosion@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Protection from Corrosion</name>
+				<cost type="number">1</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Target character gains Immunity: Corrosion.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.protectionfromelectricity@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Protection from Electricity</name>
+				<cost type="number">1</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Target character gains Immunity: Electricity and cannot be
+			disrupted.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.protectionfromfire@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Protection from Fire</name>
+				<cost type="number">1</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Target character gains Immunity: Fire.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.purification@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Purification</name>
+				<cost type="number">3</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Continuous effects, animi, and upkeep spells in the spellcaster's
+			control area immediately expire.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.purification@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Purification</name>
+				<cost type="number">3</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Continuous effects, animi, and upkeep spells in the spellcaster's
+			control area immediately expire.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.ragingwinds@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Raging Winds</name>
+				<cost type="number">4</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				While in the spellcaster's control area, enemies suffer -2 DEF.
+			Enemies beginning their turn in the spellcaster's control area
+			cannot run or charge. Raging Winds lasts for one round.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.razorwind@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Razor Wind</name>
+				<cost type="number">2</cost>
+				<range type="string">10</range>
+				<aoe type="string"></aoe>
+				<power type="number">12</power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				A blade of wind slices through the target.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.redline@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Redline</name>
+				<cost type="number">2</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				The targeted friendly steamjack gains +2 STR and SPD and can
+			run, charge, or make power attack slams or tramples without
+			spending focus or being driven. When the steamjack ends its
+			turn, it suffers d3 damage points.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.refuge@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Refuge</name>
+				<cost type="number">2</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				When target character directly hits another character
+			with an attack during his turn, immediately after his turn
+			ends the character affected by this spell can make a full
+			advance. The character cannot be targeted by free strikes during
+			this movement.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.returnfire@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Return Fire</name>
+				<cost type="number">1</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				When target character is targeted by an enemy ranged attack,
+			after the attack is resolved the affected character can make
+			one normal melee or ranged attack, then Return Fire expires.
+			Return Fire lasts for one round.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.returnfire@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Rift</name>
+				<cost type="number">3</cost>
+				<range type="string">8</range>
+				<aoe type="string">4</aoe>
+				<power type="number">13</power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				The AOE is rough terrain and remains in play for one round.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.righteousflames@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Righteous Flames</name>
+				<cost type="number">2</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Target character gains Immunity: Fire. When a character
+			without Immunity: Fire ends his turn within 2" of the affected
+			character, the character without Immunity: Fire suffers the Fire
+			continuous effect. Righteous Flames lasts for one round.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.rime@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Rime</name>
+				<cost type="number">2</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Target character gains Immunity: Cold. When a character
+			without Immunity: Cold ends his turn within 2" of the
+			affected character, the character without Immunity: Cold
+			becomes stationary until the end of his next turn. Rime lasts
+			for one round.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.rockhammer@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Rock Hammer</name>
+				<cost type="number">3</cost>
+				<range type="string">10</range>
+				<aoe type="string">3</aoe>
+				<power type="number">14</power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				On a critical hit, characters hit are knocked down.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.rockwall@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Rock Wall</name>
+				<cost type="number">2</cost>
+				<range type="string">CTRL</range>
+				<aoe type="string">Wall</aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Place a wall template (p. 352) anywhere completely in the
+			spellcaster's control area where it does not touch a character's
+			base, an obstruction, or an obstacle. The wall is a linear obstacle
+			that provides cover.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.runeshotaccuracy@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Rune Shot: Accuracy</name>
+				<cost type="number">1</cost>
+				<range type="string">SELF</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				The spellcaster's next rune shot ranged attack roll this turn is
+			boosted.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.runeshotblackpenny@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Rune Shot: Black Penny</name>
+				<cost type="number">1</cost>
+				<range type="string">SELF</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				The spellcaster's next rune shot ranged attack roll this turn
+			ignores the firing into melee penalty.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.runeshotbrutal@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Rune Shot: Brutal</name>
+				<cost type="number">1</cost>
+				<range type="string">SELF</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				The spellcaster's next rune shot ranged attack gains a boosted
+			ranged attack damage roll against the target directly hit.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.runeshotdetonator@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Rune Shot: Detonator</name>
+				<cost type="number">3</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">*</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				If the spellcaster directly hits a target with its next rune
+			shot ranged attack this turn, center a 4" AOE on the target.
+			Characters other than the original target within the AOE suffer
+			an unboostable damage roll with a POW equal to the POW of
+			the ranged weapon.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.runeshotearthshaker@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Rune Shot: Earth Shaker</name>
+				<cost type="number">3</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">*</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				If this character directly hits a target with its next rune shot ranged
+			attack this turn, the attack becomes AOE 5 and POW 0. Characters
+			hit by the AOE suffer no damage but are knocked down.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.runeshotfirebeacon@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Rune Shot: Fire Beacon</name>
+				<cost type="number">2</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">*</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				The spellcaster's next rune shot ranged attack this turn becomes
+			AOE 5 and POW -. While a character is within the AOE, he
+			loses Camouflage and stealth, and other characters can ignore
+			cloud effects when determining LOS to him. The AOE lasts for
+			one round.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.runeshotfreezefire@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Rune Shot: Freeze Fire</name>
+				<cost type="number">4</cost>
+				<range type="string">SELF</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				If the spellcaster's next rune shot ranged attack this turn hits,
+			the target directly hit becomes stationary for one round.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.runeshotheartstopper@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Rune Shot: Heart Stopper</name>
+				<cost type="number">4</cost>
+				<range type="string">SELF</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Damage exceeding the ARM of the character hit by spellcaster's
+			next rune shot ranged attack this turn is doubled. A character
+			disabled by this attack cannot make a Tough roll.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.runeshotironrot@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Rune Shot: Iron Rot</name>
+				<cost type="number">1</cost>
+				<range type="string">SELF</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				If the spellcaster's next rune shot ranged attack this turn directly
+			hits a steamjack, in addition to any other damage and effects
+			from the attack, the steamjack also suffers d3 damage points.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.runeshotmoltenshot@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Rune Shot: Molten Shot</name>
+				<cost type="number">1</cost>
+				<range type="string">SELF</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				If the spellcaster's next rune shot ranged attack this turn hits,
+			the target directly hit suffers the Fire continuous effect.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.runeshotmomentum@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Rune Shot: Momentum</name>
+				<cost type="number">4</cost>
+				<range type="string">SELF</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				If the spellcaster hits with his next rune shot ranged attack this
+			turn, the character directly hit is slammed d6" directly away from
+			the spellcaster regardless of his base size and suffers a damage roll
+			with a POW equal to the ranged weapon. Collateral damage from
+			this slam is equal to the POW of the ranged weapon.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.runeshotphantomseeker@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Rune Shot: Phantom Seeker</name>
+				<cost type="number">3</cost>
+				<range type="string">SELF</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				The spellcaster's next rune shot ranged attack this turn ignores
+			LOS when making ranged attacks. The attack also ignores
+			concealment and cover.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.runeshotshadowfire@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Rune Shot: Shadow Fire</name>
+				<cost type="number">2</cost>
+				<range type="string">SELF</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				If the spellcaster hits a target with his next rune shot ranged
+			attack this turn, friendly characters can ignore the target
+			when determining LOS and making ranged or magic attacks
+			for one round.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.runeshotsilencer@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Rune Shot: Silencer</name>
+				<cost type="number">1</cost>
+				<range type="string">SELF</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				The spellcaster's next rune shot ranged attack is completely silent,
+			and gives no sign of being fired. Neither the firing of the weapon,
+			nor the impact of its ammunition causes a sound. Any immediate
+			sound from a target that is hit, such as a scream, shout, or the fall
+			of a body, is silenced.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.runeshotspellcracker@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Rune Shot: Spell Cracker</name>
+				<cost type="number">3</cost>
+				<range type="string">SELF</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				If the spellcaster directly hits a target with his next rune shot
+			ranged attack this turn, upkeep spells and animi on the target hit
+			immediately expire.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.runeshotspontaneouscombustion@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Rune Shot: Spontaneous Combustion</name>
+				<cost type="number">1</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">*</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				If the spellcaster destroys a living character with his next rune
+			shot ranged attack, center a 3" AOE cloud effect on the destroyed
+			character, then remove the destroyed character from the table. The
+			AOE remains in play for one round.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.runeshotthunderbolt@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Rune Shot: Thunderbolt</name>
+				<cost type="number">1</cost>
+				<range type="string">SELF</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				If the spellcaster directly hits a target with his next rune shot
+			ranged attack this turn, the target is pushed d3" directly away
+			from this character. On a critical hit, the target is knocked down
+			after being pushed.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.runeshottrickshot@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Rune Shot: Trick Shot</name>
+				<cost type="number">2</cost>
+				<range type="string">SELF</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				If the spellcaster directly hits a target with its rune shot next ranged
+			attack this turn, choose a character within 4" of the target that was
+			hit. After the attack is resolved, the spellcaster immediately makes
+			a ranged attack roll against the chosen character. If the chosen
+			character is hit, it suffers a magical damage roll with a POW equal
+			to that of his ranged weapon but does not suffer any effects of
+			other Rune Shot spells cast on the original attack. The point of
+			origin for this damage is the character originally hit.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.sanguineblessing@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Sanguine Blessing</name>
+				<cost type="number">3</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				When a friendly character in the spellcaster's control area would
+			suffer a damage roll, the spellcaster can suffer the damage roll
+			instead. Decide whether the spellcaster suffers the damage before
+			the roll is made.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.seaoffire@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Sea of Fire</name>
+				<cost type="number">4</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">*</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Enemy characters without Immunity: Fire within 5" of the
+			spellcaster suffer the Fire continuous effect.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.shatterstorm@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Shatter Storm</name>
+				<cost type="number">2</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				When target character directly hits and destroys an enemy with a
+			ranged or melee attack, center a 3" AOE on the destroyed character,
+			then remove that character from the table. Characters in the AOE
+			are hit and suffer an unboostable POW 8 blast damage roll.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.shieldoffaith@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Shield of Faith</name>
+				<cost type="number">2</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Target character gains +2 ARM against magic attacks and attacks
+			made by Infernal or Undead characters.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.shockwave@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Shock Wave</name>
+				<cost type="number">4</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">*</aoe>
+				<power type="number">13</power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Characters with 5" of the spellcaster suffer a POW 13 damage roll.
+			Each enemy damaged by Shock Wave is pushed d6" directly away
+			the spellcaster in the order you choose.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.shortout@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Short Out</name>
+				<cost type="number">1</cost>
+				<range type="string">8</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				Mechanika devices in the possession of target character hit
+			immediately deactivate. Short Out has no effect on steamjacks or
+			mechanika armor.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.snipe@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Snipe</name>
+				<cost type="number">2</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Target character's ranged weapons gain +4 RNG.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.solidground@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Solid Ground</name>
+				<cost type="number">2</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				While in the spellcaster's control area, friendly characters cannot
+			be knocked down and do not suffer blast damage.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.solovinsboon@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Solovin's Boon</name>
+				<cost type="number">1</cost>
+				<range type="string">SELF</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				The spellcaster can reroll failed Medicine skill rolls. Each failed
+			roll can be rerolled only once as a result of Solovin's Boon.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.starfire@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Star Fire</name>
+				<cost type="number">4</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Enemies that move and end their movement closer to the
+			spellcaster than they began suffer an unboostable POW 12 damage
+			roll. Star Fire lasts for one round.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.stayingwintershand@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Staying Winter's Hand</name>
+				<cost type="number">2</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				While in the spellcaster's control area, friendly characters gain
+			+2 ARM against cold damage. Additionally, while affected by
+			this spell, characters never suffer the effects of exposure to cold
+			weather and are kept warm.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.stonestance@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Stone Stance</name>
+				<cost type="number">1</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Target character cannot be knocked down, pushed, or slammed
+			for one round.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.stonestrength@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Stone Strength</name>
+				<cost type="number">2</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Target character gains +1 STR and ARM.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.stormtossed@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Storm Tossed</name>
+				<cost type="number">1</cost>
+				<range type="string">8</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				When an enemy character is hit by Storm Tossed, he is pushed 3"
+			directly away from the spell's point of origin.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.sunburst@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Sunburst</name>
+				<cost type="number">3</cost>
+				<range type="string">10</range>
+				<aoe type="string">3</aoe>
+				<power type="number">13</power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				Blast damage from this spell only affects enemies.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.superiority@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Superiority</name>
+				<cost type="number">3</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				The targeted friendly steamjack gains +2 SPD, MAT, and DEF and
+			cannot be knocked down.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.telekinesis@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Telekinesis</name>
+				<cost type="number">2</cost>
+				<range type="string">8</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				Place target character completely within 2" of its current location.
+			When Telekinesis targets an enemy character, it is an offensive
+			spell and requires a magic attack roll. A character can be affected
+			by Telekinesis only once per round.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.tempermetal@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Temper Metal</name>
+				<cost type="number">2</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				The targeted friendly steamjack gains +2 ARM and is immune to
+			continuous effects.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.tempest@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Tempest</name>
+				<cost type="number">4</cost>
+				<range type="string">8</range>
+				<aoe type="string">4</aoe>
+				<power type="number">12</power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				Characters hit by Tempest are knocked down and suffer a POW 12
+			damage roll.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.tideofsteel@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Tide of Steel</name>
+				<cost type="number">4</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				The spellcaster and steamjacks under his control currently in his
+			control area can immediately advance up to 3".
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.tornado@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Tornado</name>
+				<cost type="number">4</cost>
+				<range type="string">10</range>
+				<aoe type="string"></aoe>
+				<power type="number">13</power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				Instead of suffering a normal damage roll, a non-incorporeal
+			character hit by Tornado is thrown d6" directly away from the
+			spell's point of origin regardless of its base size and suffers
+			a POW 13 damage roll. Collateral damage from this throw is
+			POW 13.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.transference@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Transference</name>
+				<cost type="number">2</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				The spellcaster can allow other friendly living characters in his
+			control area to spend focus points on him to boost melee attack
+			or melee damage rolls during their turns at a rate of 1 focus point
+			per boost.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.triage@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Triage</name>
+				<cost type="number">2</cost>
+				<range type="string">B2B</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				The spellcaster must be B2B with an incapacitated character who
+			needs to be stabilized to cast this spell. When this spell is cast the
+			incapacitated character is immediately stabilized.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.truepath@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">True Path</name>
+				<cost type="number">3</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Friendly characters beginning their turns in the spellcaster's
+			control area gain +2" movement and Pathfinder during their turns.
+			True Path lasts for one round.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.truesight@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">True Sight</name>
+				<cost type="number">2</cost>
+				<range type="string">SELF</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				This character ignores concealment, Camouflage, and stealth. The
+			character can also see in complete darkness.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.vision@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Vision</name>
+				<cost type="number">2</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				The next time target character is directly hit by an attack, he suffers
+			no damage roll from the attack, then Vision expires.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.voltaiclock@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Voltaic Lock</name>
+				<cost type="number">4</cost>
+				<range type="string">10</range>
+				<aoe type="string">*</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				Target steamjack hit cannot advance and suffers -4 DEF. A
+			steamjack beginning an advance within 3" of the steamjack hit
+			cannot run or charge and can only advance directly toward it.			
+			Voltaic Lock lasts for one round.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.walloffire@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Wall of Fire</name>
+				<cost type="number">2</cost>
+				<range type="string">CTRL</range>
+				<aoe type="string">Wall</aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Place the wall template anywhere completely in the spellcaster's
+			control area where it does not touch a character's base, an
+			obstruction, or an obstacle. When a character enters or ends his
+			turn in the wall area, he suffers an unboostable POW 12 fire
+			damage roll and the Fire continuous effect. Characters within the
+			wall template gain concealment.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.whiteout@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">White Out</name>
+				<cost type="number">4</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">1</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				While in the spellcaster's control area, enemies have their LOS
+			reduced to 5".
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.windblast@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Wind Blast</name>
+				<cost type="number">2</cost>
+				<range type="string">CTRL</range>
+				<aoe type="string">5</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Place a 5" AOE anywhere completely in the spellcaster's control
+			area. Cloud effects overlapping the AOE expire. Characters
+			suffer -3 RAT while within the AOE. The AOE remains in play
+			for one round.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.windstrike@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Wind Strike</name>
+				<cost type="number">1</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">1</offensive>
+				<description type="string">
+				This spell does not inflict damage. An enemy hit by this spell
+			can be pushed 1" directly away from the spellcaster. After the
+			enemy is pushed, the spellcaster can advance up to 1" toward the
+			pushed enemy.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.wingsofair@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Wings of Air</name>
+				<cost type="number">2</cost>
+				<range type="string">SELF</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Place the spellcaster anywhere completely within 5" of his current
+			location. Wings of Air can be cast only once per turn.
+				</description>					
+			</record>
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.winterstorm@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Winter Storm</name>
+				<cost type="number">3</cost>
+				<range type="string">SELF</range>
+				<aoe type="string">CTRL</aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Enemies that begin their turns in the spellcaster's control range
+			lose Eyeless Sight, Flight, and Pathfinder during their turns.
+			Winter Storm lasts for one round.
+				</description>					
+			</record>
+			
+			
+			<record>
+				
+					<class>spell</class>
+					<recordname>reference.spells.index.zephyr@Iron Kingdoms Core Rules</recordname>
+				
+				<name type="string">Zephyr</name>
+				<cost type="number">3</cost>
+				<range type="string">6</range>
+				<aoe type="string"></aoe>
+				<power type="number"></power>
+				<upkeep type="number">0</upkeep>
+				<offensive type="number">0</offensive>
+				<description type="string">
+				Target character can immediately advance up to 5". A character
+			can be affected by Zephyr only once per round.
+				</description>					
+			</record>	
+	</spells>

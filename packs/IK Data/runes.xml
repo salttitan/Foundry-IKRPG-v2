@@ -1,0 +1,364 @@
+<runes>					
+
+
+	<record>
+						<name type="string">Accuracy</name>
+						<type type="string">Rune</type>
+						<cost type="string">150 gc</cost>
+						<runetype type="string">Melee or Ranged Weapon</runetype>
+						<runepoints type="number">1</runepoints>						
+						<description type="formattedtext">									
+						While the weapon has power, the character wielding it
+gains +1 on his attack rolls with it.
+						</description>						
+	</record>
+						
+						
+	<record>
+						<name type="string">Aegis</name>
+						<type type="string">Rune</type>
+						<cost type="string">150 gc</cost>
+						<runetype type="string">Armor</runetype>
+						<runepoints type="number">1</runepoints>						
+						<description type="formattedtext">									
+						While the armor has power, the character wearing it is
+immune to continuous effects.
+						</description>						
+	</record>
+						
+						
+	<record>
+						<name type="string">Arcane Force</name>
+						<type type="string">Rune</type>
+						<cost type="string">450 gc</cost>
+						<runetype type="string">Melee Weapon</runetype>
+						<runepoints type="number">3</runepoints>						
+						<description type="formattedtext">									
+						 While the weapon has power, it gains +2 POW. On
+a critical hit, the attacking character can slam the character
+hit instead of rolling damage normally. The character hit is
+slammed d6? directly away from the attacker and suffers a
+damage roll with POW equal to the attacker's STR plus the
+POW of this weapon. The POW of collateral damage is equal to
+the attacker's STR.
+						</description>						
+	</record>
+						
+						
+	<record>
+						<name type="string">Balefire</name>
+						<type type="string">Rune</type>
+						<cost type="string">150 gc</cost>
+						<runetype type="string">Melee Weapon</runetype>
+						<runepoints type="number">1</runepoints>						
+						<description type="formattedtext">									
+						 While the weapon has power, it gains boosted damage
+against undead characters.
+						</description>						
+	</record>
+						
+						
+	<record>
+						<name type="string">Blast</name>
+						<type type="string">Rune</type>
+						<cost type="string">300 gc</cost>
+						<runetype type="string">Ranged Weapon (firearm)</runetype>
+						<runepoints type="number">2</runepoints>						
+						<description type="formattedtext">									
+						 While the weapon has power, the character wielding it
+can attack with the weapon normally or can give the weapon
+AOE 3.
+						</description>						
+	</record>
+						
+						
+	<record>
+						<name type="string">Blessed</name>
+						<type type="string">Rune</type>
+						<cost type="string">300 gc</cost>
+						<runetype type="string">Melee or Ranged Weapon</runetype>
+						<runepoints type="number">2</runepoints>						
+						<description type="formattedtext">									
+						 While the weapon has power, attacks with it ignore spell
+effects that add to the target's DEF and ARM.
+						</description>						
+	</record>
+						
+						
+	<record>
+						<name type="string">Bond Plate</name>
+						<type type="string">Rune</type>
+						<cost type="string">300 gc</cost>
+						<runetype type="string">Melee Weapon, Ranged Weapon</runetype>
+						<runepoints type="number">2</runepoints>						
+						<description type="formattedtext">									
+						 This is a runeplate specially designed to enable a
+warcaster to bond with a mechanikal weapon. While a weapon
+the warcaster is bonded to has power, the warcaster can boost
+attack and damage rolls with the weapon.
+						</description>						
+	</record>
+						
+						
+	<record>
+						<name type="string">Cold</name>
+						<type type="string">Rune</type>
+						<cost type="string">300 gc</cost>
+						<runetype type="string">Melee Weapon</runetype>
+						<runepoints type="number">2</runepoints>						
+						<description type="formattedtext">									
+						 While the weapon has power, it gains +1 POW. On a
+critical hit, a target without Immunity: Cold becomes stationary
+for one round.
+						</description>						
+	</record>
+						
+						
+	<record>
+						<name type="string">Compensator</name>
+						<type type="string">Rune</type>
+						<cost type="string">150 gc</cost>
+						<runetype type="string">Armor</runetype>
+						<runepoints type="number">1</runepoints>						
+						<description type="formattedtext">									
+						While the armor has power, reduce the DEF penalty of
+the armor by 1.
+						</description>						
+	</record>
+						
+						
+	<record>
+						<name type="string">Corruption</name>
+						<type type="string">Rune</type>
+						<cost type="string">150 gc</cost>
+						<runetype type="string">Melee or Ranged Weapon</runetype>
+						<runepoints type="number">1</runepoints>						
+						<description type="formattedtext">									
+						 While the weapon has power, characters it hits suffer the
+Corrosion continuous effect.
+						</description>						
+	</record>
+						
+						
+	<record>
+						<name type="string">Disbinder</name>
+						<type type="string">Rune</type>
+						<cost type="string">300 gc</cost>
+						<runetype type="string">Melee Weapon</runetype>
+						<runepoints type="number">2</runepoints>						
+						<description type="formattedtext">									
+						 While the weapon has power, upkeep spells on
+characters it hits immediately expire.
+						</description>						
+	</record>
+						
+						
+	<record>
+						<name type="string">Electrocutioner</name>
+						<type type="string">Rune</type>
+						<cost type="string">450 gc</cost>
+						<runetype type="string">Melee Weapon</runetype>
+						<runepoints type="number">3</runepoints>						
+						<description type="formattedtext">									
+						 While the weapon has power, it gains +1 POW and
+steamjacks it hits suffer Disruption. (A steamjack suffering
+Disruption loses its focus points and cannot be allocated focus
+or channel spells for one round)
+						</description>						
+	</record>
+						
+	<record>
+						<name type="string">Flame</name>
+						<type type="string">Rune</type>
+						<cost type="string">300 gc</cost>
+						<runetype type="string">Melee Weapon</runetype>
+						<runepoints type="number">2</runepoints>						
+						<description type="formattedtext">									
+						While the weapon has power, it gains +1 POW. On a
+critical hit, the target suffers the Fire continuous effect.
+						</description>						
+	</record>
+						
+						
+	<record>
+						<name type="string">Fleet</name>
+						<type type="string">Rune</type>
+						<cost type="string">450 gc</cost>
+						<runetype type="string">Armor</runetype>
+						<runepoints type="number">3</runepoints>						
+						<description type="formattedtext">									
+						While the armor has power, the character wearing it
+gains +1 SPD and DEF.
+						</description>						
+	</record>
+						
+						
+	<record>
+						<name type="string">Grievous Wounds</name>
+						<type type="string">Rune</type>
+						<cost type="string">300 gc</cost>
+						<runetype type="string">Melee Weapon</runetype>
+						<runepoints type="number">2</runepoints>						
+						<description type="formattedtext">									
+						While the weapon has power, characters it hits lose
+Tough, cannot heal or be healed, and cannot transfer damage
+for one round.
+						</description>						
+	</record>
+						
+						
+	<record>
+						<name type="string">Halo of Fire</name>
+						<type type="string">Rune</type>
+						<cost type="string">300 gc</cost>
+						<runetype type="string">Armor or Melee Weapon (Shield)</runetype>
+						<runepoints type="number">2</runepoints>						
+						<description type="formattedtext">									
+						While the armor or shield has power, the character
+carrying the shield or wearing the armor gains Immunity: Fire.
+While the runeplate is active, the character can make a quick
+action to unleash a burning field around himself. For one
+round, any character hitting him with a melee attack suffers
+the Fire continuous effect. If this runeplate is set into a shield,
+only attackers in the character's front arc suffer the damage roll
+and continuous effect.
+						</description>						
+	</record>
+						
+						
+	<record>
+						<name type="string">Heightened Strength</name>
+						<type type="string">Rune</type>
+						<cost type="string">300 gc</cost>
+						<runetype type="string">Armor</runetype>
+						<runepoints type="number">2</runepoints>						
+						<description type="formattedtext">									
+						While the armor has power, the character wearing it
+gains +1 STR.
+						</description>						
+	</record>
+						
+						
+	<record>
+						<name type="string">Light</name>
+						<type type="string">Rune</type>
+						<cost type="string">150 gc</cost>
+						<runetype type="string">Melee Weapon, Ranged Weapon, or Armor</runetype>
+						<runepoints type="number">1</runepoints>						
+						<description type="formattedtext">									
+						While the item has power, it can provide light (p. 225)
+in a large area around the character carrying the weapon or
+wearing the armor. The light can be turned on or off as a quick
+action.
+						</description>						
+	</record>
+						
+						
+	<record>
+						<name type="string">Mechanikal Seizure</name>
+						<type type="string">Rune</type>
+						<cost type="string">300 gc</cost>
+						<runetype type="string">Melee Weapon</runetype>
+						<runepoints type="number">2</runepoints>						
+						<description type="formattedtext">									
+						While the weapon has power, steamjacks it hits become
+stationary for one round.
+						</description>						
+	</record>
+						
+						
+	<record>
+						<name type="string">Quicken</name>
+						<type type="string">Rune</type>
+						<cost type="string">300 gc</cost>
+						<runetype type="string">Armor</runetype>
+						<runepoints type="number">2</runepoints>						
+						<description type="formattedtext">									
+						While the armor has power, once per turn the character
+wearing it can immediately advance up to twelve feet (2") as a
+quick action.
+						</description>						
+	</record>
+						
+						
+	<record>
+						<name type="string">Repulsor</name>
+						<type type="string">Rune</type>
+						<cost type="string">300 gc</cost>
+						<runetype type="string">Melee Weapon (Shield)</runetype>
+						<runepoints type="number">2</runepoints>						
+						<description type="formattedtext">									
+						While the shield has power, a character hit by it is
+pushed 1" directly away from the attacker. While the shield
+has power, when the character wielding the shield is hit with
+a melee attack made by a character in his front arc, after the
+attack is resolved the attacker is pushed 1? directly away
+from him.
+						</description>						
+	</record>
+						
+						
+	<record>
+						<name type="string">Silencer</name>
+						<type type="string">Rune</type>
+						<cost type="string">150 gc</cost>
+						<runetype type="string">Melee Weapon (Shield)</runetype>
+						<runepoints type="number">1</runepoints>						
+						<description type="formattedtext">									
+						While the weapon has power, attacks made with the
+weapon make no sound.
+						</description>						
+	</record>
+						
+						
+	<record>
+						<name type="string">Spell Ward</name>
+						<type type="string">Rune</type>
+						<cost type="string">450 gc</cost>
+						<runetype type="string">Armor</runetype>
+						<runepoints type="number">3</runepoints>						
+						<description type="formattedtext">									
+						While the armor has power, the character wearing it
+cannot be targeted by spells.
+						</description>						
+	</record>
+						
+						
+	<record>
+						<name type="string">Stall</name>
+						<type type="string">Rune</type>
+						<cost type="string">450 gc</cost>
+						<runetype type="string">Melee Weapon</runetype>
+						<runepoints type="number">3</runepoints>						
+						<description type="formattedtext">									
+						While the weapon has power, it gains +1 POW.
+Steamjacks hit by this weapon suffer the Stall continuous effect.
+(While a steamjack is suffering Stall, its base DEF becomes 7
+and it cannot run or charge.)
+						</description>						
+	</record>
+						
+						
+	<record>
+						<name type="string">Steady</name>
+						<type type="string">Rune</type>
+						<cost type="string">150 gc</cost>
+						<runetype type="string">Melee Weapon</runetype>
+						<runepoints type="number">1</runepoints>						
+						<description type="formattedtext">									
+						While the armor has power, the character wearing it
+cannot be knocked down.
+						</description>						
+	</record>
+
+
+	<record>
+						<name type="string">Runeplate, Blank</name>
+						<type type="string">Mechanika Component</type>
+						<cost type="string">10 gc</cost>	
+						<runetype type="string">Everything</runetype>
+						<runepoints type="number">0</runepoints>						
+						<description type="formattedtext">								
+						</description>														
+	</record>
+</runes>

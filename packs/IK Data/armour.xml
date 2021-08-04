@@ -1,0 +1,237 @@
+<armor>
+		
+					
+	<recored>
+							<name type="string">Alchemist's Apron</name>
+							<type type="string">Armor</type>
+							<cost type="string">15 gc</cost>						
+							<speedmod type="number">0</speedmod>
+							<defensemod type="number">0</defensemod>
+							<armormod type="number">0</armormod>
+							
+							<description type="formattedtext">
+							This is a heavy cloth apron that has been
+extensively treated to resist heat, cold, and alchemical
+corrosives. Alchemist's aprons are often worn by those working
+with volatile chemicals or who handle crucibles full of molten
+metal. Alchemist's aprons have become a common sight in the
+foundries of the Iron Kingdoms.
+							</description>
+							<special type="string">+3 ARM vs blast, cold, corrosion, fire from front</special>			
+							<special_formatted type="formattedtext">
+							A character wearing this armor gains an
+	additional +3 ARM against blast, cold, corrosion, and fire
+	damage.
+							A character wearing an alchemist's apron gains +3 ARM against
+cold, corrosion, and fire damage originating in his front arc. An
+alchemist's apron cannot be worn with armor.
+							</special_formatted>			
+	</recored>
+						
+	<recored>
+							<name type="string">Alchemist's Leather</name>
+							<type type="string">Armor</type>
+							<cost type="string">50 gc</cost>						
+							<speedmod type="number">0</speedmod>
+							<defensemod type="number">-1</defensemod>
+							<armormod type="number">+5</armormod>
+							
+							<description type="formattedtext">
+							This is a loose-fitting suit of leather armor that
+	includes a heavy leather cloak and a gas mask (p. 274). Typical
+	of the armor worn by the Iron Kingdom's battle alchemists, this
+	armor is treated to provide maximum protection against blasts
+	and alchemical agents.
+							</description>
+							<special type="string">+3 ARM vs blast, cold, corrosion, fire; Gasmask</special>			
+							<special_formatted type="formattedtext">
+							A character wearing this armor gains an
+	additional +3 ARM against blast, cold, corrosion, and fire
+	damage.
+							Because this armor integrates a gas mask, a character wearing it
+is also immune to gas effects but suffers -1 on sight or hearingbased
+PER rolls.
+							</special_formatted>			
+	</recored>
+						
+						
+	<recored>
+							<name type="string">Armored Great Coat</name>
+							<type type="string">Armor</type>
+							<cost type="string">25 gc</cost>						
+							<speedmod type="number">0</speedmod>
+							<defensemod type="number">-1</defensemod>
+							<armormod type="number">+5</armormod>
+							
+							<description type="formattedtext">
+							The armored great coat is popular among
+combatants and adventurers across western Immoren. Made up
+of layers of leather, chain, and plate, it provides protection as
+well as a barrier against inclement weather.
+							</description>
+							<special type="string"></special>			
+							<special_formatted type="formattedtext">
+							None.
+							</special_formatted>			
+	</recored>
+						
+	<recored>
+							<name type="string">Custom Battle Armor</name>
+							<type type="string">Armor</type>
+							<cost type="string">60 gc</cost>						
+							<speedmod type="number">0</speedmod>
+							<defensemod type="number">-1</defensemod>
+							<armormod type="number">+6</armormod>
+							
+							<description type="formattedtext">
+							On the heavy side for light armor, battle armor is
+made up of light or limited plate elements over layers of chain
+and leather. Battle armor is often custom fit and manufactured
+to its owner's specifications. Though this armor is expensive, it
+offers improved protection and serves as a mark of distinction.
+							</description>
+							<special type="string">-2 DEF if not tailored</special>			
+							<special_formatted type="formattedtext">
+							A character wearing battle armor tailored to the
+body of another character suffers a -2 DEF penalty.
+							</special_formatted>			
+	</recored>
+						
+	<recored>
+							<name type="string">Leather Armor</name>
+							<type type="string">Armor</type>
+							<cost type="string">30 gc</cost>						
+							<speedmod type="number">0</speedmod>
+							<defensemod type="number">-1</defensemod>
+							<armormod type="number">+5</armormod>
+							
+							<description type="formattedtext">
+							This is a suit of armor made primarily of hardened
+or boiled leatherwork. Metal plates, studs, and elements of
+chain mail are often added for additional reinforcement.
+							Leather armor produced using modern manufacturing methods
+is commonly available throughout the major cities of the Iron
+Kingdoms. The Nyss produce particularly well-made studded
+leather armor in dark and somber colorations. Less refined
+versions are produced by hand throughout Immoren. Though
+not as strong as metal armor, leather provides a surprising
+amount of protection.
+							</description>
+							<special type="string"></special>			
+							<special_formatted type="formattedtext">
+							None.
+							</special_formatted>			
+	</recored>
+
+	<recored>
+							<name type="string">Chain Mail</name>
+							<type type="string">Armor</type>
+							<cost type="string">75 gc</cost>						
+							<speedmod type="number">0</speedmod>
+							<defensemod type="number">-2</defensemod>
+							<armormod type="number">+7</armormod>
+							
+							<description type="formattedtext">
+							This is a full suit of armor primarily made up of
+chain mail. Though elements of plate or leather can be worn as
+well, most of the body is covered in chain mail.
+							</description>
+							<special type="string"></special>			
+							<special_formatted type="formattedtext">
+							None.
+							</special_formatted>			
+	</recored>
+						
+						
+	<recored>
+							<name type="string">Infantry Armor</name>
+							<type type="string">Armor</type>
+							<cost type="string">85 gc</cost>						
+							<speedmod type="number">0</speedmod>
+							<defensemod type="number">-2</defensemod>
+							<armormod type="number">+7</armormod>
+							
+							<description type="formattedtext">
+							Though infantry armor exists in infinite variations
+throughout the various kingdom and mercenary armies, it is
+essentially made up of an armored chest plate, shoulder pads,
+and armored leggings over layers of leather and sometimes
+chain. Cygnar's Trenchers and Long Gunners, Khador's Winter
+Guard, and Rhul's Gun Corps all wear variations of this armor.
+							</description>
+							<special type="string"></special>			
+							<special_formatted type="formattedtext">
+							None.
+							</special_formatted>			
+	</recored>
+						
+						
+	<recored>
+							<name type="string">Tailored Plate</name>
+							<type type="string">Armor</type>
+							<cost type="string">130 gc</cost>						
+							<speedmod type="number">0</speedmod>
+							<defensemod type="number">-1</defensemod>
+							<armormod type="number">+7</armormod>
+							
+							<description type="formattedtext">
+							This is a suit of light plate armor that usually
+includes full torso protection along with armored leggings
+and gauntlets over layers of more form-fitting chain mail and
+leather. Sometimes this armor includes a fitted armored coat
+as well. This armor is typically quite expensive because it is
+tailored to the wearer. Such armor is a status symbol among
+successful mercenaries, duelists, and aristocrats.
+							</description>
+							<special type="string">-2 DEF if not tailored</special>			
+							<special_formatted type="formattedtext">
+							A character wearing tailored plate customized
+to the body of another character suffers a -2 DEF penalty.
+							</special_formatted>			
+	</recored>
+																		
+	<recored>
+							<name type="string">Full Plate</name>
+							<type type="string">Armor</type>
+							<cost type="string">100 gc</cost>						
+							<speedmod type="number">-1</speedmod>
+							<defensemod type="number">-3</defensemod>
+							<armormod type="number">+8</armormod>
+							
+							<description type="formattedtext">
+							This is a complete suit of all-encompassing plate
+							mail. It is worn with a helmet or chain coif but could include
+ample neck protection for a warrior to go without those
+components. Plate armor often integrates shirts of additional
+plated layers, chain mail, or leather elements for added
+protection and padding. The stylized armor of the Iron Fangs
+is full plate.
+							</description>
+							<special type="string"></special>			
+							<special_formatted type="formattedtext">
+							None.
+							</special_formatted>			
+	</recored>
+						
+						
+	<recored>
+							<name type="string">Storm Knight Armor</name>
+							<type type="string">Armor</type>
+							<cost type="string">225 gc</cost>						
+							<speedmod type="number">-2</speedmod>
+							<defensemod type="number">-3</defensemod>
+							<armormod type="number">+9</armormod>
+							
+							<description type="formattedtext">
+							This is the heavy armor of Cygnar's renowned
+Storm Knights. Extremely heavy plate armor is layered over
+padded insulation that protects the wearer from the electrical
+fury of his own weapons.
+							</description>
+							<special type="string">Grants Immunity: Electricity</special>			
+							<special_formatted type="formattedtext">
+							A character wearing Storm Knight armor gains
+the Immunity: Electricity ability.
+							</special_formatted>			
+	</recored>
+</armor>
