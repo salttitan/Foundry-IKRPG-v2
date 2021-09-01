@@ -1,3 +1,5 @@
+import * as Dice from "../dice.js";
+
 /**
  * Extend the basic ActorSheet with some very simple modifications
  * @extends {ActorSheet}
@@ -19,7 +21,7 @@ export class ikrpgActorSheet extends ActorSheet {
   getData() 
   {
     const data = super.getData();
-    console.log(data);
+    // console.log(data);
     data.skill_list=[];
 
     let previousSpec = '';
@@ -49,6 +51,7 @@ export class ikrpgActorSheet extends ActorSheet {
       const item = this.actor.getOwnedItem(li.data("itemId"));
       item.sheet.render(true);
     });
+    html.find(".item-roll").click(this._onItemRoll.bind(this));
 
     super.activateListeners(html);
   }
@@ -62,6 +65,19 @@ export class ikrpgActorSheet extends ActorSheet {
     console.log(itemId);
 
     return this.actor.deleteOwnedItem(itemId);
+  }
+
+  _onItemRoll(event) {
+    const itemID = event.currentTarget.closest(".item").dataset.itemId;
+    const item = this.actor.getOwnedItem(itemID);
+
+    if(item.type === "meleeWeapon") {
+      Dice.meleeAttack({
+        actorData = this.actor.data.data,
+        actionValue: item.data.data.MAT.value,
+        boosted: false
+      });
+    }
   }
 
   _onSkillEdit(event)

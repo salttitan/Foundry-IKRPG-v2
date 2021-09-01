@@ -5,6 +5,9 @@
         </caption>
         <tr>
           <th>
+            Roll
+          </th>
+          <th>
             {{localize "ikrpg.itemSheetLabels.shared.headerBlock.name"}}
           </th>
           <th>
@@ -16,6 +19,9 @@
         </tr>
         {{#each actor.meleeWeapons as |melee id|}}
         <tr class="item" data-item-id="{{melee._id}}">
+            <td>
+                <a class="item-roll"><i class="fas fa-dice"></i></a>
+            </td>
             <td>
               <h4 class="item-name"><a class="item-control item-edit" title="Edit Item">{{melee.name}}</a></h4>
             </td>
