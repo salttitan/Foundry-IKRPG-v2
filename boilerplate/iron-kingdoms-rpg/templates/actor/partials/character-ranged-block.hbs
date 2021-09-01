@@ -1,0 +1,48 @@
+<section>
+    <table class="actor-sheet-stat-table">
+        <caption class="actor-sheet-stats-table-label">
+            {{localize "ikrpg.actorSheetLabels.rangedBlock.title"}}
+        </caption>
+        <tr>
+          <th>
+            {{localize "ikrpg.itemSheetLabels.shared.headerBlock.name"}}
+          </th>
+          <th>
+            {{localize "ikrpg.itemSheetLabels.weapons.ranged.headerBlock.rng"}}
+          </th>
+          <th>
+            {{localize "ikrpg.actorSheetLabels.rangedBlock.rat"}}
+          </th>
+          <th>
+            {{localize "ikrpg.actorSheetLabels.rangedBlock.pow"}}
+          </th>
+        </tr>
+        {{#each actor.rangedWeapons as |ranged id|}}
+        <tr class="item" data-item-id="{{ranged._id}}">
+            <td>
+              <h4 class="item-name"><a class="item-control item-edit" title="Edit Item">{{ranged.name}}</a></h4>
+            </td>
+            <td>
+              <div class="actor-sheet-stat-value">
+                {{ranged.data.RNG.value}}
+              </div>
+            </td>
+            <td>
+              <div class="actor-sheet-stat-value">
+                {{ranged.data.RAT.value}}"
+              </div>
+            </td>
+            <td>
+              <div class="actor-sheet-stat-value">
+                {{ranged.data.POW.value}}
+              </div>
+            </td>
+            <td>
+              <div class="item-controls">
+                <a class="item-control item-delete" title="Delete Item"><i class="fas fa-trash"></i></a>
+              </div>
+            </td>
+        </tr>
+        {{/each}}
+    </table>
+</section>
