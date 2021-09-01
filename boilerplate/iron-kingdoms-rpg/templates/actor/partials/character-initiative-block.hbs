@@ -18,7 +18,7 @@
                 </label>
               </div>
             </td>
-            <td>=</td>
+            {{!-- <td>=</td>
             <td>
                 <div class="actor-sheet-stat-value">
                 <input
@@ -60,9 +60,20 @@
                   {{localize "ikrpg.actorSheetLabels.statBlock.per"}}
                 </label>
               </div>
-            </td>
+            </td> --}}
             <td>
-                {{localize "ikrpg.actorSheetLabels.initiativeBlock.equipment"}}
+              <div class="actor-sheet-stat-value">
+                <input
+                  name="data.initiativeModifiers.equipamentModifier.value"
+                  class="actor-sheet-stat-box stat initiative-stat"
+                  type="text"
+                  value="{{data.initiativeModifiers.equipamentModifier.value}}"
+                  data-type="Number"
+                />
+                <label class="actor-sheet-stat-name-label">
+                  {{localize "ikrpg.actorSheetLabels.initiativeBlock.equipment"}}
+                </label>
+              </div>
             </td>
             <td>
               <div class="actor-sheet-stat-value">

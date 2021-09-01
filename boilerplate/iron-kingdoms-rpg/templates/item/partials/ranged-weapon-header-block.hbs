@@ -4,7 +4,7 @@
                     {{localize "ikrpg.itemSheetLabels.weapons.ranged.headerBlock.title"}}
                 </caption>
                 <tr>
-                    <td colspan="3">
+                    <td colspan="2">
                         <div class="actor-sheet-header-field">
                             <input 
                                 class="actor-sheet-header-field-box"
@@ -15,6 +15,20 @@
                             />
                             <label class="actor-sheet-header-field-name-label">
                                 {{localize "ikrpg.itemSheetLabels.shared.headerBlock.name"}}
+                            </label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.RAT.value"
+                                type="number"
+                                value="{{data.RAT.value}}"
+                                data-type="Number"
+                            />
+                            <label class="actor-sheet-header-field-name-label">
+                                {{localize "ikrpg.itemSheetLabels.weapons.ranged.headerBlock.rat"}}
                             </label>
                         </div>
                     </td>

@@ -1,0 +1,55 @@
+<section>
+    <table class="actor-sheet-stat-table">
+        <caption class="actor-sheet-stats-table-label">
+            {{localize "ikrpg.actorSheetLabels.spellBlock.title"}}
+        </caption>
+        <tr>
+          <th>
+            {{localize "ikrpg.itemSheetLabels.shared.headerBlock.name"}}
+          </th>
+          <th>
+            {{localize "ikrpg.itemSheetLabels.spells.headerBlock.cst"}}
+          </th>
+          <th>
+            {{localize "ikrpg.itemSheetLabels.spells.headerBlock.rng"}}
+          </th>
+          <th>
+            {{localize "ikrpg.itemSheetLabels.spells.headerBlock.aoe"}}
+          </th>
+          <th>
+            {{localize "ikrpg.itemSheetLabels.spells.headerBlock.pow"}}
+          </th>
+          <th>
+            {{localize "ikrpg.itemSheetLabels.spells.headerBlock.up"}}
+          </th>
+          <th>
+            {{localize "ikrpg.itemSheetLabels.spells.headerBlock.off"}}
+          </th>
+        </tr>
+        {{#each actor.spells as |spell id|}}
+        <tr class="item" data-item-id="{{spell._id}}">
+            <td>
+              <h4 class="item-name"><a class="item-control item-edit" title="Edit Item">{{spell.name}}</a></h4>
+            </td>
+            <td>
+              {{spell.data.cst.value}}
+            </td>
+            <td>
+              {{spell.data.rng.value}}
+            </td>
+            <td>
+              {{spell.data.aoe.value}}"
+            </td>
+            <td>
+              {{spell.data.pow.value}}
+            </td>
+            <td>
+              {{spell.data.up}}
+            </td>
+            <td>
+              {{spell.data.off}}
+            </td>
+        </tr>
+        {{/each}}
+    </table>
+</section>

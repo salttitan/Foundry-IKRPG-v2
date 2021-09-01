@@ -32,7 +32,10 @@ async function preloadHandlebarsTemplate()
     "systems/iron-kingdoms-rpg/templates/actor/partials/character-commandRange-block.hbs",
     "systems/iron-kingdoms-rpg/templates/actor/partials/character-portrait-block.hbs",
     "systems/iron-kingdoms-rpg/templates/actor/partials/character-xp-block.hbs",
-    "systems/iron-kingdoms-rpg/templates/actor/partials/character-vital-spiral-block.hbs"
+    "systems/iron-kingdoms-rpg/templates/actor/partials/character-vital-spiral-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/actor/partials/character-ranged-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/actor/partials/character-melee-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/actor/partials/character-spell-block.hbs"
   ];
 
   return loadTemplates(templatePaths);

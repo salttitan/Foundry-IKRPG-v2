@@ -1,6 +1,17 @@
 <div class="actor-sheet-body">
     <div>
         <div class="info-block">
+            {{> "systems/iron-kingdoms-rpg/templates/actor/partials/character-ranged-block.hbs"}}
+        </div>
+        <div class="info-block">
+            {{> "systems/iron-kingdoms-rpg/templates/actor/partials/character-melee-block.hbs"}}
+        </div>
+        <div class="info-block">
+            {{> "systems/iron-kingdoms-rpg/templates/actor/partials/character-spell-block.hbs"}}
+        </div>
+    </div>
+    <div>
+        <div class="info-block">
             {{> "systems/iron-kingdoms-rpg/templates/actor/partials/character-def-block.hbs"}}
         </div>
         <div class="info-block">
@@ -12,6 +23,9 @@
         <div class="info-block">
             {{> "systems/iron-kingdoms-rpg/templates/actor/partials/character-commandRange-block.hbs"}}
         </div>
+        <div class="info-block">
+            {{> "systems/iron-kingdoms-rpg/templates/actor/partials/character-xp-block.hbs"}}
+        </div>
     </div>
     <div>
         <div class="info-block">
@@ -22,8 +36,6 @@
         <div class="info-block">
             {{> "systems/iron-kingdoms-rpg/templates/actor/partials/character-vital-spiral-block.hbs"}}
         </div>
-        <div class="info-block">
-            {{> "systems/iron-kingdoms-rpg/templates/actor/partials/character-xp-block.hbs"}}
-        </div>
+        
     </div>
 </div>

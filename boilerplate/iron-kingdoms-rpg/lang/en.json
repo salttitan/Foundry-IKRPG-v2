@@ -44,14 +44,16 @@
                 "title":"DAMAGE CAPACITY",
                 "groupOne":"PHYSIQUE",
                 "groupTwo":"AGILITY",
-                "groupThree":"INTELLECT"
+                "groupThree":"INTELLECT",
+                "bonus":"BONUS"
             },
             "defBlock":
             {
                 "title":"DEF",
                 "total":"Total",
                 "armorMod":"Armor",
-                "equipMod":"Equipment"
+                "equipMod":"Equipment",
+                "racialMod":"Racial"
             },
             "armBlock":
             {
@@ -112,6 +114,23 @@
                 },
                 "fatigue": "FATIGUE",
                 "focus": "FOCUS"
+            },
+            "rangedBlock":
+            {
+                "title": "RANGED WEAPONS",
+                "rat": "RAT",
+                "pow": "POW"
+            },
+            "meleeBlock": 
+            {
+                "title": "MELEE WEAPONS",
+                "mat": "MAT",
+                "damage": "P+S"
+            },
+            "spellBlock":
+            {
+                "title": "SPELLS",
+                "arc": "ARC"
             }
         },
         "configFile":
@@ -155,7 +174,9 @@
                 {
                     "headerBlock":
                     {
-                        "title": "MELEE WEAPON"
+                        "title": "MELEE WEAPON",
+                        "mat": "MAT",
+                        "damage": "P+S"
                     }
                 },
                 "ranged":
@@ -167,7 +188,8 @@
                         "ammoType": "AMMO TYPE",
                         "rng": "EFFECTIVE RNG",
                         "extreme": "EXTREME RNG",
-                        "aoe": "AOE"
+                        "aoe": "AOE",
+                        "rat": "RAT"
                     }
                 }
             },

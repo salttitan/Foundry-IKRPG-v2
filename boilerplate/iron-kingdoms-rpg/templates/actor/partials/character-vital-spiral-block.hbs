@@ -126,5 +126,35 @@
         </table>
       </td>
     </tr>
+    <tr>
+      <td>
+        <label>{{localize "ikrpg.actorSheetLabels.damageCapacityBlock.bonus"}}</label>
+        <div class="actor-sheet-stat-value">
+          <input
+            name="data.bonus.max.value"
+            type="text"
+            value="{{data.bonus.max.value}}"
+            data-type="Number"
+          />
+        </div>
+      </td>
+      <td>
+        <table>
+          <tr>
+            <td>
+              <div class="actor-sheet-damage-capacity-checkbox-line">
+                {{#times data.bonus.max.value}}
+                  <input
+                    class="bonus vital-check"
+                    type="checkbox"
+                    {{checked (ifCond data.bonus.current.value "<=" @index)}}
+                  />
+                {{/times}}
+              </div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
   </table>
 </section>

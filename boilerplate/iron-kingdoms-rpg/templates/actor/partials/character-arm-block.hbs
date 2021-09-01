@@ -18,7 +18,7 @@
                 </label>
               </div>
             </td>
-            <td>=</td>
+            {{!-- <td>=</td>
             <td>
                 <div class="actor-sheet-stat-value">
                 <input
@@ -32,12 +32,34 @@
                   {{localize "ikrpg.actorSheetLabels.statBlock.phy"}}
                 </label>
               </div>
+            </td> --}}
+            <td>
+              <div class="actor-sheet-stat-value">
+                <input
+                  name="data.armModifiers.shieldModifier.value"
+                  class="actor-sheet-stat-box stat arm-stat"
+                  type="text"
+                  value="{{data.armModifiers.shieldModifier.value}}"
+                  data-type="Number"
+                />
+                <label class="actor-sheet-stat-name-label">
+                   {{localize "ikrpg.actorSheetLabels.armBlock.shield"}}
+                </label>
+              </div>
             </td>
             <td>
-                {{localize "ikrpg.actorSheetLabels.armBlock.shield"}}
-            </td>
-            <td>
-                {{localize "ikrpg.actorSheetLabels.armBlock.armor"}}
+              <div class="actor-sheet-stat-value">
+                <input
+                  name="data.armModifiers.armorModifier.value"
+                  class="actor-sheet-stat-box stat arm-stat"
+                  type="text"
+                  value="{{data.armModifiers.armorModifier.value}}"
+                  data-type="Number"
+                />
+                <label class="actor-sheet-stat-name-label">
+                  {{localize "ikrpg.actorSheetLabels.armBlock.armor"}}
+                </label>
+              </div>
             </td>
             <td>
               <div class="actor-sheet-stat-value">

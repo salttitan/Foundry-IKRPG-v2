@@ -1,0 +1,40 @@
+<section>
+    <table class="actor-sheet-stat-table" style="width: 100%;">
+        <caption class="actor-sheet-stats-table-label">
+            {{localize "ikrpg.actorSheetLabels.meleeBlock.title"}}
+        </caption>
+        <tr>
+          <th>
+            {{localize "ikrpg.itemSheetLabels.shared.headerBlock.name"}}
+          </th>
+          <th>
+            {{localize "ikrpg.actorSheetLabels.meleeBlock.mat"}}
+          </th>
+          <th>
+            {{localize "ikrpg.actorSheetLabels.meleeBlock.damage"}}
+          </th>
+        </tr>
+        {{#each actor.meleeWeapons as |melee id|}}
+        <tr class="item" data-item-id="{{melee._id}}">
+            <td>
+              <h4 class="item-name"><a class="item-control item-edit" title="Edit Item">{{melee.name}}</a></h4>
+            </td>
+            <td>
+              <div class="actor-sheet-stat-value">
+                {{melee.data.MAT.value}}"
+              </div>
+            </td>
+            <td>
+              <div class="actor-sheet-stat-value">
+                {{melee.data.damage.value}}
+              </div>
+            </td>
+            <td>
+              <div class="item-controls">
+                <a class="item-control item-delete" title="Delete Item"><i class="fas fa-trash"></i></a>
+              </div>
+            </td>
+        </tr>
+        {{/each}}
+    </table>
+</section>

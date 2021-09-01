@@ -34,12 +34,12 @@ export class ikrpgActorSheet extends ActorSheet {
   {
     html.find(".inline-edit").change(this._onSkillEdit.bind(this));
     html.find(".item-delete").click(this._onItemDelete.bind(this));
-    html.find(".damage-stat").change(this.calculateDamageCapacity.bind(this));
-    html.find(".arm-stat").change(this.calculateArm.bind(this));
-    html.find(".initiative-stat").change(this.calculateInitiative.bind(this));
-    html.find(".commandRange-stat").change(this.calculateCommandRange.bind(this));
-    html.find(".willpower-stat").change(this.calculateWillpower.bind(this));
-    html.find(".def-stat").change(this.calculateDef.bind(this));
+    // html.find(".damage-stat").change(this.calculateDamageCapacity.bind(this));
+    // html.find(".arm-stat").change(this.calculateArm.bind(this));
+    // html.find(".initiative-stat").change(this.calculateInitiative.bind(this));
+    // html.find(".commandRange-stat").change(this.calculateCommandRange.bind(this));
+    // html.find(".willpower-stat").change(this.calculateWillpower.bind(this));
+    // html.find(".def-stat").change(this.calculateDef.bind(this));
     html.find(".vital-check").change(this._onDamageEdit.bind(this));
     html.find(".xp-stat").change(this.calculateLevel.bind(this));
     // Update Inventory Item
@@ -107,94 +107,94 @@ export class ikrpgActorSheet extends ActorSheet {
     }
   }
 
-  calculateDef(event)
-  {
+  // calculateDef(event)
+  // {
     
-    let statName = event.currentTarget.name;
-    let statValue = event.currentTarget.value;
+  //   let statName = event.currentTarget.name;
+  //   let statValue = event.currentTarget.value;
 
-    let spd = this.actor.data.data.stats.spd.value?this.actor.data.data.stats.spd.value:0;
-    let per = this.actor.data.data.stats.per.value?this.actor.data.data.stats.per.value:0;
-    let agl = this.actor.data.data.stats.agl.value?this.actor.data.data.stats.agl.value:0;
-    let racialMod = this.actor.data.data.defModifiers.racialModifier.value?this.actor.data.data.defModifiers.racialModifier.value:0;
-    let equipmentMod = this.actor.data.data.defModifiers.equipmentModifiers.value?this.actor.data.data.defModifiers.equipmentModifiers.value:0;
+  //   let spd = this.actor.data.data.stats.spd.value?this.actor.data.data.stats.spd.value:0;
+  //   let per = this.actor.data.data.stats.per.value?this.actor.data.data.stats.per.value:0;
+  //   let agl = this.actor.data.data.stats.agl.value?this.actor.data.data.stats.agl.value:0;
+  //   let racialMod = this.actor.data.data.defModifiers.racialModifier.value?this.actor.data.data.defModifiers.racialModifier.value:0;
+  //   let equipmentMod = this.actor.data.data.defModifiers.equipmentModifiers.value?this.actor.data.data.defModifiers.equipmentModifiers.value:0;
 
-    switch(statName)
-    {
-      case("data.stats.agl.value"):
-        agl=statValue?statValue:0;
-        break;
-      case("data.stats.per.value"):
-        per=statValue?statValue:0;
-        break;
-      case("data.stats.spd.value"):
-        spd=statValue?statValue:0;
-        break;
-    }
+  //   switch(statName)
+  //   {
+  //     case("data.stats.agl.value"):
+  //       agl=statValue?statValue:0;
+  //       break;
+  //     case("data.stats.per.value"):
+  //       per=statValue?statValue:0;
+  //       break;
+  //     case("data.stats.spd.value"):
+  //       spd=statValue?statValue:0;
+  //       break;
+  //   }
 
-    let total = parseInt(spd)+parseInt(per)+parseInt(agl)+parseInt(racialMod)+parseInt(equipmentMod);
-    console.log(equipmentMod);
-    this.actor.update({data:{def:{value:total}}});
-  }
+  //   let total = parseInt(spd)+parseInt(per)+parseInt(agl)+parseInt(racialMod)+parseInt(equipmentMod);
+  //   console.log(equipmentMod);
+  //   this.actor.update({data:{def:{value:total}}});
+  // }
 
-  calculateArm(event)
-  {
+  // calculateArm(event)
+  // {
     
-    let statName = event.currentTarget.name;
-    let statValue = event.currentTarget.value;
+  //   let statName = event.currentTarget.name;
+  //   let statValue = event.currentTarget.value;
 
-    let phy = this.actor.data.data.stats.phy.value?this.actor.data.data.stats.phy.value:0;
-    let shieldMod = this.actor.data.data.armModifiers.shieldModifier.value?this.actor.data.data.armModifiers.shieldModifier.value:0;
-    let armorMod = this.actor.data.data.armModifiers.armorModifier.value?this.actor.data.data.armModifiers.armorModifier.value:0;
-    let otherMod = this.actor.data.data.armModifiers.otherModifier.value?this.actor.data.data.armModifiers.otherModifier.value:0;
+  //   let phy = this.actor.data.data.stats.phy.value?this.actor.data.data.stats.phy.value:0;
+  //   let shieldMod = this.actor.data.data.armModifiers.shieldModifier.value?this.actor.data.data.armModifiers.shieldModifier.value:0;
+  //   let armorMod = this.actor.data.data.armModifiers.armorModifier.value?this.actor.data.data.armModifiers.armorModifier.value:0;
+  //   let otherMod = this.actor.data.data.armModifiers.otherModifier.value?this.actor.data.data.armModifiers.otherModifier.value:0;
 
-    switch(statName)
-    {
-      case("data.stats.phy.value"):
-        phy=statValue?statValue:0;
-        break;
-      case("data.armModifiers.otherModifier.value"):
-        otherMod=statValue?statValue:0;
-        break;
-    }
+  //   switch(statName)
+  //   {
+  //     case("data.stats.phy.value"):
+  //       phy=statValue?statValue:0;
+  //       break;
+  //     case("data.armModifiers.otherModifier.value"):
+  //       otherMod=statValue?statValue:0;
+  //       break;
+  //   }
 
-    let total = parseInt(phy)+parseInt(shieldMod)+parseInt(armorMod)+parseInt(otherMod);
+  //   let total = parseInt(phy)+parseInt(shieldMod)+parseInt(armorMod)+parseInt(otherMod);
 
-    this.actor.update({data:{arm:{value:total}}});
-  }
+  //   this.actor.update({data:{arm:{value:total}}});
+  // }
 
-  calculateInitiative(event)
-  {
+  // calculateInitiative(event)
+  // {
     
-    let statName = event.currentTarget.name;
-    let statValue = event.currentTarget.value;
+  //   let statName = event.currentTarget.name;
+  //   let statValue = event.currentTarget.value;
 
-    let spd = this.actor.data.data.stats.spd.value?this.actor.data.data.stats.spd.value:0;
-    let prw = this.actor.data.data.stats.prw.value?this.actor.data.data.stats.prw.value:0;
-    let per = this.actor.data.data.stats.per.value?this.actor.data.data.stats.per.value:0;
-    let equipMod = this.actor.data.data.initiativeModifiers.equipamentModifier.value?this.actor.data.data.initiativeModifiers.equipamentModifier.value:0;
-    let additionalMod = this.actor.data.data.initiativeModifiers.additionalModifier.value?this.actor.data.data.initiativeModifiers.additionalModifier.value:0;
+  //   let spd = this.actor.data.data.stats.spd.value?this.actor.data.data.stats.spd.value:0;
+  //   let prw = this.actor.data.data.stats.prw.value?this.actor.data.data.stats.prw.value:0;
+  //   let per = this.actor.data.data.stats.per.value?this.actor.data.data.stats.per.value:0;
+  //   let equipMod = this.actor.data.data.initiativeModifiers.equipamentModifier.value?this.actor.data.data.initiativeModifiers.equipamentModifier.value:0;
+  //   let additionalMod = this.actor.data.data.initiativeModifiers.additionalModifier.value?this.actor.data.data.initiativeModifiers.additionalModifier.value:0;
 
-    switch(statName)
-    {
-      case("data.stats.spd.value"):
-        spd=statValue?statValue:0;
-        break;
-      case("data.stats.prw.value"):
-        prw=statValue?statValue:0;
-        break;
-      case("data.stats.per.value"):
-        per=statValue?statValue:0;
-        break;
-      case("data.initiativeModifiers.additionalModifier.value"):
-        additionalMod=statValue?statValue:0;
-        break;
-    }
+  //   switch(statName)
+  //   {
+  //     case("data.stats.spd.value"):
+  //       spd=statValue?statValue:0;
+  //       break;
+  //     case("data.stats.prw.value"):
+  //       prw=statValue?statValue:0;
+  //       break;
+  //     case("data.stats.per.value"):
+  //       per=statValue?statValue:0;
+  //       break;
+  //     case("data.initiativeModifiers.additionalModifier.value"):
+  //       additionalMod=statValue?statValue:0;
+  //       break;
+  //   }
 
-    let total = parseInt(spd)+parseInt(prw)+parseInt(per)+parseInt(equipMod)+parseInt(additionalMod);
+  //   let total = parseInt(spd)+parseInt(prw)+parseInt(per)+parseInt(equipMod)+parseInt(additionalMod);
 
-    this.actor.update({data:{initiative:{value:total}}});
-  }
+  //   this.actor.update({data:{initiative:{value:total}}});
+  // }
 
   calculateCommandRange(event)
   {
@@ -258,6 +258,7 @@ export class ikrpgActorSheet extends ActorSheet {
     var l4damage = document.querySelectorAll(".line4:checked").length;
     var l5damage = document.querySelectorAll(".line5:checked").length;
     var l6damage = document.querySelectorAll(".line6:checked").length;
+    var bdamage = document.querySelectorAll(".bonus:checked").length;
 
     this.actor.update({data: {line1:{ current:{ value: (this.actor.data.data.line1.max.value-l1damage) }}}});
     this.actor.update({data: {line2:{ current:{ value: (this.actor.data.data.line2.max.value-l2damage) }}}});
@@ -265,6 +266,7 @@ export class ikrpgActorSheet extends ActorSheet {
     this.actor.update({data: {line4:{ current:{ value: (this.actor.data.data.line4.max.value-l4damage) }}}});
     this.actor.update({data: {line5:{ current:{ value: (this.actor.data.data.line5.max.value-l5damage) }}}});
     this.actor.update({data: {line6:{ current:{ value: (this.actor.data.data.line6.max.value-l6damage) }}}});
+    this.actor.update({data: {bonus:{ current:{ value: (this.actor.data.data.bonus.max.value-bdamage) }}}});
 
     this.actor.update({data: {line1:{ damage:{ value: l1damage }}}});
     this.actor.update({data: {line2:{ damage:{ value: l2damage }}}});
@@ -272,6 +274,7 @@ export class ikrpgActorSheet extends ActorSheet {
     this.actor.update({data: {line4:{ damage:{ value: l4damage }}}});
     this.actor.update({data: {line5:{ damage:{ value: l5damage }}}});
     this.actor.update({data: {line6:{ damage:{ value: l6damage }}}});
+    this.actor.update({data: {bonus:{ damage:{ value: bdamage }}}});
   }
 
   calculateLevel(event){
@@ -383,6 +386,7 @@ export class ikrpgActorSheet extends ActorSheet {
     actorData.archetypes = archetypes;
     actorData.races = races;
     actorData.armors = armors;
+    actorData.movement = actorData.data.stats.spd.value * 6;
   }
 
   _calcuelateMagicAlpha(sheetData) {

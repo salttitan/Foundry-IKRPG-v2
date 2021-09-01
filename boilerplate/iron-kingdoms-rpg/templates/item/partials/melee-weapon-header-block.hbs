@@ -4,7 +4,7 @@
                     {{localize "ikrpg.itemSheetLabels.weapons.melee.headerBlock.title"}}
                 </caption>
                 <tr>
-                    <td colspan="3">
+                    <td colspan="2">
                         <div class="actor-sheet-header-field">
                             <input 
                                 class="actor-sheet-header-field-box"
@@ -15,6 +15,34 @@
                             />
                             <label class="actor-sheet-header-field-name-label">
                                 {{localize "ikrpg.itemSheetLabels.shared.headerBlock.name"}}
+                            </label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.MAT.value"
+                                type="number"
+                                value="{{data.MAT.value}}"
+                                data-type="Number"
+                            />
+                            <label class="actor-sheet-header-field-name-label">
+                                {{localize "ikrpg.itemSheetLabels.weapons.melee.headerBlock.mat"}}
+                            </label>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.price.value"
+                                type="number"
+                                value="{{data.price.value}}"
+                                data-type="Number"
+                            />
+                            <label class="actor-sheet-header-field-name-label">
+                                {{localize "ikrpg.itemSheetLabels.shared.headerBlock.price"}}
                             </label>
                         </div>
                     </td>
@@ -32,20 +60,6 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>
-                        <div class="actor-sheet-header-field">
-                            <input 
-                                class="actor-sheet-header-field-box"
-                                name="data.price.value"
-                                type="number"
-                                value="{{data.price.value}}"
-                                data-type="Number"
-                            />
-                            <label class="actor-sheet-header-field-name-label">
-                                {{localize "ikrpg.itemSheetLabels.shared.headerBlock.price"}}
-                            </label>
-                        </div>
-                    </td>
                     <td>
                         <div class="actor-sheet-header-field">
                             <input 
@@ -85,6 +99,20 @@
                             />
                             <label class="actor-sheet-header-field-name-label">
                                 {{localize "ikrpg.itemSheetLabels.weapons.shared.headerBlock.pow"}}
+                            </label>
+                        </div>
+                    </td>
+                     <td>
+                        <div class="actor-sheet-header-field">
+                            <input 
+                                class="actor-sheet-header-field-box"
+                                name="data.damage.value"
+                                type="number"
+                                value="{{data.damage.value}}"
+                                data-type="Number"
+                            />
+                            <label class="actor-sheet-header-field-name-label">
+                                {{localize "ikrpg.itemSheetLabels.weapons.melee.headerBlock.damage"}}
                             </label>
                         </div>
                     </td>
