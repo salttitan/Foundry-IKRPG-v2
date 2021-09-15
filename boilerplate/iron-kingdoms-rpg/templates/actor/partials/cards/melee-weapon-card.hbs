@@ -1,0 +1,131 @@
+<table>
+    <tr>
+        <td><img src="{{img}}" data-edit="img" title="{{name}}" width="50px" height="50px"/></td>
+        <td>
+            <table>
+                <tr>
+                    <td><label>{{name}}</label></td></td>
+                </tr>
+                <tr>
+                    <table>
+                        <tr>
+                            <td>
+                                <div class="actor-sheet-stat-value">
+                                    <input
+                                    class="actor-sheet-stat-box"
+                                    type="text"
+                                    value="{{data.MAT}}"
+                                    data-type="Number"
+                                    disabled=true
+                                    />
+                                    <label class="actor-sheet-stat-name-label">
+                                    Attack
+                                    </label>
+                                </div>
+                            </td>
+                            <td>
+                                =
+                            </td>
+                            <td>
+                                <div class="actor-sheet-stat-value">
+                                    <input
+                                    class="actor-sheet-stat-box"
+                                    type="text"
+                                    value="{{data.Skill.value}}"
+                                    data-type="Number"
+                                    />
+                                    <label class="actor-sheet-stat-name-label">
+                                    SKILL
+                                    </label>
+                                </div>
+                            </td>
+                            <td>
+                                +
+                            </td>
+                            <td>
+                                <div class="actor-sheet-stat-value">
+                                    <input
+                                    class="actor-sheet-stat-box"
+                                    type="text"
+                                    value="{{@root.data.stats.prw.value}}"
+                                    data-type="Number"
+                                    disabled=true
+                                    />
+                                    <label class="actor-sheet-stat-name-label">
+                                    {{localize "ikrpg.actorSheetLabels.statBlock.prw"}}
+                                    </label>
+                                </div>
+                            </td>
+                            <td>
+                                +
+                            </td>
+                            <td>
+                                <div class="actor-sheet-stat-value">
+                                    <input
+                                    class="actor-sheet-stat-box"
+                                    type="text"
+                                    value="{{data.attackModifier.value}}"
+                                    data-type="Number"
+                                    disabled=true
+                                    />
+                                    <label class="actor-sheet-stat-name-label">
+                                    Modifier
+                                    </label>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="actor-sheet-stat-value">
+                                    <input
+                                    class="actor-sheet-stat-box"
+                                    type="text"
+                                    value="{{data.damage}}"
+                                    data-type="Number"
+                                    disabled=true
+                                    />
+                                    <label class="actor-sheet-stat-name-label">
+                                    Damage
+                                    </label>
+                                </div>
+                            </td>
+                            <td>
+                                =
+                            </td>
+                            <td>
+                                <div class="actor-sheet-stat-value">
+                                    <input
+                                    class="actor-sheet-stat-box"
+                                    type="text"
+                                    value="{{data.POW.value}}"
+                                    data-type="Number"
+                                    />
+                                    <label class="actor-sheet-stat-name-label">
+                                    POW
+                                    </label>
+                                </div>
+                            </td>
+                            <td>
+                                +
+                            </td>
+                            <td>
+                                <div class="actor-sheet-stat-value">
+                                    <input
+                                    class="actor-sheet-stat-box"
+                                    type="text"
+                                    value="{{@root.data.stats.str.value}}"
+                                    data-type="Number"
+                                    disabled=true
+                                    />
+                                    <label class="actor-sheet-stat-name-label">
+                                    {{localize "ikrpg.actorSheetLabels.statBlock.str"}}
+                                    </label>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>

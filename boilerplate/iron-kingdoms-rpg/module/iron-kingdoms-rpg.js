@@ -3,16 +3,12 @@ import { ikrpgActor } from "./actor/actor.js";
 import { ikrpgActorSheet } from "./actor/actor-sheet.js";
 import { ikrpgItem } from "./item/item.js";
 import { ikrpgItemSheet } from "./item/item-sheet.js";
+import {ikrpg} from "./config.js";
 
 async function preloadHandlebarsTemplate()
 {
   const templatePaths = 
   [
-    "systems/iron-kingdoms-rpg/templates/actor/tabs/character-stats-tab.hbs",
-    "systems/iron-kingdoms-rpg/templates/actor/tabs/character-info-tab.hbs",
-    "systems/iron-kingdoms-rpg/templates/actor/partials/character-stat-block.hbs",
-    "systems/iron-kingdoms-rpg/templates/actor/partials/character-header-block.hbs",
-    "systems/iron-kingdoms-rpg/templates/actor/partials/character-vital-spiral-block.hbs",
     "systems/iron-kingdoms-rpg/templates/item/partials/melee-weapon-header-block.hbs",
     "systems/iron-kingdoms-rpg/templates/item/partials/ranged-weapon-header-block.hbs",
     "systems/iron-kingdoms-rpg/templates/item/partials/spell-header-block.hbs",
@@ -25,13 +21,23 @@ async function preloadHandlebarsTemplate()
     "systems/iron-kingdoms-rpg/templates/item/partials/race-rules-block.hbs",
     "systems/iron-kingdoms-rpg/templates/item/partials/career-rules-block.hbs",
     "systems/iron-kingdoms-rpg/templates/item/partials/career-header-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/actor/tabs/character-stats-tab.hbs",
+    "systems/iron-kingdoms-rpg/templates/actor/tabs/character-info-tab.hbs",
+    "systems/iron-kingdoms-rpg/templates/actor/tabs/character-item-tab.hbs",
+    "systems/iron-kingdoms-rpg/templates/actor/tabs/character-skill-tab.hbs",
+    "systems/iron-kingdoms-rpg/templates/actor/partials/character-stat-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/actor/partials/character-header-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/actor/partials/character-vital-spiral-block.hbs",
     "systems/iron-kingdoms-rpg/templates/actor/partials/character-def-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/actor/partials/character-melee-weapon-block.hbs",
     "systems/iron-kingdoms-rpg/templates/actor/partials/character-arm-block.hbs",
     "systems/iron-kingdoms-rpg/templates/actor/partials/character-initiative-block.hbs",
     "systems/iron-kingdoms-rpg/templates/actor/partials/character-commandRange-block.hbs",
     "systems/iron-kingdoms-rpg/templates/actor/partials/character-portrait-block.hbs",
     "systems/iron-kingdoms-rpg/templates/actor/partials/character-xp-block.hbs",
-    "systems/iron-kingdoms-rpg/templates/actor/partials/character-vital-spiral-block.hbs"
+    "systems/iron-kingdoms-rpg/templates/actor/partials/character-vital-spiral-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/actor/partials/character-skill-block.hbs",
+    "systems/iron-kingdoms-rpg/templates/actor/partials/cards/melee-weapon-card.hbs"
   ];
 
   return loadTemplates(templatePaths);
@@ -43,6 +49,8 @@ Hooks.once('init', async function() {
     ikrpgActor,
     ikrpgItem
   };
+
+  CONFIG.ikrpg = ikrpg;
 
   /**
    * Set an initiative formula for the system

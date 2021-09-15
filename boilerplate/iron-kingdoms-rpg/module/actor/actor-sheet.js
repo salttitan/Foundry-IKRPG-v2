@@ -29,15 +29,19 @@ export class ikrpgActorSheet extends ActorSheet {
     });
     data.careers = careersNames;
 
-    console.log(data);
+    //data.meleeWeapons= this.prepareMeeleWeapon(data);
+    data.skills = this.prepareSkill(data);
+
+    data.config = CONFIG.ikrpg;
 
     return data;
   }
 
   activateListeners(html)
   {
-    html.find(".inline-edit").change(this._onSkillEdit.bind(this));
     html.find(".item-delete").click(this._onItemDelete.bind(this));
+    html.find(".item-create").click(this._onItemCreate.bind(this));
+    html.find(".item-edit").click(this._onItemEdit.bind(this));
     html.find(".damage-stat").change(this.calculateDamageCapacity.bind(this));
     html.find(".arm-stat").change(this.calculateArm.bind(this));
     html.find(".initiative-stat").change(this.calculateInitiative.bind(this));
@@ -46,29 +50,41 @@ export class ikrpgActorSheet extends ActorSheet {
     html.find(".def-stat").change(this.calculateDef.bind(this));
     html.find(".vital-check").change(this._onDamageEdit.bind(this));
     html.find(".xp-stat").change(this.calculateLevel.bind(this));
+    html.find(".skill-stat").change(this.setSkillStat.bind(this));
+    html.find(".skill-level").change(this.setSkillLevel.bind(this));
 
     super.activateListeners(html);
   }
+
   _onItemDelete(event)
   {
     event.preventDefault();
     let element = event.currentTarget;
-    let itemId = element.closest(".item").dataset.itemId;
-
-    console.log("deletando");
-    console.log(itemId);
+    let itemId = element.name;
 
     return this.actor.deleteOwnedItem(itemId);
   }
 
-  _onSkillEdit(event)
+  _onItemCreate(event)
   {
     event.preventDefault();
     let element = event.currentTarget;
-    let itemId = element.closest(".item").dataset.itemId;
-    let item =this.actor.getOwnedItem(itemId);
-    let field = element.dataset.field;
-    return item.update({[field]: element.value});
+    let item = {
+      name: "New item",
+      type: element.dataset.type
+    };
+
+    return this.actor.createOwnedItem(item);
+  }
+
+  _onItemEdit(event)
+  {
+    event.preventDefault();
+    let element = event.currentTarget;
+    let itemId = element.name;
+    let item = this.actor.getOwnedItem(itemId);
+
+    item.sheet.render(true);
   }
 
   calculateDamageCapacity(event){
@@ -289,5 +305,143 @@ export class ikrpgActorSheet extends ActorSheet {
     {
       this.actor.update({data:{header: { level: {value:"HERO"}}}});
     }
+  }
+
+  prepareMeeleWeapon(data)
+  {
+    var weapons = data.items.filter(function(item) {return item.type == "meleeWeapon" });
+    weapons.forEach(function(weapon)
+    {
+      var modAtt =0;
+      var prw =0;
+      var skill =0;
+      var str =0;
+      var pow =0;
+
+      if(weapon.data.attackModifier.value != null)
+        modAtt = weapon.data.attackModifier.value;
+      if(data.actor.data.stats.prw !=null)
+        prw = data.actor.data.stats.prw.value;
+      if(weapon.pow!=null)
+        pow = weapon.pow.value;
+      if(data.actor.data.stats.str !=null)
+        str = data.actor.data.stats.str.value;
+      
+      weapon.data.MAT = parseInt(modAtt)+parseInt(prw)+parseInt(skill);
+      weapon.data.damage = parseInt(str)+parseInt(pow);
+    }
+    );
+    return weapons;
+  }
+
+  prepareSkill(data)
+  {    
+    var skills = data.items.filter(function(item) {return item.type == "skill" });
+    return skills;
+  }
+
+  setSkillStat(event)
+  {
+    let skillId = event.currentTarget.name;
+    let statName = event.currentTarget.value;
+
+    this.actor.items.filter(function(item) {return item.type == "skill" }).forEach(function(skill)
+    {
+      if(skill._id==skillId)
+      {
+        skill.update({data:{atribute:{value:statName}}});
+
+        var att = 0;
+
+        switch(skill.data.data.atribute.value)
+        {
+          case "phy":
+            att = stats.phy.value;
+            break;
+          case "spd":
+            att = stats.spd.value;
+            break;
+          case "str":
+            att = stats.str.value;
+            break;
+          case "agl":
+            att = stats.agl.value;
+            break;
+          case "poi":
+            att = stats.poi.value;
+            break;
+          case "prw":
+            att = stats.prw.value;
+            break;
+          case "int":
+            att = stats.int.value;
+            break;
+          case "arc":
+            att = stats.arc.value;
+            break;
+          case "per":
+            att = stats.per.value;
+            break;
+        }
+        var level = 0;
+
+        if(skill.data.level !=null)
+          level = skill.data.level.value;
+
+        var total = parseInt(level)+ parseInt(att);
+        skill.update({data:{total:{value:total}}});
+      }
+    });
+  }
+
+  setSkillLevel(event)
+  {
+    let skillId = event.currentTarget.name;
+    let skillLevel = event.currentTarget.value;
+    let stats = this.actor.data.data.stats;
+
+    this.actor.items.filter(function(item) {return item.type == "skill" }).forEach(function(skill)
+    {
+      if(skill._id==skillId)
+      {
+        skill.update({data:{skillLevel:{value:skillLevel}}});
+
+        var att = 0;
+
+        switch(skill.data.data.atribute.value)
+        {
+          case "phy":
+            att = stats.phy.value;
+            break;
+          case "spd":
+            att = stats.spd.value;
+            break;
+          case "str":
+            att = stats.str.value;
+            break;
+          case "agl":
+            att = stats.agl.value;
+            break;
+          case "poi":
+            att = stats.poi.value;
+            break;
+          case "prw":
+            att = stats.prw.value;
+            break;
+          case "int":
+            att = stats.int.value;
+            break;
+          case "arc":
+            att = stats.arc.value;
+            break;
+          case "per":
+            att = stats.per.value;
+            break;
+        }
+
+        var total = parseInt(skillLevel)+ parseInt(att);
+        skill.update({data:{total:{value:total}}});
+      }
+    });
   }
 }

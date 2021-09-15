@@ -5,6 +5,8 @@
 
     <nav class="sheet-tabs tabs" data-group="primary">
         <a class="item" data-tab="stats">{{localize "ikrpg.actorSheetLabels.navBar.stats"}}</a>
+        <a class="item" data-tab="skills">{{localize "ikrpg.actorSheetLabels.navBar.skills"}}</a>
+        <!--<a class="item" data-tab="item">{{localize "ikrpg.actorSheetLabels.navBar.item"}}</a>-->
         <a class="item" data-tab="info">{{localize "ikrpg.actorSheetLabels.navBar.info"}}</a>
       </nav>
 
@@ -12,6 +14,12 @@
         <section class="sheet-body">
             <div class="tab" data-tab="stats" data-group="primary">
                 {{> "systems/iron-kingdoms-rpg/templates/actor/tabs/character-stats-tab.hbs"}}
+            </div>
+            <div class="tab" data-tab="skills" data-group="primary">
+                {{> "systems/iron-kingdoms-rpg/templates/actor/tabs/character-skill-tab.hbs"}}
+            </div>
+            <div class="tab" data-tab="item" data-group="primary">
+                {{> "systems/iron-kingdoms-rpg/templates/actor/tabs/character-item-tab.hbs"}}
             </div>
             <div class="tab" data-tab="info" data-group="primary">
                 {{> "systems/iron-kingdoms-rpg/templates/actor/tabs/character-info-tab.hbs"}}

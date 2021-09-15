@@ -91,7 +91,8 @@
             {
                 "stats":"Stats",
                 "info":"Info",
-                "gear":"Gear",
+                "skills":"Skills",
+                "item":"Items",
                 "spell":"Spell"
             },
             "xpBlock":
@@ -110,7 +111,18 @@
         "configFile":
         {
             "type":"Type",
-            "atribute":"Attribute"
+            "atribute":"Attribute",
+            "stats": {
+                "phy":"PHY",
+                "spd":"SPD",
+                "str":"STR",
+                "agl":"AGL",
+                "poi":"POI",
+                "prw":"PRW",
+                "int":"INT",
+                "arc":"ARC",
+                "per":"PER"
+            }
         },
         "itemSheetLabels": 
         {

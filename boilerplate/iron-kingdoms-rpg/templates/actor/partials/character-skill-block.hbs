@@ -1,0 +1,39 @@
+<div>
+    <section>
+        <table>
+            <tr>
+                <th>Skill</th>
+                <th>Attribute</th>
+                <th>Level</th>
+                <th>Total</th>
+                <th><a class="item-create" data-type="skill"><i class="fas fa-plus"></i></a></th>
+            </tr>
+            {{#each skills as |skill id|}}
+                <tr>
+                    <td>{{skill.name}}</td>
+                    <td>
+                        <select name="{{skill._id}}" class="skill-stat">
+                            {{#select skill.data.atribute.value}}
+                            {{#each @root.config.stats as |name stat|}}
+                            <option value="{{stat}}">{{localize name}}</option>
+                            {{/each}}
+                            {{/select}}
+                        </select>
+                    </td>
+                    <td>
+                        <input
+                            name="{{skill._id}}"
+                            class="skill-level"
+                            type="text"
+                            value="{{skill.data.skillLevel.value}}"
+                            data-type="Number"
+                        />
+                    </td>
+                    <td>{{skill.data.total.value}}</td>
+                    <td><a name="{{skill._id}}" class="item-edit"><i class="fas fa-edit"></i></a></td>
+                    <td><a name="{{skill._id}}" class="item-delete"><i class="fas fa-trash"></i></a></td>
+                </tr>
+            {{/each}}
+        </table>
+    </section>
+</div>
